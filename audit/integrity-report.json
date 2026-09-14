@@ -1,0 +1,506 @@
+{
+  "generatedAt": "2026-09-14T11:54:22.071638+00:00",
+  "downloadsInProgress": false,
+  "publicRoot": "F:\\Cartier\\public",
+  "summary": {
+    "manifestPaths": 890,
+    "existingManifestFiles": 799,
+    "supplementalFilesChecked": 15,
+    "missingRequired": 0,
+    "missingUnsizedProductInputs": 91,
+    "missingOtherLocale": 0,
+    "payloadErrors": 0,
+    "requiredPayloadErrors": 0,
+    "glbsChecked": 12,
+    "invalidGlbs": 0,
+    "externalGlbDependencies": 0,
+    "unresolvedGlbDependencies": 0,
+    "assetIntegrityComplete": true
+  },
+  "classificationCounts": {
+    "required": 764,
+    "unsized_product_input": 91,
+    "other_locale": 35
+  },
+  "missing": {
+    "required": [],
+    "unsized_product_input": [
+      "images/productPages/baignoire-and-myst/newsletterBlock.webp",
+      "images/productPages/baignoire-and-myst/productsBlock1-2.webp",
+      "images/productPages/baignoire-and-myst/productsBlock1.webp",
+      "images/productPages/baignoire-and-myst/productsBlock2-2.webp",
+      "images/productPages/baignoire-and-myst/productsBlock2.webp",
+      "images/productPages/baignoire-and-myst/scrollMediasBlock1-2.webp",
+      "images/productPages/baignoire-and-myst/scrollMediasBlock1.webp",
+      "images/productPages/baignoire-and-myst/scrollMediasBlock2-2.webp",
+      "images/productPages/baignoire-and-myst/scrollMediasBlock2.webp",
+      "images/productPages/baignoire-and-myst/scrollMediasBlock3-2.webp",
+      "images/productPages/baignoire-and-myst/scrollMediasBlock3.webp",
+      "images/productPages/baignoire-and-myst/scrollMediasBlock4-2.webp",
+      "images/productPages/baignoire-and-myst/scrollMediasBlock4.webp",
+      "images/productPages/baignoire-and-myst/scrollMediasBlock5-2.webp",
+      "images/productPages/baignoire-and-myst/scrollMediasBlock5.webp",
+      "images/productPages/baignoire-and-myst/sliderBlock1-2.webp",
+      "images/productPages/baignoire-and-myst/sliderBlock1.webp",
+      "images/productPages/baignoire-and-myst/sliderBlock2-2.webp",
+      "images/productPages/baignoire-and-myst/sliderBlock2.webp",
+      "images/productPages/baignoire-and-myst/sliderBlock3-2.webp",
+      "images/productPages/baignoire-and-myst/sliderBlock3.webp",
+      "images/productPages/baignoire-and-myst/sliderBlock4-2.webp",
+      "images/productPages/baignoire-and-myst/sliderBlock4.webp",
+      "images/productPages/baignoire-and-myst/sliderProductsBlock1.webp",
+      "images/productPages/baignoire-and-myst/sliderProductsBlock2.webp",
+      "images/productPages/baignoire-and-myst/sliderProductsBlock3.webp",
+      "images/productPages/baignoire-and-myst/sliderProductsBlock4.webp",
+      "images/productPages/crash/newsletterBlock.webp",
+      "images/productPages/crash/productsBlock1.webp",
+      "images/productPages/crash/productsBlock2.webp",
+      "images/productPages/crash/productsBlock3.webp",
+      "images/productPages/crash/scrollMediasBlock1.webp",
+      "images/productPages/crash/scrollMediasBlock2.webp",
+      "images/productPages/crash/scrollMediasBlock3.webp",
+      "images/productPages/crash/scrollMediasBlock4.webp",
+      "images/productPages/crash/scrollMediasBlock5.webp",
+      "images/productPages/crash/sliderBlock1.webp",
+      "images/productPages/crash/sliderBlock2.webp",
+      "images/productPages/crash/sliderBlock3.webp",
+      "images/productPages/crash/sliderBlock4.webp",
+      "images/productPages/crash/sliderProductsBlock1.webp",
+      "images/productPages/crash/sliderProductsBlock2.webp",
+      "images/productPages/crash/sliderProductsBlock3.webp",
+      "images/productPages/crash/sliderProductsBlock4.webp",
+      "images/productPages/roadster/newsletterBlock.webp",
+      "images/productPages/roadster/productsBlock1.webp",
+      "images/productPages/roadster/productsBlock2.webp",
+      "images/productPages/roadster/scrollMediasBlock1.webp",
+      "images/productPages/roadster/scrollMediasBlock2.webp",
+      "images/productPages/roadster/scrollMediasBlock3.webp",
+      "images/productPages/roadster/scrollMediasBlock4.webp",
+      "images/productPages/roadster/scrollMediasBlock5.webp",
+      "images/productPages/roadster/sliderBlock1.webp",
+      "images/productPages/roadster/sliderBlock2.webp",
+      "images/productPages/roadster/sliderBlock3.webp",
+      "images/productPages/roadster/sliderBlock4.webp",
+      "images/productPages/roadster/sliderProductsBlock1-us-canada.webp",
+      "images/productPages/roadster/sliderProductsBlock1.webp",
+      "images/productPages/roadster/sliderProductsBlock2-us-canada.webp",
+      "images/productPages/roadster/sliderProductsBlock2.webp",
+      "images/productPages/roadster/sliderProductsBlock3-us-canada.webp",
+      "images/productPages/roadster/sliderProductsBlock3.webp",
+      "images/productPages/roadster/sliderProductsBlock4-us-canada.webp",
+      "images/productPages/roadster/sliderProductsBlock4.webp",
+      "images/productPages/roadster/sliderProductsBlock5.webp",
+      "images/productPages/roadster/sliderProductsBlock6.webp",
+      "images/productPages/santos-and-tortue/newsletterBlock.webp",
+      "images/productPages/santos-and-tortue/productsBlock1.webp",
+      "images/productPages/santos-and-tortue/productsBlock2.webp",
+      "images/productPages/santos-and-tortue/scrollMediasBlock1-2.webp",
+      "images/productPages/santos-and-tortue/scrollMediasBlock1.webp",
+      "images/productPages/santos-and-tortue/scrollMediasBlock2-2.webp",
+      "images/productPages/santos-and-tortue/scrollMediasBlock2.webp",
+      "images/productPages/santos-and-tortue/scrollMediasBlock3-2.webp",
+      "images/productPages/santos-and-tortue/scrollMediasBlock3.webp",
+      "images/productPages/santos-and-tortue/scrollMediasBlock4-2.webp",
+      "images/productPages/santos-and-tortue/scrollMediasBlock4.webp",
+      "images/productPages/santos-and-tortue/scrollMediasBlock5-2.webp",
+      "images/productPages/santos-and-tortue/scrollMediasBlock5.webp",
+      "images/productPages/santos-and-tortue/sliderBlock1-2.webp",
+      "images/productPages/santos-and-tortue/sliderBlock1.webp",
+      "images/productPages/santos-and-tortue/sliderBlock2-2.webp",
+      "images/productPages/santos-and-tortue/sliderBlock2.webp",
+      "images/productPages/santos-and-tortue/sliderBlock3-2.webp",
+      "images/productPages/santos-and-tortue/sliderBlock3.webp",
+      "images/productPages/santos-and-tortue/sliderBlock4-2.webp",
+      "images/productPages/santos-and-tortue/sliderBlock4.webp",
+      "images/productPages/santos-and-tortue/sliderProductsBlock1.webp",
+      "images/productPages/santos-and-tortue/sliderProductsBlock2.webp",
+      "images/productPages/santos-and-tortue/sliderProductsBlock3.webp",
+      "images/productPages/santos-and-tortue/sliderProductsBlock4.webp"
+    ],
+    "other_locale": []
+  },
+  "payloadErrors": [],
+  "glbs": [
+    {
+      "path": "webgl/models/mainScene.glb",
+      "bytes": 10326756,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 10326756,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 276128
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 10050600
+        }
+      ],
+      "extensionsRequired": [
+        "EXT_texture_webp",
+        "KHR_draco_mesh_compression",
+        "KHR_texture_transform"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 210,
+        "meshes": 187,
+        "materials": 73,
+        "textures": 48,
+        "images": 48,
+        "animations": 1
+      }
+    },
+    {
+      "path": "webgl/models/mainScene_characters.glb",
+      "bytes": 9175148,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 9175148,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 536072
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 8639048
+        }
+      ],
+      "extensionsRequired": [
+        "EXT_texture_webp",
+        "KHR_draco_mesh_compression"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 684,
+        "meshes": 124,
+        "materials": 16,
+        "textures": 19,
+        "images": 19,
+        "animations": 39
+      }
+    },
+    {
+      "path": "webgl/models/mainSceneMobile.glb",
+      "bytes": 5604980,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 5604980,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 276104
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 5328848
+        }
+      ],
+      "extensionsRequired": [
+        "EXT_texture_webp",
+        "KHR_draco_mesh_compression",
+        "KHR_texture_transform"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 210,
+        "meshes": 187,
+        "materials": 73,
+        "textures": 48,
+        "images": 48,
+        "animations": 1
+      }
+    },
+    {
+      "path": "webgl/models/mainSceneMobile_characters.glb",
+      "bytes": 8168572,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 8168572,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 536056
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 7632488
+        }
+      ],
+      "extensionsRequired": [
+        "EXT_texture_webp",
+        "KHR_draco_mesh_compression"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 684,
+        "meshes": 124,
+        "materials": 16,
+        "textures": 19,
+        "images": 19,
+        "animations": 39
+      }
+    },
+    {
+      "path": "webgl/models/watches/baignoire_desktop.glb",
+      "bytes": 2287800,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 2287800,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 191492
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 2096280
+        }
+      ],
+      "extensionsRequired": [
+        "KHR_draco_mesh_compression",
+        "EXT_texture_webp"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 8,
+        "meshes": 7,
+        "materials": 7,
+        "textures": 19,
+        "images": 10,
+        "animations": 0
+      }
+    },
+    {
+      "path": "webgl/models/watches/baignoire_mobile.glb",
+      "bytes": 1216668,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 1216668,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 191484
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 1025156
+        }
+      ],
+      "extensionsRequired": [
+        "KHR_draco_mesh_compression",
+        "EXT_texture_webp"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 8,
+        "meshes": 7,
+        "materials": 7,
+        "textures": 19,
+        "images": 10,
+        "animations": 0
+      }
+    },
+    {
+      "path": "webgl/models/watches/crash_desktop.glb",
+      "bytes": 7029460,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 7029460,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 194392
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 6835040
+        }
+      ],
+      "extensionsRequired": [
+        "KHR_draco_mesh_compression",
+        "EXT_texture_webp"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 10,
+        "meshes": 9,
+        "materials": 9,
+        "textures": 22,
+        "images": 10,
+        "animations": 0
+      }
+    },
+    {
+      "path": "webgl/models/watches/crash_mobile.glb",
+      "bytes": 4205584,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 4205584,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 194388
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 4011168
+        }
+      ],
+      "extensionsRequired": [
+        "KHR_draco_mesh_compression",
+        "EXT_texture_webp"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 10,
+        "meshes": 9,
+        "materials": 9,
+        "textures": 22,
+        "images": 10,
+        "animations": 0
+      }
+    },
+    {
+      "path": "webgl/models/watches/roadster_desktop.glb",
+      "bytes": 4097132,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 4097132,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 194220
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 3902884
+        }
+      ],
+      "extensionsRequired": [
+        "KHR_draco_mesh_compression",
+        "EXT_texture_webp"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 10,
+        "meshes": 9,
+        "materials": 8,
+        "textures": 20,
+        "images": 13,
+        "animations": 0
+      }
+    },
+    {
+      "path": "webgl/models/watches/roadster_mobile.glb",
+      "bytes": 3044128,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 3044128,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 194208
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 2849892
+        }
+      ],
+      "extensionsRequired": [
+        "KHR_draco_mesh_compression",
+        "EXT_texture_webp"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 10,
+        "meshes": 9,
+        "materials": 8,
+        "textures": 20,
+        "images": 13,
+        "animations": 0
+      }
+    },
+    {
+      "path": "webgl/models/watches/santos_desktop.glb",
+      "bytes": 5085476,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 5085476,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 191724
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 4893724
+        }
+      ],
+      "extensionsRequired": [
+        "KHR_draco_mesh_compression",
+        "EXT_texture_webp"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 8,
+        "meshes": 7,
+        "materials": 7,
+        "textures": 18,
+        "images": 11,
+        "animations": 0
+      }
+    },
+    {
+      "path": "webgl/models/watches/santos_mobile.glb",
+      "bytes": 2937024,
+      "errors": [],
+      "externalDependencies": [],
+      "version": 2,
+      "declaredBytes": 2937024,
+      "chunks": [
+        {
+          "type": "JSON",
+          "bytes": 191712
+        },
+        {
+          "type": "BIN\u0000",
+          "bytes": 2745284
+        }
+      ],
+      "extensionsRequired": [
+        "KHR_draco_mesh_compression",
+        "EXT_texture_webp"
+      ],
+      "counts": {
+        "scenes": 1,
+        "nodes": 8,
+        "meshes": 7,
+        "materials": 7,
+        "textures": 18,
+        "images": 11,
+        "animations": 0
+      }
+    }
+  ],
+  "glbDependencies": [],
+  "notes": [
+    "Unsized product WebP paths are original responsive URL inputs; seven sized variants are checked as actual resources.",
+    "Other-locale-only product variants are not required by the configured en_fr experience.",
+    "Header and container checks do not replace full image/media decoding or browser scene validation.",
+    "While downloadsInProgress is true, files can change during this audit; rerun after downloads complete."
+  ]
+}

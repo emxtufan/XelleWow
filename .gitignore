@@ -1,0 +1,21 @@
+# Local dependencies and Python caches
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local server output and temporary files
+*.log
+*.pid
+*.tmp
+*.partial
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+!.env.sample

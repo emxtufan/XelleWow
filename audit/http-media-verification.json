@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/audio/global/mainTheme.mp3",
+    "status": 206,
+    "type": "audio/mpeg",
+    "range": "bytes 0-1023/793476",
+    "bytes": 1024
+  },
+  {
+    "path": "/audio/podcasts/master_1.mp3",
+    "status": 206,
+    "type": "audio/mpeg",
+    "range": "bytes 0-1023/1571229",
+    "bytes": 1024
+  },
+  {
+    "path": "/videos/movie/movieVertical.mp4",
+    "status": 206,
+    "type": "video/mp4",
+    "range": "bytes 0-1023/36354556",
+    "bytes": 1024
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "fit_intro_for_portrait",
+    "from": "this._lettersLines[i].push(s)})}show(){",
+    "to": "this._lettersLines[i].push(s)}),this.resize()}resize(){const f=wi.innerWidth<768?Math.min(1,(wi.innerWidth/wi.innerHeight)/(.75*(oo.device.mobile?.6:1))):1;this._wrapper.scale.setScalar(f);this._wrapper.position.y=3.35*(1-f)}show(){",
+    "originalMatches": 1
+  },
+  {
+    "name": "select_camera_scene_on_every_product_change",
+    "from": "this._uiStore.isFirstRoute&&this.scrollCamera.snapScrollToScene()",
+    "to": "(this.scrollCamera.enable(),this.scrollCamera.snapScrollToScene(t))",
+    "originalMatches": 1
+  },
+  {
+    "name": "product_model_tracks_current_route",
+    "from": "S.visible=this._currentScene===E+1",
+    "to": "S.visible=(this._webglStore.currentWatch.id??this._currentScene)===E+1",
+    "originalMatches": 1
+  }
+]

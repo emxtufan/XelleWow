@@ -1,0 +1,499 @@
+{
+  "file": "watches\\santos_mobile.glb",
+  "scenes": [
+    {
+      "name": "SCENE_01",
+      "nodes": [
+        7
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "index": 0,
+      "mesh": 0,
+      "name": "santos_bracelet",
+      "translation": [
+        0.00011662043107207865,
+        0.0176102165132761,
+        -0.25041463971138
+      ]
+    },
+    {
+      "index": 1,
+      "mesh": 1,
+      "name": "santos_case_brushed",
+      "translation": [
+        0.0025658756494522095,
+        0.05274024233222008,
+        1.610468864440918
+      ]
+    },
+    {
+      "index": 2,
+      "mesh": 2,
+      "name": "santos_decal",
+      "translation": [
+        0.0038887858390808105,
+        0.05901435390114784,
+        1.5820971727371216
+      ]
+    },
+    {
+      "index": 3,
+      "mesh": 3,
+      "name": "santos_dial",
+      "translation": [
+        0.005732485093176365,
+        0.090215303003788,
+        1.8240336179733276
+      ]
+    },
+    {
+      "index": 4,
+      "mesh": 4,
+      "name": "santos_gem",
+      "translation": [
+        1.1160012483596802,
+        0.054275982081890106,
+        1.722854495048523
+      ]
+    },
+    {
+      "index": 5,
+      "mesh": 5,
+      "name": "santos_glass",
+      "translation": [
+        -0.00715476693585515,
+        0.05383235216140747,
+        1.925169587135315
+      ]
+    },
+    {
+      "index": 6,
+      "mesh": 6,
+      "name": "santos_gold",
+      "translation": [
+        0.16065311431884766,
+        0.05429500341415405,
+        1.7921552658081055
+      ]
+    },
+    {
+      "index": 7,
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "name": "santos"
+    }
+  ],
+  "meshes": [
+    {
+      "index": 0,
+      "name": "bracelet.001",
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "normal1.001",
+      "primitives": [
+        {
+          "material": 1,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9,
+            "TANGENT": 10
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 4,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Plane.001",
+      "primitives": [
+        {
+          "material": 2,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14,
+            "TANGENT": 15
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 6,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TANGENT": 3
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "dial.001",
+      "primitives": [
+        {
+          "material": 3,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 18,
+            "TEXCOORD_0": 19,
+            "TEXCOORD_1": 20,
+            "TANGENT": 21
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 9,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "glass_side",
+      "primitives": [
+        {
+          "material": 4,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 23,
+            "NORMAL": 24,
+            "TEXCOORD_0": 25,
+            "TEXCOORD_1": 26,
+            "TANGENT": 27
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 13,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "glass.001",
+      "primitives": [
+        {
+          "material": 5,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 29,
+            "NORMAL": 30,
+            "TEXCOORD_0": 31,
+            "TANGENT": 32
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 15,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TANGENT": 3
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "normal2.011",
+      "primitives": [
+        {
+          "material": 6,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 34,
+            "NORMAL": 35,
+            "TEXCOORD_0": 36,
+            "TEXCOORD_1": 37,
+            "TANGENT": 38
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 17,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0.26573649048805237
+        },
+        "KHR_materials_ior": {
+          "ior": 1
+        }
+      },
+      "name": "MT_SANTOS_bracelet",
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9473065733909607,
+          0.5840786695480347,
+          0.18782083690166473,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_SANTOS_CaseBrushed",
+      "normalTexture": {
+        "index": 3
+      },
+      "occlusionTexture": {
+        "index": 4,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9473065733909607,
+          0.5840786695480347,
+          0.18782083690166473,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "MT_SANTOS_decal",
+      "normalTexture": {
+        "index": 6
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 7
+        },
+        "metallicRoughnessTexture": {
+          "index": 8
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            2,
+            2,
+            2
+          ]
+        },
+        "KHR_materials_ior": {
+          "ior": 1
+        }
+      },
+      "name": "MT_SANTOS_dial",
+      "normalTexture": {
+        "index": 9,
+        "scale": 2
+      },
+      "occlusionTexture": {
+        "index": 10,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 11
+        },
+        "metallicRoughnessTexture": {
+          "index": 10
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_SANTOS-BAIGNOIRE_Gem",
+      "occlusionTexture": {
+        "index": 12,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0021897589322179556,
+          0.04885844141244888,
+          0.28967389464378357,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 13
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_WATCHES_Glass",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 14
+        },
+        "metallicRoughnessTexture": {
+          "index": 15
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_SANTOS_gold",
+      "occlusionTexture": {
+        "index": 16,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9473065733909607,
+          0.5840786695480347,
+          0.18782083690166473,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 17
+        }
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression",
+    "KHR_materials_transmission",
+    "KHR_materials_specular",
+    "KHR_materials_ior",
+    "EXT_texture_webp"
+  ]
+}

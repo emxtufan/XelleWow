@@ -1,0 +1,40 @@
+/* Xellé identity layered over the original cinematic layout. */
+body.xelle-experience {
+.headerBlock__icon {
+  width: 132px !important;
+  height: auto !important;
+  display: block;
+  object-fit: contain;
+}
+.headerBlock__icon--black { filter: invert(1); }
+.mainLoader[data-v-e393307d] { background: #151311; }
+.mainLoader__icons[data-v-e393307d] { width: 180px; height: 56px; }
+.mainLoader__icons[data-v-e393307d] > .xelle { animation: none !important; width: 100%; height: auto; opacity: 1; }
+.soundButton, .homePage__podcastWrapper, .homePage__podcastClosePlay,
+.homePage__bottomRightWrapper, .homePage__movieScreenInlineVideo,
+.homePage__bottomWrapper--watchMovieText,
+.homePage__bottomWrapper--podcastAudioIndicationText,
+.homePage__bottomWrapper--soundOnIndicationText,
+.podcastTextPopupBlock, .podcastModeDismissOverlay,
+.cursorClickSoundEnable { display: none !important; }
+.headerBlock__slot--left { visibility: hidden; }
+.sceneTitle__inner { font-family: FancyCutProWW2026, Georgia, serif !important; max-width: min(90vw, 14em); }
+.sceneTitle__layer.intro .sceneTitle__inner {
+  font-size: clamp(60px, 8vw, 140px);
+  letter-spacing: .02em;
+  line-height: 1.05;
+}
+.heroBlock__subtitle { font-family: FancyCutProWW2026, Georgia, serif; font-size: clamp(36px, 4.4vw, 72px); max-width: 85vw; text-transform: none; }
+.heroBlock__title { font-family: Arial, sans-serif; font-size: 13px; letter-spacing: .08em; }
+.mainLoader__baseline, .homePage__baseline { font-family: Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: .07em; line-height: 1.5; }
+.homePage__baseline { max-width: min(80vw, 360px); }
+.textBlock__text--m { font-family: FancyCutProWW2026, Georgia, serif; font-size: clamp(32px, 3.3vw, 48px); text-transform: none; }
+.textBlock__subtitle { font-family: Arial, sans-serif; font-size: 15px; font-weight: 400; text-transform: none; }
+.textBlock p { font-weight: 400; }
+@media (max-width: 767px) {
+  .headerBlock__icon { width: 106px !important; }
+  .sceneTitle__inner { font-size: 35px; }
+  .sceneTitle__layer.intro .sceneTitle__inner { font-size: 58px; }
+  .heroBlock__subtitle { font-size: 36px; max-width: calc(100vw - 32px); }
+}
+}

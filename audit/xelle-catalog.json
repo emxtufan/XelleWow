@@ -1,0 +1,402 @@
+{
+  "brand": "Xellé",
+  "siteUrl": "https://xelle.ro/",
+  "collectionUrl": "https://xelle.ro/collections/parfum",
+  "catalogSourceUrl": "https://xelle.ro/collections/parfum/products.json?limit=250",
+  "retrievedAt": "2026-09-14T12:08:05.4477179Z",
+  "currency": "RON",
+  "products": [
+    {
+      "id": 15630356709702,
+      "name": "Pornstar Martini",
+      "title": "Pornstar Martini 50 ml",
+      "handle": "pornstar-martini-50-ml",
+      "url": "https://xelle.ro/products/pornstar-martini-50-ml",
+      "price": 349.0,
+      "currency": "RON",
+      "priceFormatted": "349 lei",
+      "volumeMl": 50,
+      "concentration": "Extrait de Parfum",
+      "concentrationSource": "Visible label in original product photo, visually inspected on 2026-09-14.",
+      "availableAtRetrieval": true,
+      "variantId": 56862918639942,
+      "summary": "Litchi și șampanie, o inimă florală cu trandafir și o bază caldă de santal, ambră și vanilie.",
+      "summaryAttribution": {
+        "sections": [
+          "Descriere",
+          "Note și acorduri"
+        ],
+        "sourceUrl": "https://xelle.ro/products/pornstar-martini-50-ml",
+        "type": "paraphrase"
+      },
+      "notesPublishedText": "Vârf: Litchi, Șampanie, Fructe de pădure, Acord de cocktail\nMijloc: Trandafir, Acord pudrat, Flori albe\nBază: Mosc, Lemn de santal, Ambră, Vanilie",
+      "notes": {
+        "Vârf": [
+          "Litchi",
+          "Șampanie",
+          "Fructe de pădure",
+          "Acord de cocktail"
+        ],
+        "Mijloc": [
+          "Trandafir",
+          "Acord pudrat",
+          "Flori albe"
+        ],
+        "Bază": [
+          "Mosc",
+          "Lemn de santal",
+          "Ambră",
+          "Vanilie"
+        ]
+      },
+      "notesSourceUrl": "https://xelle.ro/products/pornstar-martini-50-ml",
+      "notesSourceSection": "Note și acorduri",
+      "familyPublishedText": "Parfum unisex fructat-floral, inspirat de energia vibrantă și seducătoare a cocktailului Pornstar Martini.",
+      "images": [
+        {
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/pornstarmartiniparfumSQUARE.jpg?v=1782636993",
+          "localPath": "/xelle/pornstar-martini-50-ml.jpg",
+          "absolutePath": "F:\\Cartier\\public\\xelle\\pornstar-martini-50-ml.jpg",
+          "width": 2048,
+          "height": 2048,
+          "role": "primary",
+          "purpose": "Original product campaign photograph; use for product hero or editorial card.",
+          "description": "Fotografie de campanie: model în negru pe fundal luminos, cu flacon în dreapta jos.",
+          "suggestedObjectPosition": "64% 72%",
+          "isolatedPackshot": false,
+          "altered": false
+        }
+      ],
+      "secondaryImages": [],
+      "sourceUrl": "https://xelle.ro/products/pornstar-martini-50-ml",
+      "snapshotPath": "F:\\Cartier\\audit\\xelle-pornstar-martini-50-ml.html"
+    },
+    {
+      "id": 15630351204678,
+      "name": "Prosecco di Cherry",
+      "title": "Prosecco di Cherry 50 ml",
+      "handle": "prosecco-di-cherry-50-ml",
+      "url": "https://xelle.ro/products/prosecco-di-cherry-50-ml",
+      "price": 309.0,
+      "currency": "RON",
+      "priceFormatted": "309 lei",
+      "volumeMl": 50,
+      "concentration": "Extrait de Parfum",
+      "concentrationSource": "Visible label in original product photo, visually inspected on 2026-09-14.",
+      "availableAtRetrieval": true,
+      "variantId": 56862918836550,
+      "summary": "Cireșe și acorduri efervescente, flori albe și o bază de mosc, vanilie, ambră și patchouli.",
+      "summaryAttribution": {
+        "sections": [
+          "Descriere",
+          "Note și acorduri"
+        ],
+        "sourceUrl": "https://xelle.ro/products/prosecco-di-cherry-50-ml",
+        "type": "paraphrase"
+      },
+      "notesPublishedText": "Vârf: Cireșe, Șampanie cu cireșe, Acord de cocktail\nMijloc: Iasomie, Tuberoză, Flori albe\nBază: Mosc, Vanilie, Ambră, Patchouli",
+      "notes": {
+        "Vârf": [
+          "Cireșe",
+          "Șampanie cu cireșe",
+          "Acord de cocktail"
+        ],
+        "Mijloc": [
+          "Iasomie",
+          "Tuberoză",
+          "Flori albe"
+        ],
+        "Bază": [
+          "Mosc",
+          "Vanilie",
+          "Ambră",
+          "Patchouli"
+        ]
+      },
+      "notesSourceUrl": "https://xelle.ro/products/prosecco-di-cherry-50-ml",
+      "notesSourceSection": "Note și acorduri",
+      "familyPublishedText": "Parfum unisex fructat-ambrat, inspirat de prospețimea elegantă a unui cocktail cu prosecco și cireșe.",
+      "images": [
+        {
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/proseccodicherryparfumSQUARE.jpg?v=1782636971",
+          "localPath": "/xelle/prosecco-di-cherry-50-ml.jpg",
+          "absolutePath": "F:\\Cartier\\public\\xelle\\prosecco-di-cherry-50-ml.jpg",
+          "width": 2048,
+          "height": 2048,
+          "role": "primary",
+          "purpose": "Original product campaign photograph; use for product hero or editorial card.",
+          "description": "Fotografie de campanie: portret cu flacon ținut în stânga sus.",
+          "suggestedObjectPosition": "40% 28%",
+          "isolatedPackshot": false,
+          "altered": false
+        }
+      ],
+      "secondaryImages": [],
+      "sourceUrl": "https://xelle.ro/products/prosecco-di-cherry-50-ml",
+      "snapshotPath": "F:\\Cartier\\audit\\xelle-prosecco-di-cherry-50-ml.html"
+    },
+    {
+      "id": 15630302183750,
+      "name": "Spiced Peach Negroni",
+      "title": "Spiced Peach Negroni 50 ml",
+      "handle": "spiced-peach-negroni",
+      "url": "https://xelle.ro/products/spiced-peach-negroni",
+      "price": 339.0,
+      "currency": "RON",
+      "priceFormatted": "339 lei",
+      "volumeMl": 50,
+      "concentration": "Extrait de Parfum",
+      "concentrationSource": "Visible label in original product photo, visually inspected on 2026-09-14.",
+      "availableAtRetrieval": true,
+      "variantId": 56860778987846,
+      "summary": "Piersică și citrice cu accente licoroase, ghimbir și scorțișoară, urmate de o bază ambrată cu patchouli.",
+      "summaryAttribution": {
+        "sections": [
+          "Descriere",
+          "Note și acorduri"
+        ],
+        "sourceUrl": "https://xelle.ro/products/spiced-peach-negroni",
+        "type": "paraphrase"
+      },
+      "notesPublishedText": "Vârf: Lămâie verde, Mandarină, Portocală, Piersică, Coacăze negre, Note licoroase\nMijloc: Ghimbir, Scorțișoară, Iris, Iasomie, Trandafir\nBază: Patchouli, Rășină de benzoin, Vanilie, Ambră, Mosc",
+      "notes": {
+        "Vârf": [
+          "Lămâie verde",
+          "Mandarină",
+          "Portocală",
+          "Piersică",
+          "Coacăze negre",
+          "Note licoroase"
+        ],
+        "Mijloc": [
+          "Ghimbir",
+          "Scorțișoară",
+          "Iris",
+          "Iasomie",
+          "Trandafir"
+        ],
+        "Bază": [
+          "Patchouli",
+          "Rășină de benzoin",
+          "Vanilie",
+          "Ambră",
+          "Mosc"
+        ]
+      },
+      "notesSourceUrl": "https://xelle.ro/products/spiced-peach-negroni",
+      "notesSourceSection": "Note și acorduri",
+      "familyPublishedText": "Parfum unisex fructat-lemnos, inspirat de un cocktail Spiced Peach Negroni, cu note citrice, piersică, condimente și o bază caldă ambrată.",
+      "images": [
+        {
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/spicedpeachnegroniparfumSQUARE.jpg?v=1782636939",
+          "localPath": "/xelle/spiced-peach-negroni.jpg",
+          "absolutePath": "F:\\Cartier\\public\\xelle\\spiced-peach-negroni.jpg",
+          "width": 2048,
+          "height": 2048,
+          "role": "primary",
+          "purpose": "Original product campaign photograph; use for product hero or editorial card.",
+          "description": "Fotografie de campanie: flacon între două mâini, pe fundal luminos.",
+          "suggestedObjectPosition": "55% 54%",
+          "isolatedPackshot": false,
+          "altered": false
+        }
+      ],
+      "secondaryImages": [],
+      "sourceUrl": "https://xelle.ro/products/spiced-peach-negroni",
+      "snapshotPath": "F:\\Cartier\\audit\\xelle-spiced-peach-negroni.html"
+    },
+    {
+      "id": 15630359888198,
+      "name": "Maracuja Mojito",
+      "title": "Maracuja Mojito 50 ml",
+      "handle": "maracuja-mojito-50-ml",
+      "url": "https://xelle.ro/products/maracuja-mojito-50-ml",
+      "price": 359.0,
+      "currency": "RON",
+      "priceFormatted": "359 lei",
+      "volumeMl": 50,
+      "concentration": "Extrait de Parfum",
+      "concentrationSource": "Visible label in original product photo, visually inspected on 2026-09-14.",
+      "availableAtRetrieval": true,
+      "variantId": 56862073192774,
+      "summary": "Bergamotă și fructul pasiunii, o inimă de iasomie și iris, apoi santal, ambră, mosc și vanilie.",
+      "summaryAttribution": {
+        "sections": [
+          "Descriere",
+          "Note și acorduri"
+        ],
+        "sourceUrl": "https://xelle.ro/products/maracuja-mojito-50-ml",
+        "type": "paraphrase"
+      },
+      "notesPublishedText": "Vârf: Bergamotă, Fructul pasiunii\nMijloc: Iasomie, Lăcrămioare, Iris\nBază: Lemn de santal, Ambră, Mosc, Vanilie",
+      "notes": {
+        "Vârf": [
+          "Bergamotă",
+          "Fructul pasiunii"
+        ],
+        "Mijloc": [
+          "Iasomie",
+          "Lăcrămioare",
+          "Iris"
+        ],
+        "Bază": [
+          "Lemn de santal",
+          "Ambră",
+          "Mosc",
+          "Vanilie"
+        ]
+      },
+      "notesSourceUrl": "https://xelle.ro/products/maracuja-mojito-50-ml",
+      "notesSourceSection": "Note și acorduri",
+      "familyPublishedText": "Parfum unisex, fructat-ambrat, inspirat de prospețimea unui cocktail tropical cu fructul pasiunii.",
+      "images": [
+        {
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/maracujamojitoparfumSQUARE.jpg?v=1782637027",
+          "localPath": "/xelle/maracuja-mojito-50-ml.jpg",
+          "absolutePath": "F:\\Cartier\\public\\xelle\\maracuja-mojito-50-ml.jpg",
+          "width": 2048,
+          "height": 2048,
+          "role": "primary",
+          "purpose": "Original product campaign photograph; use for product hero or editorial card.",
+          "description": "Fotografie de campanie: flacon ținut între mâini acoperite cu plasă decorativă neagră.",
+          "suggestedObjectPosition": "50% 30%",
+          "isolatedPackshot": false,
+          "altered": false
+        }
+      ],
+      "secondaryImages": [
+        {
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/hf_20260430_190422_cf6d951b-1ad1-4a83-b6c3-acc3ffb462dc.png?v=1782631910",
+          "sourceProductUrl": "https://xelle.ro/products/maracuja-mojito",
+          "localPath": "/xelle/maracuja-mojito-packshot.png",
+          "absolutePath": "F:\\Cartier\\public\\xelle\\maracuja-mojito-packshot.png",
+          "width": 4096,
+          "height": 4096,
+          "role": "secondary",
+          "purpose": "Official isolated perfume packshot from Maracuja Mojito Set media. Primary reference for bottle geometry and label.",
+          "description": "Flacon Maracuja Mojito izolat pe alb: sticlă cilindrică transparentă, bază groasă, lichid auriu, etichetă albă curbată, capac negru sferic lucios.",
+          "isolatedPackshot": true,
+          "transparentBackground": false,
+          "altered": false
+        }
+      ],
+      "sourceUrl": "https://xelle.ro/products/maracuja-mojito-50-ml",
+      "snapshotPath": "F:\\Cartier\\audit\\xelle-maracuja-mojito-50-ml.html"
+    }
+  ],
+  "brandAssets": [
+    {
+      "sourceUrl": "https://xelle.ro/cdn/shop/files/Logo_Xelle_Martie_2026_2.png?v=1782638037",
+      "localPath": "/xelle/xelle-wordmark.png",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\xelle-wordmark.png"
+    },
+    {
+      "sourceUrl": "https://xelle.ro/cdn/shop/files/Logo_357ce776-2a57-4cc1-a542-c8a99c40b635.png?v=1781599775",
+      "localPath": "/xelle/xelle-emblem.png",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\xelle-emblem.png"
+    },
+    {
+      "sourceUrl": "https://xelle.ro/cdn/shop/files/Logo.png?v=1774197358",
+      "localPath": "/xelle/xelle-favicon-source.png",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\xelle-favicon-source.png"
+    },
+    {
+      "sourceUrl": "https://xelle.ro/cdn/shop/t/5/assets/xelle-footer-wordmark.woff2?v=23299484123634621441782626599",
+      "localPath": "/xelle/xelle-footer-wordmark.woff2",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\xelle-footer-wordmark.woff2"
+    }
+  ],
+  "campaignAndSetAssets": [
+    {
+      "sourceUrl": "https://xelle.ro/cdn/shop/files/ChatGPTImageJun28_2026_10_20_47AM.png?v=1782631257",
+      "localPath": "/xelle/ChatGPTImageJun28_2026_10_20_47AM.png",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\ChatGPTImageJun28_2026_10_20_47AM.png",
+      "role": "secondary",
+      "purpose": "Official gift set packshot"
+    },
+    {
+      "sourceUrl": "https://xelle.ro/cdn/shop/files/ChatGPTImageJun28_2026_10_27_38AM.png?v=1782631700",
+      "localPath": "/xelle/ChatGPTImageJun28_2026_10_27_38AM.png",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\ChatGPTImageJun28_2026_10_27_38AM.png",
+      "role": "secondary",
+      "purpose": "Official gift set packshot"
+    },
+    {
+      "sourceUrl": "https://xelle.ro/cdn/shop/files/DSC5193.jpg?v=1782621378",
+      "localPath": "/xelle/DSC5193.jpg",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\DSC5193.jpg",
+      "role": "secondary",
+      "purpose": "Official homepage campaign photo"
+    },
+    {
+      "sourceUrl": "https://xelle.ro/cdn/shop/files/DSC5231_bw.jpg?v=1782621379",
+      "localPath": "/xelle/DSC5231_bw.jpg",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\DSC5231_bw.jpg",
+      "role": "secondary",
+      "purpose": "Official homepage campaign photo"
+    },
+    {
+      "sourceUrl": "https://xelle.ro/cdn/shop/files/DSC5265.jpg?v=1782621380",
+      "localPath": "/xelle/DSC5265.jpg",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\DSC5265.jpg",
+      "role": "secondary",
+      "purpose": "Official homepage campaign photo"
+    },
+    {
+      "sourceUrl": "https://xelle.ro/cdn/shop/files/DSC5430.jpg?v=1782621380",
+      "localPath": "/xelle/DSC5430.jpg",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\DSC5430.jpg",
+      "role": "secondary",
+      "purpose": "Official homepage campaign photo"
+    },
+    {
+      "sourceUrl": "https://xelle.ro/cdn/shop/files/DSC5497.jpg?v=1782621379",
+      "localPath": "/xelle/DSC5497.jpg",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\DSC5497.jpg",
+      "role": "secondary",
+      "purpose": "Official homepage campaign photo"
+    },
+    {
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/ChatGPTImageJun28_2026_10_30_42AM.png?v=1782631884",
+      "localPath": "/xelle/ChatGPTImageJun28_2026_10_30_42AM.png",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\ChatGPTImageJun28_2026_10_30_42AM.png",
+      "role": "secondary",
+      "purpose": "Official gift set packshot"
+    },
+    {
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/hf_20260426_151515_79f4ebbf-6c93-4cab-84b9-daa3a2c4eaa1.png?v=1782631906",
+      "localPath": "/xelle/hf_20260426_151515_79f4ebbf-6c93-4cab-84b9-daa3a2c4eaa1.png",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\hf_20260426_151515_79f4ebbf-6c93-4cab-84b9-daa3a2c4eaa1.png",
+      "role": "secondary",
+      "purpose": "Official Maracuja gift set component packshot"
+    },
+    {
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/hf_20260426_154710_2d204145-d837-495e-a01f-4fd8e446bbb8.png?v=1782631910",
+      "localPath": "/xelle/hf_20260426_154710_2d204145-d837-495e-a01f-4fd8e446bbb8.png",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\hf_20260426_154710_2d204145-d837-495e-a01f-4fd8e446bbb8.png",
+      "role": "secondary",
+      "purpose": "Official Maracuja gift set component packshot"
+    },
+    {
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/hf_20260430_190422_cf6d951b-1ad1-4a83-b6c3-acc3ffb462dc.png?v=1782631910",
+      "localPath": "/xelle/hf_20260430_190422_cf6d951b-1ad1-4a83-b6c3-acc3ffb462dc.png",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\hf_20260430_190422_cf6d951b-1ad1-4a83-b6c3-acc3ffb462dc.png",
+      "role": "secondary",
+      "purpose": "Official Maracuja gift set component packshot"
+    },
+    {
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/ChatGPTImageJun28_2026_10_24_55AM.png?v=1782631508",
+      "localPath": "/xelle/ChatGPTImageJun28_2026_10_24_55AM.png",
+      "absolutePath": "F:\\Cartier\\public\\xelle\\ChatGPTImageJun28_2026_10_24_55AM.png",
+      "role": "secondary",
+      "purpose": "Official gift set packshot"
+    }
+  ],
+  "verificationNotes": [
+    "All product data fetched from official Xelle storefront; published olfactory notes parsed from each live product page.",
+    "Product descriptions in summary are concise paraphrases. Exact published note lists are separately preserved.",
+    "The four individual perfume endpoints and pages expose one original campaign image each and no 3D model media. An isolated Maracuja perfume packshot was found separately in Maracuja Mojito Set media.",
+    "Product availability is read from the public Shopify JSON, not hidden theme Sold out labels.",
+    "Prices and availability are snapshots; live checkout should occur on xelle.ro."
+  ]
+}

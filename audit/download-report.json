@@ -1,0 +1,2102 @@
+[
+  {
+    "path": "assets/brilliantCutPro-Light.woff2",
+    "status": 200,
+    "bytes": 24532,
+    "contentType": "font/woff2"
+  },
+  {
+    "path": "assets/brilliantCutPro-Regular.woff",
+    "status": 200,
+    "bytes": 26940,
+    "contentType": "font/woff"
+  },
+  {
+    "path": "assets/brilliantCutPro-Light.woff",
+    "status": 200,
+    "bytes": 26544,
+    "contentType": "font/woff"
+  },
+  {
+    "path": "assets/brilliantCutPro-Medium.woff",
+    "status": 200,
+    "bytes": 27168,
+    "contentType": "font/woff"
+  },
+  {
+    "path": "assets/fancyCutCondPro-Light.woff",
+    "status": 200,
+    "bytes": 35936,
+    "contentType": "font/woff"
+  },
+  {
+    "path": "assets/fancyCutCondPro-Regular.woff",
+    "status": 200,
+    "bytes": 36596,
+    "contentType": "font/woff"
+  },
+  {
+    "path": "assets/brilliantCutPro-Regular.woff2",
+    "status": 200,
+    "bytes": 24792,
+    "contentType": "font/woff2"
+  },
+  {
+    "path": "assets/fancyCutCondPro-Regular.woff2",
+    "status": 200,
+    "bytes": 33804,
+    "contentType": "font/woff2"
+  },
+  {
+    "path": "assets/fancyCutPro-Light.woff2",
+    "status": 200,
+    "bytes": 33688,
+    "contentType": "font/woff2"
+  },
+  {
+    "path": "assets/fancyCutPro-Light.woff",
+    "status": 200,
+    "bytes": 36312,
+    "contentType": "font/woff"
+  },
+  {
+    "path": "audio/global/mainTheme.mp3",
+    "status": 200,
+    "bytes": 793476,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/global/sprites.mp3",
+    "status": 200,
+    "bytes": 184364,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/global/podcastTheme.mp3",
+    "status": 200,
+    "bytes": 793476,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/podcasts/master_1.mp3",
+    "status": 200,
+    "bytes": 1571229,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/podcasts/master_11.mp3",
+    "status": 200,
+    "bytes": 1335301,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/podcasts/master_10.mp3",
+    "status": 200,
+    "bytes": 1214295,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/podcasts/master_12.mp3",
+    "status": 200,
+    "bytes": 1230974,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/podcasts/master_13.mp3",
+    "status": 200,
+    "bytes": 1218159,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/podcasts/master_2.mp3",
+    "status": 200,
+    "bytes": 1437141,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/podcasts/master_4.mp3",
+    "status": 200,
+    "bytes": 991254,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/podcasts/master_5.mp3",
+    "status": 200,
+    "bytes": 950345,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/podcasts/master_3.mp3",
+    "status": 200,
+    "bytes": 1501511,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/podcasts/master_6.mp3",
+    "status": 200,
+    "bytes": 1147477,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "images/podcasts/masks/baignoire-1_mask.png",
+    "status": 200,
+    "bytes": 10474,
+    "contentType": "image/png"
+  },
+  {
+    "path": "audio/podcasts/master_8.mp3",
+    "status": 200,
+    "bytes": 1215321,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "audio/podcasts/master_7.mp3",
+    "status": 200,
+    "bytes": 1406192,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "images/podcasts/masks/baignoire-2_mask.png",
+    "status": 200,
+    "bytes": 10474,
+    "contentType": "image/png"
+  },
+  {
+    "path": "audio/podcasts/master_9.mp3",
+    "status": 200,
+    "bytes": 1111127,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "path": "images/podcasts/masks/myst-de-cartier_mask.png",
+    "status": 200,
+    "bytes": 6882,
+    "contentType": "image/png"
+  },
+  {
+    "path": "images/podcasts/masks/cartier-prive_mask.png",
+    "status": 200,
+    "bytes": 2386,
+    "contentType": "image/png"
+  },
+  {
+    "path": "images/podcasts/masks/roadster-1_mask.png",
+    "status": 200,
+    "bytes": 8264,
+    "contentType": "image/png"
+  },
+  {
+    "path": "images/podcasts/masks/roadster-2_mask.png",
+    "status": 200,
+    "bytes": 8264,
+    "contentType": "image/png"
+  },
+  {
+    "path": "images/podcasts/masks/santos-de-cartier-1_mask.png",
+    "status": 200,
+    "bytes": 10474,
+    "contentType": "image/png"
+  },
+  {
+    "path": "images/podcasts/masks/santos-de-cartier-2_mask.png",
+    "status": 200,
+    "bytes": 4401,
+    "contentType": "image/png"
+  },
+  {
+    "path": "images/podcasts/masks/santos-dumont-1_mask.png",
+    "status": 200,
+    "bytes": 4401,
+    "contentType": "image/png"
+  },
+  {
+    "path": "images/podcasts/masks/santos-dumont-2_mask.png",
+    "status": 200,
+    "bytes": 4401,
+    "contentType": "image/png"
+  },
+  {
+    "path": "images/podcasts/masks/tank-americaine-1_mask.png",
+    "status": 200,
+    "bytes": 5462,
+    "contentType": "image/png"
+  },
+  {
+    "path": "images/podcasts/masks/tank-americaine-2_mask.png",
+    "status": 200,
+    "bytes": 5462,
+    "contentType": "image/png"
+  },
+  {
+    "path": "images/podcasts/masks/tortue_mask.png",
+    "status": 200,
+    "bytes": 8245,
+    "contentType": "image/png"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/baignoire-1.webp",
+    "status": 200,
+    "bytes": 125810,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/roadster-1.webp",
+    "status": 200,
+    "bytes": 159876,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/baignoire-2.webp",
+    "status": 200,
+    "bytes": 244472,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/myst-de-cartier.webp",
+    "status": 200,
+    "bytes": 213650,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/cartier-prive.webp",
+    "status": 200,
+    "bytes": 202842,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/santos-de-cartier-1.webp",
+    "status": 200,
+    "bytes": 238872,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/santos-de-cartier-2.webp",
+    "status": 200,
+    "bytes": 141834,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/roadster-2.webp",
+    "status": 200,
+    "bytes": 220082,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/santos-dumont-1.webp",
+    "status": 200,
+    "bytes": 117624,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/santos-dumont-2.webp",
+    "status": 200,
+    "bytes": 129542,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/tank-americaine-1.webp",
+    "status": 200,
+    "bytes": 69572,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/tortue.webp",
+    "status": 200,
+    "bytes": 178434,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/productsBlock1-2.webp",
+    "status": 200,
+    "bytes": 1490,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/podcasts/thumbnails/HD/tank-americaine-2.webp",
+    "status": 200,
+    "bytes": 174620,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 2038,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/productsBlock2.webp",
+    "status": 200,
+    "bytes": 1060,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/productsBlock1.webp",
+    "status": 200,
+    "bytes": 1026,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/scrollMediasBlock1-2.webp",
+    "status": 200,
+    "bytes": 2886,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 2168,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/productsBlock2-2.webp",
+    "status": 200,
+    "bytes": 656,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/scrollMediasBlock2-2.webp",
+    "status": 200,
+    "bytes": 1114,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 552,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/scrollMediasBlock3-2.webp",
+    "status": 200,
+    "bytes": 984,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 1210,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/scrollMediasBlock4-2.webp",
+    "status": 200,
+    "bytes": 1202,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 808,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/scrollMediasBlock5-2.webp",
+    "status": 200,
+    "bytes": 1106,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 986,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderBlock2-2.webp",
+    "status": 200,
+    "bytes": 716,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 894,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 598,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderBlock3-2.webp",
+    "status": 200,
+    "bytes": 442,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 1018,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderBlock4-2.webp",
+    "status": 200,
+    "bytes": 710,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 1316,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderBlock1-2.webp",
+    "status": 200,
+    "bytes": 998,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 416,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderProductsBlock2.webp",
+    "status": 200,
+    "bytes": 356,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderProductsBlock3.webp",
+    "status": 200,
+    "bytes": 412,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 5422,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/productsBlock1-2.webp",
+    "status": 200,
+    "bytes": 3928,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.05/sliderProductsBlock4.webp",
+    "status": 200,
+    "bytes": 444,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/productsBlock1.webp",
+    "status": 200,
+    "bytes": 3038,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/productsBlock2-2.webp",
+    "status": 200,
+    "bytes": 1882,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/scrollMediasBlock1-2.webp",
+    "status": 200,
+    "bytes": 8810,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/productsBlock2.webp",
+    "status": 200,
+    "bytes": 2704,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/scrollMediasBlock2-2.webp",
+    "status": 200,
+    "bytes": 3182,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/scrollMediasBlock3-2.webp",
+    "status": 200,
+    "bytes": 2772,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 1294,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 6932,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 3510,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/scrollMediasBlock4-2.webp",
+    "status": 200,
+    "bytes": 3670,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 2100,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/scrollMediasBlock5-2.webp",
+    "status": 200,
+    "bytes": 2940,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 2848,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 2116,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderBlock1-2.webp",
+    "status": 200,
+    "bytes": 3030,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 2538,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderBlock2-2.webp",
+    "status": 200,
+    "bytes": 1890,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 1292,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderBlock3-2.webp",
+    "status": 200,
+    "bytes": 1536,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderBlock4-2.webp",
+    "status": 200,
+    "bytes": 1716,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 3114,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderProductsBlock2.webp",
+    "status": 200,
+    "bytes": 948,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 1164,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderProductsBlock4.webp",
+    "status": 200,
+    "bytes": 1152,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.1/sliderProductsBlock3.webp",
+    "status": 200,
+    "bytes": 992,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/productsBlock1-2.webp",
+    "status": 200,
+    "bytes": 10462,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 16612,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/productsBlock2-2.webp",
+    "status": 200,
+    "bytes": 6130,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/productsBlock1.webp",
+    "status": 200,
+    "bytes": 8446,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/productsBlock2.webp",
+    "status": 200,
+    "bytes": 7148,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/scrollMediasBlock1-2.webp",
+    "status": 200,
+    "bytes": 26522,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/scrollMediasBlock2-2.webp",
+    "status": 200,
+    "bytes": 9454,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 3300,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/scrollMediasBlock3-2.webp",
+    "status": 200,
+    "bytes": 6998,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 35850,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/scrollMediasBlock4-2.webp",
+    "status": 200,
+    "bytes": 11110,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 5934,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 10388,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/scrollMediasBlock5-2.webp",
+    "status": 200,
+    "bytes": 7414,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderBlock1-2.webp",
+    "status": 200,
+    "bytes": 8286,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderBlock2-2.webp",
+    "status": 200,
+    "bytes": 5544,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 4904,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 8124,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderBlock3-2.webp",
+    "status": 200,
+    "bytes": 6168,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 6640,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 3448,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderBlock4-2.webp",
+    "status": 200,
+    "bytes": 4900,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderProductsBlock3.webp",
+    "status": 200,
+    "bytes": 2728,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 7664,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 3586,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderProductsBlock2.webp",
+    "status": 200,
+    "bytes": 2756,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.2/sliderProductsBlock4.webp",
+    "status": 200,
+    "bytes": 3088,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 51162,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/productsBlock1-2.webp",
+    "status": 200,
+    "bytes": 29680,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/productsBlock2-2.webp",
+    "status": 200,
+    "bytes": 24138,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/productsBlock1.webp",
+    "status": 200,
+    "bytes": 24700,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/productsBlock2.webp",
+    "status": 200,
+    "bytes": 19926,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/scrollMediasBlock1-2.webp",
+    "status": 200,
+    "bytes": 84776,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 170358,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 9096,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/scrollMediasBlock2-2.webp",
+    "status": 200,
+    "bytes": 26030,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 18112,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/scrollMediasBlock3-2.webp",
+    "status": 200,
+    "bytes": 18624,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/scrollMediasBlock4-2.webp",
+    "status": 200,
+    "bytes": 35340,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 30660,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/scrollMediasBlock5-2.webp",
+    "status": 200,
+    "bytes": 19960,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 24000,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderBlock1-2.webp",
+    "status": 200,
+    "bytes": 25104,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 12254,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderBlock2-2.webp",
+    "status": 200,
+    "bytes": 16352,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 19664,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 9304,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderBlock3-2.webp",
+    "status": 200,
+    "bytes": 25158,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 18902,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderProductsBlock2.webp",
+    "status": 200,
+    "bytes": 9222,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 11860,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderBlock4-2.webp",
+    "status": 200,
+    "bytes": 14508,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderProductsBlock3.webp",
+    "status": 200,
+    "bytes": 8440,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.4/sliderProductsBlock4.webp",
+    "status": 200,
+    "bytes": 9164,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/productsBlock1.webp",
+    "status": 200,
+    "bytes": 50026,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/productsBlock1-2.webp",
+    "status": 200,
+    "bytes": 57214,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 101160,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/productsBlock2-2.webp",
+    "status": 200,
+    "bytes": 55184,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/productsBlock2.webp",
+    "status": 200,
+    "bytes": 37094,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 18772,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/scrollMediasBlock2-2.webp",
+    "status": 200,
+    "bytes": 47132,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 344926,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/scrollMediasBlock1-2.webp",
+    "status": 200,
+    "bytes": 172274,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/scrollMediasBlock3-2.webp",
+    "status": 200,
+    "bytes": 35058,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 58332,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/scrollMediasBlock5-2.webp",
+    "status": 200,
+    "bytes": 37722,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/scrollMediasBlock4-2.webp",
+    "status": 200,
+    "bytes": 68638,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 35804,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 48060,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 21858,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderBlock1-2.webp",
+    "status": 200,
+    "bytes": 48988,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderBlock2-2.webp",
+    "status": 200,
+    "bytes": 31696,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 38602,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderBlock3-2.webp",
+    "status": 200,
+    "bytes": 59540,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderBlock4-2.webp",
+    "status": 200,
+    "bytes": 27896,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 18182,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 33938,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 23972,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderProductsBlock2.webp",
+    "status": 200,
+    "bytes": 18970,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderProductsBlock4.webp",
+    "status": 200,
+    "bytes": 17188,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.6/sliderProductsBlock3.webp",
+    "status": 200,
+    "bytes": 16464,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/productsBlock1-2.webp",
+    "status": 200,
+    "bytes": 91316,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 159616,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/productsBlock2-2.webp",
+    "status": 200,
+    "bytes": 97868,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/productsBlock1.webp",
+    "status": 200,
+    "bytes": 83272,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/scrollMediasBlock1-2.webp",
+    "status": 200,
+    "bytes": 287090,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/productsBlock2.webp",
+    "status": 200,
+    "bytes": 59236,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 527550,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/scrollMediasBlock2-2.webp",
+    "status": 200,
+    "bytes": 74662,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 32844,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 93932,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/scrollMediasBlock3-2.webp",
+    "status": 200,
+    "bytes": 60588,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/scrollMediasBlock4-2.webp",
+    "status": 200,
+    "bytes": 113872,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 57582,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/scrollMediasBlock5-2.webp",
+    "status": 200,
+    "bytes": 60534,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 78628,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderBlock1-2.webp",
+    "status": 200,
+    "bytes": 81774,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 33668,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 59904,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderBlock2-2.webp",
+    "status": 200,
+    "bytes": 49044,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderBlock3-2.webp",
+    "status": 200,
+    "bytes": 113700,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 29508,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderBlock4-2.webp",
+    "status": 200,
+    "bytes": 43332,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 50800,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 39320,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderProductsBlock2.webp",
+    "status": 200,
+    "bytes": 32324,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderProductsBlock4.webp",
+    "status": 200,
+    "bytes": 27716,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/productsBlock1-2.webp",
+    "status": 200,
+    "bytes": 159226,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/0.8/sliderProductsBlock3.webp",
+    "status": 200,
+    "bytes": 26838,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 288108,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/productsBlock1.webp",
+    "status": 200,
+    "bytes": 165704,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/productsBlock2-2.webp",
+    "status": 200,
+    "bytes": 185150,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/productsBlock2.webp",
+    "status": 200,
+    "bytes": 144610,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/scrollMediasBlock2-2.webp",
+    "status": 200,
+    "bytes": 165016,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 61418,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/scrollMediasBlock1-2.webp",
+    "status": 200,
+    "bytes": 518288,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/scrollMediasBlock3-2.webp",
+    "status": 200,
+    "bytes": 171308,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 209154,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 816152,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/scrollMediasBlock5-2.webp",
+    "status": 200,
+    "bytes": 136802,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/scrollMediasBlock4-2.webp",
+    "status": 200,
+    "bytes": 242978,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 108478,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 160078,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 68200,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 111162,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderBlock2-2.webp",
+    "status": 200,
+    "bytes": 95252,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderBlock1-2.webp",
+    "status": 200,
+    "bytes": 163392,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 56318,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderBlock3-2.webp",
+    "status": 200,
+    "bytes": 216800,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderBlock4-2.webp",
+    "status": 200,
+    "bytes": 76196,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 65914,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 78238,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderProductsBlock2.webp",
+    "status": 200,
+    "bytes": 58898,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderProductsBlock3.webp",
+    "status": 200,
+    "bytes": 48474,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/1.0/sliderProductsBlock4.webp",
+    "status": 200,
+    "bytes": 47060,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/newsletterBlock.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/productsBlock1.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/productsBlock2-2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/productsBlock1-2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/productsBlock2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/scrollMediasBlock1.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/scrollMediasBlock2-2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/scrollMediasBlock2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/scrollMediasBlock1-2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/scrollMediasBlock3-2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/scrollMediasBlock3.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/scrollMediasBlock4.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/scrollMediasBlock5.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/scrollMediasBlock5-2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderBlock1-2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/scrollMediasBlock4-2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderBlock1.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderBlock2-2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderBlock3-2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderBlock4-2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderBlock3.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderBlock2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderBlock4.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderProductsBlock1.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderProductsBlock2.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderProductsBlock3.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/crash/0.05/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 2052,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/baignoire-and-myst/sliderProductsBlock4.webp",
+    "status": 404,
+    "bytes": 10,
+    "contentType": null
+  },
+  {
+    "path": "images/productPages/crash/0.05/productsBlock1.webp",
+    "status": 200,
+    "bytes": 728,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/productsBlock2.webp",
+    "status": 200,
+    "bytes": 596,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/productsBlock3.webp",
+    "status": 200,
+    "bytes": 852,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 2218,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 1132,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 452,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 670,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 690,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 612,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 718,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 726,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 344,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/sliderProductsBlock2.webp",
+    "status": 200,
+    "bytes": 592,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 490,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/sliderProductsBlock3.webp",
+    "status": 200,
+    "bytes": 510,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.05/sliderProductsBlock4.webp",
+    "status": 200,
+    "bytes": 510,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/productsBlock2.webp",
+    "status": 200,
+    "bytes": 1554,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 5264,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/productsBlock1.webp",
+    "status": 200,
+    "bytes": 1928,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/productsBlock3.webp",
+    "status": 200,
+    "bytes": 2216,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 2666,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 6074,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 1206,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 1730,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 1548,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 1754,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 1524,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 746,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 1574,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/sliderProductsBlock3.webp",
+    "status": 200,
+    "bytes": 1358,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/sliderProductsBlock2.webp",
+    "status": 200,
+    "bytes": 1520,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 1350,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.1/sliderProductsBlock4.webp",
+    "status": 200,
+    "bytes": 1334,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/productsBlock1.webp",
+    "status": 200,
+    "bytes": 5202,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/productsBlock2.webp",
+    "status": 200,
+    "bytes": 4016,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/productsBlock3.webp",
+    "status": 200,
+    "bytes": 5796,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 18688,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 3822,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 6122,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 16246,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 4070,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 4408,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 4606,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 3742,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 4822,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 1958,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/sliderProductsBlock2.webp",
+    "status": 200,
+    "bytes": 4160,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/sliderProductsBlock3.webp",
+    "status": 200,
+    "bytes": 3992,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 3738,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.2/sliderProductsBlock4.webp",
+    "status": 200,
+    "bytes": 3674,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/productsBlock2.webp",
+    "status": 200,
+    "bytes": 11190,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/productsBlock1.webp",
+    "status": 200,
+    "bytes": 14282,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 59272,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/productsBlock3.webp",
+    "status": 200,
+    "bytes": 16236,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 20178,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 88820,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 15632,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 12664,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 13400,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 13282,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 10034,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 15424,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 5376,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/sliderProductsBlock2.webp",
+    "status": 200,
+    "bytes": 12332,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 11486,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/sliderProductsBlock4.webp",
+    "status": 200,
+    "bytes": 11546,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.4/sliderProductsBlock3.webp",
+    "status": 200,
+    "bytes": 12134,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/newsletterBlock.webp",
+    "status": 200,
+    "bytes": 131690,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/productsBlock1.webp",
+    "status": 200,
+    "bytes": 27636,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/productsBlock2.webp",
+    "status": 200,
+    "bytes": 21224,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/productsBlock3.webp",
+    "status": 200,
+    "bytes": 33220,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/scrollMediasBlock2.webp",
+    "status": 200,
+    "bytes": 27034,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/scrollMediasBlock1.webp",
+    "status": 200,
+    "bytes": 233514,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/scrollMediasBlock3.webp",
+    "status": 200,
+    "bytes": 62166,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/scrollMediasBlock4.webp",
+    "status": 200,
+    "bytes": 33674,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/scrollMediasBlock5.webp",
+    "status": 200,
+    "bytes": 27884,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/sliderBlock3.webp",
+    "status": 200,
+    "bytes": 9844,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/sliderBlock2.webp",
+    "status": 200,
+    "bytes": 19060,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/sliderBlock4.webp",
+    "status": 200,
+    "bytes": 31314,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/sliderProductsBlock1.webp",
+    "status": 200,
+    "bytes": 22910,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "images/productPages/crash/0.6/sliderBlock1.webp",
+    "status": 200,
+    "bytes": 29132,
+    "contentType": "image/webp"
+  }
+]

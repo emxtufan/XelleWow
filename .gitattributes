@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+
+# Preserve downloaded resources, build artifacts and recorded audit inputs.
+original/** -text
+public/** -text
+audit/** -text

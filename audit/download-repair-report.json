@@ -1,0 +1,102 @@
+[
+  {
+    "path": "webgl/textures/cubemaps/SC01_columns_oct.exr",
+    "status": 200,
+    "bytes": 546257
+  },
+  {
+    "path": "webgl/textures/cubemaps/SC00_oct.exr",
+    "status": 200,
+    "bytes": 840690
+  },
+  {
+    "path": "webgl/textures/cubemaps/SC04_oct.exr",
+    "status": 200,
+    "bytes": 908307
+  },
+  {
+    "path": "webgl/textures/cubemaps/SC03_oct.exr",
+    "status": 200,
+    "bytes": 848990
+  },
+  {
+    "path": "webgl/textures/cubemaps/SC01_oct.exr",
+    "status": 200,
+    "bytes": 865882
+  },
+  {
+    "path": "webgl/textures/cubemaps/SC01_portal_oct.exr",
+    "status": 200,
+    "bytes": 330117
+  },
+  {
+    "path": "webgl/textures/cubemaps/SC02_portal_oct.exr",
+    "status": 200,
+    "bytes": 601004
+  },
+  {
+    "path": "webgl/textures/cubemaps/SC02_oct.exr",
+    "status": 200,
+    "bytes": 936615
+  },
+  {
+    "path": "webgl/textures/cubemaps/SC05_oct.exr",
+    "status": 200,
+    "bytes": 868640
+  },
+  {
+    "path": "webgl/textures/cubemaps/SC02_CliffsFront_oct.exr",
+    "status": 200,
+    "bytes": 519471
+  },
+  {
+    "path": "webgl/textures/cubemaps/watches_oct.exr",
+    "status": 200,
+    "bytes": 262151
+  },
+  {
+    "path": "webgl/textures/cubemaps/watches_NumberRoadster_oct.exr",
+    "status": 200,
+    "bytes": 4173
+  },
+  {
+    "path": "webgl/textures/cubemaps/SC06_oct.exr",
+    "status": 200,
+    "bytes": 849614
+  },
+  {
+    "path": "webgl/models/watches/baignoire_desktop.glb",
+    "status": 200,
+    "bytes": 2287800
+  },
+  {
+    "path": "webgl/models/mainScene_characters.glb",
+    "status": 200,
+    "bytes": 9175148
+  },
+  {
+    "path": "webgl/models/mainScene.glb",
+    "status": 200,
+    "bytes": 10326756
+  },
+  {
+    "path": "webgl/libs/draco/draco_decoder.wasm",
+    "status": 200,
+    "bytes": 285747
+  },
+  {
+    "path": "webgl/models/watches/roadster_desktop.glb",
+    "status": 200,
+    "bytes": 4097132
+  },
+  {
+    "path": "webgl/models/watches/crash_desktop.glb",
+    "status": 200,
+    "bytes": 7029460
+  },
+  {
+    "path": "webgl/models/watches/santos_desktop.glb",
+    "status": 200,
+    "bytes": 5085476
+  }
+]

@@ -1,0 +1,1236 @@
+{
+  "global": {
+    "market": "France",
+    "title": "Cartier Watches & Wonders",
+    "loader": "Cartier reveals the essence of its watchmaking expertise through a unique mastery of savoir-faire.",
+    "baseline": "Watchmaker of shapes, master of crafts",
+    "buttons": {
+      "allPicturesButton": {
+        "label": "All Pictures"
+      }
+    },
+    "ctas": {
+      "scroll": "Scroll",
+      "listen": "Listen to The Sound of Craft",
+      "soundBttn": "Sound",
+      "soundOn": "Turn on your sound to listen",
+      "clickEnableSound": "",
+      "explore": "Explore",
+      "watchMovie": "Watch the film",
+      "podcastText": "Text",
+      "close": "Close"
+    },
+    "podcasts": [
+      {
+        "type": "podcast",
+        "uri": "santos-de-cartier",
+        "slug": "santos-de-cartier",
+        "order": "00",
+        "title": "Santos de Cartier",
+        "subtitle": "The Sound of Craft",
+        "content": "This Santos de Cartier timepiece houses a\n chronograph movement capable of measuring\n short times. Look closely at the dial and you’ll see\n second, minute, and hour counters, in addition to\n the current time. The calibre integrates two push\n buttons, one to stop and start the timer and\n another to reset it. This functionality is possible\n thanks to the talent of Cartier’s watchmakers, who\n meticulously developed the automatic mechanical\n movement called the 1904 MC Chronograph, in\n honour of the year that the Santos de Cartier was\n first created.\n These components are assembled precisely,\n respecting the complexity belied by the clean and\n precise proportions of this square shaped icon.",
+        "image": {
+          "name": "santos-de-cartier-1"
+        },
+        "mask": {
+          "url": "santos-de-cartier-1_mask.png",
+          "width": 591,
+          "height": 780
+        },
+        "audio": "/audio/podcasts/master_1.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "santos-dumont",
+        "slug": "santos-dumont",
+        "order": "02",
+        "title": "Santos-Dumont",
+        "subtitle": "The Sound of Craft",
+        "content": "This watchmaking creation celebrates the subtle\n beauty of a stone dial. Look closely, and you can\n see it’s made from golden obsidian. Tiny trapped\n bubbles in the volcanic stone are responsible for\n the iridescent reflections. The obsidian is cut to fit\n precisely into the Santos-Dumont case, just\n 0.3 mm thick, and polished carefully to release its\n sparkle. Each one is a product of nature and truly\n unique.\n This marks a new reimagining of materials in the\n Santos-Dumont collection.",
+        "image": {
+          "name": "santos-dumont-1"
+        },
+        "mask": {
+          "url": "santos-dumont-1_mask.png",
+          "width": 540,
+          "height": 540
+        },
+        "audio": "/audio/podcasts/master_2.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "santos-dumont-2",
+        "slug": "santos-dumont-2",
+        "order": 10,
+        "title": "Santos-Dumont",
+        "subtitle": "The Sound of Craft",
+        "content": "This Santos-Dumont watch showcases a new\n bracelet, developed in the Cartier Manufacture. This\n type of metal mesh is made up of tiny links that are\n just 1.15 mm thick. Each bracelet is composed of 15 rows, with a total of 394 links.\n The links are manufactured and finished separately,\n because each of these elements must adhere to an accuracy of 1/100th of a millimetre. The Maison’s\n bracelet experts then take over: they manually assemble the links one by one to create the finished\n piece, ensuring an elegant and fluid movement that\n hugs the wrist.",
+        "image": {
+          "name": "santos-dumont-2"
+        },
+        "mask": {
+          "url": "santos-dumont-2_mask.png",
+          "width": 540,
+          "height": 540
+        },
+        "audio": "/audio/podcasts/master_3.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "santos-dumont-3",
+        "slug": "santos-dumont-3",
+        "order": 13,
+        "title": "Santos-Dumont",
+        "subtitle": "The Sound of Craft",
+        "content": "The Santos-Dumont is a true icon in the world of\n watchmaking. It was revolutionary in its time\n because it was the first watch specifically designed\n to be worn on the wrist, rather than kept on a chain,\n in a pocket.\n This latest version plays with the legacy of that\n bracelet and takes inspiration from vintage Cartier\n designs.\n In the archives, the Maison’s designers unearthed\n special-order bracelets with very fine, fluid links.\n Working with the bracelet-making experts at the\n manufacture, they developed an ergonomic new\n construction to keep those pure lines and\n accentuate the sensorial nature of its flexibility",
+        "image": {
+          "name": "santos-de-cartier-2"
+        },
+        "mask": {
+          "url": "santos-de-cartier-2_mask.png",
+          "width": 540,
+          "height": 540
+        },
+        "audio": "/audio/podcasts/master_4.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "roadster",
+        "slug": "roadster",
+        "order": "01",
+        "title": "Roadster",
+        "subtitle": "The Sound of Craft",
+        "content": "The Maison called on over 100 areas of expertise\n to bring back the Roadster. Here, we would like to\n draw your attention to the dial, which presents a\n decorative final touch.\n The appliqué on the face of the Roadster integrates\n an interplay of textures and depths, as well as\n different finishes, truly bringing the watch to life\n through meticulous detail and subtle balance.",
+        "image": {
+          "name": "roadster-1"
+        },
+        "mask": {
+          "url": "roadster-1_mask.png",
+          "width": 600,
+          "height": 660
+        },
+        "audio": "/audio/podcasts/master_5.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "roadster-2",
+        "slug": "roadster-2",
+        "order": "04",
+        "title": "Roadster",
+        "subtitle": "The Sound of Craft",
+        "content": "When it was first introduced, the Roadster made\n a bold choice to take codes from the world of\n mechanical fuselages.\n The designers’ approach to the new Roadster\n was to take that legacy and refine it. You can see\n the inspiration of a speed counter, and a shaped\n winding crown that feels almost automative, like\n a headlight. Then of course there are the visible\n screws, which are a signature of Cartier design,\n from the very first Santos de Cartier to the iconic\n LOVE bracelet and now of course, the Roadster.",
+        "image": {
+          "name": "roadster-2"
+        },
+        "mask": {
+          "url": "roadster-2_mask.png",
+          "width": 600,
+          "height": 660
+        },
+        "audio": "/audio/podcasts/master_6.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "cartier-prive",
+        "slug": "cartier-prive",
+        "order": 12,
+        "title": "Cartier Privé",
+        "subtitle": "The Sound of Craft",
+        "content": "This trio of watches pays homage to platinum, one\n of Cartier’s signature materials, in watchmaking just\n as much as in jewellery. As a testament to the\n watchmaker of shapes, the artisan forms the raw\n platinum into the instantly recognisable silhouettes\n of the Tortue, Crash Skeleton, and Tank Normale.\n At Cartier, platinum is linked to the ruby and its\n nuanced red colour. Here, the magnificent colour runs\n through the collection, offering burgundy straps\n and dial decals in the same tone. This is the 10th\n Cartier Privé Opus, and it marks the return of these\n three emblematic, highly sought-after models.",
+        "image": {
+          "name": "cartier-prive"
+        },
+        "mask": {
+          "url": "cartier-prive_mask.png",
+          "width": 540,
+          "height": 540
+        },
+        "audio": "/audio/podcasts/master_7.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "tank-americaine",
+        "slug": "tank-americaine",
+        "order": "02",
+        "title": "Tank Américaine",
+        "subtitle": "The Sound of Craft",
+        "content": "This is the first time the Maison has equipped the\n Tank Américaine with a skeleton movement. The\n watchmakers took on a real technical and aesthetic\n challenge to find something that would do justice to\n this iconic shape, which has a cult following.\n Designers and watchmakers worked together to\n come up with the 1988 MC, named after the release\n year of the first Tank Américaine. Its linear\n architecture gives a striking level of transparency,\n and these minimal lines showcase, and even\n accentuate, the shape of Tank Américaine.",
+        "image": {
+          "name": "tank-americaine-1"
+        },
+        "mask": {
+          "url": "tank-americaine-1_mask.png",
+          "width": 537,
+          "height": 780
+        },
+        "audio": "/audio/podcasts/master_8.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "tank-americaine-2",
+        "slug": "tank-americaine-2",
+        "order": 8,
+        "title": "Tank Américaine",
+        "subtitle": "The Sound of Craft",
+        "content": "What is fascinating about this new creation is the\n geometry at the heart of its design. This is a real\n signature of Cartier style, and for this first\n skeleton version, the Maison wanted to pay\n tribute to the importance of Art Deco in its design\n heritage.\n The open simplicity of the shapes frames the\n complexity of the movement and the level of\n detail. Look closely at the engraved railway\n minute track, and the rose gold bridge on the two-\n tone version.",
+        "image": {
+          "name": "tank-americaine-2"
+        },
+        "mask": {
+          "url": "tank-americaine-2_mask.png",
+          "width": 537,
+          "height": 780
+        },
+        "audio": "/audio/podcasts/master_9.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "tortue",
+        "slug": "tortue",
+        "order": 9,
+        "title": "Tortue",
+        "subtitle": "The Sound of Craft",
+        "content": "This Tortue watch pays homage to the technical\n excellence of the Maison’s gem setters, bringing\n watchmaking and jewellery expertise together.\n The setters use different diamond setting\n techniques to maximise the refractions of light\n and ensure that this watch sparkles infinitely. On\n the sides of the watch, note the setting technique\n called 'serti descendu'. This savoir-faire reduces\n the metal to a minimum, so the silhouette is\n defined by the diamonds.",
+        "image": {
+          "name": "tortue"
+        },
+        "mask": {
+          "url": "tortue_mask.png",
+          "width": 600,
+          "height": 660
+        },
+        "audio": "/audio/podcasts/master_10.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "baignoire",
+        "slug": "baignoire",
+        "order": "06",
+        "title": "Baignoire",
+        "subtitle": "The Sound of Craft",
+        "content": "This exceptional version of the Baignoire watch is\n a manifesto in precious stones. 100 brilliant-cut\n diamonds are snow-set on the dial\n alone. On the case and the bangle, there are\n another 172 diamonds.\n Here, the Maison’s setters used an inverted setting meaning that the pointed end of the diamond faces out. These\n points are softened to make it comfortable to wear while adding a beautiful texture and harmonising with the Clous de Paris, another signature motif for Cartier.",
+        "content2": "This exceptional version of the Baignoire watch is\n a manifesto in precious stones. 100 brilliant-cut\n diamonds are snow-set on the dial\n alone. On the case and the bangle, there are\n another 172 diamonds.\n Here, the Maison’s setters used an inverted setting,\n so the pointed end of the diamond faces out. These\n points are softened to make it comfortable to wear\n while adding a beautiful texture and harmonising\n with the Clous de Paris, another signature motif\n for Cartier.",
+        "image": {
+          "name": "baignoire-1"
+        },
+        "mask": {
+          "url": "baignoire-1_mask.png",
+          "width": 591,
+          "height": 780
+        },
+        "audio": "/audio/podcasts/master_11.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "baignoire-2",
+        "slug": "baignoire-2",
+        "order": "05",
+        "title": "Baignoire",
+        "subtitle": "The Sound of Craft",
+        "content": "With the case, bangle and dial fully covered with the\n Clous de Paris, this Baignoire created a change for\n the Maison’s polishers. This motif gives a sense of\n rhythm and a tactility to the watch, but it complicates\n what is already a meticulous process.\n The expert polishers involved in such a project need\n to be even more careful than usual to keep the exact\n shape and volume of each element throughout the\n process.\n It’s all done by hand, and it ensures the piece has\n maximal brilliance",
+        "image": {
+          "name": "baignoire-2"
+        },
+        "mask": {
+          "url": "baignoire-2_mask.png",
+          "width": 591,
+          "height": 780
+        },
+        "audio": "/audio/podcasts/master_12.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "myst-de-cartier",
+        "slug": "myst-de-cartier",
+        "order": "07",
+        "title": "Myst de Cartier",
+        "subtitle": "The Sound of Craft",
+        "content": "The graphic black contrast of this Myst de Cartier\n is created with lacquer at the Maison des Métiers\n d’Art.\n This space, created by Cartier, is dedicated to rare\n techniques. It is located beside the watchmaking\n Manufacture to ensure close collaboration on\n special pieces.\n To achieve this effect, the lacquer artists must first\n laser-engrave the desired shapes and then fill the\n lacquer by hand on each one, before setting it at\n high temperatures.",
+        "image": {
+          "name": "myst-de-cartier"
+        },
+        "mask": {
+          "url": "myst-de-cartier_mask.png",
+          "width": 570,
+          "height": 720
+        },
+        "audio": "/audio/podcasts/master_13.mp3",
+        "loaded": 1
+      }
+    ]
+  },
+  "pages": [
+    {
+      "market": "France",
+      "title": "Watches & Wonders",
+      "uri": "",
+      "slug": "",
+      "type": "home",
+      "loaded": 1,
+      "ctas": {
+        "explore": "Explore"
+      },
+      "scenes": [
+        {
+          "type": "intro",
+          "title": "Watches \n & Wonders"
+        },
+        {
+          "type": "scene",
+          "exploreUrl": "/tailored-crafts-serving-one-form",
+          "title": "Tailored crafts\n serving one form",
+          "podcastTitle": "Roadster"
+        },
+        {
+          "type": "scene",
+          "exploreUrl": "/the-eye-of-the-jeweller",
+          "title": "The eye\n of the jeweller",
+          "podcastTitle": "Baignoire"
+        },
+        {
+          "type": "scene",
+          "exploreUrl": "/shaping-movement",
+          "title": "Shaping \n movement",
+          "podcastTitle": "Cartier Privé"
+        },
+        {
+          "type": "scene",
+          "exploreUrl": "/the-manufacture-between-innovation-and-tradition",
+          "title": "The \nManufacture",
+          "podcastTitle": "Santos-Dumont"
+        },
+        {
+          "type": "movie",
+          "title": "The \n film"
+        },
+        {
+          "type": "scene",
+          "title": "The Sound \n of Craft",
+          "podcastTitle": "The Sound \n of Craft"
+        }
+      ]
+    },
+    {
+      "market": "France",
+      "title": "Roadster",
+      "uri": "tailored-crafts-serving-one-form",
+      "slug": "tailored-crafts-serving-one-form",
+      "type": "product",
+      "loaded": 1,
+      "watchSceneIndex": 1,
+      "content": {
+        "blocks": [
+          {
+            "type": "heroBlock",
+            "title": "Roadster",
+            "subtitle": "Tailored crafts serving one form"
+          },
+          {
+            "type": "scrollMediasBlock",
+            "text": "From the most essential to the most expressive, the shapes of Cartier watches all require bespoke craftsmanship adapted to their singular designs.",
+            "medias": [
+              {
+                "url": "/images/productPages/roadster/scrollMediasBlock1.webp",
+                "ariaLabel": "",
+                "subtitle": ""
+              },
+              {
+                "url": "/images/productPages/roadster/scrollMediasBlock2.webp",
+                "ariaLabel": "",
+                "subtitle": "Borrowing bold codes from the world of mechanical bodywork"
+              },
+              {
+                "url": "/images/productPages/roadster/scrollMediasBlock3.webp",
+                "ariaLabel": "",
+                "subtitle": "Enhanced sophistication and aerodynamic allure"
+              },
+              {
+                "url": "/images/productPages/roadster/scrollMediasBlock4.webp",
+                "ariaLabel": "",
+                "subtitle": "Sculptural lines in three new versions – gold, gold and steel, and steel – and two new sizes – medium and large"
+              },
+              {
+                "url": "/images/productPages/roadster/scrollMediasBlock5.webp",
+                "ariaLabel": "",
+                "subtitle": "The work of more than 100 areas of expertise"
+              }
+            ]
+          },
+          {
+            "type": "scrollWatchBlock",
+            "texts": [
+              "With its speedometer-inspired dial, conical crown, headlight-shaped date magnifier, rivets and screws, the Roadster watch boasts a bold, powerful design that reflects the Cartier brothers’ interest in the mechanical world and technological advancement.",
+              "The Maison’s artisans across areas of savoir-faire were mobilised in service of this streamlined shape, down to the smallest detail; it takes 434 distinct operations to make each one."
+            ]
+          },
+          {
+            "type": "videoBlock",
+            "media": {
+              "url": "/videos/productPages/roadster/videoBlock.mp4",
+              "type": "video",
+              "ariaLabel": ""
+            }
+          },
+          {
+            "type": "productsBlock",
+            "text": "The approach is as much aesthetic as it is technical, elegantly underlining the watch’s sculptural lines across three new versions – gold, steel, or a combination of the two – and two new sizes, medium and large.",
+            "medias": [
+              {
+                "url": "/images/productPages/roadster/productsBlock1.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/roadster/productsBlock2.webp",
+                "ariaLabel": ""
+              }
+            ]
+          },
+          {
+            "type": "sliderProductsBlock",
+            "title": "Discover the collection",
+            "cards": [
+              {
+                "title": "SANTOS DE CARTIER WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRW2SA0009",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/roadster/sliderProductsBlock1.webp"
+                }
+              },
+              {
+                "title": "TANK LOUIS CARTIER WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWGTA0357",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/roadster/sliderProductsBlock2.webp"
+                }
+              },
+              {
+                "title": "TANK AMÉRICAINE WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWGTA0134",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/roadster/sliderProductsBlock3.webp"
+                }
+              },
+              {
+                "title": "BALLON BLEU DE CARTIER WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWSBB0049",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/roadster/sliderProductsBlock4.webp"
+                }
+              },
+              {
+                "title": "BALLON BLEU DE CARTIER WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWGBB0030",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/roadster/sliderProductsBlock5.webp"
+                }
+              },
+              {
+                "title": "SANTOS-DUMONT WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWSSA0032",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/roadster/sliderProductsBlock6.webp"
+                }
+              }
+            ],
+            "cta": {
+              "url": "",
+              "label": ""
+            }
+          },
+          {
+            "type": "textBlock",
+            "text": "Join Cartier Watch Community on Instagram",
+            "textSize": "m",
+            "subtitle": "@cartierwatchcommunity"
+          },
+          {
+            "type": "sliderBlock",
+            "medias": [
+              {
+                "url": "/images/productPages/roadster/sliderBlock1.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/roadster/sliderBlock2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/roadster/sliderBlock3.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/roadster/sliderBlock4.webp",
+                "ariaLabel": ""
+              }
+            ]
+          },
+          {
+            "type": "textBlock",
+            "text": "More Information about Roadster",
+            "textSize": "m",
+            "button": [
+              {
+                "url": "",
+                "label": ""
+              },
+              {
+                "url": "+330142184383",
+                "label": "Contact your ambassador",
+                "type": "ambassador"
+              }
+            ],
+            "textBlockType": "contact",
+            "media": {
+              "url": "/images/productPages/roadster/newsletterBlock.webp",
+              "ariaLabel": ""
+            }
+          },
+          {
+            "type": "newsletterBlock",
+            "media": {
+              "url": "/images/productPages/roadster/newsletterBlock.webp",
+              "ariaLabel": ""
+            },
+            "card": {
+              "title": "STAY UP TO DATE",
+              "text": "Get the latest watchmaking news, direct from the Maison",
+              "button": {
+                "url": "/",
+                "label": "Subscribe"
+              }
+            }
+          },
+          {
+            "type": "pushPageBlock",
+            "title": "Continue the discovery",
+            "button": {
+              "url": "/",
+              "label": "Retour"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "market": "France",
+      "title": "Baignoire and Myst de Cartier",
+      "uri": "the-eye-of-the-jeweller",
+      "slug": "the-eye-of-the-jeweller",
+      "type": "product",
+      "loaded": 1,
+      "watchSceneIndex": 2,
+      "content": {
+        "blocks": [
+          {
+            "type": "heroBlock",
+            "title": "Baignoire and Myst de Cartier",
+            "subtitle": "The eye of the jeweller"
+          },
+          {
+            "type": "scrollMediasBlock",
+            "text": "Cartier's mastery of watchmaking also draws its inventiveness and vitality from its jewellery savoir-faire; shapes are made sublime with a motif or stone-setting.",
+            "medias": [
+              {
+                "url": "/images/productPages/baignoire-and-myst/scrollMediasBlock1.webp",
+                "ariaLabel": "",
+                "subtitle": "Studded with clous de Paris"
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/scrollMediasBlock2.webp",
+                "ariaLabel": "",
+                "subtitle": "The motif adds rhythm and structure"
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/scrollMediasBlock3.webp",
+                "ariaLabel": "",
+                "subtitle": "A sensorial wearing experience"
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/scrollMediasBlock4.webp",
+                "ariaLabel": "",
+                "subtitle": "Entirely polished by hand"
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/scrollMediasBlock5.webp",
+                "ariaLabel": "",
+                "subtitle": "The emblematic oval watch"
+              }
+            ]
+          },
+          {
+            "type": "scrollWatchBlock",
+            "texts": [
+              "Cartier watchmakers have created a jewellery-inspired aesthetic enhanced by the emblematic Clou de Paris motif. This innovative adventure pushes creative boundaries through an unprecedented expression of expertise.",
+              "Cartier master jewellers give each piece all its lustre during the polishing phase. Carried out entirely by hand, this finishing stage requires the utmost precision."
+            ]
+          },
+          {
+            "type": "videoBlock",
+            "media": {
+              "url": "/videos/productPages/baignoire-and-Myst/videoBlock.mp4",
+              "type": "video",
+              "ariaLabel": ""
+            }
+          },
+          {
+            "type": "productsBlock",
+            "medias": [
+              {
+                "url": "/images/productPages/baignoire-and-myst/productsBlock1.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/productsBlock2.webp",
+                "ariaLabel": ""
+              }
+            ]
+          },
+          {
+            "type": "scrollMediasBlock",
+            "text": "Myst de Cartier is a watch with a singular aesthetic, resolutely in the creative vein. The mystery takes shape through its surprising construction. It has no clasp, bringing to mind a trompe-l'œil bracelet. Strung together like beads, the elements that make it up resemble protective talismans.",
+            "medias": [
+              {
+                "url": "/images/productPages/baignoire-and-myst/scrollMediasBlock1-2.webp",
+                "ariaLabel": "",
+                "subtitle": ""
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/scrollMediasBlock2-2.webp",
+                "ariaLabel": "",
+                "subtitle": "A sculpture of a watch"
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/scrollMediasBlock3-2.webp",
+                "ariaLabel": "",
+                "subtitle": "The link between jewellery and watchmaking"
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/scrollMediasBlock4-2.webp",
+                "ariaLabel": "",
+                "subtitle": "Bold visual elements enhanced by black lacquer"
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/scrollMediasBlock5-2.webp",
+                "ariaLabel": "",
+                "subtitle": "A trompe l'oeil bracelet"
+              }
+            ]
+          },
+          {
+            "type": "textBlock",
+            "text": "The jewellers chose a bead setting for the bracelet, which uses stones of different sizes to create perspective and volume. Up to 47 hours of setting work are required to create this architectural tension."
+          },
+          {
+            "type": "sliderBlock",
+            "layoutVariant": "landscape",
+            "medias": [
+              {
+                "url": "/images/productPages/baignoire-and-myst/sliderBlock1.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/sliderBlock2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/sliderBlock3.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/sliderBlock4.webp",
+                "ariaLabel": ""
+              }
+            ]
+          },
+          {
+            "type": "productsBlock",
+            "text": "In a Maison of dual expertise, the jewellery watches showcase precious motifs, stone-setting, an ergonomic shape, and a sensorial wearing experience.",
+            "medias": [
+              {
+                "url": "/images/productPages/baignoire-and-myst/productsBlock1-2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/productsBlock2-2.webp",
+                "ariaLabel": ""
+              }
+            ]
+          },
+          {
+            "type": "sliderProductsBlock",
+            "title": "Discover the collection",
+            "cards": [
+              {
+                "title": "PANTHÈRE DE CARTIER WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWJPN0059",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/baignoire-and-myst/sliderProductsBlock1.webp"
+                }
+              },
+              {
+                "title": "BAIGNOIRE WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWJBA0046",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/baignoire-and-myst/sliderProductsBlock2.webp"
+                }
+              },
+              {
+                "title": "BAIGNOIRE WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWJBA0053",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/baignoire-and-myst/sliderProductsBlock3.webp"
+                }
+              },
+              {
+                "title": "TANK AMÉRICAINE WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWJTA0056",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/baignoire-and-myst/sliderProductsBlock4.webp"
+                }
+              }
+            ],
+            "cta": {
+              "url": "",
+              "label": ""
+            }
+          },
+          {
+            "type": "textBlock",
+            "text": "Join Cartier Watch Community on Instagram",
+            "textSize": "m",
+            "subtitle": "@cartierwatchcommunity"
+          },
+          {
+            "type": "sliderBlock",
+            "medias": [
+              {
+                "url": "/images/productPages/baignoire-and-myst/sliderBlock1-2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/sliderBlock2-2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/sliderBlock3-2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/baignoire-and-myst/sliderBlock4-2.webp",
+                "ariaLabel": ""
+              }
+            ]
+          },
+          {
+            "type": "textBlock",
+            "text": "More information about Baignoire and Myst de Cartier",
+            "textSize": "m",
+            "button": [
+              {
+                "url": "https://www.cartier.com/en-fr/collections/watches/creative-capsules",
+                "label": ""
+              },
+              {
+                "url": "+330142184383",
+                "label": "Contact your ambassador",
+                "type": "ambassador"
+              }
+            ],
+            "textBlockType": "contact",
+            "media": {
+              "url": "/images/productPages/roadster/newsletterBlock.webp",
+              "ariaLabel": ""
+            }
+          },
+          {
+            "type": "newsletterBlock",
+            "media": {
+              "url": "/images/productPages/baignoire-and-myst/newsletterBlock.webp",
+              "ariaLabel": ""
+            },
+            "card": {
+              "title": "STAY UP TO DATE",
+              "text": "Get the latest watchmaking news, direct from the Maison",
+              "button": {
+                "url": "/",
+                "label": "Subscribe"
+              }
+            }
+          },
+          {
+            "type": "pushPageBlock",
+            "title": "Continue the discovery",
+            "button": {
+              "url": "/",
+              "label": "Retour"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "market": "France",
+      "title": "Crash and Tortue Monopusher",
+      "uri": "shaping-movement",
+      "slug": "shaping-movement",
+      "type": "product",
+      "loaded": 1,
+      "watchSceneIndex": 3,
+      "content": {
+        "blocks": [
+          {
+            "type": "heroBlock",
+            "title": "Crash and Tortue Monopusher",
+            "subtitle": "Shaping Movement"
+          },
+          {
+            "type": "scrollMediasBlock",
+            "text": "An aesthetic quest challenges Cartier to surpass itself, as the Maison merges form and function by creating extraordinary movements.",
+            "medias": [
+              {
+                "url": "/images/productPages/crash/scrollMediasBlock1.webp",
+                "ariaLabel": "",
+                "subtitle": ""
+              },
+              {
+                "url": "/images/productPages/crash/scrollMediasBlock2.webp",
+                "ariaLabel": "",
+                "subtitle": "A new skeleton shape for a cult silhouette"
+              },
+              {
+                "url": "/images/productPages/crash/scrollMediasBlock3.webp",
+                "ariaLabel": "",
+                "subtitle": "142 components in the smallest possible space"
+              },
+              {
+                "url": "/images/productPages/crash/scrollMediasBlock4.webp",
+                "ariaLabel": "",
+                "subtitle": "An iconic combination of platinum with a ruby cabochon"
+              },
+              {
+                "url": "/images/productPages/crash/scrollMediasBlock5.webp",
+                "ariaLabel": "",
+                "subtitle": "An accentuated distortion down to the crown"
+              }
+            ]
+          },
+          {
+            "type": "scrollWatchBlock",
+            "texts": [
+              "For the Crash watch, a shaped movement is a true technical feat, adapted to the irregular case of this cult design. The moving parts of the movement become one with the bridges, shaped like Roman numerals for a time-telling function.",
+              "The combination of the Maison’s signature metal platinum with a burgundy strap is a nod to the iconic ruby cabochon traditionally found on Cartier’s platinum watches."
+            ]
+          },
+          {
+            "type": "videoBlock",
+            "media": {
+              "url": "/videos/productPages/crash/videoBlock.mp4",
+              "type": "video",
+              "ariaLabel": ""
+            }
+          },
+          {
+            "type": "productsBlock",
+            "text": "The Tortue Monopusher Chronograph is fitted with the Manufacture 1928 MC movement, a single-button chronograph movement adjusted to fit the shape of the case. The movement is 4.30mm thick, making it the Maison's thinnest chronograph.",
+            "medias": [
+              {
+                "url": "/images/productPages/crash/productsBlock1.jpg",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/crash/productsBlock2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/crash/productsBlock3.webp",
+                "ariaLabel": ""
+              }
+            ]
+          },
+          {
+            "type": "sliderProductsBlock",
+            "title": "Discover the collection",
+            "cards": [
+              {
+                "title": "SANTOS-DUMONT SKELETON WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWHSA0044",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/crash/sliderProductsBlock1.webp"
+                }
+              },
+              {
+                "title": "SANTOS DE CARTIER SKELETON WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWHSA0016",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/crash/sliderProductsBlock2.webp"
+                }
+              },
+              {
+                "title": "SANTOS DE CARTIER SKELETON WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWHSA0028",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/crash/sliderProductsBlock3.webp"
+                }
+              },
+              {
+                "title": "SANTOS-DUMONT SKELETON WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWHSA0032",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/crash/sliderProductsBlock4.webp"
+                }
+              }
+            ],
+            "cta": {
+              "url": "",
+              "label": ""
+            }
+          },
+          {
+            "type": "textBlock",
+            "text": "Join Cartier Watch Community on Instagram",
+            "textSize": "m",
+            "subtitle": "@cartierwatchcommunity"
+          },
+          {
+            "type": "sliderBlock",
+            "medias": [
+              {
+                "url": "/images/productPages/crash/sliderBlock1.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/crash/sliderBlock2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/crash/sliderBlock3.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/crash/sliderBlock4.webp",
+                "ariaLabel": ""
+              }
+            ]
+          },
+          {
+            "type": "textBlock",
+            "text": "More information about Crash",
+            "textSize": "m",
+            "button": [
+              {
+                "url": "https://www.cartier.com/en-fr/collections/watches/cartier-prive",
+                "label": ""
+              },
+              {
+                "url": "+330142184383",
+                "label": "Contact your ambassador",
+                "type": "ambassador"
+              }
+            ],
+            "textBlockType": "contact",
+            "media": {
+              "url": "/images/productPages/roadster/newsletterBlock.webp",
+              "ariaLabel": ""
+            }
+          },
+          {
+            "type": "newsletterBlock",
+            "media": {
+              "url": "/images/productPages/crash/newsletterBlock.webp",
+              "ariaLabel": ""
+            },
+            "card": {
+              "title": "STAY UP TO DATE",
+              "text": "Get the latest watchmaking news, direct from the Maison",
+              "button": {
+                "url": "/",
+                "label": "Subscribe"
+              }
+            }
+          },
+          {
+            "type": "pushPageBlock",
+            "title": "Continue the discovery",
+            "button": {
+              "url": "/",
+              "label": "Retour"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "market": "France",
+      "title": "Santos-Dumont and Tortue",
+      "uri": "the-manufacture-between-innovation-and-tradition",
+      "slug": "the-manufacture-between-innovation-and-tradition",
+      "type": "product",
+      "loaded": 1,
+      "watchSceneIndex": 4,
+      "content": {
+        "blocks": [
+          {
+            "type": "heroBlock",
+            "title": "Santos-Dumont and Tortue",
+            "subtitle": "The manufacture between tradition and innovation"
+          },
+          {
+            "type": "scrollMediasBlock",
+            "text": "At the Cartier watchmaking Manufacture in Switzerland, the fundamental approach brings together the latest technical advances with the importance of watchmaking heritage.",
+            "medias": [
+              {
+                "url": "/images/productPages/santos-and-tortue/scrollMediasBlock1.webp",
+                "ariaLabel": "",
+                "subtitle": ""
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/scrollMediasBlock2.webp",
+                "ariaLabel": "",
+                "subtitle": "A legacy of innovation and a pioneering spirit"
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/scrollMediasBlock3.webp",
+                "ariaLabel": "",
+                "subtitle": "The obsidian dial marks a feat of gem-cutting"
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/scrollMediasBlock4.webp",
+                "ariaLabel": "",
+                "subtitle": "Inspired by the flexibility of the first made-to-measure metal watch bracelets"
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/scrollMediasBlock5.webp",
+                "ariaLabel": "",
+                "subtitle": "True to the elegance and\n pioneering spirit of the original"
+              }
+            ]
+          },
+          {
+            "type": "scrollWatchBlock",
+            "texts": [
+              "For the Santos-Dumont collection, the pioneering spirit of Alberto Santos-Dumont inspires the reinvention of its bracelet: balancing a legacy of precious jewellery bracelets with the technical challenge of extreme flexibility.",
+              "The metal bracelet flows with the elegance of 394 tiny links, entirely developed, built and assembled in the Manufacture."
+            ]
+          },
+          {
+            "type": "videoBlock",
+            "media": {
+              "url": "/videos/productPages/santos-and-tortue/videoBlock.mp4",
+              "type": "video",
+              "ariaLabel": ""
+            }
+          },
+          {
+            "type": "productsBlock",
+            "medias": [
+              {
+                "url": "/images/productPages/santos-and-tortue/productsBlock1.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/productsBlock2.webp",
+                "ariaLabel": ""
+              }
+            ]
+          },
+          {
+            "type": "scrollMediasBlock",
+            "text": "Within the Maison des Métiers d’Art, located just beside the watchmaking Manufacture, rare and ancestral crafts find new expressions. This Tortue watch demonstrates the beauty of champlevé enamelling to recreate the Panther.",
+            "medias": [
+              {
+                "url": "/images/productPages/santos-and-tortue/scrollMediasBlock1-2.webp",
+                "ariaLabel": "",
+                "subtitle": ""
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/scrollMediasBlock2-2.webp",
+                "ariaLabel": "",
+                "subtitle": "A masterful use of champlevé enamel"
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/scrollMediasBlock3-2.webp",
+                "ariaLabel": "",
+                "subtitle": "130 hours of enamel work"
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/scrollMediasBlock4-2.webp",
+                "ariaLabel": "",
+                "subtitle": "The Panther meets the Tortue watch"
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/scrollMediasBlock5-2.webp",
+                "ariaLabel": "",
+                "subtitle": "Created in the Maison des Métiers d'Art"
+              }
+            ]
+          },
+          {
+            "type": "textBlock",
+            "text": "Over 15 different tones were used in each piece, requiring more than 36 separate firings. It took 80 hours to enamel the dial and 50 hours to enamel the case."
+          },
+          {
+            "type": "sliderBlock",
+            "layoutVariant": "landscape",
+            "medias": [
+              {
+                "url": "/images/productPages/santos-and-tortue/sliderBlock1.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/sliderBlock2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/sliderBlock3.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/sliderBlock4.webp",
+                "ariaLabel": ""
+              }
+            ]
+          },
+          {
+            "type": "sliderProductsBlock",
+            "title": "Discover the collection",
+            "cards": [
+              {
+                "title": "MÉTIERS D'ART JEWELLERY",
+                "url": "https://www.cartier.com/en-fr/product/CRHPI01639",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/santos-and-tortue/sliderProductsBlock1.webp"
+                }
+              },
+              {
+                "title": "TANK AMÉRICAINE WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRWJTA0057",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/santos-and-tortue/sliderProductsBlock2.webp"
+                }
+              },
+              {
+                "title": "TANK JEWELLERY WATCH",
+                "url": "https://www.cartier.com/en-fr/product/CRHPI01592",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/santos-and-tortue/sliderProductsBlock3.webp"
+                }
+              },
+              {
+                "title": "PANTHÈRE DE CARTIER WATCH, SMALL MODEL",
+                "url": "https://www.cartier.com/en-fr/product/CRWGPN0046",
+                "media": {
+                  "ariaLabel": "",
+                  "url": "/images/productPages/santos-and-tortue/sliderProductsBlock4.webp"
+                }
+              }
+            ],
+            "cta": {
+              "url": "",
+              "label": ""
+            }
+          },
+          {
+            "type": "textBlock",
+            "text": "Join Cartier Watch Community on Instagram",
+            "textSize": "m",
+            "subtitle": "@cartierwatchcommunity"
+          },
+          {
+            "type": "sliderBlock",
+            "medias": [
+              {
+                "url": "/images/productPages/santos-and-tortue/sliderBlock1-2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/sliderBlock2-2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/sliderBlock3-2.webp",
+                "ariaLabel": ""
+              },
+              {
+                "url": "/images/productPages/santos-and-tortue/sliderBlock4-2.webp",
+                "ariaLabel": ""
+              }
+            ]
+          },
+          {
+            "type": "textBlock",
+            "text": "More information about Santos and Tortue",
+            "textSize": "m",
+            "button": [
+              {
+                "url": "https://www.cartier.com/en-fr/collections/watches/fine-jewellery-watches",
+                "label": ""
+              },
+              {
+                "url": "+330142184383",
+                "label": "Contact your ambassador",
+                "type": "ambassador"
+              }
+            ],
+            "textBlockType": "contact",
+            "media": {
+              "url": "/images/productPages/roadster/newsletterBlock.webp",
+              "ariaLabel": ""
+            }
+          },
+          {
+            "type": "newsletterBlock",
+            "media": {
+              "url": "/images/productPages/santos-and-tortue/newsletterBlock.webp",
+              "ariaLabel": ""
+            },
+            "card": {
+              "title": "STAY UP TO DATE",
+              "text": "Get the latest watchmaking news, direct from the Maison",
+              "button": {
+                "url": "/",
+                "label": "Subscribe"
+              }
+            }
+          },
+          {
+            "type": "pushPageBlock",
+            "title": "Continue the discovery",
+            "button": {
+              "url": "/",
+              "label": "Retour"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "file": "watches\\crash_mobile.glb",
+  "scenes": [
+    {
+      "name": "SCENE_01",
+      "nodes": [
+        9
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "index": 0,
+      "mesh": 0,
+      "name": "crash_bracelet",
+      "translation": [
+        -0.019986147060990334,
+        0.09924612939357758,
+        -0.5198411345481873
+      ]
+    },
+    {
+      "index": 1,
+      "mesh": 1,
+      "name": "crash_dials",
+      "translation": [
+        -0.02878248319029808,
+        0.12064826488494873,
+        1.8578137159347534
+      ]
+    },
+    {
+      "index": 2,
+      "mesh": 2,
+      "name": "crash_gem",
+      "translation": [
+        0.6853717565536499,
+        -0.256704181432724,
+        1.7061289548873901
+      ]
+    },
+    {
+      "index": 3,
+      "mesh": 3,
+      "name": "crash_glass",
+      "translation": [
+        0.0525408610701561,
+        -0.12220544368028641,
+        1.8618792295455933
+      ]
+    },
+    {
+      "index": 4,
+      "mesh": 4,
+      "name": "crash_gold",
+      "translation": [
+        -0.04711832106113434,
+        -0.48665526509284973,
+        1.6895326375961304
+      ]
+    },
+    {
+      "index": 5,
+      "mesh": 5,
+      "name": "crash_mechanism_brushed",
+      "translation": [
+        -0.029281971976161003,
+        0.0473947748541832,
+        1.699550986289978
+      ]
+    },
+    {
+      "index": 6,
+      "mesh": 6,
+      "name": "crash_mechanism_noise",
+      "translation": [
+        -0.04488326609134674,
+        -0.17303597927093506,
+        1.7976104021072388
+      ]
+    },
+    {
+      "index": 7,
+      "mesh": 7,
+      "name": "crash_rubis",
+      "translation": [
+        -0.1482752412557602,
+        -0.01748906448483467,
+        1.7054367065429688
+      ]
+    },
+    {
+      "index": 8,
+      "mesh": 8,
+      "name": "crash_silver",
+      "translation": [
+        -0.030330229550600052,
+        -0.054743628948926926,
+        1.721976637840271
+      ]
+    },
+    {
+      "index": 9,
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "name": "crash"
+    }
+  ],
+  "meshes": [
+    {
+      "index": 0,
+      "name": "Mesh.014",
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "foreach_end3",
+      "primitives": [
+        {
+          "material": 1,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9,
+            "TANGENT": 10
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 4,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "merge1.002",
+      "primitives": [
+        {
+          "material": 2,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14,
+            "TEXCOORD_1": 15,
+            "TANGENT": 16
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 7,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Mesh.012",
+      "primitives": [
+        {
+          "material": 3,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 18,
+            "NORMAL": 19,
+            "TEXCOORD_0": 20,
+            "TANGENT": 21
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 8,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TANGENT": 3
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "normal7.006",
+      "primitives": [
+        {
+          "material": 4,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 23,
+            "NORMAL": 24,
+            "TEXCOORD_0": 25,
+            "TEXCOORD_1": 26,
+            "TANGENT": 27
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 10,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "normal7.012",
+      "primitives": [
+        {
+          "material": 5,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 29,
+            "NORMAL": 30,
+            "TEXCOORD_0": 31,
+            "TEXCOORD_1": 32,
+            "TANGENT": 33
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 12,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "normal7.010",
+      "primitives": [
+        {
+          "material": 6,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 35,
+            "NORMAL": 36,
+            "TEXCOORD_0": 37,
+            "TEXCOORD_1": 38,
+            "TANGENT": 39
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 14,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "normal7.005",
+      "primitives": [
+        {
+          "material": 7,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 41,
+            "NORMAL": 42,
+            "TEXCOORD_0": 43,
+            "TEXCOORD_1": 44,
+            "TANGENT": 45
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 17,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "normal7.009",
+      "primitives": [
+        {
+          "material": 8,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 47,
+            "NORMAL": 48,
+            "TEXCOORD_0": 49,
+            "TEXCOORD_1": 50,
+            "TANGENT": 51
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 18,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_CRASH_bracelet",
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_CRASH_Dials",
+      "occlusionTexture": {
+        "index": 3,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0.0036806899588555098,
+          0.28966596722602844,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_CRASH_gem",
+      "occlusionTexture": {
+        "index": 5,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.3885352611541748,
+          0,
+          0.0011640508892014623,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 6
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_WATCHES_Glass",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 7
+        },
+        "metallicRoughnessTexture": {
+          "index": 8
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_CRASH_gold",
+      "occlusionTexture": {
+        "index": 9,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9473065733909607,
+          0.5840786695480347,
+          0.18782083690166473,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 10
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "MT_CRASH_Brushed",
+      "normalTexture": {
+        "index": 11
+      },
+      "occlusionTexture": {
+        "index": 12,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7083759903907776,
+          0.6653875708580017,
+          0.6172068119049072,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 13
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "MT_CRASH_NOISE",
+      "normalTexture": {
+        "index": 14
+      },
+      "occlusionTexture": {
+        "index": 15,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 16
+        },
+        "metallicRoughnessTexture": {
+          "index": 17
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_CRASH_rubis",
+      "occlusionTexture": {
+        "index": 18,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.26701563596725464,
+          0.004485431592911482,
+          0.17485688626766205,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 19
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.3999999463558197,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_CRASH_silver",
+      "occlusionTexture": {
+        "index": 20,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7083759903907776,
+          0.6653875708580017,
+          0.6172068119049072,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 21
+        }
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression",
+    "KHR_materials_transmission",
+    "KHR_materials_specular",
+    "EXT_texture_webp"
+  ]
+}

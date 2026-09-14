@@ -1,0 +1,412 @@
+[
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26/assets/app.css",
+    "path": "assets/app.css",
+    "bytes": 103287
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26/assets/app.js",
+    "path": "assets/app.js",
+    "bytes": 7287260
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-tank.png",
+    "path": "images/shapes/shape-tank.png",
+    "bytes": 2527
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-santos.png",
+    "path": "images/shapes/shape-santos.png",
+    "bytes": 2425
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-myst.png",
+    "path": "images/shapes/shape-myst.png",
+    "bytes": 3336
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-baignoire.png",
+    "path": "images/shapes/shape-baignoire.png",
+    "bytes": 5485
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-crash.png",
+    "path": "images/shapes/shape-crash.png",
+    "bytes": 4968
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-roadster.png",
+    "path": "images/shapes/shape-roadster.png",
+    "bytes": 4001
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26/assets/brilliantCutPro-Medium.woff2",
+    "path": "assets/brilliantCutPro-Medium.woff2",
+    "bytes": 24832
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26/assets/fancyCutCondPro-Light.woff2",
+    "path": "assets/fancyCutCondPro-Light.woff2",
+    "bytes": 33272
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_sh.json",
+    "path": "webgl/textures/cubemaps/SC01_sh.json",
+    "bytes": 1449
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_columns_oct.exr",
+    "path": "webgl/textures/cubemaps/SC01_columns_oct.exr",
+    "bytes": 860869
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_columns_sh.json",
+    "path": "webgl/textures/cubemaps/SC01_columns_sh.json",
+    "bytes": 1447
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC04_oct.exr",
+    "path": "webgl/textures/cubemaps/SC04_oct.exr",
+    "bytes": 1428677
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC05_sh.json",
+    "path": "webgl/textures/cubemaps/SC05_sh.json",
+    "bytes": 1440
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC01_2K.webp",
+    "path": "webgl/textures/lightmaps/LIGHTMAP_SC01_2K.webp",
+    "bytes": 952082
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC02_2K.webp",
+    "path": "webgl/textures/lightmaps/LIGHTMAP_SC02_2K.webp",
+    "bytes": 707914
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/mainScene.glb",
+    "path": "webgl/models/mainScene.glb",
+    "bytes": 15958146
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC00_oct.exr",
+    "path": "webgl/textures/cubemaps/SC00_oct.exr",
+    "bytes": 1320498
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC00_sh.json",
+    "path": "webgl/textures/cubemaps/SC00_sh.json",
+    "bytes": 1432
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_portal_sh.json",
+    "path": "webgl/textures/cubemaps/SC01_portal_sh.json",
+    "bytes": 1415
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_sh.json",
+    "path": "webgl/textures/cubemaps/SC02_sh.json",
+    "bytes": 1435
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_CliffsFront_sh.json",
+    "path": "webgl/textures/cubemaps/SC02_CliffsFront_sh.json",
+    "bytes": 1439
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC03_oct.exr",
+    "path": "webgl/textures/cubemaps/SC03_oct.exr",
+    "bytes": 1334418
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC03_sh.json",
+    "path": "webgl/textures/cubemaps/SC03_sh.json",
+    "bytes": 1422
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_oct.exr",
+    "path": "webgl/textures/cubemaps/SC01_oct.exr",
+    "bytes": 1362532
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_portal_oct.exr",
+    "path": "webgl/textures/cubemaps/SC01_portal_oct.exr",
+    "bytes": 518899
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/mainScene_characters.glb",
+    "path": "webgl/models/mainScene_characters.glb",
+    "bytes": 13791352
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_oct.exr",
+    "path": "webgl/textures/cubemaps/SC02_oct.exr",
+    "bytes": 1474069
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_portal_oct.exr",
+    "path": "webgl/textures/cubemaps/SC02_portal_oct.exr",
+    "bytes": 947330
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_portal_sh.json",
+    "path": "webgl/textures/cubemaps/SC02_portal_sh.json",
+    "bytes": 1440
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_CliffsFront_oct.exr",
+    "path": "webgl/textures/cubemaps/SC02_CliffsFront_oct.exr",
+    "bytes": 819864
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_Ground_sh.json",
+    "path": "webgl/textures/cubemaps/SC02_Ground_sh.json",
+    "bytes": 1451
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC04_sh.json",
+    "path": "webgl/textures/cubemaps/SC04_sh.json",
+    "bytes": 1448
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC05_oct.exr",
+    "path": "webgl/textures/cubemaps/SC05_oct.exr",
+    "bytes": 1367046
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC06_oct.exr",
+    "path": "webgl/textures/cubemaps/SC06_oct.exr",
+    "bytes": 1335605
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC06_sh.json",
+    "path": "webgl/textures/cubemaps/SC06_sh.json",
+    "bytes": 1370
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/watches_oct.exr",
+    "path": "webgl/textures/cubemaps/watches_oct.exr",
+    "bytes": 412788
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/watches_sh.json",
+    "path": "webgl/textures/cubemaps/watches_sh.json",
+    "bytes": 1446
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/watches_NumberRoadster_oct.exr",
+    "path": "webgl/textures/cubemaps/watches_NumberRoadster_oct.exr",
+    "bytes": 6339
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/watches_NumberRoadster_sh.json",
+    "path": "webgl/textures/cubemaps/watches_NumberRoadster_sh.json",
+    "bytes": 1467
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/watches/baignoire_desktop.glb",
+    "path": "webgl/models/watches/baignoire_desktop.glb",
+    "bytes": 3449920
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/watches/roadster_desktop.glb",
+    "path": "webgl/models/watches/roadster_desktop.glb",
+    "bytes": 6273663
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/watches/santos_desktop.glb",
+    "path": "webgl/models/watches/santos_desktop.glb",
+    "bytes": 7857001
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/watches/crash_desktop.glb",
+    "path": "webgl/models/watches/crash_desktop.glb",
+    "bytes": 10860397
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/luts/watches/baignoire.3DL",
+    "path": "webgl/luts/watches/baignoire.3DL",
+    "bytes": 55964
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/luts/watches/crash.3DL",
+    "path": "webgl/luts/watches/crash.3DL",
+    "bytes": 56210
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/luts/watches/roadster.3DL",
+    "path": "webgl/luts/watches/roadster.3DL",
+    "bytes": 51099
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/luts/watches/santos.3DL",
+    "path": "webgl/luts/watches/santos.3DL",
+    "bytes": 56759
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/libs/draco/draco_wasm_wrapper.js",
+    "path": "webgl/libs/draco/draco_wasm_wrapper.js",
+    "bytes": 58763
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/libs/draco/draco_decoder.wasm",
+    "path": "webgl/libs/draco/draco_decoder.wasm",
+    "bytes": 296760
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC00.webp",
+    "path": "webgl/textures/lightmaps/LIGHTMAP_SC00.webp",
+    "bytes": 2954978
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC03_2K.webp",
+    "path": "webgl/textures/lightmaps/LIGHTMAP_SC03_2K.webp",
+    "bytes": 964980
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC04_2K.webp",
+    "path": "webgl/textures/lightmaps/LIGHTMAP_SC04_2K.webp",
+    "bytes": 529832
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC05_2K.webp",
+    "path": "webgl/textures/lightmaps/LIGHTMAP_SC05_2K.webp",
+    "bytes": 502808
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC06_2K.webp",
+    "path": "webgl/textures/lightmaps/LIGHTMAP_SC06_2K.webp",
+    "bytes": 532294
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/gold_mask2.webp",
+    "path": "webgl/global/misc/gold_mask2.webp",
+    "bytes": 23136
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/floor_MR.webp",
+    "path": "webgl/textures/floor_MR.webp",
+    "bytes": 414064
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/baignoire-1.webp",
+    "path": "images/podcasts/thumbnails/LD/baignoire-1.webp",
+    "bytes": 7372
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/baignoire-2.webp",
+    "path": "images/podcasts/thumbnails/LD/baignoire-2.webp",
+    "bytes": 6634
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/cartier-prive.webp",
+    "path": "images/podcasts/thumbnails/LD/cartier-prive.webp",
+    "bytes": 10772
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/myst-de-cartier.webp",
+    "path": "images/podcasts/thumbnails/LD/myst-de-cartier.webp",
+    "bytes": 12308
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/roadster-1.webp",
+    "path": "images/podcasts/thumbnails/LD/roadster-1.webp",
+    "bytes": 8824
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/roadster-2.webp",
+    "path": "images/podcasts/thumbnails/LD/roadster-2.webp",
+    "bytes": 14758
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/santos-de-cartier-1.webp",
+    "path": "images/podcasts/thumbnails/LD/santos-de-cartier-1.webp",
+    "bytes": 10830
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/santos-de-cartier-2.webp",
+    "path": "images/podcasts/thumbnails/LD/santos-de-cartier-2.webp",
+    "bytes": 12882
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/santos-dumont-1.webp",
+    "path": "images/podcasts/thumbnails/LD/santos-dumont-1.webp",
+    "bytes": 9442
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/santos-dumont-2.webp",
+    "path": "images/podcasts/thumbnails/LD/santos-dumont-2.webp",
+    "bytes": 8498
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/tank-americaine-1.webp",
+    "path": "images/podcasts/thumbnails/LD/tank-americaine-1.webp",
+    "bytes": 4210
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/tank-americaine-2.webp",
+    "path": "images/podcasts/thumbnails/LD/tank-americaine-2.webp",
+    "bytes": 4506
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/tortue.webp",
+    "path": "images/podcasts/thumbnails/LD/tortue.webp",
+    "bytes": 6980
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/masks/shape-crash_msdf.png",
+    "path": "webgl/textures/masks/shape-crash_msdf.png",
+    "bytes": 2934
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/masks/shape-baignoire_msdf.png",
+    "path": "webgl/textures/masks/shape-baignoire_msdf.png",
+    "bytes": 2878
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/masks/shape-santos_msdf.png",
+    "path": "webgl/textures/masks/shape-santos_msdf.png",
+    "bytes": 1454
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/masks/shape-roadster_msdf.png",
+    "path": "webgl/textures/masks/shape-roadster_msdf.png",
+    "bytes": 2903
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/noises/rgb-noise.jpg",
+    "path": "webgl/global/noises/rgb-noise.jpg",
+    "bytes": 113222
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/noises/bluenoise256.png",
+    "path": "webgl/global/noises/bluenoise256.png",
+    "bytes": 262548
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/spectrum.png",
+    "path": "webgl/global/misc/spectrum.png",
+    "bytes": 125
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/flow.png",
+    "path": "webgl/global/misc/flow.png",
+    "bytes": 32153
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/white.webp",
+    "path": "webgl/global/misc/white.webp",
+    "bytes": 150
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/black.webp",
+    "path": "webgl/global/misc/black.webp",
+    "bytes": 3310
+  },
+  {
+    "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/bayer16tile2.png",
+    "path": "webgl/global/misc/bayer16tile2.png",
+    "bytes": 900
+  }
+]

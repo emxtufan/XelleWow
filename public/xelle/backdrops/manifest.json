@@ -1,0 +1,278 @@
+[
+  {
+    "file": "public\\xelle\\backdrops\\mainScene.glb",
+    "bytes": 12082772,
+    "source": "public\\xelle\\models\\mainScene.glb",
+    "photoSurfaces": [
+      {
+        "node": "Screen.001",
+        "scene": 1,
+        "photo": "spiced-peach-negroni.jpg",
+        "aspect": 2.3753806116876466,
+        "center": 0.5,
+        "bounds": [
+          -7.739436626434326,
+          0,
+          7.739436626434326,
+          6.51637601852417
+        ]
+      },
+      {
+        "node": "MIRROR_Screen",
+        "scene": 1,
+        "photo": "spiced-peach-negroni.jpg",
+        "aspect": 2.3809039652869086,
+        "center": 0.5,
+        "bounds": [
+          -7.75718355178833,
+          0,
+          7.75718355178833,
+          6.516166687011719
+        ]
+      },
+      {
+        "node": "Screen.002",
+        "scene": 2,
+        "photo": "pornstar-martini-50-ml.jpg",
+        "aspect": 1.1317646045702696,
+        "center": 0.5,
+        "bounds": [
+          -0.6343933343887329,
+          0,
+          0.6343933343887329,
+          0.6074036359786987
+        ]
+      },
+      {
+        "node": "MIRROR_Screen.001",
+        "scene": 2,
+        "photo": "pornstar-martini-50-ml.jpg",
+        "aspect": 1.1350932927946662,
+        "center": 0.5,
+        "bounds": [
+          -0.6366737484931946,
+          0,
+          0.6358165144920349,
+          0.6073902249336243
+        ]
+      },
+      {
+        "node": "Xelle_photo_wall_SC03",
+        "scene": 3,
+        "photo": "prosecco-di-cherry-50-ml.jpg",
+        "aspect": 2.375380611687646,
+        "center": 0.5,
+        "bounds": [
+          -7.739436626434326,
+          0,
+          7.739436626434326,
+          6.51637601852417
+        ]
+      },
+      {
+        "node": "panel_01_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.6303021723745713,
+        "center": 0.5
+      },
+      {
+        "node": "panel_02_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.630302228310046,
+        "center": 0.5
+      },
+      {
+        "node": "panel_03_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.6303022130327511,
+        "center": 0.5
+      },
+      {
+        "node": "MIRROR_panel_01_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.630302173960046,
+        "center": 0.5
+      },
+      {
+        "node": "MIRROR_panel_02_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.6303021813620641,
+        "center": 0.5
+      },
+      {
+        "node": "MIRROR_panel_03_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.630354989705542,
+        "center": 0.5
+      }
+    ],
+    "hiddenPortalMeshes": [
+      "GEO_bg",
+      "GEO_Cylinder",
+      "GoldDustPlane",
+      "GoldDustPlane.001",
+      "GoldDustPlane.002",
+      "MIRROR_GEO_bg",
+      "MIRROR_Retopo_GEO_dunes_main",
+      "MIRROR_Retopo_GEO_dunes_main.001",
+      "MIRROR_Retopo_GEO_dunes_main.002",
+      "Retopo_GEO_dunes_main",
+      "Retopo_GEO_dunes_main.001",
+      "Retopo_GEO_dunes_main.002",
+      "GEO_BackCliffs",
+      "GEO_CliffScreenL",
+      "GEO_CliffScreenR",
+      "GEO_Cloud",
+      "GEO_Cloud.001",
+      "GEO_Cloud.002",
+      "GEO_Cloud.003",
+      "GEO_ground.001",
+      "GEO_sky"
+    ],
+    "originalAnimationPreserved": true
+  },
+  {
+    "file": "public\\xelle\\backdrops\\mainSceneMobile.glb",
+    "bytes": 7360868,
+    "source": "public\\xelle\\models\\mainSceneMobile.glb",
+    "photoSurfaces": [
+      {
+        "node": "Screen.001",
+        "scene": 1,
+        "photo": "spiced-peach-negroni.jpg",
+        "aspect": 2.3753806116876466,
+        "center": 0.5,
+        "bounds": [
+          -7.739436626434326,
+          0,
+          7.739436626434326,
+          6.51637601852417
+        ]
+      },
+      {
+        "node": "MIRROR_Screen",
+        "scene": 1,
+        "photo": "spiced-peach-negroni.jpg",
+        "aspect": 2.3809039652869086,
+        "center": 0.5,
+        "bounds": [
+          -7.75718355178833,
+          0,
+          7.75718355178833,
+          6.516166687011719
+        ]
+      },
+      {
+        "node": "Screen.002",
+        "scene": 2,
+        "photo": "pornstar-martini-50-ml.jpg",
+        "aspect": 1.1317646045702696,
+        "center": 0.5,
+        "bounds": [
+          -0.6343933343887329,
+          0,
+          0.6343933343887329,
+          0.6074036359786987
+        ]
+      },
+      {
+        "node": "MIRROR_Screen.001",
+        "scene": 2,
+        "photo": "pornstar-martini-50-ml.jpg",
+        "aspect": 1.1350932927946662,
+        "center": 0.5,
+        "bounds": [
+          -0.6366737484931946,
+          0,
+          0.6358165144920349,
+          0.6073902249336243
+        ]
+      },
+      {
+        "node": "Xelle_photo_wall_SC03",
+        "scene": 3,
+        "photo": "prosecco-di-cherry-50-ml.jpg",
+        "aspect": 2.375380611687646,
+        "center": 0.5,
+        "bounds": [
+          -7.739436626434326,
+          0,
+          7.739436626434326,
+          6.51637601852417
+        ]
+      },
+      {
+        "node": "panel_01_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.6303021723745713,
+        "center": 0.5
+      },
+      {
+        "node": "panel_02_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.630302228310046,
+        "center": 0.5
+      },
+      {
+        "node": "panel_03_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.6303022130327511,
+        "center": 0.5
+      },
+      {
+        "node": "MIRROR_panel_01_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.630302173960046,
+        "center": 0.5
+      },
+      {
+        "node": "MIRROR_panel_02_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.6303021813620641,
+        "center": 0.5
+      },
+      {
+        "node": "MIRROR_panel_03_Front",
+        "scene": 4,
+        "photo": "maracuja-mojito-50-ml.jpg",
+        "aspect": 0.630354989705542,
+        "center": 0.5
+      }
+    ],
+    "hiddenPortalMeshes": [
+      "GEO_bg",
+      "GEO_Cylinder",
+      "GoldDustPlane",
+      "GoldDustPlane.001",
+      "GoldDustPlane.002",
+      "MIRROR_GEO_bg",
+      "MIRROR_Retopo_GEO_dunes_main",
+      "MIRROR_Retopo_GEO_dunes_main.001",
+      "MIRROR_Retopo_GEO_dunes_main.002",
+      "Retopo_GEO_dunes_main",
+      "Retopo_GEO_dunes_main.001",
+      "Retopo_GEO_dunes_main.002",
+      "GEO_BackCliffs",
+      "GEO_CliffScreenL",
+      "GEO_CliffScreenR",
+      "GEO_Cloud",
+      "GEO_Cloud.001",
+      "GEO_Cloud.002",
+      "GEO_Cloud.003",
+      "GEO_ground.001",
+      "GEO_sky"
+    ],
+    "originalAnimationPreserved": true
+  }
+]

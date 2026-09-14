@@ -1,0 +1,598 @@
+{
+  "file": "watches\\roadster_desktop.glb",
+  "scenes": [
+    {
+      "name": "SCENE_01",
+      "nodes": [
+        9
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "index": 0,
+      "mesh": 0,
+      "name": "roadster_bracelet",
+      "translation": [
+        0.042004942893981934,
+        0.0515044629573822,
+        -0.30898940563201904
+      ]
+    },
+    {
+      "index": 1,
+      "mesh": 1,
+      "name": "roadster_brushed",
+      "translation": [
+        0.042004942893981934,
+        0.0515044629573822,
+        -0.30898940563201904
+      ]
+    },
+    {
+      "index": 2,
+      "mesh": 2,
+      "name": "roadster_caseBack",
+      "translation": [
+        0.042004942893981934,
+        0.0515044629573822,
+        -0.30898940563201904
+      ]
+    },
+    {
+      "index": 3,
+      "mesh": 3,
+      "name": "roadster_decal",
+      "translation": [
+        0,
+        0.018230590969324112,
+        1.5237433910369873
+      ]
+    },
+    {
+      "index": 4,
+      "mesh": 4,
+      "name": "roadster_dial",
+      "translation": [
+        0.157386913895607,
+        0.06926049292087555,
+        1.9112694263458252
+      ]
+    },
+    {
+      "index": 5,
+      "mesh": 5,
+      "name": "roadster_glass",
+      "translation": [
+        0.18554511666297913,
+        0.04731956124305725,
+        2.065290927886963
+      ]
+    },
+    {
+      "index": 6,
+      "mesh": 6,
+      "name": "roadster_number_blue",
+      "translation": [
+        -0.07460102438926697,
+        0.02691645547747612,
+        1.8701976537704468
+      ]
+    },
+    {
+      "index": 7,
+      "mesh": 7,
+      "name": "roadster_number_silver",
+      "translation": [
+        0.042004942893981934,
+        0.0515044629573822,
+        -0.30898940563201904
+      ]
+    },
+    {
+      "index": 8,
+      "mesh": 8,
+      "name": "roadster_silver",
+      "translation": [
+        0.042004942893981934,
+        0.0515044629573822,
+        -0.30898940563201904
+      ]
+    },
+    {
+      "index": 9,
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "name": "roadster"
+    }
+  ],
+  "meshes": [
+    {
+      "index": 0,
+      "name": "Mesh.005",
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Mesh.010",
+      "primitives": [
+        {
+          "material": 1,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9,
+            "TANGENT": 10
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 4,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Mesh.006",
+      "primitives": [
+        {
+          "material": 2,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14,
+            "TEXCOORD_1": 15,
+            "TANGENT": 16
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 7,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Plane.002",
+      "primitives": [
+        {
+          "material": 3,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 18,
+            "NORMAL": 19,
+            "TEXCOORD_0": 20,
+            "TANGENT": 21
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 9,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TANGENT": 3
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Mesh.007",
+      "primitives": [
+        {
+          "material": 4,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 23,
+            "NORMAL": 24,
+            "TEXCOORD_0": 25,
+            "TEXCOORD_1": 26,
+            "TANGENT": 27
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 12,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Mesh.008",
+      "primitives": [
+        {
+          "material": 5,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 29,
+            "NORMAL": 30,
+            "TEXCOORD_0": 31,
+            "TANGENT": 32
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 16,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TANGENT": 3
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "normal10.002",
+      "primitives": [
+        {
+          "material": 6,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 34,
+            "NORMAL": 35,
+            "TEXCOORD_0": 36,
+            "TEXCOORD_1": 37,
+            "TANGENT": 38
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 19,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Mesh.011",
+      "primitives": [
+        {
+          "material": 7,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 40,
+            "NORMAL": 41,
+            "TEXCOORD_0": 42,
+            "TEXCOORD_1": 43,
+            "TANGENT": 44
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 20,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Mesh.009",
+      "primitives": [
+        {
+          "material": 7,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 46,
+            "NORMAL": 47,
+            "TEXCOORD_0": 48,
+            "TEXCOORD_1": 49,
+            "TANGENT": 50
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 21,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.3999999463558197,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_ROADSTER_bracelet",
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5775805711746216,
+          0.5583406090736389,
+          0.479320228099823,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.3999999463558197,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_ROADSTER_brushed",
+      "normalTexture": {
+        "index": 3
+      },
+      "occlusionTexture": {
+        "index": 4,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5775805711746216,
+          0.5583406090736389,
+          0.479320228099823,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.3999999463558197,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_ROADSTER_caseBack",
+      "occlusionTexture": {
+        "index": 6,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5775805711746216,
+          0.5583406090736389,
+          0.479320228099823,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 7
+        },
+        "roughnessFactor": 0.30000001192092896
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "MT_ROADSTER_decal",
+      "normalTexture": {
+        "index": 8
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 9
+        },
+        "metallicRoughnessTexture": {
+          "index": 10
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.3999999463558197,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_ROADSTER_dial",
+      "normalTexture": {
+        "index": 11
+      },
+      "occlusionTexture": {
+        "index": 12,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 13
+        },
+        "metallicRoughnessTexture": {
+          "index": 12
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_WATCHES_Glass",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 14
+        },
+        "metallicRoughnessTexture": {
+          "index": 15
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.3999999463558197,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_ROADSTER_blue",
+      "occlusionTexture": {
+        "index": 16,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 17
+        },
+        "metallicRoughnessTexture": {
+          "index": 16
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.3999999463558197,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_ROADSTER_silver",
+      "occlusionTexture": {
+        "index": 18,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5775805711746216,
+          0.5583406090736389,
+          0.479320228099823,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 19
+        }
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression",
+    "KHR_materials_transmission",
+    "KHR_materials_specular",
+    "EXT_texture_webp"
+  ]
+}

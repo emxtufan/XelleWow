@@ -1,0 +1,1066 @@
+{
+  "IG": {
+    "market": "România",
+    "title": "Xellé — Extrait de parfum",
+    "loader": "Descoperă patru parfumuri unisex inspirate de universul cocktailurilor.",
+    "baseline": "Patru cocktailuri. Patru parfumuri.",
+    "buttons": {
+      "allPicturesButton": {
+        "label": "Fotografie"
+      }
+    },
+    "ctas": {
+      "scroll": "Derulează",
+      "soundBttn": "Sunet",
+      "soundOn": "Activează sunetul",
+      "explore": "Descoperă parfumul",
+      "close": "Închide"
+    }
+  },
+  "pO": {
+    "market": "România",
+    "global": {
+      "header": {
+        "audio": "Sunet"
+      },
+      "menu": {
+        "sections": [
+          {
+            "title": "Colecția Xellé",
+            "items": [
+              {
+                "title": "Spiced Peach Negroni",
+                "url": "/spiced-peach-negroni"
+              },
+              {
+                "title": "Pornstar Martini",
+                "url": "/pornstar-martini-50-ml"
+              },
+              {
+                "title": "Prosecco di Cherry",
+                "url": "/prosecco-di-cherry-50-ml"
+              },
+              {
+                "title": "Maracuja Mojito",
+                "url": "/maracuja-mojito-50-ml"
+              }
+            ]
+          },
+          {
+            "title": "Xellé",
+            "items": [
+              {
+                "title": "Magazinul oficial",
+                "url": "https://xelle.ro/collections/parfum"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "pages": [
+      {
+        "market": "România",
+        "title": "Xellé — Extrait de parfum",
+        "uri": "",
+        "slug": "",
+        "type": "home",
+        "loaded": 1,
+        "ctas": {
+          "explore": "Descoperă parfumul"
+        },
+        "scenes": [
+          {
+            "type": "intro",
+            "title": "Xellé\nExtrait de parfum"
+          },
+          {
+            "type": "scene",
+            "exploreUrl": "/spiced-peach-negroni",
+            "title": "Spiced Peach\nNegroni"
+          },
+          {
+            "type": "scene",
+            "exploreUrl": "/pornstar-martini-50-ml",
+            "title": "Pornstar\nMartini"
+          },
+          {
+            "type": "scene",
+            "exploreUrl": "/prosecco-di-cherry-50-ml",
+            "title": "Prosecco\ndi Cherry"
+          },
+          {
+            "type": "scene",
+            "exploreUrl": "/maracuja-mojito-50-ml",
+            "title": "Maracuja\nMojito"
+          }
+        ]
+      },
+      {
+        "market": "România",
+        "title": "Spiced Peach Negroni",
+        "uri": "spiced-peach-negroni",
+        "slug": "spiced-peach-negroni",
+        "type": "product",
+        "loaded": 1,
+        "watchSceneIndex": 1,
+        "content": {
+          "blocks": [
+            {
+              "type": "heroBlock",
+              "title": "Extrait de parfum · 50 ml · 339 lei",
+              "subtitle": "Spiced Peach Negroni"
+            },
+            {
+              "type": "scrollMediasBlock",
+              "text": "Piersică și citrice cu accente licoroase, ghimbir și scorțișoară, urmate de o bază ambrată cu patchouli.",
+              "medias": [
+                {
+                  "url": "/xelle/spiced-peach-negroni.jpg",
+                  "ariaLabel": "Xellé Spiced Peach Negroni — Fotografie de campanie: flacon între două mâini, pe fundal luminos.",
+                  "subtitle": "Extrait de parfum · 50 ml"
+                }
+              ]
+            },
+            {
+              "type": "scrollWatchBlock",
+              "texts": [
+                "Piersică, citrice și accente licoroase. Ghimbirul și scorțișoara întâlnesc irisul, iasomia și trandafirul în inima acestui parfum unisex fructat-lemnos.",
+                "Baza reunește patchouli, rășină de benzoin, vanilie, ambră și mosc. O compoziție inspirată de cocktailul Spiced Peach Negroni."
+              ]
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de vârf",
+              "textSize": "m",
+              "subtitle": "Lămâie verde · Mandarină · Portocală · Piersică · Coacăze negre · Note licoroase"
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de inimă",
+              "textSize": "m",
+              "subtitle": "Ghimbir · Scorțișoară · Iris · Iasomie · Trandafir"
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de bază",
+              "textSize": "m",
+              "subtitle": "Patchouli · Rășină de benzoin · Vanilie · Ambră · Mosc"
+            },
+            {
+              "type": "textBlock",
+              "text": "339 lei",
+              "textSize": "m",
+              "subtitle": "Spiced Peach Negroni · Extrait de parfum · 50 ml",
+              "button": [
+                {
+                  "url": "https://xelle.ro/products/spiced-peach-negroni",
+                  "label": "Cumpără pe xelle.ro"
+                }
+              ]
+            },
+            {
+              "type": "sliderProductsBlock",
+              "title": "Colecția Xellé",
+              "cards": [
+                {
+                  "title": "Spiced Peach Negroni · 339 lei",
+                  "url": "/spiced-peach-negroni",
+                  "media": {
+                    "ariaLabel": "Xellé Spiced Peach Negroni, extrait de parfum, 50 ml",
+                    "url": "/xelle/spiced-peach-negroni.jpg"
+                  }
+                },
+                {
+                  "title": "Pornstar Martini · 349 lei",
+                  "url": "/pornstar-martini-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Pornstar Martini, extrait de parfum, 50 ml",
+                    "url": "/xelle/pornstar-martini-50-ml.jpg"
+                  }
+                },
+                {
+                  "title": "Prosecco di Cherry · 309 lei",
+                  "url": "/prosecco-di-cherry-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Prosecco di Cherry, extrait de parfum, 50 ml",
+                    "url": "/xelle/prosecco-di-cherry-50-ml.jpg"
+                  }
+                },
+                {
+                  "title": "Maracuja Mojito · 359 lei",
+                  "url": "/maracuja-mojito-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Maracuja Mojito, extrait de parfum, 50 ml",
+                    "url": "/xelle/maracuja-mojito-50-ml.jpg"
+                  }
+                }
+              ],
+              "cta": {
+                "url": "https://xelle.ro/collections/parfum",
+                "label": "Colecția pe xelle.ro"
+              }
+            },
+            {
+              "type": "pushPageBlock",
+              "title": "Continuă descoperirea",
+              "button": {
+                "url": "/",
+                "label": "Înapoi la colecție"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "market": "România",
+        "title": "Pornstar Martini",
+        "uri": "pornstar-martini-50-ml",
+        "slug": "pornstar-martini-50-ml",
+        "type": "product",
+        "loaded": 1,
+        "watchSceneIndex": 2,
+        "content": {
+          "blocks": [
+            {
+              "type": "heroBlock",
+              "title": "Extrait de parfum · 50 ml · 349 lei",
+              "subtitle": "Pornstar Martini"
+            },
+            {
+              "type": "scrollMediasBlock",
+              "text": "Litchi și șampanie, o inimă florală cu trandafir și o bază caldă de santal, ambră și vanilie.",
+              "medias": [
+                {
+                  "url": "/xelle/pornstar-martini-50-ml.jpg",
+                  "ariaLabel": "Xellé Pornstar Martini — Fotografie de campanie: model în negru pe fundal luminos, cu flacon în dreapta jos.",
+                  "subtitle": "Extrait de parfum · 50 ml"
+                }
+              ]
+            },
+            {
+              "type": "scrollWatchBlock",
+              "texts": [
+                "Litchi, șampanie și fructe de pădure deschid compoziția. Trandafirul, florile albe și acordul pudrat formează inima acestui parfum unisex fructat-floral.",
+                "Mosc, lemn de santal, ambră și vanilie alcătuiesc baza caldă. O interpretare olfactivă inspirată de cocktailul Pornstar Martini."
+              ]
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de vârf",
+              "textSize": "m",
+              "subtitle": "Litchi · Șampanie · Fructe de pădure · Acord de cocktail"
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de inimă",
+              "textSize": "m",
+              "subtitle": "Trandafir · Acord pudrat · Flori albe"
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de bază",
+              "textSize": "m",
+              "subtitle": "Mosc · Lemn de santal · Ambră · Vanilie"
+            },
+            {
+              "type": "textBlock",
+              "text": "349 lei",
+              "textSize": "m",
+              "subtitle": "Pornstar Martini · Extrait de parfum · 50 ml",
+              "button": [
+                {
+                  "url": "https://xelle.ro/products/pornstar-martini-50-ml",
+                  "label": "Cumpără pe xelle.ro"
+                }
+              ]
+            },
+            {
+              "type": "sliderProductsBlock",
+              "title": "Colecția Xellé",
+              "cards": [
+                {
+                  "title": "Spiced Peach Negroni · 339 lei",
+                  "url": "/spiced-peach-negroni",
+                  "media": {
+                    "ariaLabel": "Xellé Spiced Peach Negroni, extrait de parfum, 50 ml",
+                    "url": "/xelle/spiced-peach-negroni.jpg"
+                  }
+                },
+                {
+                  "title": "Pornstar Martini · 349 lei",
+                  "url": "/pornstar-martini-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Pornstar Martini, extrait de parfum, 50 ml",
+                    "url": "/xelle/pornstar-martini-50-ml.jpg"
+                  }
+                },
+                {
+                  "title": "Prosecco di Cherry · 309 lei",
+                  "url": "/prosecco-di-cherry-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Prosecco di Cherry, extrait de parfum, 50 ml",
+                    "url": "/xelle/prosecco-di-cherry-50-ml.jpg"
+                  }
+                },
+                {
+                  "title": "Maracuja Mojito · 359 lei",
+                  "url": "/maracuja-mojito-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Maracuja Mojito, extrait de parfum, 50 ml",
+                    "url": "/xelle/maracuja-mojito-50-ml.jpg"
+                  }
+                }
+              ],
+              "cta": {
+                "url": "https://xelle.ro/collections/parfum",
+                "label": "Colecția pe xelle.ro"
+              }
+            },
+            {
+              "type": "pushPageBlock",
+              "title": "Continuă descoperirea",
+              "button": {
+                "url": "/",
+                "label": "Înapoi la colecție"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "market": "România",
+        "title": "Prosecco di Cherry",
+        "uri": "prosecco-di-cherry-50-ml",
+        "slug": "prosecco-di-cherry-50-ml",
+        "type": "product",
+        "loaded": 1,
+        "watchSceneIndex": 3,
+        "content": {
+          "blocks": [
+            {
+              "type": "heroBlock",
+              "title": "Extrait de parfum · 50 ml · 309 lei",
+              "subtitle": "Prosecco di Cherry"
+            },
+            {
+              "type": "scrollMediasBlock",
+              "text": "Cireșe și acorduri efervescente, flori albe și o bază de mosc, vanilie, ambră și patchouli.",
+              "medias": [
+                {
+                  "url": "/xelle/prosecco-di-cherry-50-ml.jpg",
+                  "ariaLabel": "Xellé Prosecco di Cherry — Fotografie de campanie: portret cu flacon ținut în stânga sus.",
+                  "subtitle": "Extrait de parfum · 50 ml"
+                }
+              ]
+            },
+            {
+              "type": "scrollWatchBlock",
+              "texts": [
+                "Cireșe și șampanie cu cireșe, urmate de iasomie, tuberoză și flori albe. Un parfum unisex fructat-ambrat, inspirat de un cocktail cu prosecco și cireșe.",
+                "Baza de mosc, vanilie, ambră și patchouli completează acordurile fructate și florale ale compoziției."
+              ]
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de vârf",
+              "textSize": "m",
+              "subtitle": "Cireșe · Șampanie cu cireșe · Acord de cocktail"
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de inimă",
+              "textSize": "m",
+              "subtitle": "Iasomie · Tuberoză · Flori albe"
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de bază",
+              "textSize": "m",
+              "subtitle": "Mosc · Vanilie · Ambră · Patchouli"
+            },
+            {
+              "type": "textBlock",
+              "text": "309 lei",
+              "textSize": "m",
+              "subtitle": "Prosecco di Cherry · Extrait de parfum · 50 ml",
+              "button": [
+                {
+                  "url": "https://xelle.ro/products/prosecco-di-cherry-50-ml",
+                  "label": "Cumpără pe xelle.ro"
+                }
+              ]
+            },
+            {
+              "type": "sliderProductsBlock",
+              "title": "Colecția Xellé",
+              "cards": [
+                {
+                  "title": "Spiced Peach Negroni · 339 lei",
+                  "url": "/spiced-peach-negroni",
+                  "media": {
+                    "ariaLabel": "Xellé Spiced Peach Negroni, extrait de parfum, 50 ml",
+                    "url": "/xelle/spiced-peach-negroni.jpg"
+                  }
+                },
+                {
+                  "title": "Pornstar Martini · 349 lei",
+                  "url": "/pornstar-martini-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Pornstar Martini, extrait de parfum, 50 ml",
+                    "url": "/xelle/pornstar-martini-50-ml.jpg"
+                  }
+                },
+                {
+                  "title": "Prosecco di Cherry · 309 lei",
+                  "url": "/prosecco-di-cherry-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Prosecco di Cherry, extrait de parfum, 50 ml",
+                    "url": "/xelle/prosecco-di-cherry-50-ml.jpg"
+                  }
+                },
+                {
+                  "title": "Maracuja Mojito · 359 lei",
+                  "url": "/maracuja-mojito-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Maracuja Mojito, extrait de parfum, 50 ml",
+                    "url": "/xelle/maracuja-mojito-50-ml.jpg"
+                  }
+                }
+              ],
+              "cta": {
+                "url": "https://xelle.ro/collections/parfum",
+                "label": "Colecția pe xelle.ro"
+              }
+            },
+            {
+              "type": "pushPageBlock",
+              "title": "Continuă descoperirea",
+              "button": {
+                "url": "/",
+                "label": "Înapoi la colecție"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "market": "România",
+        "title": "Maracuja Mojito",
+        "uri": "maracuja-mojito-50-ml",
+        "slug": "maracuja-mojito-50-ml",
+        "type": "product",
+        "loaded": 1,
+        "watchSceneIndex": 4,
+        "content": {
+          "blocks": [
+            {
+              "type": "heroBlock",
+              "title": "Extrait de parfum · 50 ml · 359 lei",
+              "subtitle": "Maracuja Mojito"
+            },
+            {
+              "type": "scrollMediasBlock",
+              "text": "Bergamotă și fructul pasiunii, o inimă de iasomie și iris, apoi santal, ambră, mosc și vanilie.",
+              "medias": [
+                {
+                  "url": "/xelle/maracuja-mojito-50-ml.jpg",
+                  "ariaLabel": "Xellé Maracuja Mojito — Fotografie de campanie: flacon ținut între mâini acoperite cu plasă decorativă neagră.",
+                  "subtitle": "Extrait de parfum · 50 ml"
+                }
+              ]
+            },
+            {
+              "type": "scrollWatchBlock",
+              "texts": [
+                "Bergamota și fructul pasiunii deschid acest parfum unisex fructat-ambrat. În inimă se întâlnesc iasomia, lăcrămioarele și irisul.",
+                "Lemnul de santal, ambra, moscul și vanilia formează baza. O compoziție inspirată de un cocktail tropical cu fructul pasiunii."
+              ]
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de vârf",
+              "textSize": "m",
+              "subtitle": "Bergamotă · Fructul pasiunii"
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de inimă",
+              "textSize": "m",
+              "subtitle": "Iasomie · Lăcrămioare · Iris"
+            },
+            {
+              "type": "textBlock",
+              "text": "Note de bază",
+              "textSize": "m",
+              "subtitle": "Lemn de santal · Ambră · Mosc · Vanilie"
+            },
+            {
+              "type": "textBlock",
+              "text": "359 lei",
+              "textSize": "m",
+              "subtitle": "Maracuja Mojito · Extrait de parfum · 50 ml",
+              "button": [
+                {
+                  "url": "https://xelle.ro/products/maracuja-mojito-50-ml",
+                  "label": "Cumpără pe xelle.ro"
+                }
+              ]
+            },
+            {
+              "type": "sliderProductsBlock",
+              "title": "Colecția Xellé",
+              "cards": [
+                {
+                  "title": "Spiced Peach Negroni · 339 lei",
+                  "url": "/spiced-peach-negroni",
+                  "media": {
+                    "ariaLabel": "Xellé Spiced Peach Negroni, extrait de parfum, 50 ml",
+                    "url": "/xelle/spiced-peach-negroni.jpg"
+                  }
+                },
+                {
+                  "title": "Pornstar Martini · 349 lei",
+                  "url": "/pornstar-martini-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Pornstar Martini, extrait de parfum, 50 ml",
+                    "url": "/xelle/pornstar-martini-50-ml.jpg"
+                  }
+                },
+                {
+                  "title": "Prosecco di Cherry · 309 lei",
+                  "url": "/prosecco-di-cherry-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Prosecco di Cherry, extrait de parfum, 50 ml",
+                    "url": "/xelle/prosecco-di-cherry-50-ml.jpg"
+                  }
+                },
+                {
+                  "title": "Maracuja Mojito · 359 lei",
+                  "url": "/maracuja-mojito-50-ml",
+                  "media": {
+                    "ariaLabel": "Xellé Maracuja Mojito, extrait de parfum, 50 ml",
+                    "url": "/xelle/maracuja-mojito-50-ml.jpg"
+                  }
+                }
+              ],
+              "cta": {
+                "url": "https://xelle.ro/collections/parfum",
+                "label": "Colecția pe xelle.ro"
+              }
+            },
+            {
+              "type": "pushPageBlock",
+              "title": "Continuă descoperirea",
+              "button": {
+                "url": "/",
+                "label": "Înapoi la colecție"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "RG": {
+    "market": "România",
+    "title": "Xellé — Extrait de parfum",
+    "uri": "",
+    "slug": "",
+    "type": "home",
+    "loaded": 1,
+    "ctas": {
+      "explore": "Descoperă parfumul"
+    },
+    "scenes": [
+      {
+        "type": "intro",
+        "title": "Xellé\nExtrait de parfum"
+      },
+      {
+        "type": "scene",
+        "exploreUrl": "/spiced-peach-negroni",
+        "title": "Spiced Peach\nNegroni"
+      },
+      {
+        "type": "scene",
+        "exploreUrl": "/pornstar-martini-50-ml",
+        "title": "Pornstar\nMartini"
+      },
+      {
+        "type": "scene",
+        "exploreUrl": "/prosecco-di-cherry-50-ml",
+        "title": "Prosecco\ndi Cherry"
+      },
+      {
+        "type": "scene",
+        "exploreUrl": "/maracuja-mojito-50-ml",
+        "title": "Maracuja\nMojito"
+      }
+    ]
+  },
+  "NG": {
+    "market": "România",
+    "title": "Spiced Peach Negroni",
+    "uri": "spiced-peach-negroni",
+    "slug": "spiced-peach-negroni",
+    "type": "product",
+    "loaded": 1,
+    "watchSceneIndex": 1,
+    "content": {
+      "blocks": [
+        {
+          "type": "heroBlock",
+          "title": "Extrait de parfum · 50 ml · 339 lei",
+          "subtitle": "Spiced Peach Negroni"
+        },
+        {
+          "type": "scrollMediasBlock",
+          "text": "Piersică și citrice cu accente licoroase, ghimbir și scorțișoară, urmate de o bază ambrată cu patchouli.",
+          "medias": [
+            {
+              "url": "/xelle/spiced-peach-negroni.jpg",
+              "ariaLabel": "Xellé Spiced Peach Negroni — Fotografie de campanie: flacon între două mâini, pe fundal luminos.",
+              "subtitle": "Extrait de parfum · 50 ml"
+            }
+          ]
+        },
+        {
+          "type": "scrollWatchBlock",
+          "texts": [
+            "Piersică, citrice și accente licoroase. Ghimbirul și scorțișoara întâlnesc irisul, iasomia și trandafirul în inima acestui parfum unisex fructat-lemnos.",
+            "Baza reunește patchouli, rășină de benzoin, vanilie, ambră și mosc. O compoziție inspirată de cocktailul Spiced Peach Negroni."
+          ]
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de vârf",
+          "textSize": "m",
+          "subtitle": "Lămâie verde · Mandarină · Portocală · Piersică · Coacăze negre · Note licoroase"
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de inimă",
+          "textSize": "m",
+          "subtitle": "Ghimbir · Scorțișoară · Iris · Iasomie · Trandafir"
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de bază",
+          "textSize": "m",
+          "subtitle": "Patchouli · Rășină de benzoin · Vanilie · Ambră · Mosc"
+        },
+        {
+          "type": "textBlock",
+          "text": "339 lei",
+          "textSize": "m",
+          "subtitle": "Spiced Peach Negroni · Extrait de parfum · 50 ml",
+          "button": [
+            {
+              "url": "https://xelle.ro/products/spiced-peach-negroni",
+              "label": "Cumpără pe xelle.ro"
+            }
+          ]
+        },
+        {
+          "type": "sliderProductsBlock",
+          "title": "Colecția Xellé",
+          "cards": [
+            {
+              "title": "Spiced Peach Negroni · 339 lei",
+              "url": "/spiced-peach-negroni",
+              "media": {
+                "ariaLabel": "Xellé Spiced Peach Negroni, extrait de parfum, 50 ml",
+                "url": "/xelle/spiced-peach-negroni.jpg"
+              }
+            },
+            {
+              "title": "Pornstar Martini · 349 lei",
+              "url": "/pornstar-martini-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Pornstar Martini, extrait de parfum, 50 ml",
+                "url": "/xelle/pornstar-martini-50-ml.jpg"
+              }
+            },
+            {
+              "title": "Prosecco di Cherry · 309 lei",
+              "url": "/prosecco-di-cherry-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Prosecco di Cherry, extrait de parfum, 50 ml",
+                "url": "/xelle/prosecco-di-cherry-50-ml.jpg"
+              }
+            },
+            {
+              "title": "Maracuja Mojito · 359 lei",
+              "url": "/maracuja-mojito-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Maracuja Mojito, extrait de parfum, 50 ml",
+                "url": "/xelle/maracuja-mojito-50-ml.jpg"
+              }
+            }
+          ],
+          "cta": {
+            "url": "https://xelle.ro/collections/parfum",
+            "label": "Colecția pe xelle.ro"
+          }
+        },
+        {
+          "type": "pushPageBlock",
+          "title": "Continuă descoperirea",
+          "button": {
+            "url": "/",
+            "label": "Înapoi la colecție"
+          }
+        }
+      ]
+    }
+  },
+  "DG": {
+    "market": "România",
+    "title": "Pornstar Martini",
+    "uri": "pornstar-martini-50-ml",
+    "slug": "pornstar-martini-50-ml",
+    "type": "product",
+    "loaded": 1,
+    "watchSceneIndex": 2,
+    "content": {
+      "blocks": [
+        {
+          "type": "heroBlock",
+          "title": "Extrait de parfum · 50 ml · 349 lei",
+          "subtitle": "Pornstar Martini"
+        },
+        {
+          "type": "scrollMediasBlock",
+          "text": "Litchi și șampanie, o inimă florală cu trandafir și o bază caldă de santal, ambră și vanilie.",
+          "medias": [
+            {
+              "url": "/xelle/pornstar-martini-50-ml.jpg",
+              "ariaLabel": "Xellé Pornstar Martini — Fotografie de campanie: model în negru pe fundal luminos, cu flacon în dreapta jos.",
+              "subtitle": "Extrait de parfum · 50 ml"
+            }
+          ]
+        },
+        {
+          "type": "scrollWatchBlock",
+          "texts": [
+            "Litchi, șampanie și fructe de pădure deschid compoziția. Trandafirul, florile albe și acordul pudrat formează inima acestui parfum unisex fructat-floral.",
+            "Mosc, lemn de santal, ambră și vanilie alcătuiesc baza caldă. O interpretare olfactivă inspirată de cocktailul Pornstar Martini."
+          ]
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de vârf",
+          "textSize": "m",
+          "subtitle": "Litchi · Șampanie · Fructe de pădure · Acord de cocktail"
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de inimă",
+          "textSize": "m",
+          "subtitle": "Trandafir · Acord pudrat · Flori albe"
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de bază",
+          "textSize": "m",
+          "subtitle": "Mosc · Lemn de santal · Ambră · Vanilie"
+        },
+        {
+          "type": "textBlock",
+          "text": "349 lei",
+          "textSize": "m",
+          "subtitle": "Pornstar Martini · Extrait de parfum · 50 ml",
+          "button": [
+            {
+              "url": "https://xelle.ro/products/pornstar-martini-50-ml",
+              "label": "Cumpără pe xelle.ro"
+            }
+          ]
+        },
+        {
+          "type": "sliderProductsBlock",
+          "title": "Colecția Xellé",
+          "cards": [
+            {
+              "title": "Spiced Peach Negroni · 339 lei",
+              "url": "/spiced-peach-negroni",
+              "media": {
+                "ariaLabel": "Xellé Spiced Peach Negroni, extrait de parfum, 50 ml",
+                "url": "/xelle/spiced-peach-negroni.jpg"
+              }
+            },
+            {
+              "title": "Pornstar Martini · 349 lei",
+              "url": "/pornstar-martini-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Pornstar Martini, extrait de parfum, 50 ml",
+                "url": "/xelle/pornstar-martini-50-ml.jpg"
+              }
+            },
+            {
+              "title": "Prosecco di Cherry · 309 lei",
+              "url": "/prosecco-di-cherry-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Prosecco di Cherry, extrait de parfum, 50 ml",
+                "url": "/xelle/prosecco-di-cherry-50-ml.jpg"
+              }
+            },
+            {
+              "title": "Maracuja Mojito · 359 lei",
+              "url": "/maracuja-mojito-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Maracuja Mojito, extrait de parfum, 50 ml",
+                "url": "/xelle/maracuja-mojito-50-ml.jpg"
+              }
+            }
+          ],
+          "cta": {
+            "url": "https://xelle.ro/collections/parfum",
+            "label": "Colecția pe xelle.ro"
+          }
+        },
+        {
+          "type": "pushPageBlock",
+          "title": "Continuă descoperirea",
+          "button": {
+            "url": "/",
+            "label": "Înapoi la colecție"
+          }
+        }
+      ]
+    }
+  },
+  "OG": {
+    "market": "România",
+    "title": "Prosecco di Cherry",
+    "uri": "prosecco-di-cherry-50-ml",
+    "slug": "prosecco-di-cherry-50-ml",
+    "type": "product",
+    "loaded": 1,
+    "watchSceneIndex": 3,
+    "content": {
+      "blocks": [
+        {
+          "type": "heroBlock",
+          "title": "Extrait de parfum · 50 ml · 309 lei",
+          "subtitle": "Prosecco di Cherry"
+        },
+        {
+          "type": "scrollMediasBlock",
+          "text": "Cireșe și acorduri efervescente, flori albe și o bază de mosc, vanilie, ambră și patchouli.",
+          "medias": [
+            {
+              "url": "/xelle/prosecco-di-cherry-50-ml.jpg",
+              "ariaLabel": "Xellé Prosecco di Cherry — Fotografie de campanie: portret cu flacon ținut în stânga sus.",
+              "subtitle": "Extrait de parfum · 50 ml"
+            }
+          ]
+        },
+        {
+          "type": "scrollWatchBlock",
+          "texts": [
+            "Cireșe și șampanie cu cireșe, urmate de iasomie, tuberoză și flori albe. Un parfum unisex fructat-ambrat, inspirat de un cocktail cu prosecco și cireșe.",
+            "Baza de mosc, vanilie, ambră și patchouli completează acordurile fructate și florale ale compoziției."
+          ]
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de vârf",
+          "textSize": "m",
+          "subtitle": "Cireșe · Șampanie cu cireșe · Acord de cocktail"
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de inimă",
+          "textSize": "m",
+          "subtitle": "Iasomie · Tuberoză · Flori albe"
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de bază",
+          "textSize": "m",
+          "subtitle": "Mosc · Vanilie · Ambră · Patchouli"
+        },
+        {
+          "type": "textBlock",
+          "text": "309 lei",
+          "textSize": "m",
+          "subtitle": "Prosecco di Cherry · Extrait de parfum · 50 ml",
+          "button": [
+            {
+              "url": "https://xelle.ro/products/prosecco-di-cherry-50-ml",
+              "label": "Cumpără pe xelle.ro"
+            }
+          ]
+        },
+        {
+          "type": "sliderProductsBlock",
+          "title": "Colecția Xellé",
+          "cards": [
+            {
+              "title": "Spiced Peach Negroni · 339 lei",
+              "url": "/spiced-peach-negroni",
+              "media": {
+                "ariaLabel": "Xellé Spiced Peach Negroni, extrait de parfum, 50 ml",
+                "url": "/xelle/spiced-peach-negroni.jpg"
+              }
+            },
+            {
+              "title": "Pornstar Martini · 349 lei",
+              "url": "/pornstar-martini-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Pornstar Martini, extrait de parfum, 50 ml",
+                "url": "/xelle/pornstar-martini-50-ml.jpg"
+              }
+            },
+            {
+              "title": "Prosecco di Cherry · 309 lei",
+              "url": "/prosecco-di-cherry-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Prosecco di Cherry, extrait de parfum, 50 ml",
+                "url": "/xelle/prosecco-di-cherry-50-ml.jpg"
+              }
+            },
+            {
+              "title": "Maracuja Mojito · 359 lei",
+              "url": "/maracuja-mojito-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Maracuja Mojito, extrait de parfum, 50 ml",
+                "url": "/xelle/maracuja-mojito-50-ml.jpg"
+              }
+            }
+          ],
+          "cta": {
+            "url": "https://xelle.ro/collections/parfum",
+            "label": "Colecția pe xelle.ro"
+          }
+        },
+        {
+          "type": "pushPageBlock",
+          "title": "Continuă descoperirea",
+          "button": {
+            "url": "/",
+            "label": "Înapoi la colecție"
+          }
+        }
+      ]
+    }
+  },
+  "zG": {
+    "market": "România",
+    "title": "Maracuja Mojito",
+    "uri": "maracuja-mojito-50-ml",
+    "slug": "maracuja-mojito-50-ml",
+    "type": "product",
+    "loaded": 1,
+    "watchSceneIndex": 4,
+    "content": {
+      "blocks": [
+        {
+          "type": "heroBlock",
+          "title": "Extrait de parfum · 50 ml · 359 lei",
+          "subtitle": "Maracuja Mojito"
+        },
+        {
+          "type": "scrollMediasBlock",
+          "text": "Bergamotă și fructul pasiunii, o inimă de iasomie și iris, apoi santal, ambră, mosc și vanilie.",
+          "medias": [
+            {
+              "url": "/xelle/maracuja-mojito-50-ml.jpg",
+              "ariaLabel": "Xellé Maracuja Mojito — Fotografie de campanie: flacon ținut între mâini acoperite cu plasă decorativă neagră.",
+              "subtitle": "Extrait de parfum · 50 ml"
+            }
+          ]
+        },
+        {
+          "type": "scrollWatchBlock",
+          "texts": [
+            "Bergamota și fructul pasiunii deschid acest parfum unisex fructat-ambrat. În inimă se întâlnesc iasomia, lăcrămioarele și irisul.",
+            "Lemnul de santal, ambra, moscul și vanilia formează baza. O compoziție inspirată de un cocktail tropical cu fructul pasiunii."
+          ]
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de vârf",
+          "textSize": "m",
+          "subtitle": "Bergamotă · Fructul pasiunii"
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de inimă",
+          "textSize": "m",
+          "subtitle": "Iasomie · Lăcrămioare · Iris"
+        },
+        {
+          "type": "textBlock",
+          "text": "Note de bază",
+          "textSize": "m",
+          "subtitle": "Lemn de santal · Ambră · Mosc · Vanilie"
+        },
+        {
+          "type": "textBlock",
+          "text": "359 lei",
+          "textSize": "m",
+          "subtitle": "Maracuja Mojito · Extrait de parfum · 50 ml",
+          "button": [
+            {
+              "url": "https://xelle.ro/products/maracuja-mojito-50-ml",
+              "label": "Cumpără pe xelle.ro"
+            }
+          ]
+        },
+        {
+          "type": "sliderProductsBlock",
+          "title": "Colecția Xellé",
+          "cards": [
+            {
+              "title": "Spiced Peach Negroni · 339 lei",
+              "url": "/spiced-peach-negroni",
+              "media": {
+                "ariaLabel": "Xellé Spiced Peach Negroni, extrait de parfum, 50 ml",
+                "url": "/xelle/spiced-peach-negroni.jpg"
+              }
+            },
+            {
+              "title": "Pornstar Martini · 349 lei",
+              "url": "/pornstar-martini-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Pornstar Martini, extrait de parfum, 50 ml",
+                "url": "/xelle/pornstar-martini-50-ml.jpg"
+              }
+            },
+            {
+              "title": "Prosecco di Cherry · 309 lei",
+              "url": "/prosecco-di-cherry-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Prosecco di Cherry, extrait de parfum, 50 ml",
+                "url": "/xelle/prosecco-di-cherry-50-ml.jpg"
+              }
+            },
+            {
+              "title": "Maracuja Mojito · 359 lei",
+              "url": "/maracuja-mojito-50-ml",
+              "media": {
+                "ariaLabel": "Xellé Maracuja Mojito, extrait de parfum, 50 ml",
+                "url": "/xelle/maracuja-mojito-50-ml.jpg"
+              }
+            }
+          ],
+          "cta": {
+            "url": "https://xelle.ro/collections/parfum",
+            "label": "Colecția pe xelle.ro"
+          }
+        },
+        {
+          "type": "pushPageBlock",
+          "title": "Continuă descoperirea",
+          "button": {
+            "url": "/",
+            "label": "Înapoi la colecție"
+          }
+        }
+      ]
+    }
+  }
+}

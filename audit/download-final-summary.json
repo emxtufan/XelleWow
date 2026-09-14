@@ -1,0 +1,159 @@
+{
+  "files": 811,
+  "bytes": 280820110,
+  "manifestMissing": [
+    "images/productPages/baignoire-and-myst/newsletterBlock.webp",
+    "images/productPages/baignoire-and-myst/productsBlock1-2.webp",
+    "images/productPages/baignoire-and-myst/productsBlock1.webp",
+    "images/productPages/baignoire-and-myst/productsBlock2-2.webp",
+    "images/productPages/baignoire-and-myst/productsBlock2.webp",
+    "images/productPages/baignoire-and-myst/scrollMediasBlock1-2.webp",
+    "images/productPages/baignoire-and-myst/scrollMediasBlock1.webp",
+    "images/productPages/baignoire-and-myst/scrollMediasBlock2-2.webp",
+    "images/productPages/baignoire-and-myst/scrollMediasBlock2.webp",
+    "images/productPages/baignoire-and-myst/scrollMediasBlock3-2.webp",
+    "images/productPages/baignoire-and-myst/scrollMediasBlock3.webp",
+    "images/productPages/baignoire-and-myst/scrollMediasBlock4-2.webp",
+    "images/productPages/baignoire-and-myst/scrollMediasBlock4.webp",
+    "images/productPages/baignoire-and-myst/scrollMediasBlock5-2.webp",
+    "images/productPages/baignoire-and-myst/scrollMediasBlock5.webp",
+    "images/productPages/baignoire-and-myst/sliderBlock1-2.webp",
+    "images/productPages/baignoire-and-myst/sliderBlock1.webp",
+    "images/productPages/baignoire-and-myst/sliderBlock2-2.webp",
+    "images/productPages/baignoire-and-myst/sliderBlock2.webp",
+    "images/productPages/baignoire-and-myst/sliderBlock3-2.webp",
+    "images/productPages/baignoire-and-myst/sliderBlock3.webp",
+    "images/productPages/baignoire-and-myst/sliderBlock4-2.webp",
+    "images/productPages/baignoire-and-myst/sliderBlock4.webp",
+    "images/productPages/baignoire-and-myst/sliderProductsBlock1.webp",
+    "images/productPages/baignoire-and-myst/sliderProductsBlock2.webp",
+    "images/productPages/baignoire-and-myst/sliderProductsBlock3.webp",
+    "images/productPages/baignoire-and-myst/sliderProductsBlock4.webp",
+    "images/productPages/crash/newsletterBlock.webp",
+    "images/productPages/crash/productsBlock1.webp",
+    "images/productPages/crash/productsBlock2.webp",
+    "images/productPages/crash/productsBlock3.webp",
+    "images/productPages/crash/scrollMediasBlock1.webp",
+    "images/productPages/crash/scrollMediasBlock2.webp",
+    "images/productPages/crash/scrollMediasBlock3.webp",
+    "images/productPages/crash/scrollMediasBlock4.webp",
+    "images/productPages/crash/scrollMediasBlock5.webp",
+    "images/productPages/crash/sliderBlock1.webp",
+    "images/productPages/crash/sliderBlock2.webp",
+    "images/productPages/crash/sliderBlock3.webp",
+    "images/productPages/crash/sliderBlock4.webp",
+    "images/productPages/crash/sliderProductsBlock1.webp",
+    "images/productPages/crash/sliderProductsBlock2.webp",
+    "images/productPages/crash/sliderProductsBlock3.webp",
+    "images/productPages/crash/sliderProductsBlock4.webp",
+    "images/productPages/roadster/newsletterBlock.webp",
+    "images/productPages/roadster/productsBlock1.webp",
+    "images/productPages/roadster/productsBlock2.webp",
+    "images/productPages/roadster/scrollMediasBlock1.webp",
+    "images/productPages/roadster/scrollMediasBlock2.webp",
+    "images/productPages/roadster/scrollMediasBlock3.webp",
+    "images/productPages/roadster/scrollMediasBlock4.webp",
+    "images/productPages/roadster/scrollMediasBlock5.webp",
+    "images/productPages/roadster/sliderBlock1.webp",
+    "images/productPages/roadster/sliderBlock2.webp",
+    "images/productPages/roadster/sliderBlock3.webp",
+    "images/productPages/roadster/sliderBlock4.webp",
+    "images/productPages/roadster/sliderProductsBlock1-us-canada.webp",
+    "images/productPages/roadster/sliderProductsBlock1.webp",
+    "images/productPages/roadster/sliderProductsBlock2-us-canada.webp",
+    "images/productPages/roadster/sliderProductsBlock2.webp",
+    "images/productPages/roadster/sliderProductsBlock3-us-canada.webp",
+    "images/productPages/roadster/sliderProductsBlock3.webp",
+    "images/productPages/roadster/sliderProductsBlock4-us-canada.webp",
+    "images/productPages/roadster/sliderProductsBlock4.webp",
+    "images/productPages/roadster/sliderProductsBlock5.webp",
+    "images/productPages/roadster/sliderProductsBlock6.webp",
+    "images/productPages/santos-and-tortue/newsletterBlock.webp",
+    "images/productPages/santos-and-tortue/productsBlock1.webp",
+    "images/productPages/santos-and-tortue/productsBlock2.webp",
+    "images/productPages/santos-and-tortue/scrollMediasBlock1-2.webp",
+    "images/productPages/santos-and-tortue/scrollMediasBlock1.webp",
+    "images/productPages/santos-and-tortue/scrollMediasBlock2-2.webp",
+    "images/productPages/santos-and-tortue/scrollMediasBlock2.webp",
+    "images/productPages/santos-and-tortue/scrollMediasBlock3-2.webp",
+    "images/productPages/santos-and-tortue/scrollMediasBlock3.webp",
+    "images/productPages/santos-and-tortue/scrollMediasBlock4-2.webp",
+    "images/productPages/santos-and-tortue/scrollMediasBlock4.webp",
+    "images/productPages/santos-and-tortue/scrollMediasBlock5-2.webp",
+    "images/productPages/santos-and-tortue/scrollMediasBlock5.webp",
+    "images/productPages/santos-and-tortue/sliderBlock1-2.webp",
+    "images/productPages/santos-and-tortue/sliderBlock1.webp",
+    "images/productPages/santos-and-tortue/sliderBlock2-2.webp",
+    "images/productPages/santos-and-tortue/sliderBlock2.webp",
+    "images/productPages/santos-and-tortue/sliderBlock3-2.webp",
+    "images/productPages/santos-and-tortue/sliderBlock3.webp",
+    "images/productPages/santos-and-tortue/sliderBlock4-2.webp",
+    "images/productPages/santos-and-tortue/sliderBlock4.webp",
+    "images/productPages/santos-and-tortue/sliderProductsBlock1.webp",
+    "images/productPages/santos-and-tortue/sliderProductsBlock2.webp",
+    "images/productPages/santos-and-tortue/sliderProductsBlock3.webp",
+    "images/productPages/santos-and-tortue/sliderProductsBlock4.webp"
+  ],
+  "glbs": [
+    {
+      "path": "webgl/models/mainScene_characters.glb",
+      "actual": 9175148,
+      "header": 9175148
+    },
+    {
+      "path": "webgl/models/mainScene.glb",
+      "actual": 10326756,
+      "header": 10326756
+    },
+    {
+      "path": "webgl/models/mainSceneMobile_characters.glb",
+      "actual": 8168572,
+      "header": 8168572
+    },
+    {
+      "path": "webgl/models/mainSceneMobile.glb",
+      "actual": 5604980,
+      "header": 5604980
+    },
+    {
+      "path": "webgl/models/watches/baignoire_desktop.glb",
+      "actual": 2287800,
+      "header": 2287800
+    },
+    {
+      "path": "webgl/models/watches/roadster_desktop.glb",
+      "actual": 4097132,
+      "header": 4097132
+    },
+    {
+      "path": "webgl/models/watches/crash_desktop.glb",
+      "actual": 7029460,
+      "header": 7029460
+    },
+    {
+      "path": "webgl/models/watches/santos_desktop.glb",
+      "actual": 5085476,
+      "header": 5085476
+    },
+    {
+      "path": "webgl/models/watches/baignoire_mobile.glb",
+      "actual": 1216668,
+      "header": 1216668
+    },
+    {
+      "path": "webgl/models/watches/crash_mobile.glb",
+      "actual": 4205584,
+      "header": 4205584
+    },
+    {
+      "path": "webgl/models/watches/roadster_mobile.glb",
+      "actual": 3044128,
+      "header": 3044128
+    },
+    {
+      "path": "webgl/models/watches/santos_mobile.glb",
+      "actual": 2937024,
+      "header": 2937024
+    }
+  ]
+}

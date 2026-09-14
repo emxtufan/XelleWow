@@ -1,0 +1,2816 @@
+{
+  "assets": [
+    {
+      "id": "dd485449765f9d79",
+      "kind": "stylesheet",
+      "name": "libs.2-1-4.min.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 312,
+          "property": "href"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs/libs.2-1-4.min.css"
+    },
+    {
+      "id": "d8ce33e4c4e47e62",
+      "kind": "stylesheet",
+      "name": "site.min.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 314,
+          "property": "href"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/core/wcm/components/carousel/v1/carousel/clientlibs/site.min.css"
+    },
+    {
+      "id": "b63e1dd509436904",
+      "kind": "stylesheet",
+      "name": "site.min.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 316,
+          "property": "href"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/core/wcm/components/accordion/v1/accordion/clientlibs/site.min.css"
+    },
+    {
+      "id": "862dff0fce49284d",
+      "kind": "stylesheet",
+      "name": "clientlib-site.2-1-4.min.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 318,
+          "property": "href"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site.2-1-4.min.css"
+    },
+    {
+      "id": "99de5d1c6d490e7f",
+      "kind": "script",
+      "name": "csrf.min.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 320,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.js"
+    },
+    {
+      "id": "fbdc4f612e444488",
+      "kind": "image",
+      "name": "cartier-logo.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 505,
+          "property": "src"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 507,
+          "property": "src"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 586,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/dam/car/pdp-assets/cartier-logo.svg"
+    },
+    {
+      "id": "5e8d80d1eb843a3d",
+      "kind": "script",
+      "name": "39bd4175",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 342,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/akam/13/39bd4175"
+    },
+    {
+      "id": "ce109e42305414b7",
+      "kind": "script",
+      "name": "datadog-rum.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 87,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.datadoghq-browser-agent.com/eu1/v6/datadog-rum.js"
+    },
+    {
+      "id": "e8203110ff1fe430",
+      "kind": "script",
+      "name": "AuthButton.umd.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7743,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/static/webcomponents/AuthButton/AuthButton.umd.js"
+    },
+    {
+      "id": "6ddf8bd5fcffa6b9",
+      "kind": "image",
+      "name": "instagram.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 8140,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/dam/car/sample/icons/instagram.svg"
+    },
+    {
+      "id": "cf49c83aa0aa1793",
+      "kind": "script",
+      "name": "MiniBag.umd.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7745,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/static/webcomponents/MiniBag/MiniBag.umd.js"
+    },
+    {
+      "id": "ac29bb318f7078db",
+      "kind": "stylesheet",
+      "name": "app.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7761,
+          "property": "href"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26/assets/app.css"
+    },
+    {
+      "id": "7f0929ed8790fe79",
+      "kind": "script",
+      "name": "wishListButton.umd.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7747,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/static/webcomponents/wishListButton/wishListButton.umd.js"
+    },
+    {
+      "id": "338746584c0e0df9",
+      "kind": "script",
+      "name": "app.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7763,
+          "property": "href"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7765,
+          "property": "src"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26/assets/app.js"
+    },
+    {
+      "id": "3a8c003f04027711",
+      "kind": "image",
+      "name": "facebook.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 8144,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/dam/car/sample/icons/facebook.svg"
+    },
+    {
+      "id": "faf8d0faa255e436",
+      "kind": "script",
+      "name": "core-scripts.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 8802,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/static/core-scripts.js"
+    },
+    {
+      "id": "808370a790f0f1d0",
+      "kind": "script",
+      "name": "container.min.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9118,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.js"
+    },
+    {
+      "id": "61662a3946908e8f",
+      "kind": "script",
+      "name": "site.min.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9120,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/core/wcm/components/accordion/v1/accordion/clientlibs/site.min.js"
+    },
+    {
+      "id": "5339b78ed027aeb8",
+      "kind": "script",
+      "name": "jquery.min.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9122,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/clientlibs/granite/jquery.min.js"
+    },
+    {
+      "id": "4335a916ee90dfa6",
+      "kind": "script",
+      "name": "libs.2-1-4.min.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9114,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs/libs.2-1-4.min.js"
+    },
+    {
+      "id": "017eef663f3da795",
+      "kind": "script",
+      "name": "site.min.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9116,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/core/wcm/components/carousel/v1/carousel/clientlibs/site.min.js"
+    },
+    {
+      "id": "59c88e4ac56e1d8d",
+      "kind": "image",
+      "name": "pinterest.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 8148,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/dam/car/sample/icons/pinterest.svg"
+    },
+    {
+      "id": "a3ea86ee7de2eafe",
+      "kind": "image",
+      "name": "thread.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 8152,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/dam/car/sample/icons/thread.svg"
+    },
+    {
+      "id": "0b27b0fc491e245b",
+      "kind": "image",
+      "name": "youtube.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 8156,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/dam/car/sample/icons/youtube.svg"
+    },
+    {
+      "id": "dd39deed107bf88e",
+      "kind": "image",
+      "name": "linkedin.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 8160,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/dam/car/sample/icons/linkedin.svg"
+    },
+    {
+      "id": "d0c5e355de8be9d2",
+      "kind": "image",
+      "name": "Tiktok.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 8164,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/dam/car/sample/icons/Tiktok.svg"
+    },
+    {
+      "id": "7d36c74e5db5b843",
+      "kind": "script",
+      "name": "CancelContractForm.umd.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 8799,
+          "property": "src"
+        }
+      ],
+      "url": "https://fea-core-features.richemont.com/static/webcomponents/CancelContractForm/CancelContractForm.umd.js"
+    },
+    {
+      "id": "8189c16dc26df8c2",
+      "kind": "script",
+      "name": "utils.min.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9124,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/clientlibs/granite/utils.min.js"
+    },
+    {
+      "id": "62537aa4d0da7f0c",
+      "kind": "script",
+      "name": "clientlib-site.2-1-4.min.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9126,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site.2-1-4.min.js"
+    },
+    {
+      "id": "86a7b90f637e1cba",
+      "kind": "script",
+      "name": "9dWk",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        },
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        },
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        },
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9273,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/7npO-Z/l9Av/q/j/Rjd7vjxqfvmR/ufautrwmJafJcpDEhY/WiUKVjkHAQ/KAFTZiJ/9dWk"
+    },
+    {
+      "id": "346b74040934a691",
+      "kind": "other",
+      "name": "token.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://www.cartier.com/libs/granite/csrf/token.json"
+    },
+    {
+      "id": "27e62068ccaed3bc",
+      "kind": "script",
+      "name": "3U5UD-A3KVH-XWX9Q-ND4WL-URRMD",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 339,
+          "property": "href"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 343,
+          "property": "src"
+        }
+      ],
+      "url": "https://s.go-mpulse.net/boomerang/3U5UD-A3KVH-XWX9Q-ND4WL-URRMD"
+    },
+    {
+      "id": "d77b5251328620fb",
+      "kind": "image",
+      "name": "location.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 536,
+          "property": "background-image"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site/resources/icons/location.svg"
+    },
+    {
+      "id": "5e55999897db4cf1",
+      "kind": "image",
+      "name": "search-desktop.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 685,
+          "property": "background-image"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site/resources/icons/search-desktop.svg"
+    },
+    {
+      "id": "bb20bff56e7c35ed",
+      "kind": "font",
+      "name": "BrilliantCutPro-Medium.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site/resources/fonts/BrilliantCutPro-Medium.woff2"
+    },
+    {
+      "id": "6c5e5698526ed353",
+      "kind": "font",
+      "name": "BrilliantCutPro-Regular.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site/resources/fonts/BrilliantCutPro-Regular.woff2"
+    },
+    {
+      "id": "d58fa5bf3d961302",
+      "kind": "other",
+      "name": "getCustomer",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://www.cartier.com/api/commerce/getCustomer"
+    },
+    {
+      "id": "a7445eba58a83efb",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=4a7b706c-05e0-4401-bbe1-4987266ba9b6&batch_time=1789386021615&_dd.api=fetch"
+    },
+    {
+      "id": "b96acf864efb9a1a",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=9471bb73-ce58-4231-b5b5-a32d72801859&batch_time=1789386021617&_dd.api=fetch"
+    },
+    {
+      "id": "053bbe834853872c",
+      "kind": "other",
+      "name": "config.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://c.go-mpulse.net/api/config.json?key=3U5UD-A3KVH-XWX9Q-ND4WL-URRMD&d=www.cartier.com&t=5964620&v=1.792.0&sl=0&si=5515ffff-3fb7-40a5-be0f-97a9d492d2e6-tlcr39&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,BFCache,LOGN&acao=&ak.ai=202616"
+    },
+    {
+      "id": "7a607d9e8542659e",
+      "kind": "other",
+      "name": "getEditorialContent",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://www.cartier.com/api/commerce/getEditorialContent"
+    },
+    {
+      "id": "7ad7a4481cdcd446",
+      "kind": "other",
+      "name": "tryCustomGetMe",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://www.cartier.com/api/commerce/tryCustomGetMe"
+    },
+    {
+      "id": "d462fb0edb8b303e",
+      "kind": "image",
+      "name": "wishlist.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 551,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/static/images/wishlist.svg"
+    },
+    {
+      "id": "1d8242686d66fb0b",
+      "kind": "image",
+      "name": "arrowredirect.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 8048,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 8055,
+          "property": "background-image"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site/resources/icons/arrowredirect.svg"
+    },
+    {
+      "id": "ee3233929b3684e4",
+      "kind": "image",
+      "name": "Initiative-logo-new.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 8198,
+          "property": "background-image"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site/resources/icons/Initiative-logo-new.svg"
+    },
+    {
+      "id": "1d8065e33be082a8",
+      "kind": "image",
+      "name": "Philanthropy-logo.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 8214,
+          "property": "background-image"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site/resources/icons/Philanthropy-logo.svg"
+    },
+    {
+      "id": "20b6274d4604137d",
+      "kind": "font",
+      "name": "FancyCutPro-Regular.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site/resources/fonts/FancyCutPro-Regular.woff2"
+    },
+    {
+      "id": "cffb3a5b8b677c7c",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=4348f37f-a0aa-4412-a234-ee3a872a08df&batch_time=1789386021747&_dd.api=fetch"
+    },
+    {
+      "id": "1054ed9b1ef5ac3d",
+      "kind": "script",
+      "name": "gtm.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 86,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N8NZFKXD"
+    },
+    {
+      "id": "76392b3e24b76022",
+      "kind": "script",
+      "name": "applePayExpressButton.umd.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 348,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/static/webcomponents/applePayExpressButton/applePayExpressButton.umd.js"
+    },
+    {
+      "id": "796a27bc753d8a5a",
+      "kind": "other",
+      "name": "geolocation",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://www.cartier.com/geolocation"
+    },
+    {
+      "id": "fc70ab0892d33e55",
+      "kind": "script",
+      "name": "PaypalExpressButton.umd.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 351,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/static/webcomponents/PaypalExpressButton/PaypalExpressButton.umd.js"
+    },
+    {
+      "id": "67596566ffd79514",
+      "kind": "other",
+      "name": "dict.en-FR.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://www.cartier.com/libs/cq/i18n/dict.en-FR.json"
+    },
+    {
+      "id": "c4c49262727fbf83",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=07de678d-12f1-489d-96c5-52dde8771d99&batch_time=1789386022444&_dd.api=fetch"
+    },
+    {
+      "id": "ef6907a06e9efd1d",
+      "kind": "script",
+      "name": "privacy_v2_1.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 85,
+          "property": "src"
+        }
+      ],
+      "url": "https://cdn.trustcommander.net/privacy/7424/privacy_v2_1.js"
+    },
+    {
+      "id": "abf998c38c26256b",
+      "kind": "script",
+      "name": "gtm.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 84,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KLK59KJ4&gtm=4e6992"
+    },
+    {
+      "id": "d567db0253e4c2fc",
+      "kind": "script",
+      "name": "widget.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9277,
+          "property": "src"
+        }
+      ],
+      "url": "https://cdn.userway.org/widget.js?account=sBVtsSwDfC"
+    },
+    {
+      "id": "5dcadd15a2ee43a4",
+      "kind": "script",
+      "name": "f8e366da.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9278,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/external-resource/d2wi0zd8hr0kno.cloudfront.net/f8e366da.js"
+    },
+    {
+      "id": "d7788280536c170d",
+      "kind": "other",
+      "name": "d-nvidia.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://unpkg.com/detect-gpu@5.0.70/dist/benchmarks/d-nvidia.json"
+    },
+    {
+      "id": "c1b92c9fcbd7e81e",
+      "kind": "script",
+      "name": "forter-script.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9279,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.cartier.com/static/forter/forter-script.js"
+    },
+    {
+      "id": "b4dc80e03e48f3e7",
+      "kind": "image",
+      "name": "arrow-down.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 441,
+          "property": "background-image"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site/resources/icons/arrow-down.svg"
+    },
+    {
+      "id": "47ac04d808874fca",
+      "kind": "image",
+      "name": "cheveron-left.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 804,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 1448,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 3981,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 4959,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 6134,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 6660,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 7359,
+          "property": "background-image"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site/resources/icons/cheveron-left.svg"
+    },
+    {
+      "id": "4998883ae955f960",
+      "kind": "image",
+      "name": "cheveron-right.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 807,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 1451,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 3984,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 4962,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 6137,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 6663,
+          "property": "background-image"
+        },
+        {
+          "kind": "computedStyle",
+          "nodeId": 7362,
+          "property": "background-image"
+        }
+      ],
+      "url": "https://www.cartier.com/etc.clientlibs/richemont-car/ui/clientlibs-car/clientlib-site/resources/icons/cheveron-right.svg"
+    },
+    {
+      "id": "9bb29a154a3ecb8b",
+      "kind": "other",
+      "name": "https://www.cartier.com/",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 97,
+          "property": "href"
+        }
+      ],
+      "url": "https://www.cartier.com/"
+    },
+    {
+      "id": "b25bc6ddacb693bf",
+      "kind": "script",
+      "name": "widget_app_base_1788258146788.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9280,
+          "property": "src"
+        }
+      ],
+      "url": "https://cdn.userway.org/widgetapp/2026-09-01-10-22-26/widget_app_base_1788258146788.js"
+    },
+    {
+      "id": "da95332c9b9ef45f",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=0d2f8404-23e5-40bb-85cc-a6314f5b9bbc&batch_time=1789386022795&_dd.api=fetch"
+    },
+    {
+      "id": "b645263c2b3eff9a",
+      "kind": "image",
+      "name": "shape-santos.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7894,
+          "property": "src"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-santos.png"
+    },
+    {
+      "id": "d996fb3607bacca8",
+      "kind": "image",
+      "name": "shape-tank.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7893,
+          "property": "src"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-tank.png"
+    },
+    {
+      "id": "925312f39bdf0e0e",
+      "kind": "image",
+      "name": "shape-myst.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7896,
+          "property": "src"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-myst.png"
+    },
+    {
+      "id": "76b83a6ef0a9c31f",
+      "kind": "image",
+      "name": "shape-roadster.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7895,
+          "property": "src"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-roadster.png"
+    },
+    {
+      "id": "eb99c49abb9bd6fc",
+      "kind": "image",
+      "name": "shape-baignoire.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7898,
+          "property": "src"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-baignoire.png"
+    },
+    {
+      "id": "69499dbaee762ed4",
+      "kind": "image",
+      "name": "shape-crash.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 7897,
+          "property": "src"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/shapes/shape-crash.png"
+    },
+    {
+      "id": "695fbf7193cc0fdb",
+      "kind": "other",
+      "name": "mainScene.glb",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/mainScene.glb"
+    },
+    {
+      "id": "81053fb22a1aa421",
+      "kind": "other",
+      "name": "mainScene_characters.glb",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/mainScene_characters.glb"
+    },
+    {
+      "id": "4ff0ee0e969bc613",
+      "kind": "other",
+      "name": "SC00_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC00_oct.exr"
+    },
+    {
+      "id": "5ee4fe072fc04ff2",
+      "kind": "other",
+      "name": "SC00_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC00_sh.json"
+    },
+    {
+      "id": "4b232b6916b71b83",
+      "kind": "other",
+      "name": "SC01_columns_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_columns_oct.exr"
+    },
+    {
+      "id": "334e1200439e4960",
+      "kind": "other",
+      "name": "SC01_columns_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_columns_sh.json"
+    },
+    {
+      "id": "c11db342086e0880",
+      "kind": "other",
+      "name": "SC01_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_oct.exr"
+    },
+    {
+      "id": "923aa8762dd1112e",
+      "kind": "other",
+      "name": "SC01_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_sh.json"
+    },
+    {
+      "id": "c422609310288b08",
+      "kind": "other",
+      "name": "SC01_portal_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_portal_sh.json"
+    },
+    {
+      "id": "7d67ebfbcce90f3b",
+      "kind": "other",
+      "name": "SC01_portal_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC01_portal_oct.exr"
+    },
+    {
+      "id": "b2bfc0ee6f987797",
+      "kind": "other",
+      "name": "SC02_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_oct.exr"
+    },
+    {
+      "id": "d1e9a145dceb6aa5",
+      "kind": "other",
+      "name": "SC02_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_sh.json"
+    },
+    {
+      "id": "5b788ee4a130383d",
+      "kind": "other",
+      "name": "SC02_portal_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_portal_sh.json"
+    },
+    {
+      "id": "75f6000b64f592f0",
+      "kind": "other",
+      "name": "SC02_portal_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_portal_oct.exr"
+    },
+    {
+      "id": "9e6a19a2c2907595",
+      "kind": "other",
+      "name": "SC02_CliffsFront_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_CliffsFront_oct.exr"
+    },
+    {
+      "id": "080434862a421dc7",
+      "kind": "other",
+      "name": "SC02_Ground_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_Ground_sh.json"
+    },
+    {
+      "id": "531482664d4354b1",
+      "kind": "other",
+      "name": "SC02_CliffsFront_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC02_CliffsFront_sh.json"
+    },
+    {
+      "id": "b4ae14b6bc07c5e8",
+      "kind": "other",
+      "name": "SC03_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC03_oct.exr"
+    },
+    {
+      "id": "9696f33b54c01918",
+      "kind": "other",
+      "name": "SC03_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC03_sh.json"
+    },
+    {
+      "id": "8614e2cc308e2855",
+      "kind": "other",
+      "name": "SC04_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC04_oct.exr"
+    },
+    {
+      "id": "f5b2746b8aae7458",
+      "kind": "other",
+      "name": "SC04_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC04_sh.json"
+    },
+    {
+      "id": "09b4d7d656133197",
+      "kind": "other",
+      "name": "SC05_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC05_oct.exr"
+    },
+    {
+      "id": "c1fb8be026b37063",
+      "kind": "other",
+      "name": "SC05_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC05_sh.json"
+    },
+    {
+      "id": "fcfae280e9001793",
+      "kind": "other",
+      "name": "SC06_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC06_oct.exr"
+    },
+    {
+      "id": "40213f4d71440987",
+      "kind": "other",
+      "name": "SC06_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/SC06_sh.json"
+    },
+    {
+      "id": "1b085479bcba7ed3",
+      "kind": "other",
+      "name": "watches_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/watches_sh.json"
+    },
+    {
+      "id": "958c287ba17776b2",
+      "kind": "other",
+      "name": "watches_NumberRoadster_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/watches_NumberRoadster_oct.exr"
+    },
+    {
+      "id": "73ebc0afcc9e1189",
+      "kind": "other",
+      "name": "watches_oct.exr",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/watches_oct.exr"
+    },
+    {
+      "id": "2d6ac7e292e6ae40",
+      "kind": "other",
+      "name": "watches_NumberRoadster_sh.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/cubemaps/watches_NumberRoadster_sh.json"
+    },
+    {
+      "id": "023c3a3197b9e62c",
+      "kind": "other",
+      "name": "baignoire_desktop.glb",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/watches/baignoire_desktop.glb"
+    },
+    {
+      "id": "8ded7d61830893b7",
+      "kind": "other",
+      "name": "roadster_desktop.glb",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/watches/roadster_desktop.glb"
+    },
+    {
+      "id": "d225b5c7ac220b83",
+      "kind": "other",
+      "name": "santos_desktop.glb",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/watches/santos_desktop.glb"
+    },
+    {
+      "id": "36e04317af6bc090",
+      "kind": "other",
+      "name": "crash_desktop.glb",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/models/watches/crash_desktop.glb"
+    },
+    {
+      "id": "9672c54077fa8627",
+      "kind": "other",
+      "name": "crash.3DL",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/luts/watches/crash.3DL"
+    },
+    {
+      "id": "07b8574b01c589e5",
+      "kind": "other",
+      "name": "baignoire.3DL",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/luts/watches/baignoire.3DL"
+    },
+    {
+      "id": "cabe829559805397",
+      "kind": "other",
+      "name": "santos.3DL",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/luts/watches/santos.3DL"
+    },
+    {
+      "id": "34affb51e64bfc9b",
+      "kind": "other",
+      "name": "roadster.3DL",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/luts/watches/roadster.3DL"
+    },
+    {
+      "id": "2f7ae715d42b398f",
+      "kind": "image",
+      "name": "LIGHTMAP_SC00.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC00.webp"
+    },
+    {
+      "id": "b5a452db8f06d7ea",
+      "kind": "image",
+      "name": "LIGHTMAP_SC01_2K.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC01_2K.webp"
+    },
+    {
+      "id": "7c74c862d8c528d2",
+      "kind": "image",
+      "name": "LIGHTMAP_SC02_2K.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC02_2K.webp"
+    },
+    {
+      "id": "8fa1566e26007e3a",
+      "kind": "image",
+      "name": "LIGHTMAP_SC04_2K.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC04_2K.webp"
+    },
+    {
+      "id": "b0b532c1a93711db",
+      "kind": "image",
+      "name": "LIGHTMAP_SC03_2K.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC03_2K.webp"
+    },
+    {
+      "id": "250a7760ed1bf548",
+      "kind": "image",
+      "name": "LIGHTMAP_SC05_2K.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC05_2K.webp"
+    },
+    {
+      "id": "69cc6d95f0713017",
+      "kind": "image",
+      "name": "gold_mask2.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/gold_mask2.webp"
+    },
+    {
+      "id": "dbee6c61d0e8dca2",
+      "kind": "image",
+      "name": "LIGHTMAP_SC06_2K.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/lightmaps/LIGHTMAP_SC06_2K.webp"
+    },
+    {
+      "id": "cd68e9a55465a152",
+      "kind": "image",
+      "name": "baignoire-1.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/baignoire-1.webp"
+    },
+    {
+      "id": "44735d6eb1b19020",
+      "kind": "image",
+      "name": "floor_MR.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/floor_MR.webp"
+    },
+    {
+      "id": "c9dd44b537bd4c4c",
+      "kind": "image",
+      "name": "baignoire-2.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/baignoire-2.webp"
+    },
+    {
+      "id": "7f1c3256e1f8871c",
+      "kind": "image",
+      "name": "cartier-prive.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/cartier-prive.webp"
+    },
+    {
+      "id": "a6cbd5dbe5dde5f3",
+      "kind": "image",
+      "name": "myst-de-cartier.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/myst-de-cartier.webp"
+    },
+    {
+      "id": "d5c5f2df0767f94f",
+      "kind": "image",
+      "name": "roadster-1.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/roadster-1.webp"
+    },
+    {
+      "id": "3ce4e4e4b8376a2f",
+      "kind": "image",
+      "name": "roadster-2.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/roadster-2.webp"
+    },
+    {
+      "id": "bc11aaec06b12696",
+      "kind": "image",
+      "name": "santos-de-cartier-1.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/santos-de-cartier-1.webp"
+    },
+    {
+      "id": "62dd9d7988118ba3",
+      "kind": "image",
+      "name": "santos-de-cartier-2.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/santos-de-cartier-2.webp"
+    },
+    {
+      "id": "563b11ef18639353",
+      "kind": "image",
+      "name": "santos-dumont-1.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/santos-dumont-1.webp"
+    },
+    {
+      "id": "0ad7cbc1f12a5151",
+      "kind": "image",
+      "name": "santos-dumont-2.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/santos-dumont-2.webp"
+    },
+    {
+      "id": "9350adfabf8c9047",
+      "kind": "image",
+      "name": "shape-baignoire_msdf.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/masks/shape-baignoire_msdf.png"
+    },
+    {
+      "id": "db46add4e8bc22eb",
+      "kind": "image",
+      "name": "shape-crash_msdf.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/masks/shape-crash_msdf.png"
+    },
+    {
+      "id": "9b8f023ac44d7dd5",
+      "kind": "image",
+      "name": "shape-santos_msdf.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/masks/shape-santos_msdf.png"
+    },
+    {
+      "id": "863e7e69177b2c84",
+      "kind": "image",
+      "name": "spectrum.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/spectrum.png"
+    },
+    {
+      "id": "38f9f94a74912dfc",
+      "kind": "image",
+      "name": "flow.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/flow.png"
+    },
+    {
+      "id": "78ff6b7327f88649",
+      "kind": "image",
+      "name": "bayer16tile2.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/bayer16tile2.png"
+    },
+    {
+      "id": "ba743c5480a16ebd",
+      "kind": "image",
+      "name": "tank-americaine-1.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/tank-americaine-1.webp"
+    },
+    {
+      "id": "491f4d05e8c7bef1",
+      "kind": "image",
+      "name": "tank-americaine-2.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/tank-americaine-2.webp"
+    },
+    {
+      "id": "638debf6d3fbe38c",
+      "kind": "image",
+      "name": "tortue.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//images/podcasts/thumbnails/LD/tortue.webp"
+    },
+    {
+      "id": "99b6815258f74e0e",
+      "kind": "image",
+      "name": "shape-roadster_msdf.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/textures/masks/shape-roadster_msdf.png"
+    },
+    {
+      "id": "228aa7c34b73ab59",
+      "kind": "image",
+      "name": "rgb-noise.jpg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/noises/rgb-noise.jpg"
+    },
+    {
+      "id": "b4c6a9a79ba4f34a",
+      "kind": "image",
+      "name": "bluenoise256.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/noises/bluenoise256.png"
+    },
+    {
+      "id": "9dc94d64eb51e37b",
+      "kind": "image",
+      "name": "white.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/white.webp"
+    },
+    {
+      "id": "dd949e89242148a8",
+      "kind": "image",
+      "name": "black.webp",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/global/misc/black.webp"
+    },
+    {
+      "id": "e8230d65085fa2c5",
+      "kind": "other",
+      "name": "pixel_39bd4175",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://www.cartier.com/akam/13/pixel_39bd4175"
+    },
+    {
+      "id": "8eb97ff6790917e2",
+      "kind": "other",
+      "name": "getAFRules",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://www.cartier.com/api/commerce/getAFRules"
+    },
+    {
+      "id": "70fe902b464a8f41",
+      "kind": "other",
+      "name": "sBVtsSwDfC",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://api.userway.org/api/v1/tunings/sBVtsSwDfC"
+    },
+    {
+      "id": "d1207c8dd6b2782a",
+      "kind": "other",
+      "name": "privacy-consent",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "beacon"
+        },
+        {
+          "kind": "resource",
+          "property": "beacon"
+        },
+        {
+          "kind": "resource",
+          "property": "beacon"
+        }
+      ],
+      "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=7424"
+    },
+    {
+      "id": "a3919f3f1b556f46",
+      "kind": "font",
+      "name": "BrilliantCutProBold16509732341650973234.woff",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://s3.amazonaws.com/eventtia/account_fonts/574/BrilliantCutProBold16509732341650973234.woff"
+    },
+    {
+      "id": "0083360e43a56f2a",
+      "kind": "font",
+      "name": "BrilliantCutProRegular16505481711650548171.woff",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://s3.amazonaws.com/eventtia/account_fonts/550/BrilliantCutProRegular16505481711650548171.woff"
+    },
+    {
+      "id": "27db8b32679a4738",
+      "kind": "font",
+      "name": "FancyCutProRegular16505488041650548804.woff",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://s3.amazonaws.com/eventtia/account_fonts/553/FancyCutProRegular16505488041650548804.woff"
+    },
+    {
+      "id": "54935f68d92ed4ff",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=b9b3e3b3-c83e-45e2-abbb-5dc0f455209a&batch_time=1789386023241&_dd.api=fetch"
+    },
+    {
+      "id": "3d7c9f5b346a8132",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=ed6f2680-7744-494e-a179-631bb43bc8c7&batch_time=1789386023406&_dd.api=fetch"
+    },
+    {
+      "id": "3de2635cdee07d9e",
+      "kind": "script",
+      "name": "script.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 9541,
+          "property": "src"
+        }
+      ],
+      "url": "https://undefined.cdn4.forter.com/sn/undefined/script.js"
+    },
+    {
+      "id": "3e4e869bfcb5dbfe",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=1a96f870-3e61-4f11-97df-55a7197fcd5d&batch_time=1789386023652&_dd.api=fetch"
+    },
+    {
+      "id": "f2809abbb963e650",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=178add1e-9b22-453a-ba64-2a4ff3b23112&batch_time=1789386023894&_dd.api=fetch"
+    },
+    {
+      "id": "5daeab983294ddd2",
+      "kind": "other",
+      "name": "en-US.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://cdn.userway.org/widgetapp/2026-09-01-10-22-26/locales/en-US.json"
+    },
+    {
+      "id": "507dbff952706435",
+      "kind": "script",
+      "name": "remediation_1788258146788.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 11241,
+          "property": "src"
+        }
+      ],
+      "url": "https://cdn.userway.org/widgetapp/2026-09-01-10-22-26/remediation/remediation_1788258146788.js"
+    },
+    {
+      "id": "821cdc4f46678eb2",
+      "kind": "other",
+      "name": "ev0GlrKmtOTXxWPC.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://cdn.userway.org/remediations/consolidated/3573523/ev0GlrKmtOTXxWPC.json"
+    },
+    {
+      "id": "8c127732d873cc89",
+      "kind": "script",
+      "name": "live_translations_1788258146788.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 11242,
+          "property": "src"
+        }
+      ],
+      "url": "https://cdn.userway.org/widgetapp/2026-09-01-10-22-26/translations/live_translations_1788258146788.js"
+    },
+    {
+      "id": "6feb8ef28cb52c93",
+      "kind": "stylesheet",
+      "name": "widget_base.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 11243,
+          "property": "href"
+        }
+      ],
+      "url": "https://cdn.userway.org/styles/2026-09-01-10-22-26/widget_base.css?v=1788258146788"
+    },
+    {
+      "id": "b58c246f10cd238d",
+      "kind": "image",
+      "name": "body_wh.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 11311,
+          "property": "src"
+        }
+      ],
+      "url": "https://cdn.userway.org/widgetapp/images/body_wh.svg"
+    },
+    {
+      "id": "ec092b2ef2f2be8f",
+      "kind": "image",
+      "name": "spin_wh.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 11317,
+          "property": "src"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 11323,
+          "property": "src"
+        }
+      ],
+      "url": "https://cdn.userway.org/widgetapp/images/spin_wh.svg"
+    },
+    {
+      "id": "77517d5fa718cfb0",
+      "kind": "script",
+      "name": "remediation-tool.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 11465,
+          "property": "src"
+        }
+      ],
+      "url": "https://cdn.userway.org/remediation/2026-09-01-10-22-26/paid/remediation-tool.js?ts=1788258146788"
+    },
+    {
+      "id": "8258b3fc257bcc49",
+      "kind": "script",
+      "name": "languages.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 11515,
+          "property": "src"
+        }
+      ],
+      "url": "https://cdn.userway.org/frontend/javascripts/languages.js?v=1788258146788"
+    },
+    {
+      "id": "60d8e8b7374ea9ee",
+      "kind": "stylesheet",
+      "name": "flags.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 11516,
+          "property": "href"
+        }
+      ],
+      "url": "https://cdn.userway.org/frontend/stylesheets/flags.css?v=1788258146788"
+    },
+    {
+      "id": "b7cd605b9020e2b5",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=d980921b-6885-4dd0-a67d-64cf1f4ba70b&batch_time=1789386024639&_dd.api=fetch"
+    },
+    {
+      "id": "a70f7b1b494c96ec",
+      "kind": "other",
+      "name": "https://02179911.akstat.io/",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "beacon"
+        },
+        {
+          "kind": "resource",
+          "property": "beacon"
+        }
+      ],
+      "url": "https://02179911.akstat.io/"
+    },
+    {
+      "id": "67d65ef5ab342068",
+      "kind": "script",
+      "name": "draco_wasm_wrapper.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/libs/draco/draco_wasm_wrapper.js"
+    },
+    {
+      "id": "5147952c681fd7d6",
+      "kind": "other",
+      "name": "draco_decoder.wasm",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//webgl/libs/draco/draco_decoder.wasm"
+    },
+    {
+      "id": "16d17f25c9b4c240",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=3a23e180-4fb6-4052-be07-bfbae0491772&batch_time=1789386028937&_dd.api=fetch"
+    },
+    {
+      "id": "9c925eb0c24232e0",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=8def7767-33d7-43cd-b4b1-bf60f5614bb0&batch_time=1789386028938&_dd.api=fetch"
+    },
+    {
+      "id": "2dda273f3ef960c1",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=5da2ace3-1027-4298-85a9-360d7287e6d2&batch_time=1789386028939&_dd.api=fetch"
+    },
+    {
+      "id": "25563b91bb6d3317",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=bb33b68a-7b5e-474e-a021-b8399b55661b&batch_time=1789386028939&_dd.api=fetch"
+    },
+    {
+      "id": "a1bd137a2e09d1ba",
+      "kind": "other",
+      "name": "status",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://api.userway.org/api/a11y-data/v0/page/https%3A%2F%2Fwww.cartier.com%2Fen-fr%2Fwatchesandwonders%23%2F/DESKTOP/WIDGET_ON/status"
+    },
+    {
+      "id": "d10c7c78fccb61ca",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=113edbd6-4ab1-4d53-bf81-06c2858fa3ba&batch_time=1789386029978&_dd.api=fetch"
+    },
+    {
+      "id": "0587bcb8d364bc20",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=dfdfb50c-4594-49d6-83e1-c536ba042c44&batch_time=1789386030085&_dd.api=fetch"
+    },
+    {
+      "id": "11edf5a448142806",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=5f85a89e-6baa-4bc0-9be8-53bd1e14a1c4&batch_time=1789386031211&_dd.api=fetch"
+    },
+    {
+      "id": "934610d81063b5f5",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=4fa27570-bbe9-4471-833c-a61867f8bff9&batch_time=1789386031704&_dd.api=fetch"
+    },
+    {
+      "id": "73528100bc9e5989",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=a5a65144-e119-4516-9d07-747c65b99b8e&batch_time=1789386032498&_dd.api=fetch"
+    },
+    {
+      "id": "b809fc1e6b35558c",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=e72f2350-a846-4ac4-b7cb-02f9aa85cc9e&batch_time=1789386033965&_dd.api=fetch"
+    },
+    {
+      "id": "d82581639613e51c",
+      "kind": "video",
+      "name": "movie_preview.mp4",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "video"
+        },
+        {
+          "kind": "resource",
+          "property": "video"
+        }
+      ],
+      "url": "https://websitefactory.cartier.com/akamai-storage/videos/ww26//videos/movie/movie_preview.mp4"
+    },
+    {
+      "id": "d55c8f8291a7d292",
+      "kind": "other",
+      "name": "getdns.txt",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt?c=p1ub71lw7"
+    },
+    {
+      "id": "919840859689c406",
+      "kind": "other",
+      "name": "getdns.txt",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "xmlhttprequest"
+        }
+      ],
+      "url": "https://trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt?c=p1ub71lw7"
+    },
+    {
+      "id": "e0ce3622c72cd7b9",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=a16d719a-a87a-417b-88a6-b49717b657ea&batch_time=1789386037259&_dd.api=fetch"
+    },
+    {
+      "id": "16bf8f00b6f6ecab",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=bd507cac-1d08-457d-b1b6-d541f5242f09&batch_time=1789386037260&_dd.api=fetch"
+    },
+    {
+      "id": "e5195ebf2e8cb3ca",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=5798acde-68fa-4f9a-80ff-fa9078664715&batch_time=1789386037737&_dd.api=fetch"
+    },
+    {
+      "id": "77396628ef4ad4af",
+      "kind": "other",
+      "name": "rum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&dd-api-key=pub275769afe90ad3b15915002861fdb760&dd-evp-origin-version=6.33.0&dd-evp-origin=browser&dd-request-id=2638dce0-8d44-4a59-ad48-e9d06690286e&batch_time=1789386038484&_dd.api=fetch"
+    }
+  ],
+  "id": "75c27ca7-75d7-47ac-b369-8d79bff91cb1",
+  "inlineSvgs": [
+    {
+      "id": "e2bd99d46ae9f1aa",
+      "markup": "<svg focusable=\"false\" width=\"26\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"presentation\"><g stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\" fill-rule=\"evenodd\"><rect class=\"no-fill\" fill=\"none\" x=\".75\" y=\".75\" width=\"24.5\" height=\"22.5\" rx=\"3\"></rect><path class=\"no-fill\" fill=\"none\" d=\"M1 7h24M9.5 7v17\"></path></g></svg>",
+      "name": "svg-1"
+    },
+    {
+      "id": "885e5a1c26091b01",
+      "markup": "<svg width=\"26\" height=\"27\" role=\"presentation\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g class=\"no-fill\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M4.498 24.3v-.872H1.5v-1.37h2.716v-.872H1.5v-1.27h3v-.872H.542V24.3h3.955zm1.909 0v-3.695L9.183 24.3h.95v-5.256h-.95v3.695l-2.776-3.695H5.45V24.3h.957zm7.21 0v-4.383h1.682v-.873h-4.314v.873h1.683V24.3h.948zm6.421 0v-.872H17.04v-1.37h2.716v-.872H17.04v-1.27h3v-.872h-3.956V24.3h3.955zm1.84 0v-1.767h1.017l1.24 1.767h1.086l-1.316-1.867c.757-.237 1.27-.849 1.27-1.644 0-1.025-.842-1.745-1.966-1.745H20.92V24.3h.957zm1.224-2.647h-1.224v-1.729h1.224c.65 0 1.101.33 1.101.865 0 .535-.451.864-1.101.864z\" fill=\"#000\" fill-rule=\"nonzero\"></path><path class=\"no-fill\" fill=\"none\" d=\"M18.9 1v6.3a2.7 2.7 0 01-2.7 2.7H5.4h0\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.1 12.7L5.4 10l2.7-2.7\"></path></g></svg>",
+      "name": "svg-2"
+    },
+    {
+      "id": "3b8d63ec1b7033f9",
+      "markup": "<svg focusable=\"false\" width=\"28\" height=\"26\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"presentation\"><g class=\"no-fill\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M13.808 6.019C8.625 6.019 4.01 9.197 1 14.148c3.01 4.951 7.625 8.129 12.808 8.129s9.797-3.178 12.807-8.129c-3.01-4.951-7.624-8.13-12.807-8.13\" stroke=\"#000\" class=\"no-fill\" stroke-width=\"1.5\" fill=\"none\"></path><path d=\"M13.813 11.124c1.704 0 3.086 1.368 3.086 3.055 0 1.688-1.382 3.055-3.086 3.055s-3.086-1.367-3.086-3.055c0-1.687 1.382-3.055 3.086-3.055m0-3.055c-3.408 0-6.172 2.735-6.172 6.11 0 3.375 2.764 6.11 6.172 6.11s6.172-2.735 6.172-6.11c0-3.375-2.764-6.11-6.172-6.11\" class=\"fill-white\" fill=\"#FFF\" fill-rule=\"nonzero\"></path><path d=\"M17.913 14.18c0 2.244-1.839 4.064-4.105 4.064-2.268 0-4.106-1.82-4.106-4.065s1.838-4.064 4.106-4.064c2.266 0 4.105 1.82 4.105 4.064\" stroke=\"#000\" stroke-width=\"1.5\" class=\"no-fill\" fill=\"none\"></path><path class=\"no-fill\" stroke=\"#FFF\" stroke-width=\"3\" stroke-linecap=\"round\" d=\"M2.872 22.306L22.03 3.339\" fill=\"none\"></path><path stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" d=\"M4.24 23.661L23.398 4.694\" class=\"no-fill\" fill=\"none\"></path></g></svg>",
+      "name": "svg-3"
+    },
+    {
+      "id": "3ebcaeb3201e48bb",
+      "markup": "<svg width=\"26\" height=\"27\" role=\"presentation\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g class=\"no-fill\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M4.498 24.3v-.872H1.5v-1.37h2.716v-.872H1.5v-1.27h3v-.872H.542V24.3h3.955zm1.909 0v-3.695L9.183 24.3h.95v-5.256h-.95v3.695l-2.776-3.695H5.45V24.3h.957zm7.21 0v-4.383h1.682v-.873h-4.314v.873h1.683V24.3h.948zm6.421 0v-.872H17.04v-1.37h2.716v-.872H17.04v-1.27h3v-.872h-3.956V24.3h3.955zm1.84 0v-1.767h1.017l1.24 1.767h1.086l-1.316-1.867c.757-.237 1.27-.849 1.27-1.644 0-1.025-.842-1.745-1.966-1.745H20.92V24.3h.957zm1.224-2.647h-1.224v-1.729h1.224c.65 0 1.101.33 1.101.865 0 .535-.451.864-1.101.864z\" fill=\"#000\" fill-rule=\"nonzero\"></path><path class=\"no-fill\" fill=\"none\" d=\"M18.9 1v6.3a2.7 2.7 0 01-2.7 2.7H5.4h0\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.1 12.7L5.4 10l2.7-2.7\"></path></g></svg>",
+      "name": "svg-4"
+    },
+    {
+      "id": "35134f265f72a41d",
+      "markup": "<svg focusable=\"false\" width=\"23\" height=\"28\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"presentation\"><path d=\"M.018 8.639c.105-.595.65-.991 1.223-.877a53.94 53.94 0 0020.517 0c.625-.125 1.228.366 1.242 1.06.01.544-.402 1.003-.915 1.102-2.289.44-4.589.727-6.893.877-.948.063-1.647.948-1.54 1.932l.202 1.84c.314 2.87.958 5.69 1.919 8.399l1.26 3.553c.202.568-.076 1.197-.62 1.407a.994.994 0 01-.364.068c-.4 0-.768-.245-.944-.638l-.007.007-.325-.724a110.53 110.53 0 01-2.83-6.926.462.462 0 00-.878 0 105.146 105.146 0 01-2.832 6.917l-.308.68.005-.021a1.05 1.05 0 01-.98.705.994.994 0 01-.364-.068c-.544-.21-.821-.839-.62-1.407l1.26-3.553a37.235 37.235 0 001.92-8.403l.2-1.824c.107-.986-.59-1.881-1.54-1.943A55.94 55.94 0 01.86 9.914c-.57-.11-.947-.68-.841-1.275zM11.5 0c1.934 0 3.502 1.634 3.502 3.651 0 2.016-1.568 3.65-3.502 3.65-1.934 0-3.502-1.634-3.502-3.65C7.998 1.634 9.566 0 11.5 0z\" fill=\"#000\" fill-rule=\"evenodd\"></path></svg>",
+      "name": "svg-5"
+    },
+    {
+      "id": "b51919d7b91b88fb",
+      "markup": "<svg width=\"26\" height=\"27\" role=\"presentation\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g class=\"no-fill\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M4.498 24.3v-.872H1.5v-1.37h2.716v-.872H1.5v-1.27h3v-.872H.542V24.3h3.955zm1.909 0v-3.695L9.183 24.3h.95v-5.256h-.95v3.695l-2.776-3.695H5.45V24.3h.957zm7.21 0v-4.383h1.682v-.873h-4.314v.873h1.683V24.3h.948zm6.421 0v-.872H17.04v-1.37h2.716v-.872H17.04v-1.27h3v-.872h-3.956V24.3h3.955zm1.84 0v-1.767h1.017l1.24 1.767h1.086l-1.316-1.867c.757-.237 1.27-.849 1.27-1.644 0-1.025-.842-1.745-1.966-1.745H20.92V24.3h.957zm1.224-2.647h-1.224v-1.729h1.224c.65 0 1.101.33 1.101.865 0 .535-.451.864-1.101.864z\" fill=\"#000\" fill-rule=\"nonzero\"></path><path class=\"no-fill\" fill=\"none\" d=\"M18.9 1v6.3a2.7 2.7 0 01-2.7 2.7H5.4h0\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.1 12.7L5.4 10l2.7-2.7\"></path></g></svg>",
+      "name": "svg-6"
+    },
+    {
+      "id": "4e94ee0f991b9b99",
+      "markup": "<svg class=\"scrollButton__arrow scrollButton__arrow--base\" width=\"7\" height=\"13\" viewBox=\"24 21 7 13\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" data-v-cd15b558=\"\"><path d=\"M27.5 21.5L27.5 33.5M27.5 33.5L30.5 30.5479M27.5 33.5L24.5 30.5479\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-v-cd15b558=\"\"></path></svg>",
+      "name": "svg-7"
+    },
+    {
+      "id": "09521f9857ee1ee3",
+      "markup": "<svg class=\"scrollButton__arrow scrollButton__arrow--hover\" width=\"7\" height=\"13\" viewBox=\"24 21 7 13\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" data-v-cd15b558=\"\"><path d=\"M27.5 21.5L27.5 33.5M27.5 33.5L30.5 30.5479M27.5 33.5L24.5 30.5479\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-v-cd15b558=\"\"></path></svg>",
+      "name": "svg-8"
+    },
+    {
+      "id": "2aa2f8dee5692023",
+      "markup": "<svg data-v-3375d97a=\"\" class=\"videoButton__svg\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle data-v-3375d97a=\"\" class=\"videoButton__track\" cx=\"40\" cy=\"40\" r=\"39.5\" stroke-width=\"1\"></circle><circle data-v-3375d97a=\"\" class=\"videoButton__progress\" cx=\"40\" cy=\"40\" r=\"39.5\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"248.18581963359367\" stroke-dashoffset=\"248.18581963359367\" transform=\"rotate(-90 40 40)\"></circle></svg>",
+      "name": "svg-9"
+    },
+    {
+      "id": "3bd16a30089e4253",
+      "markup": "<svg data-v-67b691e3=\"\" data-v-3375d97a=\"\" class=\"playVideoIcon playVideoIcon--m\" viewBox=\"0 0 8 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><path data-v-67b691e3=\"\" d=\"M0 10V0L8 5L0 10Z\" fill=\"currentColor\"></path></svg>",
+      "name": "svg-10"
+    },
+    {
+      "id": "e7874101a75c2767",
+      "markup": "<svg data-v-de543648=\"\" data-v-3375d97a=\"\" class=\"crossIcon\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\" size=\"s\"><rect data-v-de543648=\"\" x=\"3.40381\" y=\"13.3031\" width=\"1\" height=\"14\" transform=\"rotate(-135 3.40381 13.3031)\" fill=\"currentColor\"></rect><rect data-v-de543648=\"\" x=\"2.69653\" y=\"3.40375\" width=\"1\" height=\"14\" transform=\"rotate(-45 2.69653 3.40375)\" fill=\"currentColor\"></rect></svg>",
+      "name": "svg-11"
+    },
+    {
+      "id": "df67e63aba9b1ee7",
+      "markup": "<svg data-v-e31c038a=\"\" class=\"cursorWatch__svg\" width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g data-v-e31c038a=\"\" class=\"cursorWatch__ringInteraction\"><circle data-v-e31c038a=\"\" class=\"cursorWatch__ringCircle\" cx=\"21\" cy=\"21\" r=\"20.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" vector-effect=\"non-scaling-stroke\"></circle></g></svg>",
+      "name": "svg-12"
+    },
+    {
+      "id": "395cec45cdac60a7",
+      "markup": "<svg class=\"cursorSlider__svg\" width=\"82\" height=\"42\" viewBox=\"0 0 82 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" data-v-369ae1f4=\"\"><g class=\"cursorSlider__arrow cursorSlider__arrow--left\" data-v-369ae1f4=\"\"><path d=\"M4 18L0 21L4 24V18Z\" fill=\"currentColor\" data-v-369ae1f4=\"\"></path></g><g class=\"cursorSlider__ringVisibility\" data-v-369ae1f4=\"\"><g class=\"cursorSlider__ringInteraction\" data-v-369ae1f4=\"\"><circle class=\"cursorSlider__ringCircle\" cx=\"41\" cy=\"21\" r=\"20.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" vector-effect=\"non-scaling-stroke\" data-v-369ae1f4=\"\"></circle></g></g><g class=\"cursorSlider__arrow cursorSlider__arrow--right\" data-v-369ae1f4=\"\"><path d=\"M78 18L82 21L78 24V18Z\" fill=\"currentColor\" data-v-369ae1f4=\"\"></path></g></svg>",
+      "name": "svg-13"
+    },
+    {
+      "id": "443a7ad8797bb3ff",
+      "markup": "<svg data-v-8cff3fd8=\"\" data-v-2078fbf4=\"\" class=\"cartierIcon cartierIcon--s headerBlock__icon\" viewBox=\"0 0 110 31\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><path data-v-8cff3fd8=\"\" d=\"M76.9691 12.13C77.7239 12.13 78.3358 11.5168 78.3358 10.7604C78.3358 10.0041 77.7239 9.39093 76.9691 9.39093C76.2142 9.39093 75.6023 10.0041 75.6023 10.7604C75.6023 11.5168 76.2142 12.13 76.9691 12.13Z\" fill=\"currentColor\"></path><path data-v-8cff3fd8=\"\" d=\"M107.997 15.323C105.889 15.2769 101.764 18.5959 101.278 19.1064L103.433 15.416H100.189C96.0184 22.495 87.3057 29.3888 83.4364 29.5279C79.937 29.7828 79.6827 27.2766 80.8411 24.3061V24.3289C85.8 24.8393 94.512 19.7333 91.7779 15.9499C89.4376 13.6056 83.1353 16.0663 79.1265 21.4273L78.8487 21.8454L78.2465 22.7272C76.833 24.6306 73.9132 27.3689 73.9132 27.3689C70.1594 31.0593 68.4682 28.901 70.0439 26.2323L76.23 15.4856H73.4498C72.6853 16.53 68.9315 23.4237 62.8375 27.7409C59.3849 30.3863 56.6975 29.2496 59.1072 25.8141L65.1544 15.4856L68.5142 15.4629L68.9542 14.9986H65.5023L69.1632 8.59189H66.1045C64.482 11.3543 60.6829 17.7837 56.8824 19.4081C57.5548 18.5029 57.3224 17.296 57.3224 17.296C57.0447 15.9038 55.4923 15.7646 55.4923 15.7646C55.4923 15.7646 53.2909 15.4394 50.7884 17.6673L52.1325 15.4394H49.0511C46.363 20.2203 39.2267 30.3863 35.3334 29.4115C34.2912 28.9472 34.2217 27.6245 35.3107 25.8375L41.4742 15.3933H38.4148C37.9982 16.0202 36.7469 18.4106 36.7703 18.3638C36.8858 17.7369 37.048 15.323 34.6851 14.836C34.1516 14.7196 33.781 14.6968 33.2716 14.6968C30.6529 14.6734 28.0122 16.0429 25.4162 18.341C23.5861 19.9654 21.8481 22.1237 20.3885 24.8166C14.1089 30.5957 7.66773 30.9202 5.55917 28.7619C3.33442 26.4637 2.45442 21.7524 6.57873 13.8144C8.03829 11.7491 13.4606 2.79006 21.2692 0.724086C27.1082 -0.830737 29.4711 2.46491 29.6801 6.29444C29.6801 6.29444 31.4408 2.97606 33.4339 0.910086C32.2053 1.42055 29.5179 2.04675 28.2666 1.2814C24.4895 -1.13247 17.2137 -0.761158 7.89942 7.91953C-0.0948334 16.0429 -5.77152 31.8254 10.0774 30.5957C15.6847 29.8992 20.3885 25.4194 20.3885 25.4194C19.6467 28.135 20.8519 30.1775 23.1688 30.5957C24.0261 30.7576 25.2313 30.5254 26.2509 30.1314C27.1082 29.7828 28.9156 29.0402 31.2785 27.1829C30.5374 30.1541 35.1251 34.5871 43.5827 24.1201L39.6667 30.4097L43.2349 30.3863C43.2349 30.3863 49.19 19.849 50.279 18.7812C52.5959 15.695 56.8597 15.1143 56.7896 17.2726C56.3262 17.0411 55.9096 16.9715 55.5617 17.0411C54.5422 17.203 54.0788 18.4802 54.2878 19.362C54.4033 19.6637 54.5655 19.9654 55.0523 20.1976C55.0523 20.1976 57.0447 21.5898 61.8414 15.5786L61.1463 16.809C61.1463 16.809 56.3035 25.1645 55.6779 26.348C53.2215 31.06 59.0377 31.5009 62.513 28.5063C62.513 28.5063 65.34 26.4176 68.561 22.8898C68.5174 22.9646 68.4786 23.0422 68.4448 23.1219C66.7762 26.1158 64.9454 29.1793 67.3097 30.5027C67.9814 30.8044 69.8122 31.0132 72.083 29.4115C72.083 29.4115 75.7199 26.4176 77.6435 23.9803C76.8323 25.861 76.0912 28.9472 79.3815 30.3401C81.235 30.9202 82.7414 30.5488 84.5949 29.922C90.4111 28.0192 97.8485 19.4784 97.8485 19.4784C97.8485 19.4784 91.5462 29.9688 91.3379 30.3628L94.5347 30.3401C94.5347 30.3401 99.077 22.6342 100.004 21.335C102.483 17.4358 107.858 14.7664 108.415 16.1125C106.422 15.7178 105.936 18.6655 107.511 19.269C109.967 20.2203 111.381 15.509 107.997 15.323ZM88.6924 15.5435C89.5504 15.6365 89.967 16.0774 89.8749 17.2843C89.5964 19.8848 85.7966 24.1332 80.9305 23.9941C82.6224 20.0006 86.6539 15.3575 88.6924 15.5435ZM30.2363 27.3834C29.3095 28.1729 28.1738 28.7998 28.1738 28.7998C23.5174 31.1447 22.4744 28.591 22.9839 26.2233C23.4239 24.1801 25.232 21.1848 26.7142 19.351C28.0583 17.8423 29.4711 16.6808 31.2792 15.799C35.1485 13.895 37.5114 16.2861 35.913 19.6761C34.8474 21.9047 33.1327 24.8993 30.2363 27.3834Z\" fill=\"currentColor\"></path></svg>",
+      "name": "svg-14"
+    },
+    {
+      "id": "f1126312530ff526",
+      "markup": "<svg data-v-de543648=\"\" data-v-2078fbf4=\"\" class=\"crossIcon close__icon\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect data-v-de543648=\"\" x=\"3.40381\" y=\"13.3031\" width=\"1\" height=\"14\" transform=\"rotate(-135 3.40381 13.3031)\" fill=\"currentColor\"></rect><rect data-v-de543648=\"\" x=\"2.69653\" y=\"3.40375\" width=\"1\" height=\"14\" transform=\"rotate(-45 2.69653 3.40375)\" fill=\"currentColor\"></rect></svg>",
+      "name": "svg-15"
+    },
+    {
+      "id": "992c03e158d38c26",
+      "markup": "<svg width=\"70\" height=\"70\" viewBox=\"0 0 70 70\">\n      <defs>\n        <linearGradient id=\"body-gradient\" x1=\"0%\" y1=\"100%\" x2=\"0%\" y2=\"0%\">\n          <stop offset=\"0%\" stop-color=\"black\"></stop>\n          <stop offset=\"100%\" stop-color=\"red\"></stop>\n        </linearGradient>\n        <clipPath id=\"clipping-face\">\n          <path d=\"M57.89,40.39l-7.18-5,3.71-6.73h0L59.74,19l.93,4.89Zm-6.1,8.74L40.52,39.45,50,36.06l7.55,5.31ZM32.32,70c-5.08-.21-7.21-2.8-7.88-3.88l7.83-2.74,7.81,2.73C37.29,69.93,32.35,70,32.32,70ZM3.92,23.86l.93-4.92,5.33,9.67h0l3.72,6.73-7.2,5ZM1.09,4.65a.43.43,0,0,0,0-.12,3,3,0,0,1,.54-1.08C5.15,1.07,13.33,6.76,16.85,9.67l-12,7.1C.09,7.14,1.09,4.66,1.09,4.65Zm15.13.11L17,8.47C14.75,6.71,9.68,3,5.44,2.07c4.09,0,9.62,2.2,10.78,2.69ZM34.05,1c.09,0,5.51,0,13.27,3.67L42.55,31,32.8,28V1c.42,0,.83,0,1.25,0ZM59.23,2.08C55,3,49.8,6.79,47.64,8.52l.68-3.74C49.4,4.32,55.09,2,59.23,2.08ZM53.65,28l-10.07,3,3.7-20.39,12,7.14ZM21.6,32l2.53,6.39L14.9,35.09l-3.26-5.91Zm-.26-1.12L11,28,5.29,17.67l12.06-7.14ZM31.8,28l-9.44,3L17.23,4.7A49.12,49.12,0,0,1,31.8,1.07Zm1,8.53V29.05l9.46,2.88-3,6.72Zm-7.3,3.09,6.8-2.2L39,39.63V53.41H25.5Zm6.3-3.09-6.51,2.1-2.66-6.71,9.17-2.88Zm.49,22.3-5.81-4.43H38.07ZM7.05,41.35l7.57-5.29L24,39.44,12.79,49.11ZM13.25,50,24.5,40.35V53.61L15,58.71ZM23.8,65.28l-8.25-5.75,9.4-5,6.85,5.22v2.77Zm17,0-8-2.79V59.72l6.79-5.22,9.45,5Zm8.85-6.58L40,53.61V40.35l11.29,9.71Zm.08-23.62L40.48,38.4,43.31,32,53,29.19Zm10-18.32L47.82,9.67C51.3,6.76,59.43,1.1,62.92,3.46a3,3,0,0,1,.53,1.07l0,.1s1,2.51-3.73,12.14Zm.74.79c4.9-9.87,4.14-12.8,3.9-13.33a3.72,3.72,0,0,0-.69-1.36.22.22,0,0,0-.05-.08,3.92,3.92,0,0,0-1.41-1.11C58-.32,49.44,3.21,47.94,3.85,39.82,0,34.3,0,34.05,0,33.51,0,33,0,32.42,0L32.3,0a.58.58,0,0,0-.19,0A48.54,48.54,0,0,0,16.66,3.86C15.18,3.22,6.56-.32,2.34,1.68A4.16,4.16,0,0,0,.92,2.79l0,0a3.86,3.86,0,0,0-.71,1.4c-.24.53-1,3.46,3.9,13.32L2.92,23.76a.49.49,0,0,0,0,.17L5.84,41.31h0a.39.39,0,0,0,.08.2h0L12.24,50l1.87,9.53a.15.15,0,0,0,0,.07.64.64,0,0,0,0,.07h0a.43.43,0,0,0,.14.16l9,6.29c.39.79,2.58,4.56,9,4.83.24,0,5.94,0,8.94-4.81l9-6.31a.54.54,0,0,0,.14-.16h0a.1.1,0,0,0,0-.07.21.21,0,0,0,0-.07L52.35,50l6.31-8.51a.85.85,0,0,0,.09-.22l2.92-17.38a.49.49,0,0,0,0-.17Z\"></path>\n      </clipPath>\n    </defs>\n    <g class=\"body\" fill=\"url(#body-gradient)\">\n      <path d=\"M57.89,40.39l-7.18-5,3.71-6.73h0L59.74,19l.93,4.89Zm-6.1,8.74L40.52,39.45,50,36.06l7.55,5.31ZM32.32,70c-5.08-.21-7.21-2.8-7.88-3.88l7.83-2.74,7.81,2.73C37.29,69.93,32.35,70,32.32,70ZM3.92,23.86l.93-4.92,5.33,9.67h0l3.72,6.73-7.2,5ZM1.09,4.65a.43.43,0,0,0,0-.12,3,3,0,0,1,.54-1.08C5.15,1.07,13.33,6.76,16.85,9.67l-12,7.1C.09,7.14,1.09,4.66,1.09,4.65Zm15.13.11L17,8.47C14.75,6.71,9.68,3,5.44,2.07c4.09,0,9.62,2.2,10.78,2.69ZM34.05,1c.09,0,5.51,0,13.27,3.67L42.55,31,32.8,28V1c.42,0,.83,0,1.25,0ZM59.23,2.08C55,3,49.8,6.79,47.64,8.52l.68-3.74C49.4,4.32,55.09,2,59.23,2.08ZM53.65,28l-10.07,3,3.7-20.39,12,7.14ZM21.6,32l2.53,6.39L14.9,35.09l-3.26-5.91Zm-.26-1.12L11,28,5.29,17.67l12.06-7.14ZM31.8,28l-9.44,3L17.23,4.7A49.12,49.12,0,0,1,31.8,1.07Zm1,8.53V29.05l9.46,2.88-3,6.72Zm-7.3,3.09,6.8-2.2L39,39.63V53.41H25.5Zm6.3-3.09-6.51,2.1-2.66-6.71,9.17-2.88Zm.49,22.3-5.81-4.43H38.07ZM7.05,41.35l7.57-5.29L24,39.44,12.79,49.11ZM13.25,50,24.5,40.35V53.61L15,58.71ZM23.8,65.28l-8.25-5.75,9.4-5,6.85,5.22v2.77Zm17,0-8-2.79V59.72l6.79-5.22,9.45,5Zm8.85-6.58L40,53.61V40.35l11.29,9.71Zm.08-23.62L40.48,38.4,43.31,32,53,29.19Zm10-18.32L47.82,9.67C51.3,6.76,59.43,1.1,62.92,3.46a3,3,0,0,1,.53,1.07l0,.1s1,2.51-3.73,12.14Zm.74.79c4.9-9.87,4.14-12.8,3.9-13.33a3.72,3.72,0,0,0-.69-1.36.22.22,0,0,0-.05-.08,3.92,3.92,0,0,0-1.41-1.11C58-.32,49.44,3.21,47.94,3.85,39.82,0,34.3,0,34.05,0,33.51,0,33,0,32.42,0L32.3,0a.58.58,0,0,0-.19,0A48.54,48.54,0,0,0,16.66,3.86C15.18,3.22,6.56-.32,2.34,1.68A4.16,4.16,0,0,0,.92,2.79l0,0a3.86,3.86,0,0,0-.71,1.4c-.24.53-1,3.46,3.9,13.32L2.92,23.76a.49.49,0,0,0,0,.17L5.84,41.31h0a.39.39,0,0,0,.08.2h0L12.24,50l1.87,9.53a.15.15,0,0,0,0,.07.64.64,0,0,0,0,.07h0a.43.43,0,0,0,.14.16l9,6.29c.39.79,2.58,4.56,9,4.83.24,0,5.94,0,8.94-4.81l9-6.31a.54.54,0,0,0,.14-.16h0a.1.1,0,0,0,0-.07.21.21,0,0,0,0-.07L52.35,50l6.31-8.51a.85.85,0,0,0,.09-.22l2.92-17.38a.49.49,0,0,0,0-.17Z\"></path>\n        </g>\n        <g class=\"eyes\">\n          <polygon id=\"eye-sx\" points=\"40.30 38.4 43.31 32.03 52.96 29.19 49.71 35.09 40.48 38.4\"></polygon>\n          <polygon id=\"eye-dx\" points=\"14.9 35.09 11.64 29.18 21.6 32.03 24.13 38.42 14.9 35.09\"></polygon>\n        </g>\n      </svg>",
+      "name": "svg-16"
+    },
+    {
+      "id": "411be47fd89f7f41",
+      "markup": "<svg>\n            <defs>\n              <clipPath id=\"clipping-face\">\n                <path d=\"M57.89,40.39l-7.18-5,3.71-6.73h0L59.74,19l.93,4.89Zm-6.1,8.74L40.52,39.45,50,36.06l7.55,5.31ZM32.32,70c-5.08-.21-7.21-2.8-7.88-3.88l7.83-2.74,7.81,2.73C37.29,69.93,32.35,70,32.32,70ZM3.92,23.86l.93-4.92,5.33,9.67h0l3.72,6.73-7.2,5ZM1.09,4.65a.43.43,0,0,0,0-.12,3,3,0,0,1,.54-1.08C5.15,1.07,13.33,6.76,16.85,9.67l-12,7.1C.09,7.14,1.09,4.66,1.09,4.65Zm15.13.11L17,8.47C14.75,6.71,9.68,3,5.44,2.07c4.09,0,9.62,2.2,10.78,2.69ZM34.05,1c.09,0,5.51,0,13.27,3.67L42.55,31,32.8,28V1c.42,0,.83,0,1.25,0ZM59.23,2.08C55,3,49.8,6.79,47.64,8.52l.68-3.74C49.4,4.32,55.09,2,59.23,2.08ZM53.65,28l-10.07,3,3.7-20.39,12,7.14ZM21.6,32l2.53,6.39L14.9,35.09l-3.26-5.91Zm-.26-1.12L11,28,5.29,17.67l12.06-7.14ZM31.8,28l-9.44,3L17.23,4.7A49.12,49.12,0,0,1,31.8,1.07Zm1,8.53V29.05l9.46,2.88-3,6.72Zm-7.3,3.09,6.8-2.2L39,39.63V53.41H25.5Zm6.3-3.09-6.51,2.1-2.66-6.71,9.17-2.88Zm.49,22.3-5.81-4.43H38.07ZM7.05,41.35l7.57-5.29L24,39.44,12.79,49.11ZM13.25,50,24.5,40.35V53.61L15,58.71ZM23.8,65.28l-8.25-5.75,9.4-5,6.85,5.22v2.77Zm17,0-8-2.79V59.72l6.79-5.22,9.45,5Zm8.85-6.58L40,53.61V40.35l11.29,9.71Zm.08-23.62L40.48,38.4,43.31,32,53,29.19Zm10-18.32L47.82,9.67C51.3,6.76,59.43,1.1,62.92,3.46a3,3,0,0,1,.53,1.07l0,.1s1,2.51-3.73,12.14Zm.74.79c4.9-9.87,4.14-12.8,3.9-13.33a3.72,3.72,0,0,0-.69-1.36.22.22,0,0,0-.05-.08,3.92,3.92,0,0,0-1.41-1.11C58-.32,49.44,3.21,47.94,3.85,39.82,0,34.3,0,34.05,0,33.51,0,33,0,32.42,0L32.3,0a.58.58,0,0,0-.19,0A48.54,48.54,0,0,0,16.66,3.86C15.18,3.22,6.56-.32,2.34,1.68A4.16,4.16,0,0,0,.92,2.79l0,0a3.86,3.86,0,0,0-.71,1.4c-.24.53-1,3.46,3.9,13.32L2.92,23.76a.49.49,0,0,0,0,.17L5.84,41.31h0a.39.39,0,0,0,.08.2h0L12.24,50l1.87,9.53a.15.15,0,0,0,0,.07.64.64,0,0,0,0,.07h0a.43.43,0,0,0,.14.16l9,6.29c.39.79,2.58,4.56,9,4.83.24,0,5.94,0,8.94-4.81l9-6.31a.54.54,0,0,0,.14-.16h0a.1.1,0,0,0,0-.07.21.21,0,0,0,0-.07L52.35,50l6.31-8.51a.85.85,0,0,0,.09-.22l2.92-17.38a.49.49,0,0,0,0-.17Z\"></path>\n            </clipPath></defs>\n            <g>\n              <path d=\"M57.89,40.39l-7.18-5,3.71-6.73h0L59.74,19l.93,4.89Zm-6.1,8.74L40.52,39.45,50,36.06l7.55,5.31ZM32.32,70c-5.08-.21-7.21-2.8-7.88-3.88l7.83-2.74,7.81,2.73C37.29,69.93,32.35,70,32.32,70ZM3.92,23.86l.93-4.92,5.33,9.67h0l3.72,6.73-7.2,5ZM1.09,4.65a.43.43,0,0,0,0-.12,3,3,0,0,1,.54-1.08C5.15,1.07,13.33,6.76,16.85,9.67l-12,7.1C.09,7.14,1.09,4.66,1.09,4.65Zm15.13.11L17,8.47C14.75,6.71,9.68,3,5.44,2.07c4.09,0,9.62,2.2,10.78,2.69ZM34.05,1c.09,0,5.51,0,13.27,3.67L42.55,31,32.8,28V1c.42,0,.83,0,1.25,0ZM59.23,2.08C55,3,49.8,6.79,47.64,8.52l.68-3.74C49.4,4.32,55.09,2,59.23,2.08ZM53.65,28l-10.07,3,3.7-20.39,12,7.14ZM21.6,32l2.53,6.39L14.9,35.09l-3.26-5.91Zm-.26-1.12L11,28,5.29,17.67l12.06-7.14ZM31.8,28l-9.44,3L17.23,4.7A49.12,49.12,0,0,1,31.8,1.07Zm1,8.53V29.05l9.46,2.88-3,6.72Zm-7.3,3.09,6.8-2.2L39,39.63V53.41H25.5Zm6.3-3.09-6.51,2.1-2.66-6.71,9.17-2.88Zm.49,22.3-5.81-4.43H38.07ZM7.05,41.35l7.57-5.29L24,39.44,12.79,49.11ZM13.25,50,24.5,40.35V53.61L15,58.71ZM23.8,65.28l-8.25-5.75,9.4-5,6.85,5.22v2.77Zm17,0-8-2.79V59.72l6.79-5.22,9.45,5Zm8.85-6.58L40,53.61V40.35l11.29,9.71Zm.08-23.62L40.48,38.4,43.31,32,53,29.19Zm10-18.32L47.82,9.67C51.3,6.76,59.43,1.1,62.92,3.46a3,3,0,0,1,.53,1.07l0,.1s1,2.51-3.73,12.14Zm.74.79c4.9-9.87,4.14-12.8,3.9-13.33a3.72,3.72,0,0,0-.69-1.36.22.22,0,0,0-.05-.08,3.92,3.92,0,0,0-1.41-1.11C58-.32,49.44,3.21,47.94,3.85,39.82,0,34.3,0,34.05,0,33.51,0,33,0,32.42,0L32.3,0a.58.58,0,0,0-.19,0A48.54,48.54,0,0,0,16.66,3.86C15.18,3.22,6.56-.32,2.34,1.68A4.16,4.16,0,0,0,.92,2.79l0,0a3.86,3.86,0,0,0-.71,1.4c-.24.53-1,3.46,3.9,13.32L2.92,23.76a.49.49,0,0,0,0,.17L5.84,41.31h0a.39.39,0,0,0,.08.2h0L12.24,50l1.87,9.53a.15.15,0,0,0,0,.07.64.64,0,0,0,0,.07h0a.43.43,0,0,0,.14.16l9,6.29c.39.79,2.58,4.56,9,4.83.24,0,5.94,0,8.94-4.81l9-6.31a.54.54,0,0,0,.14-.16h0a.1.1,0,0,0,0-.07.21.21,0,0,0,0-.07L52.35,50l6.31-8.51a.85.85,0,0,0,.09-.22l2.92-17.38a.49.49,0,0,0,0-.17Z\"></path>\n            \n            <g>\n              <path d=\"M57.89,40.39l-7.18-5,3.71-6.73h0L59.74,19l.93,4.89Zm-6.1,8.74L40.52,39.45,50,36.06l7.55,5.31ZM32.32,70c-5.08-.21-7.21-2.8-7.88-3.88l7.83-2.74,7.81,2.73C37.29,69.93,32.35,70,32.32,70ZM3.92,23.86l.93-4.92,5.33,9.67h0l3.72,6.73-7.2,5ZM1.09,4.65a.43.43,0,0,0,0-.12,3,3,0,0,1,.54-1.08C5.15,1.07,13.33,6.76,16.85,9.67l-12,7.1C.09,7.14,1.09,4.66,1.09,4.65Zm15.13.11L17,8.47C14.75,6.71,9.68,3,5.44,2.07c4.09,0,9.62,2.2,10.78,2.69ZM34.05,1c.09,0,5.51,0,13.27,3.67L42.55,31,32.8,28V1c.42,0,.83,0,1.25,0ZM59.23,2.08C55,3,49.8,6.79,47.64,8.52l.68-3.74C49.4,4.32,55.09,2,59.23,2.08ZM53.65,28l-10.07,3,3.7-20.39,12,7.14ZM21.6,32l2.53,6.39L14.9,35.09l-3.26-5.91Zm-.26-1.12L11,28,5.29,17.67l12.06-7.14ZM31.8,28l-9.44,3L17.23,4.7A49.12,49.12,0,0,1,31.8,1.07Zm1,8.53V29.05l9.46,2.88-3,6.72Zm-7.3,3.09,6.8-2.2L39,39.63V53.41H25.5Zm6.3-3.09-6.51,2.1-2.66-6.71,9.17-2.88Zm.49,22.3-5.81-4.43H38.07ZM7.05,41.35l7.57-5.29L24,39.44,12.79,49.11ZM13.25,50,24.5,40.35V53.61L15,58.71ZM23.8,65.28l-8.25-5.75,9.4-5,6.85,5.22v2.77Zm17,0-8-2.79V59.72l6.79-5.22,9.45,5Zm8.85-6.58L40,53.61V40.35l11.29,9.71Zm.08-23.62L40.48,38.4,43.31,32,53,29.19Zm10-18.32L47.82,9.67C51.3,6.76,59.43,1.1,62.92,3.46a3,3,0,0,1,.53,1.07l0,.1s1,2.51-3.73,12.14Zm.74.79c4.9-9.87,4.14-12.8,3.9-13.33a3.72,3.72,0,0,0-.69-1.36.22.22,0,0,0-.05-.08,3.92,3.92,0,0,0-1.41-1.11C58-.32,49.44,3.21,47.94,3.85,39.82,0,34.3,0,34.05,0,33.51,0,33,0,32.42,0L32.3,0a.58.58,0,0,0-.19,0A48.54,48.54,0,0,0,16.66,3.86C15.18,3.22,6.56-.32,2.34,1.68A4.16,4.16,0,0,0,.92,2.79l0,0a3.86,3.86,0,0,0-.71,1.4c-.24.53-1,3.46,3.9,13.32L2.92,23.76a.49.49,0,0,0,0,.17L5.84,41.31h0a.39.39,0,0,0,.08.2h0L12.24,50l1.87,9.53a.15.15,0,0,0,0,.07.64.64,0,0,0,0,.07h0a.43.43,0,0,0,.14.16l9,6.29c.39.79,2.58,4.56,9,4.83.24,0,5.94,0,8.94-4.81l9-6.31a.54.54,0,0,0,.14-.16h0a.1.1,0,0,0,0-.07.21.21,0,0,0,0-.07L52.35,50l6.31-8.51a.85.85,0,0,0,.09-.22l2.92-17.38a.49.49,0,0,0,0-.17Z\"></path>\n            </g>\n            <g class=\"eyes\">\n              <polygon id=\"eye-sx\" points=\"40.30 38.4 43.31 32.03 52.96 29.19 49.71 35.09 40.48 38.4\"></polygon>\n              <polygon id=\"eye-dx\" points=\"14.9 35.09 11.64 29.18 21.6 32.03 24.13 38.42 14.9 35.09\"></polygon>\n            </g>\n          </g></svg>",
+      "name": "svg-17"
+    },
+    {
+      "id": "3a469313875860c1",
+      "markup": "<svg data-v-3375d97a=\"\" class=\"videoButton__svg\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle data-v-3375d97a=\"\" class=\"videoButton__track\" cx=\"40\" cy=\"40\" r=\"39.5\" stroke-width=\"1\"></circle><circle data-v-3375d97a=\"\" class=\"videoButton__progress\" cx=\"40\" cy=\"40\" r=\"39.5\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"248.18581963359367\" stroke-dashoffset=\"248.18581963359367\" transform=\"rotate(-90 40 40)\"></circle></svg>",
+      "name": "svg-18"
+    },
+    {
+      "id": "75ef66028410be01",
+      "markup": "<svg data-v-67b691e3=\"\" data-v-3375d97a=\"\" class=\"playVideoIcon playVideoIcon--m\" viewBox=\"0 0 8 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><path data-v-67b691e3=\"\" d=\"M0 10V0L8 5L0 10Z\" fill=\"currentColor\"></path></svg>",
+      "name": "svg-19"
+    },
+    {
+      "id": "7148b16989f7f716",
+      "markup": "<svg data-v-de543648=\"\" data-v-3375d97a=\"\" class=\"crossIcon\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\" size=\"s\"><rect data-v-de543648=\"\" x=\"3.40381\" y=\"13.3031\" width=\"1\" height=\"14\" transform=\"rotate(-135 3.40381 13.3031)\" fill=\"currentColor\"></rect><rect data-v-de543648=\"\" x=\"2.69653\" y=\"3.40375\" width=\"1\" height=\"14\" transform=\"rotate(-45 2.69653 3.40375)\" fill=\"currentColor\"></rect></svg>",
+      "name": "svg-20"
+    },
+    {
+      "id": "22f54a327de43461",
+      "markup": "<svg data-v-de543648=\"\" data-v-7e4d5938=\"\" class=\"crossIcon close__icon\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect data-v-de543648=\"\" x=\"3.40381\" y=\"13.3031\" width=\"1\" height=\"14\" transform=\"rotate(-135 3.40381 13.3031)\" fill=\"currentColor\"></rect><rect data-v-de543648=\"\" x=\"2.69653\" y=\"3.40375\" width=\"1\" height=\"14\" transform=\"rotate(-45 2.69653 3.40375)\" fill=\"currentColor\"></rect></svg>",
+      "name": "svg-21"
+    }
+  ],
+  "pageUrl": "https://www.cartier.com/en-fr/watchesandwonders#/",
+  "summary": {
+    "byKind": {
+      "font": 6,
+      "image": 58,
+      "other": 81,
+      "script": 33,
+      "stylesheet": 7,
+      "video": 1
+    },
+    "inlineSvgCount": 21,
+    "totalCount": 186
+  }
+}

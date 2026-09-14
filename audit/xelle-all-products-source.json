@@ -1,0 +1,917 @@
+{
+  "products": [
+    {
+      "id": 15630945190214,
+      "title": "Maracuja Mojito Set",
+      "handle": "maracuja-mojito",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Maracuja Mojito este un ritual complet de parfumare, creat pentru a prelungi pe piele prospețimea vibrantă a fructului pasiunii. Setul combină gelul de duș, crema de corp și parfumul din aceeași colecție, pentru o experiență olfactivă fresh, tropicală și memorabilă.</span></p>\n<p><span>Aroma se deschide luminos, cu bergamotă și fructul pasiunii, continuă cu un acord floral elegant de iasomie, lăcrămioare și iris, apoi se așază într-o bază caldă și senzuală de lemn de santal, ambră, mosc și vanilie. Folosite împreună, cele trei produse creează un efect de layering care lasă pielea curată, fină, hidratată și delicat parfumată pe parcursul zilei.</span></p>",
+      "published_at": "2026-06-28T10:32:16+03:00",
+      "created_at": "2026-06-28T10:32:15+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56862184177990,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446707",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "507.45",
+          "grams": 0,
+          "compare_at_price": "597.00",
+          "position": 1,
+          "product_id": 15630945190214,
+          "created_at": "2026-06-28T10:32:15+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86887735984454,
+          "created_at": "2026-06-28T10:31:20+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T10:31:24+03:00",
+          "product_id": 15630945190214,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/ChatGPTImageJun28_2026_10_30_42AM.png?v=1782631884",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "id": 86887738245446,
+          "created_at": "2026-06-28T10:31:41+03:00",
+          "position": 2,
+          "updated_at": "2026-06-28T10:31:46+03:00",
+          "product_id": 15630945190214,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/hf_20260426_151515_79f4ebbf-6c93-4cab-84b9-daa3a2c4eaa1.png?v=1782631906",
+          "width": 4096,
+          "height": 4096
+        },
+        {
+          "id": 86887738704198,
+          "created_at": "2026-06-28T10:31:44+03:00",
+          "position": 3,
+          "updated_at": "2026-06-28T10:31:50+03:00",
+          "product_id": 15630945190214,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/hf_20260426_154710_2d204145-d837-495e-a01f-4fd8e446bbb8.png?v=1782631910",
+          "width": 4096,
+          "height": 4096
+        },
+        {
+          "id": 86887738736966,
+          "created_at": "2026-06-28T10:31:44+03:00",
+          "position": 4,
+          "updated_at": "2026-06-28T10:31:50+03:00",
+          "product_id": 15630945190214,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/hf_20260430_190422_cf6d951b-1ad1-4a83-b6c3-acc3ffb462dc.png?v=1782631910",
+          "width": 4096,
+          "height": 4096
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630942667078,
+      "title": "Spiced Peach Negroni Set",
+      "handle": "spiced-peach-negroni-1",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Spiced Peach Negroni este un ritual complet de parfumare, creat pentru cei care iubesc aromele fructate, condimentate și ușor misterioase. Setul reunește gelul de duș, crema de corp și parfumul din aceeași colecție, pentru o experiență olfactivă intensă, caldă și memorabilă.</span></p>\n<p><span>Aroma se deschide cu limetă, mandarină, portocală, piersică, coacăze negre și note licoroase, continuă cu ghimbir, scorțișoară, iris, iasomie și trandafir, apoi se așază într-o bază catifelată de patchouli, rășină de benzoin, vanilie, ambră și mosc. Folosite împreună, cele trei produse creează un efect de layering care lasă pielea curată, fină, hidratată și delicat parfumată.</span></p>",
+      "published_at": "2026-06-28T10:28:42+03:00",
+      "created_at": "2026-06-28T10:28:41+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56862181392710,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446704",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "490.00",
+          "grams": 0,
+          "compare_at_price": "577.00",
+          "position": 1,
+          "product_id": 15630942667078,
+          "created_at": "2026-06-28T10:28:42+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86887722746182,
+          "created_at": "2026-06-28T10:28:16+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T10:28:20+03:00",
+          "product_id": 15630942667078,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/ChatGPTImageJun28_2026_10_27_38AM.png?v=1782631700",
+          "width": 1774,
+          "height": 887
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630941782342,
+      "title": "Prosecco Di Cherry Set",
+      "handle": "prosecco-di-cherry",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Prosecco di Cherry este un ritual complet de parfumare, creat pentru momente fresh, feminine și memorabile. Setul reunește gelul de duș, crema de corp și parfumul din aceeași colecție, pentru o experiență olfactivă fructată, florală și elegantă.</span></p>\n<p><span>Aroma se deschide cu cireșe suculente, șampanie cu cireșe și un acord de cocktail efervescent, continuă cu iasomie, tuberoză și flori albe, apoi se așază într-o bază caldă de mosc, vanilie, ambră și patchouli. Folosite împreună, cele trei produse creează un efect de layering care lasă pielea curată, fină, hidratată și delicat parfumată.</span></p>",
+      "published_at": "2026-06-28T10:25:56+03:00",
+      "created_at": "2026-06-28T10:25:56+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56862180213062,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446705",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "464.00",
+          "grams": 0,
+          "compare_at_price": "547.00",
+          "position": 1,
+          "product_id": 15630941782342,
+          "created_at": "2026-06-28T10:25:56+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86887703609670,
+          "created_at": "2026-06-28T10:25:04+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T10:25:08+03:00",
+          "product_id": 15630941782342,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/ChatGPTImageJun28_2026_10_24_55AM.png?v=1782631508",
+          "width": 1774,
+          "height": 887
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630941258054,
+      "title": "Pornstar Martini Set",
+      "handle": "pornstar-martini-set",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Pornstar Martini este un ritual complet de parfumare, creat pentru o piele fină, prospețime și un parfum memorabil. Setul reunește gelul de duș, crema de corp și parfumul din aceeași colecție, pentru o experiență olfactivă fructată, florală și senzuală.</span></p>\n<p><span>Aroma se deschide efervescent, cu litchi, șampanie, note de fructe de pădure și accente de cocktail. Inima florală de trandafir, flori albe și acord pudrat adaugă eleganță, iar baza de mosc, lemn de santal, ambră și vanilie oferă un final cald, cremos și persistent.</span></p>",
+      "published_at": "2026-06-28T10:21:37+03:00",
+      "created_at": "2026-06-28T10:21:37+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56862177296710,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446706",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "499.00",
+          "grams": 0,
+          "compare_at_price": "587.00",
+          "position": 1,
+          "product_id": 15630941258054,
+          "created_at": "2026-06-28T10:21:37+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86887691125062,
+          "created_at": "2026-06-28T10:20:53+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T10:20:57+03:00",
+          "product_id": 15630941258054,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/ChatGPTImageJun28_2026_10_20_47AM.png?v=1782631257",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630414676294,
+      "title": "Maracuja Mojito Body Cream 250 ml",
+      "handle": "maracuja-mojito-body-cream-250-ml",
+      "body_html": "<p><meta charset=\"UTF-8\"><span>Maracuja Mojito Body Cream îmbină îngrijirea pielii cu semnătura olfactivă fresh și tropicală a colecției. Aroma se deschide cu bergamotă și fructul pasiunii, continuă cu un acord floral elegant de iasomie, lăcrămioare și iris, apoi se așază într-o bază caldă de lemn de santal, ambră, mosc și vanilie. Pielea rămâne fină, hidratată și delicat parfumată.</span></p>",
+      "published_at": "2026-06-28T01:36:12+03:00",
+      "created_at": "2026-06-28T01:36:11+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56861149135174,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446703",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "139.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630414676294,
+          "created_at": "2026-06-28T01:36:12+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888269644102,
+          "created_at": "2026-06-28T12:01:51+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T12:01:55+03:00",
+          "product_id": 15630414676294,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/maracujamojitobodycreamSQUARE.jpg?v=1782637315",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630411563334,
+      "title": "Pornstar Martini Body Cream 250 ml",
+      "handle": "pornstar-martini-body-cream-250-ml",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Pornstar Martini Body Cream îmbină îngrijirea pielii cu parfumul vibrant și seducător al colecției. Notele de litchi, şampanie și fructe de pădure oferă un început juicy și efervescent, urmat de o inimă elegantă de trandafir, flori albe și acorduri pudrate.</span></p>\n<p><span>Baza de mosc, lemn de santal, ambră și vanilie adaugă profunzime și căldură, lăsând pielea fină, hidratată și delicat parfumată. Folosită înaintea parfumului, ajută la intensificarea ritualului olfactiv Pornstar Martini.</span></p>\n<p><br></p>",
+      "published_at": "2026-06-28T01:30:08+03:00",
+      "created_at": "2026-06-28T01:30:07+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56861136290118,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446702",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "139.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630411563334,
+          "created_at": "2026-06-28T01:30:07+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888265843014,
+          "created_at": "2026-06-28T12:01:30+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T12:01:33+03:00",
+          "product_id": 15630411563334,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/pornstarmartinibodycreamSQUARE.jpg?v=1782637293",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630410285382,
+      "title": "Prosecco di Cherry Body Cream 250 ml",
+      "handle": "prosecco-di-cherry-body-cream-250-ml",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Prosecco di Cherry Body Cream îmbină îngrijirea pielii cu un parfum feminin, sparkling și delicios de purtat. Notele de cireșe, șampanie cu cireșe și acord de cocktail oferă un început juicy și luminos, urmat de o inimă florală elegantă de iasomie, tuberoză și flori albe.</span></p>\n<p><span>Baza de mosc, vanilie, ambră și patchouli adaugă căldură și profunzime, lăsând pielea fină, hidratată și delicat parfumată. Folosită înaintea parfumului, completează ritualul Prosecco di Cherry și ajută aroma să se simtă mai intens pe piele.</span></p>",
+      "published_at": "2026-06-28T01:27:00+03:00",
+      "created_at": "2026-06-28T01:26:59+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56861132292422,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446701",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "139.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630410285382,
+          "created_at": "2026-06-28T01:26:59+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888252703046,
+          "created_at": "2026-06-28T12:00:20+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T12:00:24+03:00",
+          "product_id": 15630410285382,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/proseccodicherrybodycreamSQUARE_7c033314-0d7d-4d06-97ec-7c21d7a9811b.jpg?v=1782637224",
+          "width": 2047,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630407860550,
+      "title": "Spiced Peach Negroni Body Cream 250 ml",
+      "handle": "spiced-peach-negroni-body-cream-250-ml",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Spiced Peach Negroni Body Cream îmbină îngrijirea pielii cu un parfum intens, cald și sofisticat. Notele de limetă, mandarină, portocală, piersică și coacăze negre oferă un început luminos și juicy, completat de un acord licoros inspirat de cocktail.</span></p>\n<p><span>Inima condimentată-florală, cu ghimbir, scorțișoară, iris, iasomie și trandafir, adaugă profunzime și feminitate, iar baza de patchouli, rășină de benzoin, vanilie, ambră și mosc lasă pielea fină, hidratată și plăcut parfumată. Folosită înaintea parfumului, completează ritualul Spiced Peach Negroni și intensifică senzația olfactivă pe piele.</span></p>",
+      "published_at": "2026-06-28T01:23:54+03:00",
+      "created_at": "2026-06-28T01:23:53+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56861124821318,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446700",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "139.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630407860550,
+          "created_at": "2026-06-28T01:23:54+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888250212678,
+          "created_at": "2026-06-28T11:59:40+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T11:59:43+03:00",
+          "product_id": 15630407860550,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/spicedpeachnegronibodycreamSQUARE.jpg?v=1782637183",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630403502406,
+      "title": "Maracuja Mojito Body Wash 250 ml",
+      "handle": "maracuja-mojito-body-wash-250-ml",
+      "body_html": "<p><meta charset=\"UTF-8\"><span>Transformă dușul într-un moment energizant cu aroma tropicală Maracuja Mojito. Notele de bergamotă și fructul pasiunii oferă o senzație fresh și luminoasă, în timp ce accentele florale de iasomie, lăcrămioare și iris adaugă un aer delicat și elegant. La final, nuanțele calde de lemn de santal, ambră, mosc și vanilie lasă pielea plăcut parfumată.</span></p>",
+      "published_at": "2026-06-28T01:21:15+03:00",
+      "created_at": "2026-06-28T01:21:14+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56861109387590,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446699",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "99.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630403502406,
+          "created_at": "2026-06-28T01:21:14+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888249098566,
+          "created_at": "2026-06-28T11:59:13+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T11:59:17+03:00",
+          "product_id": 15630403502406,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/maracujamojitobodywashSQUARE.jpg?v=1782637157",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630401667398,
+      "title": "Pornstar Martini Body Wash 250 ml",
+      "handle": "pornstar-martini-body-wash-250-ml",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Pornstar Martini Shower Gel transformă rutina de duș într-un moment parfumat, fresh și feminin. Aroma se deschide cu litchi, șampanie și note de fructe de pădure, oferind o senzație efervescentă și energizantă încă de la prima aplicare.</span></p>\n<p><span>Accentele florale de trandafir, flori albe și acord pudrat adaugă delicatețe, iar baza de mosc, lemn de santal, ambră și vanilie lasă pielea curată, catifelată și plăcut parfumată.</span></p>",
+      "published_at": "2026-06-28T01:19:09+03:00",
+      "created_at": "2026-06-28T01:19:08+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56861103358278,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446698",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "99.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630401667398,
+          "created_at": "2026-06-28T01:19:08+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888248049990,
+          "created_at": "2026-06-28T11:58:42+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T11:58:45+03:00",
+          "product_id": 15630401667398,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/pornstarmartinibodywashSQUARE.jpg?v=1782637125",
+          "width": 2047,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630376665414,
+      "title": "Prosecco di Cherry Body Wash 250 ml",
+      "handle": "prosecco-di-cherry-body-wash-250-ml",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Prosecco di Cherry Shower Gel transformă dușul într-un moment fresh, feminin și delicat parfumat. Aroma se deschide cu cireșe suculente, șampanie cu cireșe și un acord de cocktail efervescent, oferind o senzație luminoasă și energizantă.</span></p>\n<p><span>Accentele de iasomie, tuberoză și flori albe adaugă o notă elegantă și curată, iar baza de mosc, vanilie, ambră și patchouli lasă pielea plăcut parfumată după fiecare utilizare.</span></p>",
+      "published_at": "2026-06-28T01:00:00+03:00",
+      "created_at": "2026-06-28T00:59:59+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56861018554694,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446697",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "99.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630376665414,
+          "created_at": "2026-06-28T01:00:00+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888253980998,
+          "created_at": "2026-06-28T12:00:52+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T12:00:55+03:00",
+          "product_id": 15630376665414,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/proseccodicherrybodywashSQUARE.jpg?v=1782637255",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630376108358,
+      "title": "Spiced Peach Negroni Body Wash 250 ml",
+      "handle": "spiced-peach-negroni-body-wash-250-ml",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Spiced Peach Negroni Shower Gel transformă dușul într-un moment fresh, aromat și sofisticat. Aroma se deschide cu limetă, mandarină, portocală, piersică și coacăze negre, alături de note licoroase care trimit subtil către inspirația de cocktail.</span></p>\n<p><span>Accentele de ghimbir, scorțișoară, iris, iasomie și trandafir adaugă căldură și eleganță, iar baza de patchouli, rășină de benzoin, vanilie, ambră și mosc lasă pielea curată, fină și delicat parfumată.</span></p>",
+      "published_at": "2026-06-28T00:57:48+03:00",
+      "created_at": "2026-06-28T00:57:46+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56861016752454,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446696",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "99.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630376108358,
+          "created_at": "2026-06-28T00:57:47+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888246346054,
+          "created_at": "2026-06-28T11:57:38+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T11:57:41+03:00",
+          "product_id": 15630376108358,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/spicedpeachnegronibodywashSQUARE.jpg?v=1782637061",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630359888198,
+      "title": "Maracuja Mojito 50 ml",
+      "handle": "maracuja-mojito-50-ml",
+      "body_html": "<p class=\"isSelectedEnd\"><meta charset=\"UTF-8\"><span>Maracuja Mojito surprinde energia unui cocktail tropical reinterpretat într-un parfum fresh, luminos și senzual. Debutul combină bergamota cu fructul pasiunii, oferind o deschidere vibrantă și juicy, urmată de o inimă florală elegantă de iasomie, lăcrămioare și iris. Baza caldă, cu lemn de santal, ambră, mosc și vanilie, lasă pe piele o urmă fină, cremoasă și memorabilă.</span></p>",
+      "published_at": "2026-06-28T00:36:45+03:00",
+      "created_at": "2026-06-28T00:36:44+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56862073192774,
+          "title": "50ml",
+          "option1": "50ml",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446695",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "359.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630359888198,
+          "created_at": "2026-06-28T08:35:47+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888245559622,
+          "created_at": "2026-06-28T11:57:03+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T11:57:07+03:00",
+          "product_id": 15630359888198,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/maracujamojitoparfumSQUARE.jpg?v=1782637027",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "size",
+          "position": 1,
+          "values": [
+            "50ml"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630356709702,
+      "title": "Pornstar Martini 50 ml",
+      "handle": "pornstar-martini-50-ml",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Pornstar Martini este un parfum luminos, playful și senzual, inspirat de atmosfera unui cocktail sofisticat servit la apus. Deschiderea combină litchi, acorduri de șampanie, note de fructe de pădure și accente de cocktail, pentru un debut efervescent și irezistibil.</span></p>\n<p><span>Inima florală aduce un contrast elegant prin trandafir, note pudrate și flori albe, în timp ce baza de mosc, lemn de santal, ambră și vanilie lasă pe piele o urmă caldă, cremoasă și memorabilă.</span></p>",
+      "published_at": "2026-06-28T00:25:27+03:00",
+      "created_at": "2026-06-28T00:25:27+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56862918639942,
+          "title": "50",
+          "option1": "50",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446694",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "349.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630356709702,
+          "created_at": "2026-06-28T11:18:28+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888244478278,
+          "created_at": "2026-06-28T11:56:30+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T11:56:33+03:00",
+          "product_id": 15630356709702,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/pornstarmartiniparfumSQUARE.jpg?v=1782636993",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "size",
+          "position": 1,
+          "values": [
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630351204678,
+      "title": "Prosecco di Cherry 50 ml",
+      "handle": "prosecco-di-cherry-50-ml",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Prosecco di Cherry este un parfum jucăuș, luminos și feminin, inspirat de efervescența unui cocktail cu cireșe. Deschiderea aduce note suculente de cireșe, un acord spumant de șampanie cu cireșe și o senzație fresh de cocktail, pentru un debut vibrant și memorabil.</span></p>\n<p><span>Inima florală, cu iasomie, tuberoză și flori albe, adaugă eleganță și delicatețe, în timp ce baza de mosc, vanilie, ambră și patchouli oferă profunzime, căldură și persistență pe piele.</span></p>",
+      "published_at": "2026-06-28T00:09:35+03:00",
+      "created_at": "2026-06-28T00:09:34+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56862918836550,
+          "title": "50",
+          "option1": "50",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446693",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "309.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630351204678,
+          "created_at": "2026-06-28T11:20:04+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888242086214,
+          "created_at": "2026-06-28T11:56:08+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T11:56:11+03:00",
+          "product_id": 15630351204678,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/proseccodicherryparfumSQUARE.jpg?v=1782636971",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "size",
+          "position": 1,
+          "values": [
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15630302183750,
+      "title": "Spiced Peach Negroni 50 ml",
+      "handle": "spiced-peach-negroni",
+      "body_html": "<p class=\"isSelectedEnd\"><span>Spiced Peach Negroni este un parfum vibrant, condimentat și seducător, inspirat de eleganța unui cocktail reinterpretat cu piersică și accente citrice. Deschiderea combină lămâie verde, mandarină, portocală, piersică și coacăze negre, completate de note licoroase, pentru un debut fresh, juicy și ușor amărui.</span></p>\n<p><span>Inima parfumului aduce un contrast cald și sofisticat prin ghimbir, scorțișoară, iris, iasomie și trandafir, în timp ce baza de patchouli, rășină de benzoin, vanilie, ambră și mosc lasă pe piele o urmă intensă, catifelată și memorabilă.</span></p>",
+      "published_at": "2026-06-27T23:02:39+03:00",
+      "created_at": "2026-06-27T23:02:37+03:00",
+      "updated_at": "2026-09-14T15:06:56+03:00",
+      "vendor": "Xelle",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 56860778987846,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "5949096446692",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "339.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15630302183750,
+          "created_at": "2026-06-27T23:49:03+03:00",
+          "updated_at": "2026-09-14T15:06:56+03:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 86888239137094,
+          "created_at": "2026-06-28T11:55:35+03:00",
+          "position": 1,
+          "updated_at": "2026-06-28T11:55:39+03:00",
+          "product_id": 15630302183750,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0949/9502/2150/files/spicedpeachnegroniparfumSQUARE.jpg?v=1782636939",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "file": "watches\\baignoire_mobile.glb",
+  "scenes": [
+    {
+      "name": "SCENE_01",
+      "nodes": [
+        7
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "index": 0,
+      "mesh": 0,
+      "name": "baignoire_bracelet",
+      "translation": [
+        0.04309454932808876,
+        -0.03193683922290802,
+        0.05421042442321777
+      ]
+    },
+    {
+      "index": 1,
+      "mesh": 1,
+      "name": "baignoire_case",
+      "translation": [
+        0.21672019362449646,
+        -0.02129238285124302,
+        1.8628926277160645
+      ]
+    },
+    {
+      "index": 2,
+      "mesh": 2,
+      "name": "baignoire_caseBack",
+      "translation": [
+        0.040750570595264435,
+        -0.023235270753502846,
+        1.6945910453796387
+      ]
+    },
+    {
+      "index": 3,
+      "mesh": 3,
+      "name": "baignoire_decal",
+      "translation": [
+        0.03725718706846237,
+        0,
+        1.657045602798462
+      ]
+    },
+    {
+      "index": 4,
+      "mesh": 4,
+      "name": "baignoire_dial",
+      "translation": [
+        0.041155871003866196,
+        -0.017572050914168358,
+        1.9913032054901123
+      ]
+    },
+    {
+      "index": 5,
+      "mesh": 5,
+      "name": "baignoire_gem",
+      "translation": [
+        0.7910263538360596,
+        -0.021673645824193954,
+        1.8439788818359375
+      ]
+    },
+    {
+      "index": 6,
+      "mesh": 6,
+      "name": "baignoire_glass",
+      "translation": [
+        0.04110291972756386,
+        -0.021447233855724335,
+        2.061311721801758
+      ]
+    },
+    {
+      "index": 7,
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "name": "baignoire"
+    }
+  ],
+  "meshes": [
+    {
+      "index": 0,
+      "name": "Mesh",
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Mesh.004",
+      "primitives": [
+        {
+          "material": 1,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9,
+            "TANGENT": 10
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 4,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "quickmaterial1",
+      "primitives": [
+        {
+          "material": 2,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14,
+            "TEXCOORD_1": 15,
+            "TANGENT": 16
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 6,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Plane",
+      "primitives": [
+        {
+          "material": 3,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 18,
+            "NORMAL": 19,
+            "TEXCOORD_0": 20,
+            "TANGENT": 21
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 7,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TANGENT": 3
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Mesh.001",
+      "primitives": [
+        {
+          "material": 4,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 23,
+            "NORMAL": 24,
+            "TEXCOORD_0": 25,
+            "TEXCOORD_1": 26,
+            "TANGENT": 27
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 10,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Mesh.002",
+      "primitives": [
+        {
+          "material": 5,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 29,
+            "NORMAL": 30,
+            "TEXCOORD_0": 31,
+            "TEXCOORD_1": 32,
+            "TANGENT": 33
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 13,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3,
+                "TANGENT": 4
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Mesh.003",
+      "primitives": [
+        {
+          "material": 6,
+          "mode": 4,
+          "attributes": {
+            "POSITION": 35,
+            "NORMAL": 36,
+            "TEXCOORD_0": 37,
+            "TANGENT": 38
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 15,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TANGENT": 3
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_BAIGNOIRE_Bracelet",
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9473065733909607,
+          0.5840786695480347,
+          0.18782083690166473,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_BAIGNOIRE_case",
+      "normalTexture": {
+        "index": 3
+      },
+      "occlusionTexture": {
+        "index": 4,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9473065733909607,
+          0.5840786695480347,
+          0.18782083690166473,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "MT_BAIGNOIRE_caseBack",
+      "occlusionTexture": {
+        "index": 6,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9473065733909607,
+          0.5840786695480347,
+          0.18782083690166473,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 7
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "MT_BAIGNOIRE_decal",
+      "normalTexture": {
+        "index": 8
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 9
+        },
+        "metallicRoughnessTexture": {
+          "index": 10
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_BAIGNOIRE_dial",
+      "normalTexture": {
+        "index": 11
+      },
+      "occlusionTexture": {
+        "index": 12,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 13
+        },
+        "metallicRoughnessTexture": {
+          "index": 14
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_BAIGNOIRE_Gem",
+      "occlusionTexture": {
+        "index": 15,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.024490922689437866,
+          0.15021400153636932,
+          0.6462977528572083,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 16
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ]
+        }
+      },
+      "name": "MT_WATCHES_Glass",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 17
+        },
+        "metallicRoughnessTexture": {
+          "index": 18
+        }
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression",
+    "KHR_materials_transmission",
+    "KHR_materials_specular",
+    "EXT_texture_webp"
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "scope": "Static validation only; no browser assertions",
+  "locales": [
+    "IG",
+    "pO",
+    "RG",
+    "NG",
+    "DG",
+    "OG",
+    "zG"
+  ],
+  "products": [
+    {
+      "name": "Spiced Peach Negroni",
+      "scene": 1,
+      "route": "/#/spiced-peach-negroni",
+      "purchase": "https://xelle.ro/products/spiced-peach-negroni",
+      "price": "339 lei"
+    },
+    {
+      "name": "Pornstar Martini",
+      "scene": 2,
+      "route": "/#/pornstar-martini-50-ml",
+      "purchase": "https://xelle.ro/products/pornstar-martini-50-ml",
+      "price": "349 lei"
+    },
+    {
+      "name": "Prosecco di Cherry",
+      "scene": 3,
+      "route": "/#/prosecco-di-cherry-50-ml",
+      "purchase": "https://xelle.ro/products/prosecco-di-cherry-50-ml",
+      "price": "309 lei"
+    },
+    {
+      "name": "Maracuja Mojito",
+      "scene": 4,
+      "route": "/#/maracuja-mojito-50-ml",
+      "purchase": "https://xelle.ro/products/maracuja-mojito-50-ml",
+      "price": "359 lei"
+    }
+  ],
+  "images": [
+    "/xelle/maracuja-mojito-50-ml.jpg",
+    "/xelle/pornstar-martini-50-ml.jpg",
+    "/xelle/prosecco-di-cherry-50-ml.jpg",
+    "/xelle/spiced-peach-negroni.jpg"
+  ],
+  "glbs": [
+    {
+      "file": "/xelle/models/roadster_desktop.glb",
+      "bytes": 849968,
+      "meshes": 8,
+      "nodes": 9,
+      "images": 1,
+      "externalImageUris": [],
+      "sha256": "02e43cffd0788b8a7f1a7e279bb09500320fb3c84392941722ac6d42a6f18a63"
+    },
+    {
+      "file": "/xelle/models/roadster_mobile.glb",
+      "bytes": 417464,
+      "meshes": 8,
+      "nodes": 9,
+      "images": 1,
+      "externalImageUris": [],
+      "sha256": "1d4d99c69a358c7ac6dbaa49a2c7044079ea77d76350f2cd7a88ee976df401ee"
+    },
+    {
+      "file": "/xelle/models/baignoire_desktop.glb",
+      "bytes": 846024,
+      "meshes": 8,
+      "nodes": 9,
+      "images": 1,
+      "externalImageUris": [],
+      "sha256": "07a9b283926a0ecae9ec3ab0f03a4d63b57ee7a261392bdb6667474d00994c5e"
+    },
+    {
+      "file": "/xelle/models/baignoire_mobile.glb",
+      "bytes": 413524,
+      "meshes": 8,
+      "nodes": 9,
+      "images": 1,
+      "externalImageUris": [],
+      "sha256": "6f71b460e24c383330a0b929fff7f92b638354566903c251693cbd59310b063a"
+    },
+    {
+      "file": "/xelle/models/crash_desktop.glb",
+      "bytes": 848128,
+      "meshes": 8,
+      "nodes": 9,
+      "images": 1,
+      "externalImageUris": [],
+      "sha256": "b6c72bb50c43513ebb4a71dc1384d8d1c9ef3a5a7c73a7e50bd315e948c3e3cb"
+    },
+    {
+      "file": "/xelle/models/crash_mobile.glb",
+      "bytes": 415624,
+      "meshes": 8,
+      "nodes": 9,
+      "images": 1,
+      "externalImageUris": [],
+      "sha256": "e75e38c9f21c7e909b9e10cecf507628c5def96e5d5ba5961f4feddda657ac1b"
+    },
+    {
+      "file": "/xelle/models/santos_desktop.glb",
+      "bytes": 845712,
+      "meshes": 8,
+      "nodes": 9,
+      "images": 1,
+      "externalImageUris": [],
+      "sha256": "afc25c8d084499d8b2fd3ba262f6cb360b152757ce92e390553395ed7bebc58e"
+    },
+    {
+      "file": "/xelle/models/santos_mobile.glb",
+      "bytes": 413208,
+      "meshes": 8,
+      "nodes": 9,
+      "images": 1,
+      "externalImageUris": [],
+      "sha256": "1fa3688b18a85237d01283219c964114da14e8e73bf77ca21d1eb22992258641"
+    },
+    {
+      "file": "/xelle/backdrops/mainScene.glb",
+      "bytes": 12082772,
+      "meshes": 218,
+      "nodes": 231,
+      "images": 54,
+      "externalImageUris": [],
+      "sha256": "879e07abe22a134adf56774ce4620333a6ce9d1e78a064a98eb248715d4a0685",
+      "photoSurfaces": 11,
+      "photoScenes": [
+        {
+          "scene": 1,
+          "photograph": "spiced-peach-negroni.jpg"
+        },
+        {
+          "scene": 2,
+          "photograph": "pornstar-martini-50-ml.jpg"
+        },
+        {
+          "scene": 3,
+          "photograph": "prosecco-di-cherry-50-ml.jpg"
+        },
+        {
+          "scene": 4,
+          "photograph": "maracuja-mojito-50-ml.jpg"
+        }
+      ],
+      "preservedSceneAnimations": true
+    },
+    {
+      "file": "/xelle/backdrops/mainSceneMobile.glb",
+      "bytes": 7360868,
+      "meshes": 218,
+      "nodes": 231,
+      "images": 54,
+      "externalImageUris": [],
+      "sha256": "0080352790f5e2b52482b11ee1faa4ec6edc72180c0a1f05885d1bfe942b7894",
+      "photoSurfaces": 11,
+      "photoScenes": [
+        {
+          "scene": 1,
+          "photograph": "spiced-peach-negroni.jpg"
+        },
+        {
+          "scene": 2,
+          "photograph": "pornstar-martini-50-ml.jpg"
+        },
+        {
+          "scene": 3,
+          "photograph": "prosecco-di-cherry-50-ml.jpg"
+        },
+        {
+          "scene": 4,
+          "photograph": "maracuja-mojito-50-ml.jpg"
+        }
+      ],
+      "preservedSceneAnimations": true
+    }
+  ],
+  "preservedScenes": [
+    {
+      "file": "/xelle/models/mainScene.glb",
+      "bytes": 10377156,
+      "sha256": "cd32a7cb981e63f137c5e4f58ec5395af220965fb512979a31cacf5510bc4bac",
+      "activeInBundle": false
+    },
+    {
+      "file": "/xelle/models/mainSceneMobile.glb",
+      "bytes": 5655256,
+      "sha256": "1c345edfbe547c8f02b8da2eb8fa153a7d837278e28681021793d3137301e7e6",
+      "activeInBundle": false
+    }
+  ],
+  "masks": [
+    {
+      "file": "shape-baignoire_msdf.png",
+      "bytes": 3791,
+      "width": 256,
+      "height": 256
+    },
+    {
+      "file": "shape-crash_msdf.png",
+      "bytes": 3791,
+      "width": 256,
+      "height": 256
+    },
+    {
+      "file": "shape-roadster_msdf.png",
+      "bytes": 3791,
+      "width": 256,
+      "height": 256
+    },
+    {
+      "file": "shape-santos_msdf.png",
+      "bytes": 3791,
+      "width": 256,
+      "height": 256
+    }
+  ],
+  "checks": [
+    "4 exact published purchase URLs and prices match verified catalog",
+    "All official notes match catalog",
+    "All locale images exist",
+    "8 active perfume GLB + 2 active backdrop GLB headers, chunks, node graph and buffer bounds valid",
+    "2 baseline scene GLBs remain separate, valid and absent from active runtime paths",
+    "Backdrop scene animation data matches preserved baseline scenes",
+    "Each of four photo scenes embeds the exact original JPEG bytes",
+    "GLB texture references embedded or locally resolvable",
+    "All 10 active GLB resource paths and 4 mask paths occur in runtime bundle",
+    "4 256x256 PNG mask signatures valid",
+    "Shader scalar-color alpha fix exists",
+    "Original first-click audio activation absent",
+    "Hash routing active"
+  ]
+}
