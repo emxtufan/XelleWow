@@ -1,0 +1,161 @@
+{
+ "when": "2026-10-19T22:52:39.579Z",
+ "gpu": "nvidia",
+ "size": "1920x1080",
+ "dpr": 1,
+ "mobile": false,
+ "stages": [
+  {
+   "slug": "intrare",
+   "fps": 120,
+   "p95": 8.4,
+   "over50": 0,
+   "drawsPerFrame": 115,
+   "trianglesPerFrame": 123914,
+   "rafPerFrame": 12,
+   "longTasks": [],
+   "canvas": "2880x1620",
+   "cpuMsPerFrame": 3.52,
+   "scriptMsPerFrame": 3.14
+  },
+  {
+   "slug": "spiced-peach-negroni",
+   "fps": 120,
+   "p95": 8.5,
+   "over50": 0,
+   "drawsPerFrame": 47,
+   "trianglesPerFrame": 21280,
+   "rafPerFrame": 13,
+   "longTasks": [],
+   "canvas": "2880x1620",
+   "cpuMsPerFrame": 3.72,
+   "scriptMsPerFrame": 3.27
+  },
+  {
+   "slug": "pornstar-martini",
+   "fps": 120,
+   "p95": 8.5,
+   "over50": 0,
+   "drawsPerFrame": 53,
+   "trianglesPerFrame": 61083,
+   "rafPerFrame": 13,
+   "longTasks": [],
+   "canvas": "2880x1620",
+   "cpuMsPerFrame": 4.19,
+   "scriptMsPerFrame": 3.69
+  },
+  {
+   "slug": "prosecco-di-cherry",
+   "fps": 120,
+   "p95": 8.5,
+   "over50": 0,
+   "drawsPerFrame": 43,
+   "trianglesPerFrame": 20877,
+   "rafPerFrame": 13,
+   "longTasks": [],
+   "canvas": "2880x1620",
+   "cpuMsPerFrame": 4.25,
+   "scriptMsPerFrame": 3.74
+  },
+  {
+   "slug": "maracuja-mojito",
+   "fps": 120,
+   "p95": null,
+   "over50": 0,
+   "drawsPerFrame": 51,
+   "trianglesPerFrame": 26307,
+   "rafPerFrame": 13,
+   "longTasks": [],
+   "canvas": "2880x1620",
+   "cpuMsPerFrame": 4.39,
+   "scriptMsPerFrame": 3.86
+  },
+  {
+   "slug": "filmul-xelle",
+   "fps": 120,
+   "p95": 8.5,
+   "over50": 0,
+   "drawsPerFrame": 55,
+   "trianglesPerFrame": 83531,
+   "rafPerFrame": 12,
+   "longTasks": [],
+   "canvas": "2880x1620",
+   "cpuMsPerFrame": 4.73,
+   "scriptMsPerFrame": 4.2
+  },
+  {
+   "slug": "galeria-xelle",
+   "fps": 120,
+   "p95": 8.5,
+   "over50": 0,
+   "drawsPerFrame": 63,
+   "trianglesPerFrame": 17081,
+   "rafPerFrame": 12,
+   "longTasks": [],
+   "canvas": "2880x1620",
+   "cpuMsPerFrame": 4.41,
+   "scriptMsPerFrame": 4.04
+  }
+ ],
+ "transitions": [
+  {
+   "from": "intrare",
+   "to": "spiced-peach-negroni",
+   "ms": 2806,
+   "longTasks": []
+  },
+  {
+   "from": "spiced-peach-negroni",
+   "to": "pornstar-martini",
+   "ms": 3323,
+   "longTasks": []
+  },
+  {
+   "from": "pornstar-martini",
+   "to": "prosecco-di-cherry",
+   "ms": 2808,
+   "longTasks": []
+  },
+  {
+   "from": "prosecco-di-cherry",
+   "to": "maracuja-mojito",
+   "ms": 2792,
+   "longTasks": []
+  },
+  {
+   "from": "maracuja-mojito",
+   "to": "filmul-xelle",
+   "ms": 2812,
+   "longTasks": []
+  },
+  {
+   "from": "filmul-xelle",
+   "to": "galeria-xelle",
+   "ms": 2798,
+   "longTasks": []
+  }
+ ],
+ "loadedMs": 6354,
+ "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Laptop GPU (0x00002820) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+ "memoryStart": {
+  "heapMB": 27.7,
+  "listeners": 141,
+  "nodes": 385
+ },
+ "memoryEnd": {
+  "heapMB": 43.4,
+  "listeners": 155,
+  "nodes": 400
+ },
+ "errors": [],
+ "failed": [],
+ "warnings": [
+  "Transition name is required to save a transition.",
+  "THREE.PropertyBinding: No target node found for track: Panthere_02.position.",
+  "THREE.PropertyBinding: No target node found for track: Panthere_02.quaternion.",
+  "THREE.PropertyBinding: No target node found for track: Panthere_02.scale.",
+  "THREE.PropertyBinding: No target node found for track: WATCH_hover.position.",
+  "THREE.PropertyBinding: No target node found for track: WATCH_hover.scale."
+ ],
+ "contextLost": 0
+}

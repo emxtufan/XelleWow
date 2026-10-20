@@ -48,130 +48,144 @@
   "glbs": [
     {
       "file": "/xelle/models/roadster_desktop.glb",
-      "bytes": 849968,
-      "meshes": 8,
-      "nodes": 9,
+      "bytes": 238104,
+      "meshes": 6,
+      "nodes": 7,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "02e43cffd0788b8a7f1a7e279bb09500320fb3c84392941722ac6d42a6f18a63"
+      "sha256": "1bfe1a2e6fa4a343e7433f9115243c3087b6b89f955c2dc26871880508842243"
     },
     {
       "file": "/xelle/models/roadster_mobile.glb",
-      "bytes": 417464,
-      "meshes": 8,
-      "nodes": 9,
+      "bytes": 124536,
+      "meshes": 6,
+      "nodes": 7,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "1d4d99c69a358c7ac6dbaa49a2c7044079ea77d76350f2cd7a88ee976df401ee"
+      "sha256": "7390f00a7eb4a9ba5b97a31524fe3d9bded80fd0e71989854a47b42c0b1452b0"
     },
     {
       "file": "/xelle/models/baignoire_desktop.glb",
-      "bytes": 846024,
-      "meshes": 8,
-      "nodes": 9,
+      "bytes": 229376,
+      "meshes": 6,
+      "nodes": 7,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "07a9b283926a0ecae9ec3ab0f03a4d63b57ee7a261392bdb6667474d00994c5e"
+      "sha256": "bedcd77e4a5d4de150651b0fd1c79322142ad6fe9803aa5e604a9e486c681201"
     },
     {
       "file": "/xelle/models/baignoire_mobile.glb",
-      "bytes": 413524,
-      "meshes": 8,
-      "nodes": 9,
+      "bytes": 120280,
+      "meshes": 6,
+      "nodes": 7,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "6f71b460e24c383330a0b929fff7f92b638354566903c251693cbd59310b063a"
+      "sha256": "0ca48237c0c107eaf44b1e4e5a8afe8cd82d7a170f558265a6e0abccf46acf65"
     },
     {
       "file": "/xelle/models/crash_desktop.glb",
-      "bytes": 848128,
-      "meshes": 8,
-      "nodes": 9,
+      "bytes": 234548,
+      "meshes": 6,
+      "nodes": 7,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "b6c72bb50c43513ebb4a71dc1384d8d1c9ef3a5a7c73a7e50bd315e948c3e3cb"
+      "sha256": "8b5f5441d75e93c685260e37dc0a8602a9338d1d928be9c21084b577f21ff192"
     },
     {
       "file": "/xelle/models/crash_mobile.glb",
-      "bytes": 415624,
-      "meshes": 8,
-      "nodes": 9,
+      "bytes": 122764,
+      "meshes": 6,
+      "nodes": 7,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "e75e38c9f21c7e909b9e10cecf507628c5def96e5d5ba5961f4feddda657ac1b"
+      "sha256": "7cbd5884a80d7a3c9d5d3df2f51180f04fec9c5de18407e4a013844da7dd8c2b"
     },
     {
       "file": "/xelle/models/santos_desktop.glb",
-      "bytes": 845712,
-      "meshes": 8,
-      "nodes": 9,
+      "bytes": 229088,
+      "meshes": 6,
+      "nodes": 7,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "afc25c8d084499d8b2fd3ba262f6cb360b152757ce92e390553395ed7bebc58e"
+      "sha256": "24dfc11fccf275286b85fdbe77abd572875d3a1a8e15e37748342beb942a0e14"
     },
     {
       "file": "/xelle/models/santos_mobile.glb",
-      "bytes": 413208,
-      "meshes": 8,
-      "nodes": 9,
+      "bytes": 120076,
+      "meshes": 6,
+      "nodes": 7,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "1fa3688b18a85237d01283219c964114da14e8e73bf77ca21d1eb22992258641"
+      "sha256": "f8bd1ab5c7e72ee22db14ad4f1e11f7b83f086d78a009bbdf4af2d83de369b91"
     },
     {
       "file": "/xelle/backdrops/mainScene.glb",
-      "bytes": 12082772,
-      "meshes": 218,
-      "nodes": 231,
-      "images": 54,
+      "bytes": 14920072,
+      "meshes": 225,
+      "nodes": 234,
+      "images": 58,
       "externalImageUris": [],
-      "sha256": "879e07abe22a134adf56774ce4620333a6ce9d1e78a064a98eb248715d4a0685",
-      "photoSurfaces": 11,
+      "sha256": "945baed47236195b43bfc15bc2f426886aa9616e43cd8e2d725e39a458920ba5",
+      "hiddenWorktableShadowMeshes": 24,
+      "retainedFilmShadowMeshes": 4,
+      "entrancePaintings": 6,
+      "photoSurfaces": 15,
       "photoScenes": [
         {
           "scene": 1,
-          "photograph": "spiced-peach-negroni.jpg"
+          "photograph": "backgrounds-noi/scena01.jpg"
         },
         {
           "scene": 2,
-          "photograph": "pornstar-martini-50-ml.jpg"
+          "photograph": "backgrounds-noi/scena02.jpg"
         },
         {
           "scene": 3,
-          "photograph": "prosecco-di-cherry-50-ml.jpg"
+          "photograph": "backgrounds-noi/scena03.jpg"
         },
         {
           "scene": 4,
-          "photograph": "maracuja-mojito-50-ml.jpg"
+          "photograph": [
+            null,
+            "backgrounds-noi/scena04-2.jpg",
+            "backgrounds-noi/scena04-3.jpg"
+          ]
         }
       ],
       "preservedSceneAnimations": true
     },
     {
       "file": "/xelle/backdrops/mainSceneMobile.glb",
-      "bytes": 7360868,
-      "meshes": 218,
-      "nodes": 231,
-      "images": 54,
+      "bytes": 8544836,
+      "meshes": 225,
+      "nodes": 234,
+      "images": 58,
       "externalImageUris": [],
-      "sha256": "0080352790f5e2b52482b11ee1faa4ec6edc72180c0a1f05885d1bfe942b7894",
-      "photoSurfaces": 11,
+      "sha256": "71b5f8e8318defb1b7853bba18a2010b3790155a6f1391c43dd05cc19c3f4671",
+      "hiddenWorktableShadowMeshes": 24,
+      "retainedFilmShadowMeshes": 4,
+      "entrancePaintings": 6,
+      "photoSurfaces": 15,
       "photoScenes": [
         {
           "scene": 1,
-          "photograph": "spiced-peach-negroni.jpg"
+          "photograph": "backgrounds-noi/scena01.jpg"
         },
         {
           "scene": 2,
-          "photograph": "pornstar-martini-50-ml.jpg"
+          "photograph": "backgrounds-noi/scena02.jpg"
         },
         {
           "scene": 3,
-          "photograph": "prosecco-di-cherry-50-ml.jpg"
+          "photograph": "backgrounds-noi/scena03.jpg"
         },
         {
           "scene": 4,
-          "photograph": "maracuja-mojito-50-ml.jpg"
+          "photograph": [
+            null,
+            "backgrounds-noi/scena04-2.jpg",
+            "backgrounds-noi/scena04-3.jpg"
+          ]
         }
       ],
       "preservedSceneAnimations": true
@@ -194,27 +208,318 @@
   "masks": [
     {
       "file": "shape-baignoire_msdf.png",
-      "bytes": 3791,
+      "bytes": 3655,
       "width": 256,
       "height": 256
     },
     {
       "file": "shape-crash_msdf.png",
-      "bytes": 3791,
+      "bytes": 3655,
       "width": 256,
       "height": 256
     },
     {
       "file": "shape-roadster_msdf.png",
-      "bytes": 3791,
+      "bytes": 3655,
       "width": 256,
       "height": 256
     },
     {
       "file": "shape-santos_msdf.png",
-      "bytes": 3791,
+      "bytes": 3655,
       "width": 256,
       "height": 256
+    }
+  ],
+  "bottlePlacement": {
+    "homeDrop": 0.9,
+    "scaledModelBase": -0.84,
+    "shadow": "Soft procedural ellipse in the bottle render pass",
+    "scope": "Home perfume scenes 1–4; fades out into product presentation"
+  },
+  "bottleMaterials": {
+    "glassOpacity": 0.14,
+    "innerGlassOpacity": 0.08,
+    "liquidOpacity": 0.9,
+    "edgeOpacity": 0.6,
+    "lighting": "Reduced glass diffuse, stronger environment reflections and grazing-angle edge definition; liquid lit through with meniscus",
+    "layering": "Opaque label/cap/collar then transparent inner glass wall, liquid and outer glass"
+  },
+  "intro": {
+    "design": "Xellé perfume copies on four pedestals in the original SC00 room and reflective floor, with softer original lighting",
+    "mobile": "One featured flacon and its pedestal centered in the room",
+    "layout": {
+      "displayGroupZ": {
+        "desktop": -1.5,
+        "narrow": -0.4
+      },
+      "pedestals": 4,
+      "setMeshes": 16,
+      "componentsPerPedestal": [
+        "body",
+        "foot",
+        "brass edge",
+        "brass lip"
+      ]
+    },
+    "lighting": {
+      "shaftAlphaScale": 0.12,
+      "glowAlphaScale": 0.08,
+      "lightPassScale": 0.7,
+      "scope": "Intro only; eased back to original intensity with the display exit",
+      "timing": "Shaft and glow alpha attenuation follows original animation updates, without changing light visibility"
+    },
+    "rippleFeedback": "Complete magic-light feedback shader and runtime match the original bundle; flow, previous-frame feedback, pointer/idle motion and spotlight intensity reset are preserved",
+    "interface": "Arrow only; no added visible title or copy",
+    "reflection": "Intro shares the original reflected scene wrapper; procedural surfaces clip at the floor during the mirror pass",
+    "transparentLighting": "Only fresh transparent intro materials preserve the underlying normal/light-effect mask; product materials retain their original shader path",
+    "originalProductAssets": "Runtime reuses source textures and clones geometry/materials; active GLB integrity is checked below",
+    "paintings": "Both leaves of the central door and the two side panels of SC00 carry editorial photographs",
+    "paintingFrames": [
+      {
+        "file": "mainScene.glb",
+        "meshes": [
+          "GEO_doorCenter_frame",
+          "GEO_doorCenter_paper",
+          "GEO_doorLeft_frame",
+          "GEO_doorLeft_paper",
+          "GEO_doorRight_frame",
+          "GEO_doorRight_paper",
+          "MIRROR_GEO_doorCenter_frame",
+          "MIRROR_GEO_doorCenter_paper",
+          "MIRROR_GEO_doorLeft_frame",
+          "MIRROR_GEO_doorLeft_paper",
+          "MIRROR_GEO_doorRight_frame",
+          "MIRROR_GEO_doorRight_paper"
+        ]
+      },
+      {
+        "file": "mainSceneMobile.glb",
+        "meshes": [
+          "GEO_doorCenter_frame",
+          "GEO_doorCenter_paper",
+          "GEO_doorLeft_frame",
+          "GEO_doorLeft_paper",
+          "GEO_doorRight_frame",
+          "GEO_doorRight_paper",
+          "MIRROR_GEO_doorCenter_frame",
+          "MIRROR_GEO_doorCenter_paper",
+          "MIRROR_GEO_doorLeft_frame",
+          "MIRROR_GEO_doorLeft_paper",
+          "MIRROR_GEO_doorRight_frame",
+          "MIRROR_GEO_doorRight_paper"
+        ]
+      }
+    ],
+    "preservedRoomAndFloor": [
+      {
+        "file": "mainScene.glb",
+        "nodes": [
+          "outside_box_SC00",
+          "ground"
+        ],
+        "nodeMeshAndMaterialMatchBaseline": true,
+        "sourceBinaryPrefixMatchesBaseline": true
+      },
+      {
+        "file": "mainSceneMobile.glb",
+        "nodes": [
+          "outside_box_SC00",
+          "ground"
+        ],
+        "nodeMeshAndMaterialMatchBaseline": true,
+        "sourceBinaryPrefixMatchesBaseline": true
+      }
+    ]
+  },
+  "podcasts": [
+    {
+      "slug": "spiced-peach-negroni",
+      "title": "Spiced Peach Negroni · Extrait de parfum",
+      "resources": [
+        "/xelle/galerie/spiced-peach-negroni.mp3",
+        "/images/podcasts/masks/spiced-peach-negroni_mask.png",
+        "/images/podcasts/thumbnails/HD/spiced-peach-negroni.webp",
+        "/images/podcasts/thumbnails/LD/spiced-peach-negroni.webp"
+      ]
+    },
+    {
+      "slug": "pornstar-martini",
+      "title": "Pornstar Martini · Extrait de parfum",
+      "resources": [
+        "/xelle/galerie/pornstar-martini.mp3",
+        "/images/podcasts/masks/pornstar-martini_mask.png",
+        "/images/podcasts/thumbnails/HD/pornstar-martini.webp",
+        "/images/podcasts/thumbnails/LD/pornstar-martini.webp"
+      ]
+    },
+    {
+      "slug": "prosecco-di-cherry",
+      "title": "Prosecco di Cherry · Extrait de parfum",
+      "resources": [
+        "/xelle/galerie/prosecco-di-cherry.mp3",
+        "/images/podcasts/masks/prosecco-di-cherry_mask.png",
+        "/images/podcasts/thumbnails/HD/prosecco-di-cherry.webp",
+        "/images/podcasts/thumbnails/LD/prosecco-di-cherry.webp"
+      ]
+    },
+    {
+      "slug": "maracuja-mojito",
+      "title": "Maracuja Mojito · Extrait de parfum",
+      "resources": [
+        "/xelle/galerie/maracuja-mojito.mp3",
+        "/images/podcasts/masks/maracuja-mojito_mask.png",
+        "/images/podcasts/thumbnails/HD/maracuja-mojito.webp",
+        "/images/podcasts/thumbnails/LD/maracuja-mojito.webp"
+      ]
+    },
+    {
+      "slug": "spiced-peach-negroni-body-cream",
+      "title": "Spiced Peach Negroni · Cremă de corp",
+      "resources": [
+        "/xelle/galerie/spiced-peach-negroni-body-cream.mp3",
+        "/images/podcasts/masks/spiced-peach-negroni-body-cream_mask.png",
+        "/images/podcasts/thumbnails/HD/spiced-peach-negroni-body-cream.webp",
+        "/images/podcasts/thumbnails/LD/spiced-peach-negroni-body-cream.webp"
+      ]
+    },
+    {
+      "slug": "pornstar-martini-body-cream",
+      "title": "Pornstar Martini · Cremă de corp",
+      "resources": [
+        "/xelle/galerie/pornstar-martini-body-cream.mp3",
+        "/images/podcasts/masks/pornstar-martini-body-cream_mask.png",
+        "/images/podcasts/thumbnails/HD/pornstar-martini-body-cream.webp",
+        "/images/podcasts/thumbnails/LD/pornstar-martini-body-cream.webp"
+      ]
+    },
+    {
+      "slug": "prosecco-di-cherry-body-cream",
+      "title": "Prosecco di Cherry · Cremă de corp",
+      "resources": [
+        "/xelle/galerie/prosecco-di-cherry-body-cream.mp3",
+        "/images/podcasts/masks/prosecco-di-cherry-body-cream_mask.png",
+        "/images/podcasts/thumbnails/HD/prosecco-di-cherry-body-cream.webp",
+        "/images/podcasts/thumbnails/LD/prosecco-di-cherry-body-cream.webp"
+      ]
+    },
+    {
+      "slug": "maracuja-mojito-body-cream",
+      "title": "Maracuja Mojito · Cremă de corp",
+      "resources": [
+        "/xelle/galerie/maracuja-mojito-body-cream.mp3",
+        "/images/podcasts/masks/maracuja-mojito-body-cream_mask.png",
+        "/images/podcasts/thumbnails/HD/maracuja-mojito-body-cream.webp",
+        "/images/podcasts/thumbnails/LD/maracuja-mojito-body-cream.webp"
+      ]
+    },
+    {
+      "slug": "spiced-peach-negroni-body-wash",
+      "title": "Spiced Peach Negroni · Gel de duș",
+      "resources": [
+        "/xelle/galerie/spiced-peach-negroni-body-wash.mp3",
+        "/images/podcasts/masks/spiced-peach-negroni-body-wash_mask.png",
+        "/images/podcasts/thumbnails/HD/spiced-peach-negroni-body-wash.webp",
+        "/images/podcasts/thumbnails/LD/spiced-peach-negroni-body-wash.webp"
+      ]
+    },
+    {
+      "slug": "pornstar-martini-body-wash",
+      "title": "Pornstar Martini · Gel de duș",
+      "resources": [
+        "/xelle/galerie/pornstar-martini-body-wash.mp3",
+        "/images/podcasts/masks/pornstar-martini-body-wash_mask.png",
+        "/images/podcasts/thumbnails/HD/pornstar-martini-body-wash.webp",
+        "/images/podcasts/thumbnails/LD/pornstar-martini-body-wash.webp"
+      ]
+    },
+    {
+      "slug": "prosecco-di-cherry-body-wash",
+      "title": "Prosecco di Cherry · Gel de duș",
+      "resources": [
+        "/xelle/galerie/prosecco-di-cherry-body-wash.mp3",
+        "/images/podcasts/masks/prosecco-di-cherry-body-wash_mask.png",
+        "/images/podcasts/thumbnails/HD/prosecco-di-cherry-body-wash.webp",
+        "/images/podcasts/thumbnails/LD/prosecco-di-cherry-body-wash.webp"
+      ]
+    },
+    {
+      "slug": "maracuja-mojito-body-wash",
+      "title": "Maracuja Mojito · Gel de duș",
+      "resources": [
+        "/xelle/galerie/maracuja-mojito-body-wash.mp3",
+        "/images/podcasts/masks/maracuja-mojito-body-wash_mask.png",
+        "/images/podcasts/thumbnails/HD/maracuja-mojito-body-wash.webp",
+        "/images/podcasts/thumbnails/LD/maracuja-mojito-body-wash.webp"
+      ]
+    },
+    {
+      "slug": "pornstar-martini-set",
+      "title": "Pornstar Martini · Set cadou",
+      "resources": [
+        "/xelle/galerie/pornstar-martini-set.mp3",
+        "/images/podcasts/masks/pornstar-martini-set_mask.png",
+        "/images/podcasts/thumbnails/HD/pornstar-martini-set.webp",
+        "/images/podcasts/thumbnails/LD/pornstar-martini-set.webp"
+      ]
+    },
+    {
+      "slug": "spiced-peach-negroni-set",
+      "title": "Spiced Peach Negroni · Set cadou",
+      "resources": [
+        "/xelle/galerie/spiced-peach-negroni-set.mp3",
+        "/images/podcasts/masks/spiced-peach-negroni-set_mask.png",
+        "/images/podcasts/thumbnails/HD/spiced-peach-negroni-set.webp",
+        "/images/podcasts/thumbnails/LD/spiced-peach-negroni-set.webp"
+      ]
+    },
+    {
+      "slug": "prosecco-di-cherry-set",
+      "title": "Prosecco di Cherry · Set cadou",
+      "resources": [
+        "/xelle/galerie/prosecco-di-cherry-set.mp3",
+        "/images/podcasts/masks/prosecco-di-cherry-set_mask.png",
+        "/images/podcasts/thumbnails/HD/prosecco-di-cherry-set.webp",
+        "/images/podcasts/thumbnails/LD/prosecco-di-cherry-set.webp"
+      ]
+    },
+    {
+      "slug": "maracuja-mojito-set",
+      "title": "Maracuja Mojito · Set cadou",
+      "resources": [
+        "/xelle/galerie/maracuja-mojito-set.mp3",
+        "/images/podcasts/masks/maracuja-mojito-set_mask.png",
+        "/images/podcasts/thumbnails/HD/maracuja-mojito-set.webp",
+        "/images/podcasts/thumbnails/LD/maracuja-mojito-set.webp"
+      ]
+    }
+  ],
+  "galleryNotShown": [],
+  "movie": [
+    "/xelle/video_xelle.mp4"
+  ],
+  "characters": [
+    {
+      "file": "mainScene_characters.glb",
+      "hiddenMeshesByScene": {
+        "1": 27,
+        "2": 16,
+        "3": 29,
+        "4": 36
+      },
+      "retainedFilmMeshes": 16,
+      "sourceSha256": "90f3e83d8dc20248f5bb8b1e3c98ff298d38490a0de4af0186b3b7030af4c4aa"
+    },
+    {
+      "file": "mainSceneMobile_characters.glb",
+      "hiddenMeshesByScene": {
+        "1": 27,
+        "2": 16,
+        "3": 29,
+        "4": 36
+      },
+      "retainedFilmMeshes": 16,
+      "sourceSha256": "35aeead2aa64b401d2111f4f19b7a90454cbffd355b4a45b44aee71b99907cbe"
     }
   ],
   "checks": [
@@ -224,12 +529,27 @@
     "8 active perfume GLB + 2 active backdrop GLB headers, chunks, node graph and buffer bounds valid",
     "2 baseline scene GLBs remain separate, valid and absent from active runtime paths",
     "Backdrop scene animation data matches preserved baseline scenes",
-    "Each of four photo scenes embeds the exact original JPEG bytes",
+    "Each of four photo scenes embeds the exact original JPEG bytes on desktop (mobile: resized to the 1600 px edge, same aspect)",
+    "Three entrance paintings and their mirrored copies embed the exact original JPEG bytes on desktop and stay visible",
     "GLB texture references embedded or locally resolvable",
     "All 10 active GLB resource paths and 4 mask paths occur in runtime bundle",
     "4 256x256 PNG mask signatures valid",
     "Shader scalar-color alpha fix exists",
     "Original first-click audio activation absent",
-    "Hash routing active"
+    "Hash routing active",
+    "7 home scenes retain four perfumes and restore the movie and audio gallery",
+    "Gallery records match public/xelle/galerie/galerie.json order, within the 16 desktop 3D surfaces (13 original + 3 added)",
+    "All gallery audio, HD/LD thumbnails and masks exist locally and LD photographs are preloaded",
+    "Same supplied Xellé film is used for the 3D screen and playback in both orientations",
+    "Gallery audio uses available local podcast files",
+    "Desktop/mobile: 108 people, worktable, prop and raycast meshes hidden outside film; all 16 film meshes retained",
+    "Intro preserves original SC00 room and floor nodes, mesh/material declarations and source scene binary payload in both backdrops",
+    "Intro softens shaft/glow alpha after original animation updates, preserves their visibility and restores intensity with the exit fade",
+    "Intro reduces the final light-pass contribution while preserving the complete original magic-light feedback shader/runtime and spotlight intensity reset",
+    "Intro set contains only four pedestal components per slot, totaling 16 meshes; its closer layout centers one flacon and pedestal on narrow screens",
+    "Intro reflection parent, no_mirror flags and reflected-surface clipping are configured",
+    "Added intro title and descriptive copy are absent; arrow remains accessible",
+    "Scene-zero navigation guard accepts returning to the intro",
+    "Transparent intro materials preserve underlying normal/light flags through an intro-only define; original product materials do not enable it"
   ]
 }

@@ -1,0 +1,138 @@
+{
+  "about": "Single source for the Xellé flacon: measured dimensions (from public/xelle/maracuja-mojito-packshot.png), label layout and the four products. Read by scripts/build_xelle_labels.py, scripts/blender_build_xelle_bottles.py and build_xelle.cjs (label print). Units are model units; the flacon foot sits at y = -2.1, front is +Z (glTF).",
+  "bottle": {
+    "radius": 1.175,
+    "foot": -2.1,
+    "height": 2.23,
+    "wall": 0.085,
+    "base": 0.34,
+    "topThickness": 0.09,
+    "topEdgeRadius": 0.15,
+    "bottomEdgeRadius": 0.05,
+    "liquidGap": 0.02,
+    "collar": {
+      "radius": 0.3,
+      "height": 0.07
+    },
+    "cap": {
+      "radius": 0.734,
+      "sink": 0.045
+    },
+    "segments": {
+      "desktop": 96,
+      "mobile": 56
+    },
+    "sceneScale": {
+      "desktop": 1.5,
+      "mobile": 1.3
+    }
+  },
+  "label": {
+    "radius": 1.179,
+    "angle": 0.94,
+    "bottom": -1.654,
+    "top": -0.093,
+    "pixels": {
+      "desktop": [
+        2048,
+        1452
+      ],
+      "mobile": [
+        1024,
+        726
+      ]
+    },
+    "layout": {
+      "border": {
+        "insetX": 0.031,
+        "insetTop": 0.044,
+        "insetBottom": 0.05,
+        "line": 0.0022
+      },
+      "emblem": {
+        "centerY": 0.342,
+        "width": 0.302
+      },
+      "wordmark": {
+        "centerY": 0.632,
+        "width": 0.276
+      },
+      "title": {
+        "capTop": 0.712,
+        "calibration": {
+          "text": "Maracuja Mojito",
+          "width": 0.448
+        },
+        "maxWidth": 0.66
+      },
+      "subtitle": {
+        "capTop": 0.832,
+        "width": 0.306,
+        "text": "Extrait de Parfum"
+      }
+    },
+    "colors": {
+      "paper": [
+        247,
+        240,
+        234
+      ],
+      "ink": [
+        18,
+        16,
+        14
+      ],
+      "gold": [
+        176,
+        141,
+        84
+      ]
+    },
+    "fonts": {
+      "title": "Montserrat-Medium.ttf",
+      "subtitle": "Montserrat-Regular.ttf"
+    }
+  },
+  "products": [
+    {
+      "key": "roadster",
+      "slug": "spiced-peach-negroni",
+      "title": "Spiced Peach Negroni",
+      "liquid": [
+        0.86,
+        0.56,
+        0.22
+      ]
+    },
+    {
+      "key": "baignoire",
+      "slug": "pornstar-martini",
+      "title": "Pornstar Martini",
+      "liquid": [
+        0.92,
+        0.81,
+        0.49
+      ]
+    },
+    {
+      "key": "crash",
+      "slug": "prosecco-di-cherry",
+      "title": "Prosecco di Cherry",
+      "liquid": [
+        0.82,
+        0.58,
+        0.36
+      ]
+    },
+    {
+      "key": "santos",
+      "slug": "maracuja-mojito",
+      "title": "Maracuja Mojito",
+      "liquid": [
+        0.87,
+        0.79,
+        0.45
+      ]
+    }
+  ]
+}

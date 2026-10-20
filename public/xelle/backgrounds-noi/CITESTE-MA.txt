@@ -1,0 +1,8 @@
+Pune aici cele 4 imagini de fundal, cu EXACT aceste nume si dimensiuni:
+
+scena01.jpg  ->  2048 x 862 px   (inlocuieste spiced-peach-negroni.jpg)
+scena02.jpg  ->  2048 x 1810 px  (inlocuieste pornstar-martini-50-ml.jpg)
+scena03.jpg  ->  2048 x 862 px   (inlocuieste prosecco-di-cherry-50-ml.jpg)
+scena04.jpg  ->  1291 x 2048 px  (inlocuieste maracuja-mojito-50-ml.jpg)
+
+Cand sunt gata toate 4, spune-mi si le mut eu in locul fisierelor vechi din public/xelle.

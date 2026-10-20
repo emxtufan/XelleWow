@@ -1,0 +1,32 @@
+GALERIA XELLÉ (scena de dupa film)
+===================================
+
+Acest folder este sursa galeriei audio: cate o poza si un fisier audio pentru fiecare produs.
+
+  galerie.json      lista produselor, in ordinea afisarii (titlu, subtitlu, text, poza, audio)
+  <produs>.jpg      fotografia produsului (patrata, ideal 2048 x 2048 px, JPEG)
+  <produs>.mp3      inregistrarea audio a produsului
+
+Galeria 3D are 16 rame pe desktop, deci se afiseaza PRIMELE 16 produse din galerie.json.
+Pe telefon sunt 2 pagini de cate 7 rame, deci acolo se vad doar primele 14.
+Restul raman in folder, nefolosite. Ordinea din galerie.json = ordinea ramelor.
+
+AUDIO: momentan toate fisierele .mp3 sunt PLACEHOLDER (copii ale inregistrarilor Cartier).
+Inlocuieste-le cu inregistrarile reale, pastrand acelasi nume de fisier (sau schimba numele in galerie.json).
+
+Poza: inlocuieste fisierul .jpg cu acelasi nume (sau schimba numele in galerie.json).
+Fotografiile patrate se vad complet pe ramele late si putin taiate lateral pe ramele inalte.
+
+Dupa orice schimbare (poza, audio, text, ordine), ruleaza din folderul proiectului:
+
+  python scripts/build_xelle_content.py
+  node.exe --expose-internals scripts/build_xelle.cjs
+
+apoi reincarca pagina cu Ctrl+F5.
+
+
+Cum aș face, în ordine:
+1. Hosting pe Cloudflare Pages — fișierele sunt oricum servite prin CDN-ul Cloudflare, cu cache la margine. Pentru un site static de mărimea noastră, R2 separat nu ar aduce viteză în plus față de Pages. R2 devine util dacă hostingul e în altă parte (un hosting clasic românesc, Netlify/Vercel cu trafic contorizat) sau dacă vrem media separat de deploy-uri.
+2. Antete de cache lungi pe GLB/imagini/audio (immutable, un an) și preload pentru scena principală din index.html, ca descărcarea să înceapă în prima milisecundă, nu după ce pornește JavaScript-ul.
+3. Mai puțini octeți — cel mai mare câștig real: scena desktop are 16,5 MB, din care ~3 MB sunt fotografiile de pe pereți la 2048 px; se pot reduce (1600 px, calitate puțin mai mică) fără să se vadă, iar texturile scenei se pot converti în format comprimat pentru GPU (KTX2), ceea ce scade și memoria și timpul de încărcare pe GPU. Aici se câștigă secunde; la CDN se câștigă zecimi.
+4. Warmup-ul rămâne — cel mult se poate masca mai elegant în ecranul de încărcare.

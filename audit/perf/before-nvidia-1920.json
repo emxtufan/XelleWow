@@ -1,0 +1,139 @@
+{
+ "when": "2026-10-19T21:16:05.564Z",
+ "gpu": "nvidia",
+ "size": "1920x1080",
+ "dpr": 1,
+ "mobile": false,
+ "stages": [
+  {
+   "slug": "intrare",
+   "fps": 120,
+   "p95": 8.5,
+   "over50": 0,
+   "drawsPerFrame": 128,
+   "trianglesPerFrame": 118209,
+   "rafPerFrame": 12,
+   "longTasks": [],
+   "canvas": "2880x1620"
+  },
+  {
+   "slug": "spiced-peach-negroni",
+   "fps": 120,
+   "p95": 8.5,
+   "over50": 0,
+   "drawsPerFrame": 48,
+   "trianglesPerFrame": 21928,
+   "rafPerFrame": 13,
+   "longTasks": [],
+   "canvas": "2880x1620"
+  },
+  {
+   "slug": "pornstar-martini",
+   "fps": 108,
+   "p95": 16.7,
+   "over50": 0,
+   "drawsPerFrame": 55,
+   "trianglesPerFrame": 61372,
+   "rafPerFrame": 13,
+   "longTasks": [],
+   "canvas": "2880x1620"
+  },
+  {
+   "slug": "prosecco-di-cherry",
+   "fps": 87,
+   "p95": 17.3,
+   "over50": 0,
+   "drawsPerFrame": 45,
+   "trianglesPerFrame": 21533,
+   "rafPerFrame": 13,
+   "longTasks": [],
+   "canvas": "2880x1620"
+  },
+  {
+   "slug": "maracuja-mojito",
+   "fps": 82,
+   "p95": 17.1,
+   "over50": 0,
+   "drawsPerFrame": 52,
+   "trianglesPerFrame": 26854,
+   "rafPerFrame": 13,
+   "longTasks": [],
+   "canvas": "2880x1620"
+  },
+  {
+   "slug": "filmul-xelle",
+   "fps": 84,
+   "p95": 17.1,
+   "over50": 0,
+   "drawsPerFrame": 56,
+   "trianglesPerFrame": 84168,
+   "rafPerFrame": 12.1,
+   "longTasks": [],
+   "canvas": "2880x1620"
+  }
+ ],
+ "transitions": [
+  {
+   "from": "intrare",
+   "to": "spiced-peach-negroni",
+   "ms": 2785,
+   "longTasks": []
+  },
+  {
+   "from": "spiced-peach-negroni",
+   "to": "pornstar-martini",
+   "ms": 3321,
+   "longTasks": []
+  },
+  {
+   "from": "pornstar-martini",
+   "to": "prosecco-di-cherry",
+   "ms": 3866,
+   "longTasks": []
+  },
+  {
+   "from": "prosecco-di-cherry",
+   "to": "maracuja-mojito",
+   "ms": 3862,
+   "longTasks": []
+  },
+  {
+   "from": "maracuja-mojito",
+   "to": "filmul-xelle",
+   "ms": 3098,
+   "longTasks": []
+  },
+  {
+   "from": "filmul-xelle",
+   "to": "filmul-xelle",
+   "ms": null,
+   "longTasks": []
+  }
+ ],
+ "loadedMs": 7173,
+ "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Laptop GPU (0x00002820) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+ "memoryStart": {
+  "heapMB": 37.8,
+  "listeners": 179,
+  "nodes": 471
+ },
+ "memoryEnd": {
+  "heapMB": 77,
+  "listeners": 219,
+  "nodes": 619
+ },
+ "errors": [
+  "You seem to have imported '@theatre/studio' but haven't initialized it. You can initialize the studio by:\n```\nimport studio from '@theatre/studio'\nstudio.initialize()\n```\n\n* If you didn't mean to import '@theatre/studio', this means that yo",
+  "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22"
+ ],
+ "failed": [],
+ "warnings": [
+  "Transition name is required to save a transition.",
+  "THREE.PropertyBinding: No target node found for track: Panthere_02.position.",
+  "THREE.PropertyBinding: No target node found for track: Panthere_02.quaternion.",
+  "THREE.PropertyBinding: No target node found for track: Panthere_02.scale.",
+  "THREE.PropertyBinding: No target node found for track: WATCH_hover.position.",
+  "THREE.PropertyBinding: No target node found for track: WATCH_hover.scale."
+ ],
+ "contextLost": 0
+}

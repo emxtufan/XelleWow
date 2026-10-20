@@ -14,6 +14,9 @@
       "soundBttn": "Sunet",
       "soundOn": "Activează sunetul",
       "explore": "Descoperă parfumul",
+      "watchMovie": "Redă filmul Xellé",
+      "listen": "Ascultă prezentările produselor",
+      "podcastText": "Textul prezentării",
       "close": "Închide"
     }
   },
@@ -67,7 +70,9 @@
         "type": "home",
         "loaded": 1,
         "ctas": {
-          "explore": "Descoperă parfumul"
+          "explore": "Descoperă parfumul",
+          "podcastText": "Textul prezentării",
+          "close": "Închide"
         },
         "scenes": [
           {
@@ -93,6 +98,15 @@
             "type": "scene",
             "exploreUrl": "/maracuja-mojito-50-ml",
             "title": "Maracuja\nMojito"
+          },
+          {
+            "type": "movie",
+            "title": "Filmul\nXellé"
+          },
+          {
+            "type": "scene",
+            "title": "Galeria\nXellé",
+            "podcastTitle": "Galerie audio Xellé"
           }
         ]
       },
@@ -130,22 +144,40 @@
               ]
             },
             {
-              "type": "textBlock",
-              "text": "Note de vârf",
-              "textSize": "m",
-              "subtitle": "Lămâie verde · Mandarină · Portocală · Piersică · Coacăze negre · Note licoroase"
-            },
-            {
-              "type": "textBlock",
-              "text": "Note de inimă",
-              "textSize": "m",
-              "subtitle": "Ghimbir · Scorțișoară · Iris · Iasomie · Trandafir"
-            },
-            {
-              "type": "textBlock",
-              "text": "Note de bază",
-              "textSize": "m",
-              "subtitle": "Patchouli · Rășină de benzoin · Vanilie · Ambră · Mosc"
+              "type": "xelleNotesBlock",
+              "groups": [
+                {
+                  "title": "Note de vârf",
+                  "notes": [
+                    "Lămâie verde",
+                    "Mandarină",
+                    "Portocală",
+                    "Piersică",
+                    "Coacăze negre",
+                    "Note licoroase"
+                  ]
+                },
+                {
+                  "title": "Note de inimă",
+                  "notes": [
+                    "Ghimbir",
+                    "Scorțișoară",
+                    "Iris",
+                    "Iasomie",
+                    "Trandafir"
+                  ]
+                },
+                {
+                  "title": "Note de bază",
+                  "notes": [
+                    "Patchouli",
+                    "Rășină de benzoin",
+                    "Vanilie",
+                    "Ambră",
+                    "Mosc"
+                  ]
+                }
+              ]
             },
             {
               "type": "textBlock",
@@ -155,13 +187,12 @@
               "button": [
                 {
                   "url": "https://xelle.ro/products/spiced-peach-negroni",
-                  "label": "Cumpără pe xelle.ro"
+                  "label": "Cumpără"
                 }
               ]
             },
             {
               "type": "sliderProductsBlock",
-              "title": "Colecția Xellé",
               "cards": [
                 {
                   "title": "Spiced Peach Negroni · 339 lei",
@@ -198,7 +229,7 @@
               ],
               "cta": {
                 "url": "https://xelle.ro/collections/parfum",
-                "label": "Colecția pe xelle.ro"
+                "label": "Vezi colecția"
               }
             },
             {
@@ -246,22 +277,35 @@
               ]
             },
             {
-              "type": "textBlock",
-              "text": "Note de vârf",
-              "textSize": "m",
-              "subtitle": "Litchi · Șampanie · Fructe de pădure · Acord de cocktail"
-            },
-            {
-              "type": "textBlock",
-              "text": "Note de inimă",
-              "textSize": "m",
-              "subtitle": "Trandafir · Acord pudrat · Flori albe"
-            },
-            {
-              "type": "textBlock",
-              "text": "Note de bază",
-              "textSize": "m",
-              "subtitle": "Mosc · Lemn de santal · Ambră · Vanilie"
+              "type": "xelleNotesBlock",
+              "groups": [
+                {
+                  "title": "Note de vârf",
+                  "notes": [
+                    "Litchi",
+                    "Șampanie",
+                    "Fructe de pădure",
+                    "Acord de cocktail"
+                  ]
+                },
+                {
+                  "title": "Note de inimă",
+                  "notes": [
+                    "Trandafir",
+                    "Acord pudrat",
+                    "Flori albe"
+                  ]
+                },
+                {
+                  "title": "Note de bază",
+                  "notes": [
+                    "Mosc",
+                    "Lemn de santal",
+                    "Ambră",
+                    "Vanilie"
+                  ]
+                }
+              ]
             },
             {
               "type": "textBlock",
@@ -271,13 +315,12 @@
               "button": [
                 {
                   "url": "https://xelle.ro/products/pornstar-martini-50-ml",
-                  "label": "Cumpără pe xelle.ro"
+                  "label": "Cumpără"
                 }
               ]
             },
             {
               "type": "sliderProductsBlock",
-              "title": "Colecția Xellé",
               "cards": [
                 {
                   "title": "Spiced Peach Negroni · 339 lei",
@@ -314,7 +357,7 @@
               ],
               "cta": {
                 "url": "https://xelle.ro/collections/parfum",
-                "label": "Colecția pe xelle.ro"
+                "label": "Vezi colecția"
               }
             },
             {
@@ -362,22 +405,34 @@
               ]
             },
             {
-              "type": "textBlock",
-              "text": "Note de vârf",
-              "textSize": "m",
-              "subtitle": "Cireșe · Șampanie cu cireșe · Acord de cocktail"
-            },
-            {
-              "type": "textBlock",
-              "text": "Note de inimă",
-              "textSize": "m",
-              "subtitle": "Iasomie · Tuberoză · Flori albe"
-            },
-            {
-              "type": "textBlock",
-              "text": "Note de bază",
-              "textSize": "m",
-              "subtitle": "Mosc · Vanilie · Ambră · Patchouli"
+              "type": "xelleNotesBlock",
+              "groups": [
+                {
+                  "title": "Note de vârf",
+                  "notes": [
+                    "Cireșe",
+                    "Șampanie cu cireșe",
+                    "Acord de cocktail"
+                  ]
+                },
+                {
+                  "title": "Note de inimă",
+                  "notes": [
+                    "Iasomie",
+                    "Tuberoză",
+                    "Flori albe"
+                  ]
+                },
+                {
+                  "title": "Note de bază",
+                  "notes": [
+                    "Mosc",
+                    "Vanilie",
+                    "Ambră",
+                    "Patchouli"
+                  ]
+                }
+              ]
             },
             {
               "type": "textBlock",
@@ -387,13 +442,12 @@
               "button": [
                 {
                   "url": "https://xelle.ro/products/prosecco-di-cherry-50-ml",
-                  "label": "Cumpără pe xelle.ro"
+                  "label": "Cumpără"
                 }
               ]
             },
             {
               "type": "sliderProductsBlock",
-              "title": "Colecția Xellé",
               "cards": [
                 {
                   "title": "Spiced Peach Negroni · 339 lei",
@@ -430,7 +484,7 @@
               ],
               "cta": {
                 "url": "https://xelle.ro/collections/parfum",
-                "label": "Colecția pe xelle.ro"
+                "label": "Vezi colecția"
               }
             },
             {
@@ -478,22 +532,33 @@
               ]
             },
             {
-              "type": "textBlock",
-              "text": "Note de vârf",
-              "textSize": "m",
-              "subtitle": "Bergamotă · Fructul pasiunii"
-            },
-            {
-              "type": "textBlock",
-              "text": "Note de inimă",
-              "textSize": "m",
-              "subtitle": "Iasomie · Lăcrămioare · Iris"
-            },
-            {
-              "type": "textBlock",
-              "text": "Note de bază",
-              "textSize": "m",
-              "subtitle": "Lemn de santal · Ambră · Mosc · Vanilie"
+              "type": "xelleNotesBlock",
+              "groups": [
+                {
+                  "title": "Note de vârf",
+                  "notes": [
+                    "Bergamotă",
+                    "Fructul pasiunii"
+                  ]
+                },
+                {
+                  "title": "Note de inimă",
+                  "notes": [
+                    "Iasomie",
+                    "Lăcrămioare",
+                    "Iris"
+                  ]
+                },
+                {
+                  "title": "Note de bază",
+                  "notes": [
+                    "Lemn de santal",
+                    "Ambră",
+                    "Mosc",
+                    "Vanilie"
+                  ]
+                }
+              ]
             },
             {
               "type": "textBlock",
@@ -503,13 +568,12 @@
               "button": [
                 {
                   "url": "https://xelle.ro/products/maracuja-mojito-50-ml",
-                  "label": "Cumpără pe xelle.ro"
+                  "label": "Cumpără"
                 }
               ]
             },
             {
               "type": "sliderProductsBlock",
-              "title": "Colecția Xellé",
               "cards": [
                 {
                   "title": "Spiced Peach Negroni · 339 lei",
@@ -546,7 +610,7 @@
               ],
               "cta": {
                 "url": "https://xelle.ro/collections/parfum",
-                "label": "Colecția pe xelle.ro"
+                "label": "Vezi colecția"
               }
             },
             {
@@ -559,6 +623,310 @@
             }
           ]
         }
+      },
+      {
+        "type": "podcast",
+        "uri": "spiced-peach-negroni",
+        "slug": "spiced-peach-negroni",
+        "order": "00",
+        "title": "Spiced Peach Negroni · Extrait de parfum",
+        "subtitle": "50 ml · 339 lei",
+        "content": "Spiced Peach Negroni este un parfum vibrant, condimentat și seducător, inspirat de eleganța unui cocktail reinterpretat cu piersică și accente citrice. Deschiderea combină lămâie verde, mandarină, portocală, piersică și coacăze negre, completate de note licoroase, pentru un debut fresh, juicy și ușor amărui.<br><br>Inima parfumului aduce un contrast cald și sofisticat prin ghimbir, scorțișoară, iris, iasomie și trandafir, în timp ce baza de patchouli, rășină de benzoin, vanilie, ambră și mosc lasă pe piele o urmă intensă, catifelată și memorabilă.",
+        "image": {
+          "name": "spiced-peach-negroni"
+        },
+        "mask": {
+          "url": "spiced-peach-negroni_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/spiced-peach-negroni.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "pornstar-martini",
+        "slug": "pornstar-martini",
+        "order": "01",
+        "title": "Pornstar Martini · Extrait de parfum",
+        "subtitle": "50 ml · 349 lei",
+        "content": "Pornstar Martini este un parfum luminos, playful și senzual, inspirat de atmosfera unui cocktail sofisticat servit la apus. Deschiderea combină litchi, acorduri de șampanie, note de fructe de pădure și accente de cocktail, pentru un debut efervescent și irezistibil.<br><br>Inima florală aduce un contrast elegant prin trandafir, note pudrate și flori albe, în timp ce baza de mosc, lemn de santal, ambră și vanilie lasă pe piele o urmă caldă, cremoasă și memorabilă.",
+        "image": {
+          "name": "pornstar-martini"
+        },
+        "mask": {
+          "url": "pornstar-martini_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/pornstar-martini.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "prosecco-di-cherry",
+        "slug": "prosecco-di-cherry",
+        "order": "02",
+        "title": "Prosecco di Cherry · Extrait de parfum",
+        "subtitle": "50 ml · 309 lei",
+        "content": "Prosecco di Cherry este un parfum jucăuș, luminos și feminin, inspirat de efervescența unui cocktail cu cireșe. Deschiderea aduce note suculente de cireșe, un acord spumant de șampanie cu cireșe și o senzație fresh de cocktail, pentru un debut vibrant și memorabil.<br><br>Inima florală, cu iasomie, tuberoză și flori albe, adaugă eleganță și delicatețe, în timp ce baza de mosc, vanilie, ambră și patchouli oferă profunzime, căldură și persistență pe piele.",
+        "image": {
+          "name": "prosecco-di-cherry"
+        },
+        "mask": {
+          "url": "prosecco-di-cherry_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/prosecco-di-cherry.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "maracuja-mojito",
+        "slug": "maracuja-mojito",
+        "order": "03",
+        "title": "Maracuja Mojito · Extrait de parfum",
+        "subtitle": "50 ml · 359 lei",
+        "content": "Maracuja Mojito surprinde energia unui cocktail tropical reinterpretat într-un parfum fresh, luminos și senzual. Debutul combină bergamota cu fructul pasiunii, oferind o deschidere vibrantă și juicy, urmată de o inimă florală elegantă de iasomie, lăcrămioare și iris. Baza caldă, cu lemn de santal, ambră, mosc și vanilie, lasă pe piele o urmă fină, cremoasă și memorabilă.",
+        "image": {
+          "name": "maracuja-mojito"
+        },
+        "mask": {
+          "url": "maracuja-mojito_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/maracuja-mojito.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "spiced-peach-negroni-body-cream",
+        "slug": "spiced-peach-negroni-body-cream",
+        "order": "04",
+        "title": "Spiced Peach Negroni · Cremă de corp",
+        "subtitle": "250 ml · 139 lei",
+        "content": "Spiced Peach Negroni Body Cream îmbină îngrijirea pielii cu un parfum intens, cald și sofisticat. Notele de limetă, mandarină, portocală, piersică și coacăze negre oferă un început luminos și juicy, completat de un acord licoros inspirat de cocktail.<br><br>Inima condimentată-florală, cu ghimbir, scorțișoară, iris, iasomie și trandafir, adaugă profunzime și feminitate, iar baza de patchouli, rășină de benzoin, vanilie, ambră și mosc lasă pielea fină, hidratată și plăcut parfumată. Folosită înaintea parfumului, completează ritualul Spiced Peach Negroni și intensifică senzația olfactivă pe piele.",
+        "image": {
+          "name": "spiced-peach-negroni-body-cream"
+        },
+        "mask": {
+          "url": "spiced-peach-negroni-body-cream_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/spiced-peach-negroni-body-cream.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "pornstar-martini-body-cream",
+        "slug": "pornstar-martini-body-cream",
+        "order": "05",
+        "title": "Pornstar Martini · Cremă de corp",
+        "subtitle": "250 ml · 139 lei",
+        "content": "Pornstar Martini Body Cream îmbină îngrijirea pielii cu parfumul vibrant și seducător al colecției. Notele de litchi, şampanie și fructe de pădure oferă un început juicy și efervescent, urmat de o inimă elegantă de trandafir, flori albe și acorduri pudrate.<br><br>Baza de mosc, lemn de santal, ambră și vanilie adaugă profunzime și căldură, lăsând pielea fină, hidratată și delicat parfumată. Folosită înaintea parfumului, ajută la intensificarea ritualului olfactiv Pornstar Martini.",
+        "image": {
+          "name": "pornstar-martini-body-cream"
+        },
+        "mask": {
+          "url": "pornstar-martini-body-cream_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/pornstar-martini-body-cream.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "prosecco-di-cherry-body-cream",
+        "slug": "prosecco-di-cherry-body-cream",
+        "order": "06",
+        "title": "Prosecco di Cherry · Cremă de corp",
+        "subtitle": "250 ml · 139 lei",
+        "content": "Prosecco di Cherry Body Cream îmbină îngrijirea pielii cu un parfum feminin, sparkling și delicios de purtat. Notele de cireșe, șampanie cu cireșe și acord de cocktail oferă un început juicy și luminos, urmat de o inimă florală elegantă de iasomie, tuberoză și flori albe.<br><br>Baza de mosc, vanilie, ambră și patchouli adaugă căldură și profunzime, lăsând pielea fină, hidratată și delicat parfumată. Folosită înaintea parfumului, completează ritualul Prosecco di Cherry și ajută aroma să se simtă mai intens pe piele.",
+        "image": {
+          "name": "prosecco-di-cherry-body-cream"
+        },
+        "mask": {
+          "url": "prosecco-di-cherry-body-cream_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/prosecco-di-cherry-body-cream.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "maracuja-mojito-body-cream",
+        "slug": "maracuja-mojito-body-cream",
+        "order": "07",
+        "title": "Maracuja Mojito · Cremă de corp",
+        "subtitle": "250 ml · 139 lei",
+        "content": "Maracuja Mojito Body Cream îmbină îngrijirea pielii cu semnătura olfactivă fresh și tropicală a colecției. Aroma se deschide cu bergamotă și fructul pasiunii, continuă cu un acord floral elegant de iasomie, lăcrămioare și iris, apoi se așază într-o bază caldă de lemn de santal, ambră, mosc și vanilie. Pielea rămâne fină, hidratată și delicat parfumată.",
+        "image": {
+          "name": "maracuja-mojito-body-cream"
+        },
+        "mask": {
+          "url": "maracuja-mojito-body-cream_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/maracuja-mojito-body-cream.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "spiced-peach-negroni-body-wash",
+        "slug": "spiced-peach-negroni-body-wash",
+        "order": "08",
+        "title": "Spiced Peach Negroni · Gel de duș",
+        "subtitle": "250 ml · 99 lei",
+        "content": "Spiced Peach Negroni Shower Gel transformă dușul într-un moment fresh, aromat și sofisticat. Aroma se deschide cu limetă, mandarină, portocală, piersică și coacăze negre, alături de note licoroase care trimit subtil către inspirația de cocktail.<br><br>Accentele de ghimbir, scorțișoară, iris, iasomie și trandafir adaugă căldură și eleganță, iar baza de patchouli, rășină de benzoin, vanilie, ambră și mosc lasă pielea curată, fină și delicat parfumată.",
+        "image": {
+          "name": "spiced-peach-negroni-body-wash"
+        },
+        "mask": {
+          "url": "spiced-peach-negroni-body-wash_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/spiced-peach-negroni-body-wash.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "pornstar-martini-body-wash",
+        "slug": "pornstar-martini-body-wash",
+        "order": "09",
+        "title": "Pornstar Martini · Gel de duș",
+        "subtitle": "250 ml · 99 lei",
+        "content": "Pornstar Martini Shower Gel transformă rutina de duș într-un moment parfumat, fresh și feminin. Aroma se deschide cu litchi, șampanie și note de fructe de pădure, oferind o senzație efervescentă și energizantă încă de la prima aplicare.<br><br>Accentele florale de trandafir, flori albe și acord pudrat adaugă delicatețe, iar baza de mosc, lemn de santal, ambră și vanilie lasă pielea curată, catifelată și plăcut parfumată.",
+        "image": {
+          "name": "pornstar-martini-body-wash"
+        },
+        "mask": {
+          "url": "pornstar-martini-body-wash_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/pornstar-martini-body-wash.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "prosecco-di-cherry-body-wash",
+        "slug": "prosecco-di-cherry-body-wash",
+        "order": "10",
+        "title": "Prosecco di Cherry · Gel de duș",
+        "subtitle": "250 ml · 99 lei",
+        "content": "Prosecco di Cherry Shower Gel transformă dușul într-un moment fresh, feminin și delicat parfumat. Aroma se deschide cu cireșe suculente, șampanie cu cireșe și un acord de cocktail efervescent, oferind o senzație luminoasă și energizantă.<br><br>Accentele de iasomie, tuberoză și flori albe adaugă o notă elegantă și curată, iar baza de mosc, vanilie, ambră și patchouli lasă pielea plăcut parfumată după fiecare utilizare.",
+        "image": {
+          "name": "prosecco-di-cherry-body-wash"
+        },
+        "mask": {
+          "url": "prosecco-di-cherry-body-wash_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/prosecco-di-cherry-body-wash.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "maracuja-mojito-body-wash",
+        "slug": "maracuja-mojito-body-wash",
+        "order": "11",
+        "title": "Maracuja Mojito · Gel de duș",
+        "subtitle": "250 ml · 99 lei",
+        "content": "Transformă dușul într-un moment energizant cu aroma tropicală Maracuja Mojito. Notele de bergamotă și fructul pasiunii oferă o senzație fresh și luminoasă, în timp ce accentele florale de iasomie, lăcrămioare și iris adaugă un aer delicat și elegant. La final, nuanțele calde de lemn de santal, ambră, mosc și vanilie lasă pielea plăcut parfumată.",
+        "image": {
+          "name": "maracuja-mojito-body-wash"
+        },
+        "mask": {
+          "url": "maracuja-mojito-body-wash_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/maracuja-mojito-body-wash.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "pornstar-martini-set",
+        "slug": "pornstar-martini-set",
+        "order": "12",
+        "title": "Pornstar Martini · Set cadou",
+        "subtitle": "Parfum, cremă de corp și gel de duș · 499 lei",
+        "content": "Pornstar Martini este un ritual complet de parfumare, creat pentru o piele fină, prospețime și un parfum memorabil. Setul reunește gelul de duș, crema de corp și parfumul din aceeași colecție, pentru o experiență olfactivă fructată, florală și senzuală.<br><br>Aroma se deschide efervescent, cu litchi, șampanie, note de fructe de pădure și accente de cocktail. Inima florală de trandafir, flori albe și acord pudrat adaugă eleganță, iar baza de mosc, lemn de santal, ambră și vanilie oferă un final cald, cremos și persistent.",
+        "image": {
+          "name": "pornstar-martini-set"
+        },
+        "mask": {
+          "url": "pornstar-martini-set_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/pornstar-martini-set.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "spiced-peach-negroni-set",
+        "slug": "spiced-peach-negroni-set",
+        "order": "13",
+        "title": "Spiced Peach Negroni · Set cadou",
+        "subtitle": "Parfum, cremă de corp și gel de duș · 490 lei",
+        "content": "Spiced Peach Negroni este un ritual complet de parfumare, creat pentru cei care iubesc aromele fructate, condimentate și ușor misterioase. Setul reunește gelul de duș, crema de corp și parfumul din aceeași colecție, pentru o experiență olfactivă intensă, caldă și memorabilă.<br><br>Aroma se deschide cu limetă, mandarină, portocală, piersică, coacăze negre și note licoroase, continuă cu ghimbir, scorțișoară, iris, iasomie și trandafir, apoi se așază într-o bază catifelată de patchouli, rășină de benzoin, vanilie, ambră și mosc. Folosite împreună, cele trei produse creează un efect de layering care lasă pielea curată, fină, hidratată și delicat parfumată.",
+        "image": {
+          "name": "spiced-peach-negroni-set"
+        },
+        "mask": {
+          "url": "spiced-peach-negroni-set_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/spiced-peach-negroni-set.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "prosecco-di-cherry-set",
+        "slug": "prosecco-di-cherry-set",
+        "order": "14",
+        "title": "Prosecco di Cherry · Set cadou",
+        "subtitle": "Parfum, cremă de corp și gel de duș · 464 lei",
+        "content": "Prosecco di Cherry este un ritual complet de parfumare, creat pentru momente fresh, feminine și memorabile. Setul reunește gelul de duș, crema de corp și parfumul din aceeași colecție, pentru o experiență olfactivă fructată, florală și elegantă.<br><br>Aroma se deschide cu cireșe suculente, șampanie cu cireșe și un acord de cocktail efervescent, continuă cu iasomie, tuberoză și flori albe, apoi se așază într-o bază caldă de mosc, vanilie, ambră și patchouli. Folosite împreună, cele trei produse creează un efect de layering care lasă pielea curată, fină, hidratată și delicat parfumată.",
+        "image": {
+          "name": "prosecco-di-cherry-set"
+        },
+        "mask": {
+          "url": "prosecco-di-cherry-set_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/prosecco-di-cherry-set.mp3",
+        "loaded": 1
+      },
+      {
+        "type": "podcast",
+        "uri": "maracuja-mojito-set",
+        "slug": "maracuja-mojito-set",
+        "order": "15",
+        "title": "Maracuja Mojito · Set cadou",
+        "subtitle": "Parfum, cremă de corp și gel de duș · 507,45 lei",
+        "content": "Maracuja Mojito este un ritual complet de parfumare, creat pentru a prelungi pe piele prospețimea vibrantă a fructului pasiunii. Setul combină gelul de duș, crema de corp și parfumul din aceeași colecție, pentru o experiență olfactivă fresh, tropicală și memorabilă.<br><br>Aroma se deschide luminos, cu bergamotă și fructul pasiunii, continuă cu un acord floral elegant de iasomie, lăcrămioare și iris, apoi se așază într-o bază caldă și senzuală de lemn de santal, ambră, mosc și vanilie. Folosite împreună, cele trei produse creează un efect de layering care lasă pielea curată, fină, hidratată și delicat parfumată pe parcursul zilei.",
+        "image": {
+          "name": "maracuja-mojito-set"
+        },
+        "mask": {
+          "url": "maracuja-mojito-set_mask.png",
+          "width": 780,
+          "height": 780
+        },
+        "audio": "/xelle/galerie/maracuja-mojito-set.mp3",
+        "loaded": 1
       }
     ]
   },
@@ -570,7 +938,9 @@
     "type": "home",
     "loaded": 1,
     "ctas": {
-      "explore": "Descoperă parfumul"
+      "explore": "Descoperă parfumul",
+      "podcastText": "Textul prezentării",
+      "close": "Închide"
     },
     "scenes": [
       {
@@ -596,6 +966,15 @@
         "type": "scene",
         "exploreUrl": "/maracuja-mojito-50-ml",
         "title": "Maracuja\nMojito"
+      },
+      {
+        "type": "movie",
+        "title": "Filmul\nXellé"
+      },
+      {
+        "type": "scene",
+        "title": "Galeria\nXellé",
+        "podcastTitle": "Galerie audio Xellé"
       }
     ]
   },
@@ -633,22 +1012,40 @@
           ]
         },
         {
-          "type": "textBlock",
-          "text": "Note de vârf",
-          "textSize": "m",
-          "subtitle": "Lămâie verde · Mandarină · Portocală · Piersică · Coacăze negre · Note licoroase"
-        },
-        {
-          "type": "textBlock",
-          "text": "Note de inimă",
-          "textSize": "m",
-          "subtitle": "Ghimbir · Scorțișoară · Iris · Iasomie · Trandafir"
-        },
-        {
-          "type": "textBlock",
-          "text": "Note de bază",
-          "textSize": "m",
-          "subtitle": "Patchouli · Rășină de benzoin · Vanilie · Ambră · Mosc"
+          "type": "xelleNotesBlock",
+          "groups": [
+            {
+              "title": "Note de vârf",
+              "notes": [
+                "Lămâie verde",
+                "Mandarină",
+                "Portocală",
+                "Piersică",
+                "Coacăze negre",
+                "Note licoroase"
+              ]
+            },
+            {
+              "title": "Note de inimă",
+              "notes": [
+                "Ghimbir",
+                "Scorțișoară",
+                "Iris",
+                "Iasomie",
+                "Trandafir"
+              ]
+            },
+            {
+              "title": "Note de bază",
+              "notes": [
+                "Patchouli",
+                "Rășină de benzoin",
+                "Vanilie",
+                "Ambră",
+                "Mosc"
+              ]
+            }
+          ]
         },
         {
           "type": "textBlock",
@@ -658,13 +1055,12 @@
           "button": [
             {
               "url": "https://xelle.ro/products/spiced-peach-negroni",
-              "label": "Cumpără pe xelle.ro"
+              "label": "Cumpără"
             }
           ]
         },
         {
           "type": "sliderProductsBlock",
-          "title": "Colecția Xellé",
           "cards": [
             {
               "title": "Spiced Peach Negroni · 339 lei",
@@ -701,7 +1097,7 @@
           ],
           "cta": {
             "url": "https://xelle.ro/collections/parfum",
-            "label": "Colecția pe xelle.ro"
+            "label": "Vezi colecția"
           }
         },
         {
@@ -749,22 +1145,35 @@
           ]
         },
         {
-          "type": "textBlock",
-          "text": "Note de vârf",
-          "textSize": "m",
-          "subtitle": "Litchi · Șampanie · Fructe de pădure · Acord de cocktail"
-        },
-        {
-          "type": "textBlock",
-          "text": "Note de inimă",
-          "textSize": "m",
-          "subtitle": "Trandafir · Acord pudrat · Flori albe"
-        },
-        {
-          "type": "textBlock",
-          "text": "Note de bază",
-          "textSize": "m",
-          "subtitle": "Mosc · Lemn de santal · Ambră · Vanilie"
+          "type": "xelleNotesBlock",
+          "groups": [
+            {
+              "title": "Note de vârf",
+              "notes": [
+                "Litchi",
+                "Șampanie",
+                "Fructe de pădure",
+                "Acord de cocktail"
+              ]
+            },
+            {
+              "title": "Note de inimă",
+              "notes": [
+                "Trandafir",
+                "Acord pudrat",
+                "Flori albe"
+              ]
+            },
+            {
+              "title": "Note de bază",
+              "notes": [
+                "Mosc",
+                "Lemn de santal",
+                "Ambră",
+                "Vanilie"
+              ]
+            }
+          ]
         },
         {
           "type": "textBlock",
@@ -774,13 +1183,12 @@
           "button": [
             {
               "url": "https://xelle.ro/products/pornstar-martini-50-ml",
-              "label": "Cumpără pe xelle.ro"
+              "label": "Cumpără"
             }
           ]
         },
         {
           "type": "sliderProductsBlock",
-          "title": "Colecția Xellé",
           "cards": [
             {
               "title": "Spiced Peach Negroni · 339 lei",
@@ -817,7 +1225,7 @@
           ],
           "cta": {
             "url": "https://xelle.ro/collections/parfum",
-            "label": "Colecția pe xelle.ro"
+            "label": "Vezi colecția"
           }
         },
         {
@@ -865,22 +1273,34 @@
           ]
         },
         {
-          "type": "textBlock",
-          "text": "Note de vârf",
-          "textSize": "m",
-          "subtitle": "Cireșe · Șampanie cu cireșe · Acord de cocktail"
-        },
-        {
-          "type": "textBlock",
-          "text": "Note de inimă",
-          "textSize": "m",
-          "subtitle": "Iasomie · Tuberoză · Flori albe"
-        },
-        {
-          "type": "textBlock",
-          "text": "Note de bază",
-          "textSize": "m",
-          "subtitle": "Mosc · Vanilie · Ambră · Patchouli"
+          "type": "xelleNotesBlock",
+          "groups": [
+            {
+              "title": "Note de vârf",
+              "notes": [
+                "Cireșe",
+                "Șampanie cu cireșe",
+                "Acord de cocktail"
+              ]
+            },
+            {
+              "title": "Note de inimă",
+              "notes": [
+                "Iasomie",
+                "Tuberoză",
+                "Flori albe"
+              ]
+            },
+            {
+              "title": "Note de bază",
+              "notes": [
+                "Mosc",
+                "Vanilie",
+                "Ambră",
+                "Patchouli"
+              ]
+            }
+          ]
         },
         {
           "type": "textBlock",
@@ -890,13 +1310,12 @@
           "button": [
             {
               "url": "https://xelle.ro/products/prosecco-di-cherry-50-ml",
-              "label": "Cumpără pe xelle.ro"
+              "label": "Cumpără"
             }
           ]
         },
         {
           "type": "sliderProductsBlock",
-          "title": "Colecția Xellé",
           "cards": [
             {
               "title": "Spiced Peach Negroni · 339 lei",
@@ -933,7 +1352,7 @@
           ],
           "cta": {
             "url": "https://xelle.ro/collections/parfum",
-            "label": "Colecția pe xelle.ro"
+            "label": "Vezi colecția"
           }
         },
         {
@@ -981,22 +1400,33 @@
           ]
         },
         {
-          "type": "textBlock",
-          "text": "Note de vârf",
-          "textSize": "m",
-          "subtitle": "Bergamotă · Fructul pasiunii"
-        },
-        {
-          "type": "textBlock",
-          "text": "Note de inimă",
-          "textSize": "m",
-          "subtitle": "Iasomie · Lăcrămioare · Iris"
-        },
-        {
-          "type": "textBlock",
-          "text": "Note de bază",
-          "textSize": "m",
-          "subtitle": "Lemn de santal · Ambră · Mosc · Vanilie"
+          "type": "xelleNotesBlock",
+          "groups": [
+            {
+              "title": "Note de vârf",
+              "notes": [
+                "Bergamotă",
+                "Fructul pasiunii"
+              ]
+            },
+            {
+              "title": "Note de inimă",
+              "notes": [
+                "Iasomie",
+                "Lăcrămioare",
+                "Iris"
+              ]
+            },
+            {
+              "title": "Note de bază",
+              "notes": [
+                "Lemn de santal",
+                "Ambră",
+                "Mosc",
+                "Vanilie"
+              ]
+            }
+          ]
         },
         {
           "type": "textBlock",
@@ -1006,13 +1436,12 @@
           "button": [
             {
               "url": "https://xelle.ro/products/maracuja-mojito-50-ml",
-              "label": "Cumpără pe xelle.ro"
+              "label": "Cumpără"
             }
           ]
         },
         {
           "type": "sliderProductsBlock",
-          "title": "Colecția Xellé",
           "cards": [
             {
               "title": "Spiced Peach Negroni · 339 lei",
@@ -1049,7 +1478,7 @@
           ],
           "cta": {
             "url": "https://xelle.ro/collections/parfum",
-            "label": "Colecția pe xelle.ro"
+            "label": "Vezi colecția"
           }
         },
         {

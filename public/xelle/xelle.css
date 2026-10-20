@@ -1,5 +1,6 @@
 /* Xellé identity layered over the original cinematic layout. */
 body.xelle-experience {
+video.videoPopupBlock__video[src$="/xelle/video_xelle.mp4"] { object-fit: contain; }
 .headerBlock__icon {
   width: 132px !important;
   height: auto !important;
@@ -7,17 +8,45 @@ body.xelle-experience {
   object-fit: contain;
 }
 .headerBlock__icon--black { filter: invert(1); }
-.mainLoader[data-v-e393307d] { background: #151311; }
+.mainLoader[data-v-e393307d] { background: #151311; align-items: flex-start; }
+.mainLoader__wrapper[data-v-e393307d] { margin-top: clamp(96px, 22vh, 220px); }
+.mainLoader__baseline[data-v-e393307d] { font-size: clamp(16px, 1.25vw, 19px); max-width: 30em; }
 .mainLoader__icons[data-v-e393307d] { width: 180px; height: 56px; }
 .mainLoader__icons[data-v-e393307d] > .xelle { animation: none !important; width: 100%; height: auto; opacity: 1; }
-.soundButton, .homePage__podcastWrapper, .homePage__podcastClosePlay,
-.homePage__bottomRightWrapper, .homePage__movieScreenInlineVideo,
-.homePage__bottomWrapper--watchMovieText,
-.homePage__bottomWrapper--podcastAudioIndicationText,
+.mainLoader__progress[data-v-e393307d] { top: auto; bottom: calc(100% + 14px); left: 50%; transform: translateX(-50%); font-size: 12px; }
+/* Cartier narration is available in the dedicated preview gallery only. */
+.homePage__podcastWrapper, .homePage__podcastClosePlay,
 .homePage__bottomWrapper--soundOnIndicationText,
-.podcastTextPopupBlock, .podcastModeDismissOverlay,
 .cursorClickSoundEnable { display: none !important; }
-.headerBlock__slot--left { visibility: hidden; }
+.xelle-scene-nav {
+  position: fixed;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+}
+.xelle-scene-nav button {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.xelle-scene-nav button span {
+  width: 3px;
+  height: 3px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: .35;
+}
+.xelle-scene-nav button[aria-current] span { opacity: 1; transform: scale(1.65); }
+.xelle-scene-nav button:hover span { opacity: 1; }
+.xelle-scene-nav button:focus-visible { outline: 1px solid #fff; outline-offset: -3px; border-radius: 50%; }
 .sceneTitle__inner { font-family: FancyCutProWW2026, Georgia, serif !important; max-width: min(90vw, 14em); }
 .sceneTitle__layer.intro .sceneTitle__inner {
   font-size: clamp(60px, 8vw, 140px);
@@ -31,6 +60,48 @@ body.xelle-experience {
 .textBlock__text--m { font-family: FancyCutProWW2026, Georgia, serif; font-size: clamp(32px, 3.3vw, 48px); text-transform: none; }
 .textBlock__subtitle { font-family: Arial, sans-serif; font-size: 15px; font-weight: 400; text-transform: none; }
 .textBlock p { font-weight: 400; }
+/* Compact product pages: the original leaves 16.7vw under every block. */
+.page__wrapper > .productPage__blockMount:not(:last-child) { padding-bottom: clamp(48px, 7vw, 120px); }
+.page__wrapper > .productPage__blockMount--heroBeforeScrollMedias:not(:last-child) { padding-bottom: clamp(64px, 3.8888888889vw, 72.8px); }
+.page__wrapper > .productPage__blockMount:has(> .textBlock):not(:last-child) { padding-bottom: clamp(20px, 2.5vw, 40px); }
+.textBlock { gap: clamp(12px, 1vw, 16px); }
+/* Description beside the flacon: one centred column instead of alternating sides. */
+.scrollWatchBlock__text { grid-column: 1 / -1; justify-self: center; margin-left: 0; text-align: center; }
+.scrollWatchBlock__text > div { text-align: center !important; }
+/* Olfactory pyramid: three hairline-separated columns instead of stacked cards. */
+.xelle-notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: min(100% - 32px, 960px);
+  margin: 0 auto;
+  border-top: 1px solid #15131126;
+  border-bottom: 1px solid #15131126;
+  background: #f5f5f5;
+  color: #151311;
+}
+.xelle-notes__group { padding: 34px 24px 38px; text-align: center; }
+.xelle-notes__group + .xelle-notes__group { border-left: 1px solid #15131126; }
+.xelle-notes__title {
+  margin: 0 0 18px;
+  font: 500 11px/1.4 Arial, sans-serif;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  opacity: .55;
+}
+.xelle-notes__list { margin: 0; padding: 0; list-style: none; }
+.xelle-notes__note {
+  font: 300 clamp(20px, 1.55vw, 26px)/1.35 FancyCutProWW2026, Georgia, serif;
+  text-transform: none;
+}
+@media (max-width: 767px) {
+  .xelle-notes { grid-template-columns: 1fr; }
+  .xelle-notes__group { padding: 22px 12px 24px; }
+  .xelle-notes__group + .xelle-notes__group { border-left: 0; border-top: 1px solid #15131126; }
+  .xelle-notes__title { margin-bottom: 10px; }
+  .xelle-notes__list { display: flex; flex-wrap: wrap; justify-content: center; column-gap: 14px; }
+  .xelle-notes__note { font-size: 20px; }
+  .xelle-notes__note + .xelle-notes__note::before { content: "·"; margin-right: 14px; opacity: .45; }
+}
 @media (max-width: 767px) {
   .headerBlock__icon { width: 106px !important; }
   .sceneTitle__inner { font-size: 35px; }
@@ -38,3 +109,625 @@ body.xelle-experience {
   .heroBlock__subtitle { font-size: 36px; max-width: calc(100vw - 32px); }
 }
 }
+
+/* Text-free entrance: the original room and light effects frame the flacons. */
+body.xelle-experience .sceneTitle__layer.intro { display: none; }
+body.xelle-experience .xelle-intro { position: fixed; inset: 0; pointer-events: none; }
+body.xelle-experience .xelle-intro__explore {
+  position: absolute;
+  left: 50%;
+  bottom: max(30px, env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #fff8;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  pointer-events: auto;
+  cursor: pointer;
+  transition: background .2s, border-color .2s;
+}
+body.xelle-experience .xelle-intro__explore:hover { background: #ffffff14; border-color: #fff; }
+body.xelle-experience .xelle-intro__explore:focus-visible { outline: 2px solid #fff; outline-offset: 5px; }
+body.xelle-experience .xelle-intro__arrow { font: 25px/1 Georgia, serif; }
+body.xelle-experience .xelle-scene-nav__intro { margin-bottom: 10px; }
+body.xelle-experience .xelle-scene-nav__intro span { width: auto; height: auto; background: transparent; font: 17px/1 Georgia, serif; opacity: .85; }
+@media (max-height: 650px) {
+  body.xelle-experience .xelle-intro__explore { bottom: 18px; width: 48px; height: 48px; }
+}
+
+/* Audio permission prompt shown once the loader has finished. */
+body.xelle-experience .xelle-audio-prompt {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(21, 19, 17, .55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  animation: xelle-audio-prompt-in .5s ease both;
+}
+@keyframes xelle-audio-prompt-in { from { opacity: 0; } to { opacity: 1; } }
+body.xelle-experience .xelle-audio-prompt__box {
+  width: min(100%, 400px);
+  padding: 36px 32px 28px;
+  border: 1px solid #fff8;
+  background: rgba(21, 19, 17, .82);
+  color: #fff;
+  text-align: center;
+}
+body.xelle-experience .xelle-audio-prompt__title {
+  margin: 0 0 12px;
+  font: 32px/1.15 FancyCutProWW2026, Georgia, serif;
+}
+body.xelle-experience .xelle-audio-prompt__text,
+body.xelle-experience .xelle-audio-prompt__hint {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: .07em;
+  line-height: 1.5;
+}
+body.xelle-experience .xelle-audio-prompt__hint { margin-top: 20px; opacity: .6; }
+body.xelle-experience .xelle-audio-prompt__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 26px;
+}
+body.xelle-experience .xelle-audio-prompt__button {
+  min-width: 150px;
+  padding: 13px 22px;
+  border: 1px solid #fff8;
+  background: transparent;
+  color: #fff;
+  font: 12px/1 Arial, sans-serif;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background .2s, border-color .2s, color .2s;
+}
+body.xelle-experience .xelle-audio-prompt__button--primary { background: #fff; color: #151311; border-color: #fff; }
+body.xelle-experience .xelle-audio-prompt__button:hover { background: #ffffff14; border-color: #fff; }
+body.xelle-experience .xelle-audio-prompt__button--primary:hover { background: #e9e4dd; }
+body.xelle-experience .xelle-audio-prompt__button:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+@media (max-width: 767px) {
+  body.xelle-experience .xelle-audio-prompt__box { padding: 28px 20px 22px; }
+  body.xelle-experience .xelle-audio-prompt__title { font-size: 26px; }
+  body.xelle-experience .xelle-audio-prompt__button { flex: 1 1 100%; }
+}
+
+/* Section menu: a quiet "Meniu" mirroring "Sunet", opening onto every stage. */
+.headerBlock:has(.xelle-menu--open) { z-index: 70; }
+body.xelle-experience .xelle-menu--hidden { visibility: hidden; }
+body.xelle-experience .xelle-menu__toggle {
+  position: relative;
+  z-index: 2;
+  margin: -20px;
+  padding: 20px;
+  background: none;
+  border: 0;
+  color: #fff;
+  font: 500 11px/1 BrilliantCutProWW2026, Arial, sans-serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}
+body.xelle-experience .xelle-menu__toggle:hover { opacity: .35; }
+body.xelle-experience .xelle-menu__toggle:focus-visible { outline: 1px solid #fff; outline-offset: -12px; }
+body.xelle-experience .xelle-menu__panel {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  overflow-y: auto;
+  padding: 96px 16px 48px;
+  background: rgba(21, 19, 17, .9);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .45s ease, visibility 0s linear .45s;
+}
+body.xelle-experience .xelle-menu--open .xelle-menu__panel {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .45s ease;
+}
+body.xelle-experience .xelle-menu__list { margin: 0; padding: 0; list-style: none; }
+body.xelle-experience .xelle-menu__list li {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity .5s ease, transform .6s cubic-bezier(.2, .7, .2, 1);
+}
+body.xelle-experience .xelle-menu--open .xelle-menu__list li { opacity: 1; transform: none; }
+body.xelle-experience .xelle-menu--open .xelle-menu__list li:nth-child(2) { transition-delay: .04s; }
+body.xelle-experience .xelle-menu--open .xelle-menu__list li:nth-child(3) { transition-delay: .08s; }
+body.xelle-experience .xelle-menu--open .xelle-menu__list li:nth-child(4) { transition-delay: .12s; }
+body.xelle-experience .xelle-menu--open .xelle-menu__list li:nth-child(5) { transition-delay: .16s; }
+body.xelle-experience .xelle-menu--open .xelle-menu__list li:nth-child(6) { transition-delay: .2s; }
+body.xelle-experience .xelle-menu--open .xelle-menu__list li:nth-child(7) { transition-delay: .24s; }
+body.xelle-experience .xelle-menu__link {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  padding: 6px 0;
+  color: #fff;
+  text-decoration: none;
+  opacity: .55;
+  transition: opacity .25s ease;
+}
+body.xelle-experience .xelle-menu__link:hover,
+body.xelle-experience .xelle-menu__link[aria-current] { opacity: 1; }
+body.xelle-experience .xelle-menu__link:focus-visible { opacity: 1; outline: 1px solid #fff; outline-offset: 4px; }
+body.xelle-experience .xelle-menu__number {
+  min-width: 2em;
+  font: 11px/1 Arial, sans-serif;
+  letter-spacing: .12em;
+}
+body.xelle-experience .xelle-menu__label {
+  position: relative;
+  font: clamp(30px, 4.2vw, 56px)/1.12 FancyCutProWW2026, Georgia, serif;
+}
+body.xelle-experience .xelle-menu__label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform .35s ease;
+}
+body.xelle-experience .xelle-menu__link[aria-current] .xelle-menu__label::after,
+body.xelle-experience .xelle-menu__link:hover .xelle-menu__label::after { transform: scaleX(1); }
+@media (prefers-reduced-motion: reduce) {
+  body.xelle-experience .xelle-menu__panel,
+  body.xelle-experience .xelle-menu__list li { transition: none; }
+}
+
+/* Menu: the shop pages follow the scroll stages after a small pause. */
+body.xelle-experience .xelle-menu__list li:nth-child(8) { margin-top: 22px; }
+body.xelle-experience .xelle-menu--open .xelle-menu__list li:nth-child(8) { transition-delay: .28s; }
+body.xelle-experience .xelle-menu--open .xelle-menu__list li:nth-child(9) { transition-delay: .32s; }
+@media (max-height: 760px) {
+  body.xelle-experience .xelle-menu__label { font-size: clamp(26px, 5.6vh, 44px); }
+}
+
+/* Cart button, twin of "Meniu". */
+body.xelle-experience .headerBlock__slot--right { gap: 34px; }
+body.xelle-experience .xelle-cart-button {
+  position: relative;
+  z-index: 2;
+  margin: -20px;
+  padding: 20px;
+  background: none;
+  border: 0;
+  color: #fff;
+  font: 500 11px/1 BrilliantCutProWW2026, Arial, sans-serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: opacity .4s ease;
+}
+body.xelle-experience .xelle-cart-button:hover { opacity: .35; }
+body.xelle-experience .xelle-cart-button:focus-visible { outline: 1px solid currentColor; outline-offset: -12px; }
+body.xelle-experience .xelle-cart-button--hidden { visibility: hidden; }
+body.xelle-experience .xelle-cart-button__count {
+  margin-left: 3px;
+  font-size: 9px;
+  vertical-align: super;
+  line-height: 0;
+}
+@media (max-width: 480px) {
+  body.xelle-experience .headerBlock__slot--right { gap: 22px; }
+}
+@media (max-width: 400px) {
+  body.xelle-experience .headerBlock__slot--right { gap: 14px; }
+}
+
+/* Shop pages: light like xelle.ro, under a dark header. */
+body.xelle-experience:has(.xelle-shop-page) .headerBlock { z-index: 58; }
+body.xelle-experience:has(.xelle-menu--open) .headerBlock { z-index: 70; }
+body.xelle-experience:has(.xelle-shop-page) .headerBlock:not(:has(.xelle-menu--open)) .headerBlock__icon { filter: invert(1) !important; }
+body.xelle-experience:has(.xelle-shop-page) .headerBlock:not(:has(.xelle-menu--open)) :is(.soundButton, .xelle-menu__toggle, .xelle-cart-button) { color: #121212; }
+body.xelle-experience:has(.xelle-shop-page) .headerBlock:not(:has(.xelle-menu--open)) .soundButton::after { background-color: #121212; }
+body.xelle-experience:has(.xelle-shop-page) .headerBlock__closeWrap { visibility: hidden; }
+/* A shop link opens before the 3D finishes loading: its header shows at once. */
+body.xelle-experience:has(.xelle-shop-page) .headerBlock--hidden { opacity: 1; visibility: visible; }
+
+body.xelle-experience .xelle-shop {
+  --xs-ink: #121212;
+  --xs-muted: rgba(18, 18, 18, .62);
+  --xs-line: rgba(18, 18, 18, .14);
+  --xs-soft: #f3f2f0;
+  --xs-sale: #8a2c1e;
+  color: var(--xs-ink);
+  font-family: Arial, sans-serif;
+}
+body.xelle-experience .xelle-shop-page {
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: #fff;
+  color: var(--xs-ink);
+  animation: xelle-shop-in .45s ease both;
+}
+@keyframes xelle-shop-in { from { opacity: 0; } to { opacity: 1; } }
+body.xelle-experience .xelle-shop-page__inner {
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 104px 32px 96px;
+}
+body.xelle-experience .xelle-shop a { color: inherit; }
+body.xelle-experience .xelle-shop :focus-visible { outline: 2px solid var(--xs-ink); outline-offset: 3px; }
+body.xelle-experience .xelle-shop-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  padding-bottom: 18px;
+  margin-bottom: 36px;
+  border-bottom: 1px solid var(--xs-line);
+}
+body.xelle-experience .xelle-shop-nav__back {
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--xs-muted);
+  font: 13px/1.4 Arial, sans-serif;
+  letter-spacing: .04em;
+  text-decoration: none;
+  cursor: pointer;
+}
+body.xelle-experience .xelle-shop-nav__back:hover { color: var(--xs-ink); }
+body.xelle-experience .xelle-shop-nav__tabs { display: flex; gap: 26px; }
+body.xelle-experience .xelle-shop-nav__tabs a {
+  padding: 4px 0;
+  font: 12px/1 Arial, sans-serif;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--xs-muted);
+  border-bottom: 1px solid transparent;
+}
+body.xelle-experience .xelle-shop-nav__tabs a:hover,
+body.xelle-experience .xelle-shop-nav__tabs a[aria-current] { color: var(--xs-ink); border-color: currentColor; }
+body.xelle-experience .xelle-shop-title {
+  margin: 0 0 28px;
+  font: 400 clamp(34px, 4vw, 52px)/1.1 FancyCutProWW2026, Georgia, serif;
+  outline: none;
+}
+body.xelle-experience .xelle-shop-subtitle { margin: 0 0 24px; font: 400 clamp(26px, 2.6vw, 34px)/1.15 FancyCutProWW2026, Georgia, serif; }
+body.xelle-experience .xelle-shop-lead { max-width: 60ch; margin: -12px 0 28px; color: var(--xs-muted); font-size: 15px; line-height: 1.6; }
+
+body.xelle-experience .xelle-shop-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 14px 28px;
+  margin-bottom: 26px;
+}
+body.xelle-experience .xelle-shop-select { display: grid; gap: 7px; }
+body.xelle-experience .xelle-shop-select__label {
+  margin: 0;
+  color: var(--xs-muted);
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+body.xelle-experience .xelle-shop-select select {
+  min-width: 190px;
+  padding: 10px 34px 10px 12px;
+  border: 1px solid var(--xs-line);
+  border-radius: 0;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23121212'/%3E%3C/svg%3E") no-repeat right 12px center;
+  color: var(--xs-ink);
+  font: 14px/1.2 Arial, sans-serif;
+  appearance: none;
+  cursor: pointer;
+}
+body.xelle-experience .xelle-shop-toolbar__count { margin: 0 0 10px auto; color: var(--xs-muted); font-size: 13px; }
+
+body.xelle-experience .xelle-shop-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 36px 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body.xelle-experience .xelle-shop-card { display: block; text-decoration: none; }
+body.xelle-experience .xelle-shop-card__media {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--xs-soft);
+}
+body.xelle-experience .xelle-shop-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .6s cubic-bezier(.2, .7, .2, 1);
+}
+body.xelle-experience .xelle-shop-card:hover .xelle-shop-card__media img { transform: scale(1.04); }
+body.xelle-experience .xelle-shop-badge {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  padding: 5px 11px;
+  border-radius: 40px;
+  background: #121212;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: .04em;
+}
+body.xelle-experience .xelle-shop-badge--sale { background: var(--xs-sale); }
+body.xelle-experience .xelle-shop-card__title { margin: 14px 0 6px; font-size: 14px; line-height: 1.4; }
+body.xelle-experience .xelle-shop-card:hover .xelle-shop-card__title { text-decoration: underline; text-underline-offset: 3px; }
+body.xelle-experience .xelle-shop-card__price,
+body.xelle-experience .xelle-shop-info__price { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; font-size: 15px; letter-spacing: .02em; }
+body.xelle-experience .xelle-shop-price__old { color: var(--xs-muted); }
+body.xelle-experience .xelle-shop-price__sale { color: var(--xs-sale); }
+body.xelle-experience .xelle-shop-empty,
+body.xelle-experience .xelle-shop-state { padding: 60px 0; color: var(--xs-muted); text-align: center; }
+body.xelle-experience .xelle-shop-state p { margin: 0 0 20px; }
+
+body.xelle-experience .xelle-shop-collections {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body.xelle-experience .xelle-shop-collection { display: block; text-decoration: none; }
+body.xelle-experience .xelle-shop-collection__media { aspect-ratio: 4 / 5; overflow: hidden; background: var(--xs-soft); }
+body.xelle-experience .xelle-shop-collection__media img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s cubic-bezier(.2, .7, .2, 1); }
+body.xelle-experience .xelle-shop-collection:hover img { transform: scale(1.04); }
+body.xelle-experience .xelle-shop-collection__title {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 16px 0 4px;
+  font: 400 24px/1.2 FancyCutProWW2026, Georgia, serif;
+}
+body.xelle-experience .xelle-shop-collection__title span:last-child { font: 18px/1.3 Arial, sans-serif; transition: transform .3s ease; }
+body.xelle-experience .xelle-shop-collection:hover .xelle-shop-collection__title span:last-child { transform: translateX(4px); }
+body.xelle-experience .xelle-shop-collection__count { margin: 0; color: var(--xs-muted); font-size: 13px; }
+
+body.xelle-experience .xelle-shop-product {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 56px;
+  align-items: start;
+}
+body.xelle-experience .xelle-shop-gallery__main { aspect-ratio: 1; background: var(--xs-soft); }
+body.xelle-experience .xelle-shop-gallery__main img { width: 100%; height: 100%; object-fit: contain; }
+body.xelle-experience .xelle-shop-gallery__thumbs { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 0; padding: 0; list-style: none; }
+body.xelle-experience .xelle-shop-gallery__thumbs button {
+  display: block;
+  width: 76px;
+  height: 76px;
+  padding: 0;
+  border: 1px solid transparent;
+  background: var(--xs-soft);
+  cursor: pointer;
+}
+body.xelle-experience .xelle-shop-gallery__thumbs button[aria-current] { border-color: var(--xs-ink); }
+body.xelle-experience .xelle-shop-gallery__thumbs img { width: 100%; height: 100%; object-fit: cover; }
+body.xelle-experience .xelle-shop-info { position: sticky; top: 104px; }
+body.xelle-experience .xelle-shop-info__vendor { margin: 0 0 10px; color: var(--xs-muted); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; }
+body.xelle-experience .xelle-shop-info .xelle-shop-title { margin-bottom: 18px; font-size: clamp(32px, 3.4vw, 44px); }
+body.xelle-experience .xelle-shop-info__price { font-size: 18px; }
+body.xelle-experience .xelle-shop-info__note { margin: 8px 0 26px; color: var(--xs-muted); font-size: 12px; }
+body.xelle-experience .xelle-shop-info .xelle-shop-select { margin-bottom: 20px; }
+body.xelle-experience .xelle-shop-quantity { display: grid; gap: 7px; margin-bottom: 22px; }
+body.xelle-experience .xelle-shop-stepper {
+  display: inline-flex;
+  align-items: center;
+  width: max-content;
+  border: 1px solid var(--xs-line);
+}
+body.xelle-experience .xelle-shop-stepper button {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--xs-ink);
+  font: 18px/1 Arial, sans-serif;
+  cursor: pointer;
+}
+body.xelle-experience .xelle-shop-stepper button:disabled { opacity: .3; cursor: default; }
+body.xelle-experience .xelle-shop-stepper output { min-width: 30px; text-align: center; font-size: 15px; }
+body.xelle-experience .xelle-shop-actions { display: grid; gap: 10px; }
+body.xelle-experience .xelle-shop-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 14px 26px;
+  border: 1px solid var(--xs-ink);
+  background: #fff;
+  color: var(--xs-ink);
+  font: 12px/1 Arial, sans-serif;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .2s, color .2s, opacity .2s;
+}
+body.xelle-experience .xelle-shop-button:hover { background: var(--xs-soft); }
+body.xelle-experience .xelle-shop-button--primary { background: var(--xs-ink); color: #fff; }
+body.xelle-experience .xelle-shop-button--primary:hover { background: #3a3735; }
+body.xelle-experience .xelle-shop-button:disabled { opacity: .45; cursor: not-allowed; }
+body.xelle-experience .xelle-shop-message { margin: 14px 0 0; color: var(--xs-sale); font-size: 13px; line-height: 1.5; }
+body.xelle-experience .xelle-shop-accordions { margin-top: 32px; border-top: 1px solid var(--xs-line); }
+body.xelle-experience .xelle-shop-accordions details { border-bottom: 1px solid var(--xs-line); }
+body.xelle-experience .xelle-shop-accordions summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+  font-size: 14px;
+  letter-spacing: .04em;
+  list-style: none;
+  cursor: pointer;
+}
+body.xelle-experience .xelle-shop-accordions summary::-webkit-details-marker { display: none; }
+body.xelle-experience .xelle-shop-accordions summary::after { content: "+"; font-size: 18px; transition: transform .25s ease; }
+body.xelle-experience .xelle-shop-accordions details[open] summary::after { transform: rotate(45deg); }
+body.xelle-experience .xelle-shop-accordions__body { padding: 0 0 20px; color: var(--xs-muted); font-size: 14px; line-height: 1.65; }
+body.xelle-experience .xelle-shop-rich p { margin: 0 0 12px; }
+body.xelle-experience .xelle-shop-plain { margin: 0; white-space: pre-line; }
+body.xelle-experience .xelle-shop-notes { display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; margin: 0; }
+body.xelle-experience .xelle-shop-notes dt { color: var(--xs-ink); }
+body.xelle-experience .xelle-shop-notes dd { margin: 0; }
+body.xelle-experience .xelle-shop-related { margin-top: 88px; }
+
+/* Cart drawer. */
+body.xelle-experience .xelle-cart { position: fixed; inset: 0; z-index: 75; pointer-events: none; }
+body.xelle-experience .xelle-cart__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(18, 18, 18, .45);
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+body.xelle-experience .xelle-cart__panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: min(100%, 440px);
+  background: #fff;
+  color: var(--xs-ink);
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: transform .45s cubic-bezier(.2, .7, .2, 1), visibility 0s linear .45s;
+}
+body.xelle-experience .xelle-cart--open { pointer-events: auto; }
+body.xelle-experience .xelle-cart--open .xelle-cart__backdrop { opacity: 1; }
+body.xelle-experience .xelle-cart--open .xelle-cart__panel { transform: none; visibility: visible; transition: transform .45s cubic-bezier(.2, .7, .2, 1); }
+body.xelle-experience .xelle-cart__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 28px 20px;
+  border-bottom: 1px solid var(--xs-line);
+}
+body.xelle-experience .xelle-cart__title { margin: 0; font: 400 28px/1.1 FancyCutProWW2026, Georgia, serif; }
+body.xelle-experience .xelle-cart__close {
+  padding: 8px 0;
+  background: none;
+  border: 0;
+  color: var(--xs-ink);
+  font: 500 11px/1 BrilliantCutProWW2026, Arial, sans-serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+body.xelle-experience .xelle-cart__lines { flex: 1; overflow-y: auto; margin: 0; padding: 8px 28px; list-style: none; }
+body.xelle-experience .xelle-cart__lines[aria-busy="true"] { opacity: .6; }
+body.xelle-experience .xelle-cart__line {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr) auto;
+  gap: 16px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--xs-line);
+}
+body.xelle-experience .xelle-cart__media { display: block; aspect-ratio: 1; background: var(--xs-soft); }
+body.xelle-experience .xelle-cart__media img { width: 100%; height: 100%; object-fit: cover; }
+body.xelle-experience .xelle-cart__name { font-size: 14px; line-height: 1.4; text-decoration: none; }
+body.xelle-experience .xelle-cart__name:hover { text-decoration: underline; }
+body.xelle-experience .xelle-cart__variant,
+body.xelle-experience .xelle-cart__unit { margin: 4px 0 0; color: var(--xs-muted); font-size: 13px; }
+body.xelle-experience .xelle-cart__controls { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 12px; }
+body.xelle-experience .xelle-cart__controls .xelle-shop-stepper button { width: 36px; height: 36px; font-size: 16px; }
+body.xelle-experience .xelle-cart__remove {
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--xs-muted);
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+body.xelle-experience .xelle-cart__total { margin: 0; font-size: 14px; white-space: nowrap; }
+body.xelle-experience .xelle-cart__empty { display: grid; justify-items: center; gap: 18px; margin: auto; padding: 40px 28px; color: var(--xs-muted); text-align: center; }
+body.xelle-experience .xelle-cart__empty p { margin: 0; }
+body.xelle-experience .xelle-cart .xelle-shop-message { margin: 0; padding: 12px 28px 0; }
+body.xelle-experience .xelle-cart__foot { display: grid; gap: 12px; padding: 20px 28px 28px; border-top: 1px solid var(--xs-line); }
+body.xelle-experience .xelle-cart__subtotal { display: flex; justify-content: space-between; margin: 0; font-size: 16px; }
+body.xelle-experience .xelle-cart__note { margin: 0 0 6px; color: var(--xs-muted); font-size: 12px; line-height: 1.5; }
+body.xelle-experience .xelle-cart__code { display: flex; gap: 8px; }
+body.xelle-experience .xelle-cart__code input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--xs-line);
+  border-radius: 0;
+  background: #fff;
+  color: var(--xs-ink);
+  font: 14px/1.2 Arial, sans-serif;
+}
+body.xelle-experience .xelle-cart__code .xelle-shop-button { flex: none; }
+body.xelle-experience .xelle-cart__code-message { margin: -4px 0 0; color: var(--xs-sale); font-size: 12px; line-height: 1.5; }
+body.xelle-experience .xelle-cart__applied,
+body.xelle-experience .xelle-cart__row { display: flex; justify-content: space-between; gap: 12px; margin: 0; font-size: 13px; }
+body.xelle-experience .xelle-cart__applied span { letter-spacing: .04em; }
+body.xelle-experience .xelle-cart__row--sale,
+body.xelle-experience .xelle-cart__discount { color: var(--xs-sale); }
+body.xelle-experience .xelle-cart__discount { margin: 4px 0 0; font-size: 12px; }
+
+@media (max-width: 989px) {
+  body.xelle-experience .xelle-shop-grid,
+  body.xelle-experience .xelle-shop-collections { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  body.xelle-experience .xelle-shop-product { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  body.xelle-experience .xelle-shop-info { position: static; }
+}
+@media (max-width: 600px) {
+  body.xelle-experience .xelle-shop-page__inner { padding: 88px 16px 72px; }
+  body.xelle-experience .xelle-shop-grid { gap: 28px 12px; }
+  body.xelle-experience .xelle-shop-collections { gap: 18px 12px; }
+  body.xelle-experience .xelle-shop-collection__title { font-size: 19px; }
+  body.xelle-experience .xelle-shop-card__title { font-size: 13px; }
+  body.xelle-experience .xelle-shop-toolbar { gap: 12px; }
+  body.xelle-experience .xelle-shop-select select { min-width: 0; width: 100%; }
+  body.xelle-experience .xelle-shop-toolbar .xelle-shop-select { flex: 1 1 140px; }
+  body.xelle-experience .xelle-shop-toolbar__count { width: 100%; margin: 0; }
+  body.xelle-experience .xelle-cart__head,
+  body.xelle-experience .xelle-cart__foot { padding-left: 16px; padding-right: 16px; }
+  body.xelle-experience .xelle-cart__lines { padding: 8px 16px; }
+  body.xelle-experience .xelle-cart__line { grid-template-columns: 72px minmax(0, 1fr); }
+  body.xelle-experience .xelle-cart__total { grid-column: 2; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.xelle-experience .xelle-shop-page,
+  body.xelle-experience .xelle-cart__panel,
+  body.xelle-experience .xelle-cart__backdrop,
+  body.xelle-experience .xelle-shop-card__media img,
+  body.xelle-experience .xelle-shop-collection__media img { animation: none; transition: none; }
+}
+
+/* Sharp label print drawn over the 3D canvas (scripts/xelle-label-print.js). */
+.gpuApp > canvas.xelle-label-print { position: absolute; left: 0; top: 0; pointer-events: none; }

@@ -1,0 +1,224 @@
+{
+ "when": "2026-10-20T04:48:49.258Z",
+ "gpu": "nvidia",
+ "results": [
+  {
+   "name": "initial-load",
+   "pass": true,
+   "evidence": {
+    "loadedMs": 5563,
+    "drawsPerSecond": 14001,
+    "notFound": 0
+   },
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "full-navigation",
+   "pass": true,
+   "evidence": "intrare > spiced-peach-negroni > pornstar-martini > prosecco-di-cherry > maracuja-mojito > filmul-xelle > galeria-xelle",
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "slow-scroll",
+   "pass": true,
+   "evidence": "intrare > spiced-peach-negroni > pornstar-martini > prosecco-di-cherry",
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "fast-scroll",
+   "pass": true,
+   "evidence": "spiced-peach-negroni > pornstar-martini (30 notches in 0.3 s)",
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "reverse-scroll",
+   "pass": true,
+   "evidence": "prosecco-di-cherry > pornstar-martini > prosecco-di-cherry > (down+up) pornstar-martini",
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "resize-during-animation",
+   "pass": true,
+   "evidence": {
+    "to": "spiced-peach-negroni",
+    "canvas": [
+     1920,
+     1080
+    ],
+    "drawsPerSecond": 4319
+   },
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "refresh-mid-page",
+   "pass": true,
+   "evidence": "maracuja-mojito > reload > maracuja-mojito",
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "back-forward",
+   "pass": true,
+   "evidence": {
+    "products": [
+     "?sectiune=produse",
+     true
+    ],
+    "product": [
+     "?produs=maracuja-mojito-50-ml",
+     true
+    ],
+    "back1": [
+     "?sectiune=produse",
+     true
+    ],
+    "back2": [
+     "?sectiune=pornstar-martini",
+     false
+    ],
+    "forward": [
+     "?sectiune=produse",
+     true
+    ],
+    "drawsAfterBack": 6039
+   },
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "repeated-navigation",
+   "pass": true,
+   "evidence": {
+    "rounds": [
+     {
+      "stage": "intrare",
+      "heapMB": 25.3,
+      "listeners": 141,
+      "nodes": 385
+     },
+     {
+      "stage": "intrare",
+      "heapMB": 26.8,
+      "listeners": 141,
+      "nodes": 385
+     },
+     {
+      "stage": "intrare",
+      "heapMB": 27,
+      "listeners": 141,
+      "nodes": 385
+     }
+    ],
+    "heapGrowthMB": 1.7
+   },
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "background-tab",
+   "pass": true,
+   "evidence": {
+    "drawsPerSecondWhileHidden": 0,
+    "fpsAfterReturn": 120,
+    "scrollAfterReturn": "pornstar-martini"
+   },
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "cache-empty-vs-warm",
+   "pass": true,
+   "evidence": {
+    "coldMs": 5536,
+    "warmMs": 4172
+   },
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "slow-connection",
+   "pass": true,
+   "evidence": {
+    "loadedMs": 31810,
+    "profile": "9 Mbit/s, 150 ms RTT, phone"
+   },
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "device-pixel-ratio",
+   "pass": true,
+   "evidence": [
+    {
+     "viewport": "1440x900@1",
+     "canvas": "2160x1350",
+     "scale": 1.5
+    },
+    {
+     "viewport": "1440x900@2",
+     "canvas": "2880x1800",
+     "scale": 2
+    },
+    {
+     "viewport": "390x844@3 mobile",
+     "canvas": "780x1688",
+     "scale": 2
+    },
+    {
+     "viewport": "360x800@2 mobile",
+     "canvas": "720x1600",
+     "scale": 2
+    },
+    {
+     "viewport": "768x1024@2",
+     "canvas": "1536x2048",
+     "scale": 2
+    }
+   ],
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "webgl-context-loss",
+   "pass": true,
+   "evidence": {
+    "lost": true,
+    "lostNow": false,
+    "contextLostEvents": 1,
+    "drawsPerSecondAfterRestore": 4278
+   },
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "reduced-motion",
+   "pass": true,
+   "evidence": {
+    "visited": "intrare > spiced-peach-negroni > pornstar-martini > prosecco-di-cherry > maracuja-mojito > filmul-xelle > galeria-xelle",
+    "msToSettle": [
+     935,
+     1149,
+     1376,
+     1246,
+     1263,
+     1182
+    ]
+   },
+   "errors": [],
+   "failed": []
+  },
+  {
+   "name": "mobile-swipes",
+   "pass": true,
+   "evidence": "intrare > spiced-peach-negroni > pornstar-martini > prosecco-di-cherry > maracuja-mojito > filmul-xelle > galeria-xelle | back: filmul-xelle > maracuja-mojito",
+   "errors": [],
+   "failed": []
+  }
+ ]
+}

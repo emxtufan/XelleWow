@@ -1,13 +1,13 @@
 [
   {
     "file": "public\\xelle\\backdrops\\mainScene.glb",
-    "bytes": 12082772,
+    "bytes": 14920072,
     "source": "public\\xelle\\models\\mainScene.glb",
     "photoSurfaces": [
       {
         "node": "Screen.001",
         "scene": 1,
-        "photo": "spiced-peach-negroni.jpg",
+        "photo": "backgrounds-noi/scena01.jpg",
         "aspect": 2.3753806116876466,
         "center": 0.5,
         "bounds": [
@@ -15,12 +15,13 @@
           0,
           7.739436626434326,
           6.51637601852417
-        ]
+        ],
+        "photograph": "backgrounds-noi/scena01.jpg"
       },
       {
         "node": "MIRROR_Screen",
         "scene": 1,
-        "photo": "spiced-peach-negroni.jpg",
+        "photo": "backgrounds-noi/scena01.jpg",
         "aspect": 2.3809039652869086,
         "center": 0.5,
         "bounds": [
@@ -28,12 +29,13 @@
           0,
           7.75718355178833,
           6.516166687011719
-        ]
+        ],
+        "photograph": "backgrounds-noi/scena01.jpg"
       },
       {
         "node": "Screen.002",
         "scene": 2,
-        "photo": "pornstar-martini-50-ml.jpg",
+        "photo": "backgrounds-noi/scena02.jpg",
         "aspect": 1.1317646045702696,
         "center": 0.5,
         "bounds": [
@@ -41,12 +43,13 @@
           0,
           0.6343933343887329,
           0.6074036359786987
-        ]
+        ],
+        "photograph": "backgrounds-noi/scena02.jpg"
       },
       {
         "node": "MIRROR_Screen.001",
         "scene": 2,
-        "photo": "pornstar-martini-50-ml.jpg",
+        "photo": "backgrounds-noi/scena02.jpg",
         "aspect": 1.1350932927946662,
         "center": 0.5,
         "bounds": [
@@ -54,12 +57,13 @@
           0,
           0.6358165144920349,
           0.6073902249336243
-        ]
+        ],
+        "photograph": "backgrounds-noi/scena02.jpg"
       },
       {
         "node": "Xelle_photo_wall_SC03",
         "scene": 3,
-        "photo": "prosecco-di-cherry-50-ml.jpg",
+        "photo": "backgrounds-noi/scena03.jpg",
         "aspect": 2.375380611687646,
         "center": 0.5,
         "bounds": [
@@ -67,49 +71,125 @@
           0,
           7.739436626434326,
           6.51637601852417
-        ]
-      },
-      {
-        "node": "panel_01_Front",
-        "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
-        "aspect": 0.6303021723745713,
-        "center": 0.5
+        ],
+        "photograph": "backgrounds-noi/scena03.jpg"
       },
       {
         "node": "panel_02_Front",
         "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
+        "photo": "backgrounds-noi/scena04-2.jpg",
         "aspect": 0.630302228310046,
-        "center": 0.5
+        "center": 0.5,
+        "photograph": "backgrounds-noi/scena04-2.jpg"
       },
       {
         "node": "panel_03_Front",
         "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
+        "photo": "backgrounds-noi/scena04-3.jpg",
         "aspect": 0.6303022130327511,
-        "center": 0.5
-      },
-      {
-        "node": "MIRROR_panel_01_Front",
-        "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
-        "aspect": 0.630302173960046,
-        "center": 0.5
+        "center": 0.5,
+        "photograph": "backgrounds-noi/scena04-3.jpg"
       },
       {
         "node": "MIRROR_panel_02_Front",
         "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
+        "photo": "backgrounds-noi/scena04-2.jpg",
         "aspect": 0.6303021813620641,
-        "center": 0.5
+        "center": 0.5,
+        "photograph": "backgrounds-noi/scena04-2.jpg"
       },
       {
         "node": "MIRROR_panel_03_Front",
         "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
+        "photo": "backgrounds-noi/scena04-3.jpg",
         "aspect": 0.630354989705542,
-        "center": 0.5
+        "center": 0.5,
+        "photograph": "backgrounds-noi/scena04-3.jpg"
+      }
+    ],
+    "entrancePaintings": [
+      {
+        "node": "GEO_doorCenter_paper",
+        "painting": "center",
+        "photo": "DSC5193.jpg",
+        "aspect": 1.115932
+      },
+      {
+        "node": "MIRROR_GEO_doorCenter_paper",
+        "painting": "center",
+        "photo": "DSC5193.jpg",
+        "aspect": 1.115932
+      },
+      {
+        "node": "GEO_doorLeft_paper",
+        "painting": "left",
+        "photo": "DSC5265.jpg",
+        "aspect": 0.669015
+      },
+      {
+        "node": "MIRROR_GEO_doorLeft_paper",
+        "painting": "left",
+        "photo": "DSC5265.jpg",
+        "aspect": 0.669015
+      },
+      {
+        "node": "GEO_doorRight_paper",
+        "painting": "right",
+        "photo": "DSC5497.jpg",
+        "aspect": 0.669055
+      },
+      {
+        "node": "MIRROR_GEO_doorRight_paper",
+        "painting": "right",
+        "photo": "DSC5497.jpg",
+        "aspect": 0.669055
+      }
+    ],
+    "galleryFrames": [
+      {
+        "node": "SC06_Image_14",
+        "material": "MT_Image_SC06.020",
+        "translation": [
+          -22.4,
+          15.9,
+          -22.0
+        ],
+        "rotation_of": "SC06_Image_12",
+        "scale": [
+          2.03,
+          2.38,
+          2.63
+        ]
+      },
+      {
+        "node": "SC06_Image_15",
+        "material": "MT_Image_SC06.021",
+        "translation": [
+          15.8,
+          19.9,
+          -30.0
+        ],
+        "rotation_of": "SC06_Image_6",
+        "scale": [
+          3.0,
+          1.92,
+          2.35
+        ]
+      },
+      {
+        "node": "SC06_Image_16",
+        "material": "MT_Image_SC06.022",
+        "translation": [
+          -19.0,
+          3.6,
+          -18.0
+        ],
+        "rotation_of": "SC06_Image_1",
+        "scale": [
+          2.55,
+          1.63,
+          2.0
+        ]
       }
     ],
     "hiddenPortalMeshes": [
@@ -133,19 +213,22 @@
       "GEO_Cloud.002",
       "GEO_Cloud.003",
       "GEO_ground.001",
-      "GEO_sky"
+      "GEO_sky",
+      "panel_01_Front",
+      "panel_01_Back",
+      "MIRROR_panel_01_Front"
     ],
     "originalAnimationPreserved": true
   },
   {
     "file": "public\\xelle\\backdrops\\mainSceneMobile.glb",
-    "bytes": 7360868,
+    "bytes": 8544836,
     "source": "public\\xelle\\models\\mainSceneMobile.glb",
     "photoSurfaces": [
       {
         "node": "Screen.001",
         "scene": 1,
-        "photo": "spiced-peach-negroni.jpg",
+        "photo": "backgrounds-noi/scena01.jpg",
         "aspect": 2.3753806116876466,
         "center": 0.5,
         "bounds": [
@@ -153,12 +236,13 @@
           0,
           7.739436626434326,
           6.51637601852417
-        ]
+        ],
+        "photograph": "backgrounds-noi/scena01.jpg"
       },
       {
         "node": "MIRROR_Screen",
         "scene": 1,
-        "photo": "spiced-peach-negroni.jpg",
+        "photo": "backgrounds-noi/scena01.jpg",
         "aspect": 2.3809039652869086,
         "center": 0.5,
         "bounds": [
@@ -166,12 +250,13 @@
           0,
           7.75718355178833,
           6.516166687011719
-        ]
+        ],
+        "photograph": "backgrounds-noi/scena01.jpg"
       },
       {
         "node": "Screen.002",
         "scene": 2,
-        "photo": "pornstar-martini-50-ml.jpg",
+        "photo": "backgrounds-noi/scena02.jpg",
         "aspect": 1.1317646045702696,
         "center": 0.5,
         "bounds": [
@@ -179,12 +264,13 @@
           0,
           0.6343933343887329,
           0.6074036359786987
-        ]
+        ],
+        "photograph": "backgrounds-noi/scena02.jpg"
       },
       {
         "node": "MIRROR_Screen.001",
         "scene": 2,
-        "photo": "pornstar-martini-50-ml.jpg",
+        "photo": "backgrounds-noi/scena02.jpg",
         "aspect": 1.1350932927946662,
         "center": 0.5,
         "bounds": [
@@ -192,12 +278,13 @@
           0,
           0.6358165144920349,
           0.6073902249336243
-        ]
+        ],
+        "photograph": "backgrounds-noi/scena02.jpg"
       },
       {
         "node": "Xelle_photo_wall_SC03",
         "scene": 3,
-        "photo": "prosecco-di-cherry-50-ml.jpg",
+        "photo": "backgrounds-noi/scena03.jpg",
         "aspect": 2.375380611687646,
         "center": 0.5,
         "bounds": [
@@ -205,49 +292,125 @@
           0,
           7.739436626434326,
           6.51637601852417
-        ]
-      },
-      {
-        "node": "panel_01_Front",
-        "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
-        "aspect": 0.6303021723745713,
-        "center": 0.5
+        ],
+        "photograph": "backgrounds-noi/scena03.jpg"
       },
       {
         "node": "panel_02_Front",
         "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
+        "photo": "backgrounds-noi/scena04-2.jpg",
         "aspect": 0.630302228310046,
-        "center": 0.5
+        "center": 0.5,
+        "photograph": "backgrounds-noi/scena04-2.jpg"
       },
       {
         "node": "panel_03_Front",
         "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
+        "photo": "backgrounds-noi/scena04-3.jpg",
         "aspect": 0.6303022130327511,
-        "center": 0.5
-      },
-      {
-        "node": "MIRROR_panel_01_Front",
-        "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
-        "aspect": 0.630302173960046,
-        "center": 0.5
+        "center": 0.5,
+        "photograph": "backgrounds-noi/scena04-3.jpg"
       },
       {
         "node": "MIRROR_panel_02_Front",
         "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
+        "photo": "backgrounds-noi/scena04-2.jpg",
         "aspect": 0.6303021813620641,
-        "center": 0.5
+        "center": 0.5,
+        "photograph": "backgrounds-noi/scena04-2.jpg"
       },
       {
         "node": "MIRROR_panel_03_Front",
         "scene": 4,
-        "photo": "maracuja-mojito-50-ml.jpg",
+        "photo": "backgrounds-noi/scena04-3.jpg",
         "aspect": 0.630354989705542,
-        "center": 0.5
+        "center": 0.5,
+        "photograph": "backgrounds-noi/scena04-3.jpg"
+      }
+    ],
+    "entrancePaintings": [
+      {
+        "node": "GEO_doorCenter_paper",
+        "painting": "center",
+        "photo": "DSC5193.jpg",
+        "aspect": 1.115932
+      },
+      {
+        "node": "MIRROR_GEO_doorCenter_paper",
+        "painting": "center",
+        "photo": "DSC5193.jpg",
+        "aspect": 1.115932
+      },
+      {
+        "node": "GEO_doorLeft_paper",
+        "painting": "left",
+        "photo": "DSC5265.jpg",
+        "aspect": 0.669015
+      },
+      {
+        "node": "MIRROR_GEO_doorLeft_paper",
+        "painting": "left",
+        "photo": "DSC5265.jpg",
+        "aspect": 0.669015
+      },
+      {
+        "node": "GEO_doorRight_paper",
+        "painting": "right",
+        "photo": "DSC5497.jpg",
+        "aspect": 0.669055
+      },
+      {
+        "node": "MIRROR_GEO_doorRight_paper",
+        "painting": "right",
+        "photo": "DSC5497.jpg",
+        "aspect": 0.669055
+      }
+    ],
+    "galleryFrames": [
+      {
+        "node": "SC06_Image_14",
+        "material": "MT_Image_SC06.020",
+        "translation": [
+          -22.4,
+          15.9,
+          -22.0
+        ],
+        "rotation_of": "SC06_Image_12",
+        "scale": [
+          2.03,
+          2.38,
+          2.63
+        ]
+      },
+      {
+        "node": "SC06_Image_15",
+        "material": "MT_Image_SC06.021",
+        "translation": [
+          15.8,
+          19.9,
+          -30.0
+        ],
+        "rotation_of": "SC06_Image_6",
+        "scale": [
+          3.0,
+          1.92,
+          2.35
+        ]
+      },
+      {
+        "node": "SC06_Image_16",
+        "material": "MT_Image_SC06.022",
+        "translation": [
+          -19.0,
+          3.6,
+          -18.0
+        ],
+        "rotation_of": "SC06_Image_1",
+        "scale": [
+          2.55,
+          1.63,
+          2.0
+        ]
       }
     ],
     "hiddenPortalMeshes": [
@@ -271,7 +434,10 @@
       "GEO_Cloud.002",
       "GEO_Cloud.003",
       "GEO_ground.001",
-      "GEO_sky"
+      "GEO_sky",
+      "panel_01_Front",
+      "panel_01_Back",
+      "MIRROR_panel_01_Front"
     ],
     "originalAnimationPreserved": true
   }

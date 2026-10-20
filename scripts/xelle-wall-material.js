@@ -8,6 +8,9 @@ uniform mat4 projectionMatrix;
 uniform mat4 modelViewMatrix;
 uniform vec4 uBounds;
 uniform float uUseBounds;
+uniform vec4 uAxisU;
+uniform vec4 uAxisV;
+uniform float uUseBasis;
 out vec2 vUv;
 void main() {
   vUv = uv;
@@ -16,6 +19,12 @@ void main() {
       (position.x - uBounds.x) / max(0.00001, uBounds.z - uBounds.x),
       1.0 - (position.y - uBounds.y) / max(0.00001, uBounds.w - uBounds.y)
     );
+  } else if (uUseBasis > 0.5) {
+    // Oblique panels carry a frame measured from their own surface: xyz is the
+    // in-plane axis scaled so the panel spans 0..1, w the offset of its first
+    // corner. v grows downwards, matching the unflipped photo texture.
+    vUv = vec2(dot(position, uAxisU.xyz) - uAxisU.w,
+               dot(position, uAxisV.xyz) - uAxisV.w);
   }
   gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
 }`, 'vertexShader');
@@ -27,6 +36,7 @@ uniform float uWallAspect;
 uniform float uImageAspect;
 uniform float uCenter;
 uniform float uDark;
+uniform float uClip;
 in vec2 vUv;
 out vec4 FragColor[2];
 vec3 encodeSRGB(vec3 value) {
@@ -35,6 +45,10 @@ vec3 encodeSRGB(vec3 value) {
     step(vec3(0.0031308), value));
 }
 void main() {
+  // Two paintings share the centre door's single gridded surface; each one
+  // keeps its own half and drops the fragments belonging to the other.
+  if (uClip > 0.5 && (vUv.x < -0.002 || vUv.x > 1.002 ||
+                      vUv.y < -0.002 || vUv.y > 1.002)) discard;
   vec2 fit = uWallAspect > uImageAspect
     ? vec2(uWallAspect / uImageAspect, 1.0)
     : vec2(1.0, uImageAspect / uWallAspect);
@@ -58,6 +72,7 @@ class XelleWallPhotoMaterial extends Hi {
     map.needsUpdate = true;
     const image = map.image;
     const bounds = metadata.bounds;
+    const basis = metadata.basis;
     super({
       name: 'XelleWallPhotoMaterial---' + material.name,
       uniforms: {
@@ -67,6 +82,10 @@ class XelleWallPhotoMaterial extends Hi {
         uCenter: {value: metadata.center ?? 0.5},
         uBounds: {value: new ys(...(bounds || [0, 0, 1, 1]))},
         uUseBounds: {value: bounds ? 1 : 0},
+        uAxisU: {value: new ys(...(basis ? basis.u : [1, 0, 0, 0]))},
+        uAxisV: {value: new ys(...(basis ? basis.v : [0, 1, 0, 0]))},
+        uUseBasis: {value: basis ? 1 : 0},
+        uClip: {value: metadata.clip ? 1 : 0},
         uDark: {value: 0},
         // The existing animated panels bind these even for photo materials.
         tFluidSim: {value: null},
