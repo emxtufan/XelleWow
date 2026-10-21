@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flacoane Xellé</title>
+<!-- High-quality flacons (public/xelle/models/hq, scripts/blender_build_xelle_hq.py)
+     in a plain physically based viewer: screen resolution, antialiasing, real
+     glass transmission. Not part of the 3D experience. -->
+<style>
+  :root { color-scheme: light; }
+  html, body { margin: 0; height: 100%; background: #fff; font: 14px/1.4 system-ui, sans-serif; color: #111; }
+  canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+  nav { position: fixed; left: 0; right: 0; bottom: 16px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; padding: 0 16px; }
+  button { border: 1px solid #111; background: #fff; color: #111; padding: 8px 14px; border-radius: 20px; font: inherit; cursor: pointer; }
+  button[aria-pressed="true"] { background: #111; color: #fff; }
+  #status { position: fixed; top: 16px; left: 16px; right: 16px; text-align: center; color: #666; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="status">Se încarcă flacoanele…</div>
+<nav id="nav"></nav>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {DRACOLoader} from 'three/addons/loaders/DRACOLoader.js';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+
+const KEYS = ['roadster', 'baignoire', 'crash', 'santos'];
+const SPACING = 3.1;
+
+const renderer = new THREE.WebGLRenderer({antialias: true});
+renderer.setPixelRatio(window.devicePixelRatio);
+renderer.toneMapping = THREE.NeutralToneMapping;
+document.body.prepend(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0xffffff);
+scene.environment = new THREE.PMREMGenerator(renderer).fromScene(new RoomEnvironment(), 0.04).texture;
+
+const camera = new THREE.PerspectiveCamera(22, 1, 0.1, 400);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.minDistance = 4;
+controls.maxDistance = 150;
+
+const draco = new DRACOLoader().setDecoderPath('/webgl/libs/draco/');
+const loader = new GLTFLoader().setDRACOLoader(draco);
+const status = document.getElementById('status'), nav = document.getElementById('nav');
+const flacons = await Promise.all(KEYS.map(async key => {
+  const gltf = await loader.loadAsync(`/xelle/models/hq/${key}.glb`);
+  scene.add(gltf.scene);
+  // Clear glass shows where the eye grazes it, as on the site's flacons: the
+  // blended glass grows more opaque (and its reflections stronger) at the rims.
+  gltf.scene.traverse(o => {
+    if (o.material?.name !== 'XELLE_glass') return;
+    o.material.onBeforeCompile = shader => {
+      shader.fragmentShader = shader.fragmentShader.replace('#include <opaque_fragment>', `
+        float xelleEdge = pow(1.0 - abs(dot(normal, normalize(vViewPosition))), 2.0);
+        diffuseColor.a = mix(diffuseColor.a, 0.4, xelleEdge);
+        #include <opaque_fragment>`);
+    };
+  });
+  const root = gltf.scene.getObjectByName(key);
+  return {key, scene: gltf.scene, title: root?.userData.xelleProduct || key};
+})).catch(error => { status.textContent = 'Flacoanele nu s-au putut încărca: ' + error.message; throw error; });
+status.hidden = true;
+
+const bounds = new THREE.Box3().setFromObject(flacons[0].scene);
+const centre = bounds.getCenter(new THREE.Vector3()).y, height = bounds.max.y - bounds.min.y;
+let current = '';
+function show(only) {
+  current = only;
+  const visible = flacons.filter(f => !only || f.key === only);
+  flacons.forEach(f => { f.scene.visible = visible.includes(f); });
+  visible.forEach((f, i) => { f.scene.position.x = (i - (visible.length - 1) / 2) * SPACING; });
+  // Fit the row to the screen, seen slightly from above as in the packshot.
+  const vertical = THREE.MathUtils.degToRad(camera.fov) / 2;
+  const horizontal = Math.atan(Math.tan(vertical) * camera.aspect);
+  const distance = 1.15 * Math.max((visible.length * SPACING / 2) / Math.tan(horizontal), (height * 0.65) / Math.tan(vertical));
+  const elevation = THREE.MathUtils.degToRad(15);
+  controls.target.set(0, centre, 0);
+  camera.position.set(0, centre + distance * Math.sin(elevation), distance * Math.cos(elevation));
+  controls.update();
+  [...nav.children].forEach(b => b.setAttribute('aria-pressed', String(b.dataset.key === only)));
+}
+[{key: '', title: 'Toate'}, ...flacons].forEach(f => {
+  const button = document.createElement('button');
+  button.dataset.key = f.key;
+  button.textContent = f.title;
+  button.onclick = () => show(f.key);
+  nav.append(button);
+});
+function resize() {
+  renderer.setSize(innerWidth, innerHeight, false);
+  camera.aspect = innerWidth / innerHeight;
+  camera.updateProjectionMatrix();
+  show(current);
+}
+addEventListener('resize', resize);
+current = new URLSearchParams(location.search).get('flacon') || '';
+resize();
+renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, camera); });
+</script>
+</body>
+</html>

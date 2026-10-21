@@ -29,6 +29,7 @@ precision highp float;
 uniform vec3 uColor;
 uniform float uMetal;
 uniform float uMirrored;
+uniform float uBright;
 uniform vec3 cameraPosition;
 in vec3 vWorld;
 in vec3 vNormal;
@@ -68,6 +69,7 @@ void main() {
     float rimSpecular = pow(max(dot(N, normalize(rim + V)), 0.0), 36.0);
     color += mix(vec3(0.035), vec3(0.71, 0.49, 0.25), uMetal)
       * (specular + rimSpecular * 0.45);
+  color *= uBright;
   FragColor[0] = vec4(encodeSRGB(max(color, vec3(0.0))), 1.0);
   FragColor[1] = vec4(0.0);
 }
@@ -79,7 +81,8 @@ void main() {
       uniforms: {
         uColor: {value: new Gr(color)},
         uMetal: {value: metal},
-        uMirrored: {value: 0}
+        uMirrored: {value: 0},
+        uBright: {value: 1}
       },
       vertexShader,
       fragmentShader,

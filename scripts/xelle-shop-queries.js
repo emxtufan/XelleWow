@@ -2,7 +2,9 @@
 // by build_xelle_shop.mjs, which saves the catalog snapshot the site starts from.
 // The public token is meant for browsers: it only reads published products and
 // builds carts. Payment, emails, invoices, stock and orders stay in Shopify.
-const XELLE_SHOP_ENDPOINT = 'https://xelle.ro/api/2026-07/graphql.json';
+// The store's permanent address: it keeps working whichever domain is primary
+// (xelle.ro is meant for this site, shop.xelle.ro for the store and checkout).
+const XELLE_SHOP_ENDPOINT = 'https://8ee1p1-3n.myshopify.com/api/2026-07/graphql.json';
 const XELLE_SHOP_TOKEN = '8464d9a81a63c065662f2b6099279b54';
 
 // "thumb" serves grids, thumbnails and suggestions; "url" the product gallery.

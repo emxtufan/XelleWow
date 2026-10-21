@@ -24,8 +24,7 @@ function once(before,after,label) {
 }
 once('https://unpkg.com/detect-gpu@5.0.70/dist/benchmarks','/benchmarks','Local GPU database');
 for (const model of ['roadster','baignoire','crash','santos']) {
-  // ?flacon=test swaps in the converted test model (scripts/blender_import_test_bottle.py).
-  for (const device of ['desktop','mobile']) once(`"/webgl/models/watches/${model}_${device}.glb"`,`(location.search.includes("flacon=test")?"/xelle/models/test/${model}_${device}.glb":"/xelle/models/${model}_${device}.glb")`,`${model} ${device} bottle`);
+  for (const device of ['desktop','mobile']) once(`/webgl/models/watches/${model}_${device}.glb`,`/xelle/models/${model}_${device}.glb`,`${model} ${device} bottle`);
   once(`/webgl/textures/masks/shape-${model}_msdf.png`,`/xelle/masks/shape-${model}_msdf.png`,`${model} bottle silhouette`);
 }
 once('g=u||h?.6:.9;super','g=0;super','Neutral bottle color');
@@ -95,6 +94,7 @@ once('update({delta:e}){var b,v,P,S,E,_;if(!this._action||!this._mixer)return;',
   'update({delta:e}){var b,v,P,S,E,_;if(!this._action||!this._mixer)return;const xelleEnd=this.getSceneScrollTarget(6);if(xelleEnd>0){this._canLoop=false;this._scrollTarget=Og(this._scrollTarget,0,xelleEnd);this._scrollY=Og(this._scrollY,0,xelleEnd)}','End journey after audio gallery');
 once('b=this._scenesPosition[p]||b),this._loopIndex>0&&p===0||p===7',
   'b=this._scenesPosition[p]||b),p=Math.min(p,6),b=this._scenesPosition[p]||b,this._loopIndex>0&&p===0||p===7','Clamp scene snap');
+once('this._mixer.update(0),(_=this._helper)==null||_.update()', 'this._mixer.update(0),xelleIntroCamera(this),(_=this._helper)==null||_.update()', 'Hero seen a little from above');
 once('"aria-label":"Cartier — accueil"','"aria-label":"Xellé — acasă"','Accessible brand name');
 once('this._uiStore.isFirstRoute&&this.scrollCamera.snapScrollToScene()', '(this.scrollCamera.enable(),this.scrollCamera.snapScrollToScene(t))','Synchronize product camera on every route');
 once('S.visible=this._currentScene===E+1','S.visible=(this._webglStore.currentWatch.id??this._currentScene)===E+1','Synchronize bottle on product crosslinks');

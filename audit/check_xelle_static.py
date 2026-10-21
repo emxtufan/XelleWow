@@ -53,7 +53,7 @@ for start, end in [('const KMt=`', ',YMt=os(KMt,'), ('cL=class cL{', ';te(cL,"ID
 for knob in ['uSpotLightIntensityMask', 'uPrevFrameMix', 'uDistortionStrength', 'uRipplePhase']:
     assert knob not in intro_source and knob not in intro_set_source, 'Intro helper modifies feedback controls: ' + knob
 assert 'state.group.position.z = narrow ? -0.4 : -1.5;' in intro_source
-assert 'bottle.visible = !narrow || index === 0;' in intro_source
+assert 'bottle.userData.xelleShown = !narrow || index === 0;' in intro_source
 assert 'mesh.userData.xelleIntroLayoutHidden = narrow && index !== 0;' in intro_source
 assert 'if (narrow && index === 0) { mesh.position.x = 0; mesh.position.z = closeZ; }' in intro_source
 assert 'const closeZ = xellePhoneLayout() ? 1.4 : 8.2;' in intro_source

@@ -7,7 +7,7 @@
  */
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert'),path=require('node:path');
 const root=path.resolve(__dirname,'..')+path.sep;
-class V{constructor(){this.x=0;this.y=0;this.z=0} set(x,y,z){Object.assign(this,{x,y,z})} setScalar(n){this.set(n,n,n)} fromArray(a){this.set(...a)} toArray(){return [this.x,this.y,this.z]}}
+class V{constructor(){this.x=0;this.y=0;this.z=0} set(x,y,z){Object.assign(this,{x,y,z});return this} clone(){const v=new V;v.set(this.x,this.y,this.z);return v} divideScalar(n){this.set(this.x/n,this.y/n,this.z/n);return this} setScalar(n){this.set(n,n,n)} fromArray(a){this.set(...a)} toArray(){return [this.x,this.y,this.z]}}
 class Mesh{constructor(name){this.name=name;this.visible=true;this.position=new V;this.scale=new V;this.scale.setScalar(1);this.userData={xelleIntroSet:true,no_watch:true,xelleOriginalPosition:[1,2,3]};this.geometry={count:0,dispose(){this.count++}};this.material={count:0,uniforms:{uNarrow:{value:0},uAlpha:{value:1}},dispose(){this.count++}}}}
 const source=fs.readFileSync(root+'public/assets/xelle-app.js','utf8');const intro=fs.readFileSync(root+'scripts/xelle-intro-scene.js','utf8');
 const introSet=fs.readFileSync(root+'scripts/xelle-intro-set.js','utf8');
@@ -62,11 +62,11 @@ assert.strictEqual(interfaceNodes.filter(node=>node.type==='button').length,1);
 assert(interfaceNodes.find(node=>node.type==='button').props['aria-label'],'arrow must retain an accessible label');
 const displayMeshes=['plinth','plinth_foot','brass_edge','brass_lip'].flatMap(kind=>[1,2,3,4].map(index=>new Mesh('Xelle_intro_'+kind+'_0'+index)));
 const meshes=[...displayMeshes];
-const bottles=[0,1,2,3].map(i=>({visible:true,scale:new V,position:new V,rotation:new V,children:[new Mesh('bottle'+i)]}));
+const bottles=[0,1,2,3].map(i=>({visible:true,scale:new V,position:new V,rotation:new V,userData:{},children:[new Mesh('bottle'+i)]}));
 for(const bottle of bottles){bottle.children[0].userData={no_watch:true};meshes.push(bottle.children[0])}
 const lights=['shaft visible','shaft hidden','glow visible','glow hidden'].map((n,i)=>{const m=new Mesh(n);m.userData={no_mirror:true};m.visible=i%2===0;return m});
 const originalLights=lights.map(m=>m.visible);
-const group={visible:true,position:new V,removed:false,removeFromParent(){this.removed=true}};
+const group={visible:true,position:new V,removed:false,removeFromParent(){this.removed=true},localToWorld(v){return v}};
 const state={group,meshes,bottles,width:0,height:0};const main={_xelleIntro:state,_open:false,_loopMade:false,_scrollCamera:{_action:{time:0}},_objectsTraverse:[...meshes,...lights],_envParticles:{visible:true},_lightShafts:lights.slice(0,2),_glowSpheresComponent:{spheres:lights.slice(2)},_loopSceneHack:{value:0},_updateDecals(){},_updateGlowSpheresFromViewRenderer(){}};
 let passCycles=0;
 function runPasses(){const lightsBefore=lights.map(m=>m.visible);c.setWatchRender.call(main,false);assert.deepStrictEqual(lights.map(m=>m.visible),lightsBefore,'main intro pass changed original lighting visibility');const before=meshes.map(m=>m.visible);c.setWatchRender.call(main,true,1);assert(meshes.every(m=>!m.visible),'intro leaked into watch pass 1');assert(lights.every(m=>!m.visible));c.setWatchRender.call(main,true,2);assert(meshes.every(m=>!m.visible),'intro leaked into watch pass 2');assert(lights.every(m=>!m.visible));c.setWatchRender.call(main,false);assert.deepStrictEqual(meshes.map(m=>m.visible),before);assert.deepStrictEqual(lights.map(m=>m.visible),lightsBefore,'watch passes did not preserve original light states');passCycles++}
@@ -75,10 +75,10 @@ setState(1440,900,0,0,-1);assert(group.visible);assert(bottles.every(b=>b.visibl
 lights.forEach(light=>{light.visible=!light.visible});setState(1440,900,0,0,-1);assert.deepStrictEqual(lights.map(m=>m.visible),originalLights.map(visible=>!visible),'intro overrides lighting animation changes');lights.forEach((light,index)=>{light.visible=originalLights[index]});
 setState(390,844,0,0,-1);assert.deepStrictEqual(bottles.map(b=>b.visible),[true,false,false,false]);assert(displayMeshes.every(mesh=>mesh.visible===mesh.name.endsWith('_01')),'mobile must show only the first pedestal and its trim');assert.strictEqual(group.position.z,-.4);
 meshes[1].prevVisible=true;setState(390,844,0,0,-1);assert(!meshes[1].visible,'stale flag resurrects hidden mobile plinth');
-setState(390,844,0.8,1,0);assert(group.visible);assert(group.position.y<0);
-setState(390,844,1.31,1,0);assert(!group.visible);
+setState(390,844,0.8,1,0);assert(group.visible);assert.strictEqual(group.position.y,0,'pedestals stay put');assert(bottles[0].position.y<bottles[0].userData.xelleRestY,'flacons sink into their pedestals');assert(bottles[0].userData.xelleLabelCut>-2.1,'sharp intro label is cut at the pedestal top');assert(main._scrollCamera._xelleIntroOrbit.weight<1);
+setState(390,844,1.31,1,0);assert(group.visible,'pedestals stay with the entrance room');assert(bottles.every(b=>!b.visible),'flacons are gone once sunk');c.Yr.config.objectsVisibility={sc00_room:{dark:0,opacity:1}};setState(390,844,1.31,1,0);assert(!group.visible,'pedestals leave once the entrance room is dark');delete c.Yr.config.objectsVisibility;
 setState(390,844,0.8,1,0);assert(group.visible);
-setState(390,844,0,0,-1);assert(group.visible);assert.strictEqual(group.position.y,-0);
+setState(390,844,0,0,-1);assert(group.visible);assert.strictEqual(group.position.y,0);assert(bottles.every(b=>b.position.y===b.userData.xelleRestY),'flacons rest on their pedestals');assert.strictEqual(main._scrollCamera._xelleIntroOrbit.weight,1,'hero camera fully raised at rest');assert(Math.abs(bottles[0].userData.xelleLabelCut+2.1)<0.01,'whole label above the pedestal at rest');
 setState(1440,900,0,0,-1);assert(bottles.every(b=>b.visible));assert(meshes.every(m=>m.visible));assert.strictEqual(group.position.z,-1.5);
 setState(1440,900,0,0,-1,true);assert(!group.visible);
 setState(1440,900,0,0,-1,false);assert(group.visible);

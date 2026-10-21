@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-10-20T04:38:33.921Z",
+  "builtAt": "2026-10-21T08:23:11.811Z",
   "source": "original/app.js",
   "contentTables": 7,
   "patches": [
@@ -51,6 +51,7 @@
     "Allow returning to the Xellé intro at scene zero",
     "End journey after audio gallery",
     "Clamp scene snap",
+    "Hero seen a little from above",
     "Accessible brand name",
     "Synchronize product camera on every route",
     "Synchronize bottle on product crosslinks",

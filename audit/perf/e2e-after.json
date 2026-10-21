@@ -1,13 +1,13 @@
 {
- "when": "2026-10-20T04:48:49.258Z",
+ "when": "2026-10-21T08:34:19.394Z",
  "gpu": "nvidia",
  "results": [
   {
    "name": "initial-load",
    "pass": true,
    "evidence": {
-    "loadedMs": 5563,
-    "drawsPerSecond": 14001,
+    "loadedMs": 5210,
+    "drawsPerSecond": 13465,
     "notFound": 0
    },
    "errors": [],
@@ -50,7 +50,7 @@
      1920,
      1080
     ],
-    "drawsPerSecond": 4319
+    "drawsPerSecond": 5460
    },
    "errors": [],
    "failed": []
@@ -86,7 +86,7 @@
      "?sectiune=produse",
      true
     ],
-    "drawsAfterBack": 6039
+    "drawsAfterBack": 5863
    },
    "errors": [],
    "failed": []
@@ -98,7 +98,7 @@
     "rounds": [
      {
       "stage": "intrare",
-      "heapMB": 25.3,
+      "heapMB": 26.5,
       "listeners": 141,
       "nodes": 385
      },
@@ -110,12 +110,12 @@
      },
      {
       "stage": "intrare",
-      "heapMB": 27,
+      "heapMB": 27.1,
       "listeners": 141,
       "nodes": 385
      }
     ],
-    "heapGrowthMB": 1.7
+    "heapGrowthMB": 0.6
    },
    "errors": [],
    "failed": []
@@ -135,8 +135,8 @@
    "name": "cache-empty-vs-warm",
    "pass": true,
    "evidence": {
-    "coldMs": 5536,
-    "warmMs": 4172
+    "coldMs": 5292,
+    "warmMs": 3633
    },
    "errors": [],
    "failed": []
@@ -145,7 +145,7 @@
    "name": "slow-connection",
    "pass": true,
    "evidence": {
-    "loadedMs": 31810,
+    "loadedMs": 31244,
     "profile": "9 Mbit/s, 150 ms RTT, phone"
    },
    "errors": [],
@@ -191,7 +191,7 @@
     "lost": true,
     "lostNow": false,
     "contextLostEvents": 1,
-    "drawsPerSecondAfterRestore": 4278
+    "drawsPerSecondAfterRestore": 5500
    },
    "errors": [],
    "failed": []
@@ -202,12 +202,12 @@
    "evidence": {
     "visited": "intrare > spiced-peach-negroni > pornstar-martini > prosecco-di-cherry > maracuja-mojito > filmul-xelle > galeria-xelle",
     "msToSettle": [
-     935,
-     1149,
-     1376,
-     1246,
-     1263,
-     1182
+     907,
+     1208,
+     1187,
+     1289,
+     1181,
+     1181
     ]
    },
    "errors": [],

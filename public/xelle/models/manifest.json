@@ -2,7 +2,7 @@
   "description": "Xellé flacon measured from the studio packshot, built in Blender (scripts/blender_build_xelle_bottles.py)",
   "dimensions": {
     "width": 2.35,
-    "height": 3.723,
+    "height": 3.6,
     "depth": 2.35
   },
   "front": "+Z",
@@ -12,42 +12,42 @@
   "models": [
     {
       "file": "public/xelle/models/roadster_desktop.glb",
-      "bytes": 238104,
+      "bytes": 65864,
       "product": "Spiced Peach Negroni"
     },
     {
       "file": "public/xelle/models/roadster_mobile.glb",
-      "bytes": 124536,
+      "bytes": 44948,
       "product": "Spiced Peach Negroni"
     },
     {
       "file": "public/xelle/models/baignoire_desktop.glb",
-      "bytes": 229376,
+      "bytes": 65860,
       "product": "Pornstar Martini"
     },
     {
       "file": "public/xelle/models/baignoire_mobile.glb",
-      "bytes": 120280,
+      "bytes": 44944,
       "product": "Pornstar Martini"
     },
     {
       "file": "public/xelle/models/crash_desktop.glb",
-      "bytes": 234548,
+      "bytes": 65860,
       "product": "Prosecco di Cherry"
     },
     {
       "file": "public/xelle/models/crash_mobile.glb",
-      "bytes": 122764,
+      "bytes": 44944,
       "product": "Prosecco di Cherry"
     },
     {
       "file": "public/xelle/models/santos_desktop.glb",
-      "bytes": 229088,
+      "bytes": 65856,
       "product": "Maracuja Mojito"
     },
     {
       "file": "public/xelle/models/santos_mobile.glb",
-      "bytes": 120076,
+      "bytes": 44940,
       "product": "Maracuja Mojito"
     }
   ]

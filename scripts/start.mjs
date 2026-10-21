@@ -2,9 +2,8 @@ import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
 const directory = fileURLToPath(new URL('../', import.meta.url));
-const original = process.argv.includes('--original');
-const url = original ? 'http://localhost:4173/cartier.html#/' : 'http://localhost:4173/#/';
-const name = original ? 'Cartier local' : 'Xelle local';
+const url = 'http://localhost:4173/#/';
+const name = 'Xelle local';
 async function running() {
   try { return (await (await fetch('http://127.0.0.1:4173/__local/status',{signal:AbortSignal.timeout(1000)})).json()).app === 'cartier-local'; }
   catch { return false; }

@@ -11,8 +11,9 @@ Galeria 3D are 16 rame pe desktop, deci se afiseaza PRIMELE 16 produse din galer
 Pe telefon sunt 2 pagini de cate 7 rame, deci acolo se vad doar primele 14.
 Restul raman in folder, nefolosite. Ordinea din galerie.json = ordinea ramelor.
 
-AUDIO: momentan toate fisierele .mp3 sunt PLACEHOLDER (copii ale inregistrarilor Cartier).
-Inlocuieste-le cu inregistrarile reale, pastrand acelasi nume de fisier (sau schimba numele in galerie.json).
+AUDIO: momentan fiecare .mp3 este o piesa instrumentala originala, compusa de scripts/build_xelle_audio.py
+(cate una pe produs, fara voce). Inlocuieste-le cu inregistrarile reale, pastrand acelasi nume de fisier
+(sau schimba numele in galerie.json), si nu mai rula build_xelle_audio.py dupa aceea: le-ar suprascrie.
 
 Poza: inlocuieste fisierul .jpg cu acelasi nume (sau schimba numele in galerie.json).
 Fotografiile patrate se vad complet pe ramele late si putin taiate lateral pe ramele inalte.

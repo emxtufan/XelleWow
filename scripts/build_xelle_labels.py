@@ -9,11 +9,14 @@ Montserrat, the closest installed match to the printed typeface; the official
 print file should replace this reconstruction when available.
 
 Writes, per product key:
-  public/xelle/labels/<key>.png         3D label texture (desktop size)
-  public/xelle/labels/<key>_mobile.png  3D label texture (mobile size)
+  public/xelle/labels/<key>.png         full label (desktop size), for the HQ
+                                        flacons and the test bottle
+  public/xelle/labels/<key>_mobile.png  full label (mobile size)
   public/xelle/labels/<key>_print.png   ink only on transparent paper, for the
                                         sharp on-screen print (xelle-label-print.js)
-and public/xelle/labels/emblem.png (the cleaned emblem, RGBA).
+and public/xelle/labels/emblem.png (the cleaned emblem, RGBA) and
+public/xelle/labels/paper.png: the site's 3D label is blank paper, all its ink
+comes from the sharp print, so the two never show doubled text.
 """
 import json
 import math
@@ -188,6 +191,7 @@ def main():
     emblem.alpha_composite(tinted(black, CONFIG["label"]["colors"]["ink"]))
     emblem.alpha_composite(tinted(gold, CONFIG["label"]["colors"]["gold"]))
     emblem.save(LABELS / "emblem.png", optimize=True)
+    Image.new("RGB", (64, 46), tuple(CONFIG["label"]["colors"]["paper"])).save(LABELS / "paper.png", optimize=True)
     wordmark = Image.open(ASSETS / "intro" / "xelle-wordmark.png").convert("RGBA")
     sizes = CONFIG["label"]["pixels"]
     for product in CONFIG["products"]:

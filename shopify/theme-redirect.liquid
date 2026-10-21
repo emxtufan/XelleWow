@@ -1,0 +1,29 @@
+{%- comment -%}
+  Xellé: the 3D experience is the site (xelle.ro); the Shopify store and its
+  checkout live on shop.xelle.ro. Theme pages send visitors to the matching
+  place in the experience: "Continue shopping" after payment, the checkout
+  logo, links in Shopify emails and old search results.
+
+  Paste at the top of <head> in layout/theme.liquid (Online Store > Themes >
+  Edit code), only once xelle.ro serves the 3D site. On xelle.ro itself and in
+  the theme editor it does nothing, so it can never redirect in a loop.
+  Kept on the store: account, policies, pages, cart and Shopify's own routes.
+{%- endcomment -%}
+<script>
+  (function () {
+    var site = 'https://xelle.ro';
+    var host = location.hostname;
+    if (host === 'xelle.ro' || host === 'www.xelle.ro') return;
+    if (window.Shopify && window.Shopify.designMode) return;
+    // An optional language prefix (/en/...) comes before the resource.
+    var path = location.pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?(?=\/)/i, '');
+    if (/^\/(account|policies|pages|cart|checkout|checkouts|orders|apps|tools|services|challenge|password)(\/|$)/.test(path)) return;
+    var match, target = site + '/';
+    if ((match = path.match(/^\/(?:collections\/[^\/]+\/)?products\/([^\/?#]+)/))) {
+      target = site + '/?produs=' + encodeURIComponent(match[1]);
+    } else if ((match = path.match(/^\/collections\/([^\/?#]+)\/?$/)) && match[1] !== 'all') {
+      target = site + '/?colectie=' + encodeURIComponent(match[1]);
+    }
+    location.replace(target);
+  })();
+</script>

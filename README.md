@@ -8,17 +8,12 @@ Acest folder conține adaptarea în română pentru [colecția de parfumuri Xell
 2. Se deschide **http://localhost:4173/#/** în browser.
 3. Pentru oprire, dublu clic pe **Opreste Xelle.cmd**.
 
-Pentru experiența Cartier originală, folosește **Porneste Cartier.cmd**, care deschide **http://localhost:4173/cartier.html#/**. Cele două versiuni folosesc același server. Oricare dintre comenzile de oprire închide serverul comun.
-
 Este necesar Node.js 18 sau mai nou. Pentru rularea fișierelor deja construite nu trebuie instalate pachete npm. Resursele experienței sunt locale; folosește serverul, deoarece deschiderea directă a `public/index.html` prin `file://` nu funcționează pentru modulele și resursele 3D.
 
 Alternativ, din PowerShell, în acest folder:
 
 ```powershell
 node.exe scripts/start.mjs
-
-# Originalul Cartier
-node.exe scripts/start.mjs --original
 
 # Pornește sau reutilizează serverul, fără să deschidă browserul
 node.exe scripts/start.mjs --no-open
@@ -31,7 +26,7 @@ node.exe scripts/start.mjs --no-open
 - Patru parfumuri: Spiced Peach Negroni, Pornstar Martini, Prosecco di Cherry și Maracuja Mojito.
 - Intrarea prezintă cele patru flacoane Xellé mai aproape de cameră, pe socluri, în încăperea originală cu podea reflectantă. Lumina din spate și haloul sunt atenuate numai la intrare, pentru claritatea sticlei; efectele dinamice de lumină și umbră sunt păstrate. Elementele ondulate și fumul sunt eliminate din scena de intrare. Cele patru tablouri ale încăperii — ambele canaturi ale ușii centrale și cele două panouri laterale — poartă fotografii editoriale Xellé; textele suplimentare rămân ascunse. Pe ecrane înguste, primul flacon apare în prim-plan; săgeata discretă de jos deschide colecția, iar săgeata din navigarea laterală revine la intrare.
 - Navigare între scene, flacoane 3D și pagini cu fotografiile originale, descrieri și note olfactive publicate pe Xellé.
-- Sticla este reconstruită în Blender după fotografia de studio a produsului (proporții, bază și pereți groși, inel auriu, etichetă reală), cu lichid străbătut de lumină și reflexii de studio. Dimensiunile, eticheta și produsele sunt în `scripts/xelle-products.json`; modelul se generează cu `scripts/blender_build_xelle_bottles.py`, etichetele cu `scripts/build_xelle_labels.py`, iar integrarea de randare e în `scripts/xelle-bottle-material.js`, `scripts/xelle-label-print.js` (eticheta clară la rezoluția ecranului) și cele două fișiere GLSL.
+- Sticla este reconstruită în Blender după fotografia de studio a produsului (proporții, bază și pereți groși, capac sferic așezat direct pe sticlă, etichetă reală), cu lichid străbătut de lumină și reflexii de studio. Dimensiunile, eticheta și produsele sunt în `scripts/xelle-products.json`; modelul se generează cu `scripts/blender_build_xelle_bottles.py`, etichetele cu `scripts/build_xelle_labels.py`, iar integrarea de randare e în `scripts/xelle-bottle-material.js`, `scripts/xelle-label-print.js` (eticheta clară la rezoluția ecranului) și cele două fișiere GLSL.
 - În scenele principale, flacoanele sunt coborâte discret și au o umbră moale dedesubt. Reglajul și umbra se retrag la deschiderea prezentării produsului; valorile se ajustează în `scripts/xelle-bottle-placement.js`.
 - Personajele 3D, mesele, scaunele și obiectele de lucru sunt păstrate numai în secțiunea filmului. Scenele parfumurilor păstrează flacoanele, fotografiile și decorul arhitectural, fără mobilierul de atelier sau reflexiile lui.
 - Logo și fotografii originale descărcate de pe magazinul Xellé.
@@ -49,7 +44,7 @@ Conținutul și prețurile reprezintă un instantaneu al paginilor publice Xell�
 
 ## Copia Cartier originală
 
-Experiența originală de la [Cartier Watches & Wonders](https://www.cartier.com/en-fr/watchesandwonders#/) este păstrată în acest folder, cu codul, stilurile, modelele 3D, texturile, fonturile, imaginile, clipurile și înregistrările audio originale. Intrarea este `public/cartier.html`.
+Experiența originală de la [Cartier Watches & Wonders](https://www.cartier.com/en-fr/watchesandwonders#/) a stat la baza adaptării. Bundle-ul original rămâne în `original/` (sursa construirii). Resursele Cartier pe care site-ul nu le mai folosește (pagina `cartier.html` și bundle-ul ei, fotografiile și clipurile ceasurilor, filmul, cele 13 podcasturi, modelele ceasurilor, miniaturile galeriei Cartier) au fost mutate din `public/` în `archive/cartier-nefolosit/`, cu aceeași structură de foldere, ca să nu fie publicate. Sticla de test Sketchfab e în `archive/sticla-test/`, iar pagina de vizualizare a flacoanelor HQ în `archive/vizualizare/` (modelele HQ sunt în `blender/hq/`).
 
 - Scene 3D și sunet, în limba engleză a adresei furnizate.
 - Roadster, Baignoire și Myst de Cartier, Crash și Tortue Monopusher, Santos-Dumont și Tortue.
@@ -61,7 +56,6 @@ Linkurile către magazinul Cartier, Instagram, contact și alte pagini externe r
 ## Fișiere
 
 - `public/index.html` — intrarea pentru Xellé.
-- `public/cartier.html` — intrarea pentru Cartier original.
 - `public/assets/xelle-app.js` și `public/xelle/xelle.css` — aplicația și stilurile adaptării.
 - `public/xelle/` — fotografii, logo, catalog, flacoane 3D și etichete Xellé.
 - `public/xelle/models/` — cele opt flacoane GLB pentru desktop/mobil și cele două scene Xellé de bază, păstrate înaintea adăugării fotografiilor.
@@ -131,7 +125,7 @@ Fotografiile sunt încadrate integral pe suprafețe, cu margini deschise acolo u
 
 ## Înlocuirea materialelor Cartier temporare
 
-Pentru o înlocuire viitoare, păstrează fișierele Cartier originale și adaugă filmul, previzualizarea, fotografiile și înregistrările Xellé în `public/xelle/`. Adresele filmului și ale previzualizării se adaptează prin `scripts/build_xelle.cjs`; titlurile secțiunilor și datele prezentărilor sunt generate de `scripts/build_xelle_content.py`. Galeria audio se construiește din `public/xelle/galerie/` (`galerie.json`, o fotografie și un fișier audio pentru fiecare produs; vezi `CITESTE-MA.txt` din acel folder): `scripts/build_xelle_gallery.py` generează miniaturile și măștile, iar înregistrările sunt introduse în `pO.pages`, de unde aplicația citește galeria. Fișierele audio sunt momentan placeholder.
+Pentru o înlocuire viitoare, păstrează fișierele Cartier originale și adaugă filmul, previzualizarea, fotografiile și înregistrările Xellé în `public/xelle/`. Adresele filmului și ale previzualizării se adaptează prin `scripts/build_xelle.cjs`; titlurile secțiunilor și datele prezentărilor sunt generate de `scripts/build_xelle_content.py`. Galeria audio se construiește din `public/xelle/galerie/` (`galerie.json`, o fotografie și un fișier audio pentru fiecare produs; vezi `CITESTE-MA.txt` din acel folder): `scripts/build_xelle_gallery.py` generează miniaturile și măștile, iar înregistrările sunt introduse în `pO.pages`, de unde aplicația citește galeria. Fișierele audio ale galeriei sunt momentan piese instrumentale originale, una pe produs, până la înregistrările reale. Muzica de fundal, muzica galeriei și sunetele interfeței (`public/audio/global/`) sunt compoziții originale, generate de `scripts/build_xelle_audio.py`, care înlocuiesc sunetele Cartier.
 
 Pentru filmul Xellé, ecranul 3D și playerul folosesc același `video_xelle.mp4` pe desktop și în orientare portret. Nu este necesar un fișier `video_xelleVertical.mp4`. După înlocuirea videoclipului, reîncarcă pagina; proporțiile imaginii sunt citite din video. Fișierul sursă nu este modificat.
 
@@ -145,4 +139,4 @@ node.exe --expose-internals scripts/build_xelle.cjs
 python audit/check_xelle_static.py
 ```
 
-Pentru aceste schimbări nu este necesară regenerarea flacoanelor sau a scenelor GLB. `original/` și intrarea `public/cartier.html` păstrează copia Cartier pentru comparație.
+Pentru aceste schimbări nu este necesară regenerarea flacoanelor sau a scenelor GLB. `original/` păstrează bundle-ul Cartier din care se construiește site-ul.

@@ -6,12 +6,12 @@
 // Label surface from scripts/xelle-products.json (XELLE_FLACON, compiled in by
 // build_xelle.cjs): image left at negative x, image top at label.top.
 const XELLE_LABEL = {...XELLE_FLACON.label, strips: 32};
-const xelleLabelPrint = {labels: [], images: {}, canvas: null, context: null, alpha: 0, last: 0};
+const xelleLabelPrint = {labels: [], images: {}, canvas: null, context: null, alpha: 0};
 
 function xelleRegisterLabels(root, model, isIntro) {
   root.traverse(mesh => {
     if (mesh.name !== 'xelle_front_label') return;
-    const label = {mesh, model, isIntro, modelView: null, projection: null, drawnAt: 0};
+    const label = {mesh, root, model, isIntro, modelView: null, projection: null, drawnAt: 0};
     // Flacons render with their own camera; keep the matrices of the pass that
     // draws the label upright on screen (the floor reflection draws it flipped).
     const previous = mesh.onBeforeRender;
@@ -74,8 +74,6 @@ function xelleDrawLabelPrint() {
   const scene = document.querySelector('.gpuApp canvas');
   if (!scene || !xelleLabelPrint.labels.length) return;
   const state = xelleLabelPrint, context = xelleLabelCanvas(scene);
-  const now = performance.now(), delta = Math.min(100, now - (state.last || now));
-  state.last = now;
   const {current} = Yr.config.currentScene;
   // Only labels rendered in this frame; the renderer toggles the label mesh
   // itself between passes, so the flacon above it carries the real visibility.
@@ -84,8 +82,9 @@ function xelleDrawLabelPrint() {
     return image.complete && image.naturalWidth && label.drawnAt >= state.frameAt && xelleWorldVisible(label.mesh.parent)
       && !(label.isIntro && Number(current) !== 0);
   });
-  // A label that comes into view fades in briefly instead of switching on.
-  state.alpha = shown.length ? Math.min(1, state.alpha + delta / 150) : 0;
+  // The 3D label is blank paper, so the print shows at once with its flacon;
+  // labels turning into view fade in strip by strip (facing, below).
+  state.alpha = shown.length ? 1 : 0;
   // Nothing moved since the last frame: the print on screen is still right.
   const signature = state.alpha + '|' + state.canvas.width + 'x' + state.canvas.height + '|'
     + shown.map(label => label.modelView.elements.join(',') + label.projection.elements.join(',')).join('|');
@@ -106,6 +105,10 @@ function xelleDrawLabelPrint() {
       return [(point.x + 1) / 2 * width, (1 - point.y) / 2 * height, point.z];
     };
     const imageWidth = image.naturalWidth, imageHeight = image.naturalHeight;
+    // Intro flacons sink into their pedestals: the print is cut where the
+    // pedestal top crosses the label (xelleLabelCut, in the label's own units).
+    const cut = Math.max(bottom, label.root.userData.xelleLabelCut ?? bottom);
+    if (cut >= top) continue;
     for (let i = 0; i < strips; i++) {
       const a0 = -angle + 2 * angle * i / strips, a1 = -angle + 2 * angle * (i + 1) / strips;
       const middle = (a0 + a1) / 2;
@@ -116,17 +119,19 @@ function xelleDrawLabelPrint() {
       if (facing < 0.12) continue;
       const topLeft = screen(a0, top), topRight = screen(a1, top), bottomLeft = screen(a0, bottom), bottomRight = screen(a1, bottom);
       if (topLeft[2] > 1 || topRight[2] > 1 || bottomLeft[2] > 1) continue;
+      const cutLeft = cut > bottom ? screen(a0, cut) : bottomLeft, cutRight = cut > bottom ? screen(a1, cut) : bottomRight;
       const sourceX = imageWidth * i / strips, sourceWidth = imageWidth / strips;
       context.save();
-      // Each strip is clipped to its own quad, reaching under its right-hand
-      // neighbour by under a pixel so antialiased edges never leave a seam.
+      // Each strip is clipped to its own quad, reaching two pixels under its
+      // right-hand neighbour so antialiased edges never leave a seam (the 3D
+      // label is blank paper, so a seam would show it through the ink).
       const across = Math.hypot(topRight[0] - topLeft[0], topRight[1] - topLeft[1]) || 1;
-      const reachX = (topRight[0] - topLeft[0]) / across * 0.9, reachY = (topRight[1] - topLeft[1]) / across * 0.9;
+      const reachX = (topRight[0] - topLeft[0]) / across * 2, reachY = (topRight[1] - topLeft[1]) / across * 2;
       context.beginPath();
       context.moveTo(topLeft[0], topLeft[1]);
       context.lineTo(topRight[0] + reachX, topRight[1] + reachY);
-      context.lineTo(bottomRight[0] + reachX, bottomRight[1] + reachY);
-      context.lineTo(bottomLeft[0], bottomLeft[1]);
+      context.lineTo(cutRight[0] + reachX, cutRight[1] + reachY);
+      context.lineTo(cutLeft[0], cutLeft[1]);
       context.closePath();
       context.clip();
       context.globalAlpha = state.alpha * Math.min(1, (facing - 0.12) / 0.2);
@@ -134,7 +139,9 @@ function xelleDrawLabelPrint() {
         (topRight[0] - topLeft[0]) / sourceWidth, (topRight[1] - topLeft[1]) / sourceWidth,
         (bottomLeft[0] - topLeft[0]) / imageHeight, (bottomLeft[1] - topLeft[1]) / imageHeight,
         topLeft[0], topLeft[1]);
-      const from = Math.max(0, sourceX - 2), to = Math.min(imageWidth, sourceX + sourceWidth + 2);
+      // Half a strip of image on each side: the strip is shrunk several times
+      // on screen, so the overlap under the neighbour needs image to cover it.
+      const from = Math.max(0, sourceX - sourceWidth / 2), to = Math.min(imageWidth, sourceX + sourceWidth * 1.5);
       context.drawImage(image, from, 0, to - from, imageHeight, from - sourceX, 0, to - from, imageHeight);
       context.restore();
     }

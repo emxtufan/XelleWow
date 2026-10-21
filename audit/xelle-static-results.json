@@ -48,75 +48,75 @@
   "glbs": [
     {
       "file": "/xelle/models/roadster_desktop.glb",
-      "bytes": 238104,
-      "meshes": 6,
-      "nodes": 7,
+      "bytes": 65864,
+      "meshes": 5,
+      "nodes": 6,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "1bfe1a2e6fa4a343e7433f9115243c3087b6b89f955c2dc26871880508842243"
+      "sha256": "3ebc3783ca99e52f3f50a6cf8db874b032359cf097deed4ebd44d62bbffec446"
     },
     {
       "file": "/xelle/models/roadster_mobile.glb",
-      "bytes": 124536,
-      "meshes": 6,
-      "nodes": 7,
+      "bytes": 44948,
+      "meshes": 5,
+      "nodes": 6,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "7390f00a7eb4a9ba5b97a31524fe3d9bded80fd0e71989854a47b42c0b1452b0"
+      "sha256": "a3aedd7b0f8d2d6574c3698339f68defc372d08c0a27bdffb6a7037ce21c3839"
     },
     {
       "file": "/xelle/models/baignoire_desktop.glb",
-      "bytes": 229376,
-      "meshes": 6,
-      "nodes": 7,
+      "bytes": 65860,
+      "meshes": 5,
+      "nodes": 6,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "bedcd77e4a5d4de150651b0fd1c79322142ad6fe9803aa5e604a9e486c681201"
+      "sha256": "07c025682c66e4f362ba32a42dc7a8e8ebefaee59b810bb1b22d297b05a47446"
     },
     {
       "file": "/xelle/models/baignoire_mobile.glb",
-      "bytes": 120280,
-      "meshes": 6,
-      "nodes": 7,
+      "bytes": 44944,
+      "meshes": 5,
+      "nodes": 6,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "0ca48237c0c107eaf44b1e4e5a8afe8cd82d7a170f558265a6e0abccf46acf65"
+      "sha256": "014f4b0f8ce65ae2021e838104c17c93e7c66bac84f0a86888b22d693685d89f"
     },
     {
       "file": "/xelle/models/crash_desktop.glb",
-      "bytes": 234548,
-      "meshes": 6,
-      "nodes": 7,
+      "bytes": 65860,
+      "meshes": 5,
+      "nodes": 6,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "8b5f5441d75e93c685260e37dc0a8602a9338d1d928be9c21084b577f21ff192"
+      "sha256": "4cf8e5b0a00224725e7fe1ee81d886a1341da98a20359f73f0e60b16a7ccaca0"
     },
     {
       "file": "/xelle/models/crash_mobile.glb",
-      "bytes": 122764,
-      "meshes": 6,
-      "nodes": 7,
+      "bytes": 44944,
+      "meshes": 5,
+      "nodes": 6,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "7cbd5884a80d7a3c9d5d3df2f51180f04fec9c5de18407e4a013844da7dd8c2b"
+      "sha256": "f78c65a84183fcd85c072dcdb3af1da97b7f80b3d1e0590003ec9ded9ef9b1d9"
     },
     {
       "file": "/xelle/models/santos_desktop.glb",
-      "bytes": 229088,
-      "meshes": 6,
-      "nodes": 7,
+      "bytes": 65856,
+      "meshes": 5,
+      "nodes": 6,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "24dfc11fccf275286b85fdbe77abd572875d3a1a8e15e37748342beb942a0e14"
+      "sha256": "022b866ddb62f3fc3b72d50345d8d897764a26103725e6ef2076f4f39f2eef8b"
     },
     {
       "file": "/xelle/models/santos_mobile.glb",
-      "bytes": 120076,
-      "meshes": 6,
-      "nodes": 7,
+      "bytes": 44940,
+      "meshes": 5,
+      "nodes": 6,
       "images": 1,
       "externalImageUris": [],
-      "sha256": "f8bd1ab5c7e72ee22db14ad4f1e11f7b83f086d78a009bbdf4af2d83de369b91"
+      "sha256": "8f8b8af0c61739be7f5edbe2c76e051d542af13ebc2309f25564995e6fbd77dc"
     },
     {
       "file": "/xelle/backdrops/mainScene.glb",
@@ -208,25 +208,25 @@
   "masks": [
     {
       "file": "shape-baignoire_msdf.png",
-      "bytes": 3655,
+      "bytes": 3561,
       "width": 256,
       "height": 256
     },
     {
       "file": "shape-crash_msdf.png",
-      "bytes": 3655,
+      "bytes": 3561,
       "width": 256,
       "height": 256
     },
     {
       "file": "shape-roadster_msdf.png",
-      "bytes": 3655,
+      "bytes": 3561,
       "width": 256,
       "height": 256
     },
     {
       "file": "shape-santos_msdf.png",
-      "bytes": 3655,
+      "bytes": 3561,
       "width": 256,
       "height": 256
     }

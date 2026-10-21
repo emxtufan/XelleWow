@@ -21,7 +21,7 @@ Sticla generată se poate înlocui cu un model făcut de un artist, fără să a
 
 1. Pornește din `blender/xelle_bottle.blend` (scara, axele și numele sunt deja corecte) sau respectă standardul din GLB_AUDIT.md:
    - piciorul la y = −2,1, fața etichetei spre +Z (−Y în Blender);
-   - nodurile `xelle_bottle_glass`, `xelle_glass_inner`, `xelle_fragrance_liquid`, `xelle_gold_collar`, `xelle_spherical_black_cap`, `xelle_front_label`;
+   - nodurile `xelle_bottle_glass`, `xelle_glass_inner`, `xelle_fragrance_liquid`, `xelle_spherical_black_cap`, `xelle_front_label`;
    - proprietăți custom: `xelleBottle`, plus `isTransparent` și `xelleOpacity` pe piesele transparente.
 2. Exportă GLB (Draco nivel 6, poziții 14 biți, normale 12 biți) în `public/xelle/models/<key>_desktop.glb` și `<key>_mobile.glb`. `<key>` este `roadster`, `baignoire`, `crash` sau `santos`, după `scripts/xelle-products.json`.
 3. Dacă proporțiile se schimbă, actualizează `bottle` și `label` în `scripts/xelle-products.json`. Stratul de etichetă clară și măștile de tranziție citesc de acolo.
@@ -29,16 +29,14 @@ Sticla generată se poate înlocui cu un model făcut de un artist, fără să a
 4. `node --expose-internals scripts/build_xelle.cjs`, apoi `python audit/check_xelle_static.py`. Verificarea confirmă opacitățile, `alphaMode` și poziția piciorului.
 5. Verifică vizual: `node audit/responsive.mjs` (planșe în `audit/perf/`).
 
-**Test cu un model descărcat, fără să înlocuiești nimic:**
-1. Rulează:
-   ```
-   blender -b --factory-startup -P scripts/blender_import_test_bottle.py -- <model.glb>
-   ```
-   Scriptul e făcut pentru „Perfume Bottle” de pe Sketchfab. Pentru alt model, ajustează `PARTS`: materialul sursă → piesa motorului.
-2. Rezultatul ajunge în `public/xelle/models/test/` și se vede cu `?flacon=test`, de exemplu `http://127.0.0.1:4173/?flacon=test`.
+**Test cu un model descărcat:** scriptul de conversie și comutatorul `?flacon=test` au fost scoase din site la curățenia de lansare. Scriptul e păstrat în `archive/sticla-test/scripts/blender_import_test_bottle.py`, împreună cu modelele convertite.
 
 **Mărimea în scene:** `bottle.sceneScale` (desktop 1,5; mobil 1,3) în `xelle-products.json`.
 **Poziția în intro:** `XELLE_INTRO_SLOTS` în `scripts/xelle-intro-scene.js`.
+**Intrarea:** în același fișier.
+- `XELLE_INTRO_ELEVATION` (9°) setează cât de sus privește camera.
+- `XELLE_INTRO_SINK` setează cât coboară sticlele în postamente la scroll.
+- Postamentele rămân pe loc și se întunecă odată cu camera de intrare (`objectsVisibility.sc00_room`).
 
 ## 2. Eticheta oficială
 

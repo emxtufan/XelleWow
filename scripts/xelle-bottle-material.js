@@ -14,7 +14,7 @@ function xelleConfigureBottleMaterial(mesh) {
   }
   // The printed label is seen small and at an angle: sharpen its texture
   // sampling (the renderer clamps this to what the device supports).
-  const labelMap = /^xelle_front_label(_test)?$/.test(mesh.name) && material.reference?.map;
+  const labelMap = mesh.name === 'xelle_front_label' && material.reference?.map;
   if (labelMap && labelMap.anisotropy < 16) {
     labelMap.anisotropy = 16;
     labelMap.needsUpdate = true;

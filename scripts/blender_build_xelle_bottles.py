@@ -13,11 +13,12 @@ scripts/xelle-label-print.js); a hand-made replacement model must keep them:
   xelle_bottle_glass        outer glass surface (transparent)
   xelle_glass_inner         inner cavity surface, normals into the cavity (transparent)
   xelle_fragrance_liquid    perfume (transparent)
-  xelle_gold_collar         gold ring under the cap
-  xelle_spherical_black_cap the cap
+  xelle_spherical_black_cap the cap, a sphere cut flat where it sits on the glass
   xelle_front_label         label strip; UV (0,0) top-left of the label image
 Node extras: xelleBottle, and isTransparent + xelleOpacity on transparent parts.
 Front of the flacon is +Z in glTF (-Y in Blender), the foot sits at y = -2.1.
+The photographed flacon has no metal collar: the gold ring under the cap is
+the perfume seen through the glass (bottle.collar only places the cap).
 """
 import json
 import math
@@ -45,12 +46,13 @@ LIQUID_TOP = CAVITY_TOP - B["liquidGap"]
 COLLAR_TOP = TOP + B["collar"]["height"]
 CAP_CENTER = COLLAR_TOP + B["cap"]["radius"] - B["cap"]["sink"]
 
+LIQUID_TINT_POWER = 1.0
+
 # Materials as the engine reads them (pbr values are written into the GLB after export).
 MATERIALS = {
     "XELLE_clear_glass": {"color": [0.94, 0.97, 1.0], "alpha": 0.14, "roughness": 0.04, "metallic": 0.0},
     "XELLE_glass_inner": {"color": [0.94, 0.97, 1.0], "alpha": 0.08, "roughness": 0.04, "metallic": 0.0},
     "XELLE_perfume": {"color": None, "alpha": 0.9, "roughness": 0.08, "metallic": 0.0},
-    "XELLE_gold_collar": {"color": [0.80, 0.60, 0.29], "alpha": 1.0, "roughness": 0.22, "metallic": 1.0},
     "XELLE_polished_black_cap": {"color": [0.004, 0.004, 0.005], "alpha": 1.0, "roughness": 0.12, "metallic": 0.04},
     "XELLE_printed_ivory_label": {"color": [1.0, 1.0, 1.0], "alpha": 1.0, "roughness": 0.72, "metallic": 0.0},
 }
@@ -58,7 +60,6 @@ NODES = {
     "xelle_glass_inner": "XELLE_glass_inner",
     "xelle_fragrance_liquid": "XELLE_perfume",
     "xelle_bottle_glass": "XELLE_clear_glass",
-    "xelle_gold_collar": "XELLE_gold_collar",
     "xelle_spherical_black_cap": "XELLE_polished_black_cap",
     "xelle_front_label": "XELLE_printed_ivory_label",
 }
@@ -173,23 +174,14 @@ def liquid(segments):
     return lathe("xelle_fragrance_liquid", profile, segments)
 
 
-def collar(segments):
-    c = B["collar"]
-    h, r = c["height"], c["radius"]
-    # A fine knurl of three grooves, as on the photographed ring.
-    points = [(0, TOP - 0.01), (r - 0.012, TOP - 0.01), (r, TOP + 0.004)]
-    for k in range(3):
-        y = TOP + 0.01 + k * (h - 0.02) / 3
-        points += [(r, y), (r - 0.008, y + 0.006), (r, y + 0.012)]
-    points += [(r, COLLAR_TOP - 0.006), (r - 0.01, COLLAR_TOP), (0, COLLAR_TOP)]
-    return lathe("xelle_gold_collar", points, segments)
-
-
-def cap(segments):
-    rings = segments // 2
+def cap(segments, rings=None):
+    """Sphere cut flat where it sits on the glass top."""
+    rings = rings or segments // 2
     radius = B["cap"]["radius"]
-    profile = [(radius * math.sin(math.pi * k / rings), CAP_CENTER - radius * math.cos(math.pi * k / rings)) for k in range(rings + 1)]
-    profile[0] = (0, profile[0][1]); profile[-1] = (0, profile[-1][1])
+    start = math.acos(min(1.0, (CAP_CENTER - TOP) / radius))
+    sphere = [(radius * math.sin(a), CAP_CENTER - radius * math.cos(a))
+              for a in (start + (math.pi - start) * k / rings for k in range(rings))]
+    profile = [(0, TOP + 0.002), (sphere[0][0], sphere[0][1] + 0.002)] + sphere[1:] + [(0, CAP_CENTER + radius)]
     return lathe("xelle_spherical_black_cap", profile, segments)
 
 
@@ -249,9 +241,8 @@ def build(product, variant):
     bpy.context.scene.collection.objects.link(root)
     root["xelleProduct"] = product["title"]
     root["reconstruction"] = "Measured from the Xellé studio packshot; no manufacturer CAD"
-    suffix = "" if variant == "desktop" else "_mobile"
-    parts = [inner_glass(segments), liquid(segments), outer_glass(segments), collar(segments // 2),
-             cap(min(segments, 80)), label(segments // 2, LABELS / f"{product['key']}{suffix}.png")]
+    parts = [inner_glass(segments), liquid(segments), outer_glass(segments),
+             cap(min(segments, 80)), label(segments // 2, LABELS / "paper.png")]
     for obj in parts:
         material = bpy.data.materials[NODES[obj.name]]
         obj.data.materials.append(material)
@@ -286,7 +277,11 @@ def patch_glb(path, product):
         spec = MATERIALS.get(material["name"])
         if not spec:
             continue
-        color = product["liquid"] if spec["color"] is None else spec["color"]
+        # The engine's liquid shader raises its tint for the light crossing the
+        # flacon, then adds lit surface and highlights that wash it out; this
+        # power keeps the measured colour (liquidTransmit) as golden on screen
+        # as in the photographs.
+        color = [c ** (1 / LIQUID_TINT_POWER) for c in product["liquidTransmit"]] if spec["color"] is None else spec["color"]
         pbr = material.setdefault("pbrMetallicRoughness", {})
         pbr["baseColorFactor"] = [*color, spec["alpha"]]
         pbr["metallicFactor"] = spec["metallic"]

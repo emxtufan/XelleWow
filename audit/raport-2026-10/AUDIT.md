@@ -106,7 +106,7 @@ Concluzie tehnică: claritatea Cartier vine din asset-uri foarte detaliate, nu d
   - Eticheta reală acoperă ±0,94 rad (±54°), între 20% și 90% din înălțime, cu proporția 1,41. Cea din model acoperea ±0,86 rad aproape pe toată înălțimea, cu proporția ~1.
   - Emblema reală e un simbol geometric negru cu contur și cârlige aurii. Modelul folosea alt fișier (nod celtic).
   - Pe etichetă nu scrie „50 ml”; modelul îl adăuga. Textul real e în greutate normală, iar modelul îl îngroșase.
-  - Sticla reală are bază groasă de sticlă transparentă (~15%), pereți groși, partea de sus rotunjită și un inel auriu subțire. Modelul avea perete simplu și un guler auriu înalt.
+  - Sticla reală are bază groasă de sticlă transparentă (~15%), pereți groși, partea de sus rotunjită, iar capacul sferic stă direct pe sticlă; inelul auriu de sub capac din poze e parfumul văzut prin sticlă (măsurat ulterior, vezi GLB_AUDIT.md). Modelul avea perete simplu și un guler auriu înalt.
 - **Remediere:**
   - Model nou în Blender, parametric, din dimensiunile măsurate (`scripts/blender_build_xelle_bottles.py`, sursa editabilă `blender/xelle_bottle.blend`).
   - Etichete reconstruite din packshot (`scripts/build_xelle_labels.py`): emblema e desfăcută de pe cilindru și separată în negru/auriu, wordmark-ul XELLÉ vine din fișierul de brand, titlurile sunt în Montserrat (cel mai apropiat font instalat; trebuie confirmat cu fișierul oficial).

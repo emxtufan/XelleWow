@@ -3,6 +3,10 @@
 const XELLE_INTRO_MODELS = ['roadster', 'baignoire', 'crash', 'santos'];
 // Desktop hero: one straight row facing the camera.
 const XELLE_INTRO_SLOTS = [[4.8, 0.65, 5.8], [1.6, 1.1, 5.8], [-1.6, 1.1, 5.8], [-4.8, 0.65, 5.8]];
+// How far the hero camera rises above its own path, and how deep each flacon
+// sinks (in its own heights: foot to cap top is 3.6) when the intro leaves.
+const XELLE_INTRO_ELEVATION = 9 * Math.PI / 180;
+const XELLE_INTRO_SINK = 3.8;
 // Real phones only: their scroll camera runs at zoom 0.6, unlike narrow desktop windows.
 function xellePhoneLayout() { return oo.device.mobile; }
 
@@ -138,11 +142,14 @@ function xelleResizeIntro(main) {
   const closeZ = xellePhoneLayout() ? 1.4 : 8.2;
   state.bottles.forEach((bottle, index) => {
     const [x, top, z] = XELLE_INTRO_SLOTS[index];
-    bottle.visible = !narrow || index === 0;
+    bottle.userData.xelleShown = !narrow || index === 0;
+    bottle.visible = bottle.userData.xelleShown;
     bottle.scale.setScalar(scale);
     // Each label faces the camera, about 6.2 units in front of the desktop row.
     bottle.rotation.set(0, Math.PI + (narrow ? 0 : Math.atan2(x, 6.2)), 0);
     bottle.position.set(narrow ? 0 : x, top + 2.1 * scale + 0.004, narrow ? closeZ : z);
+    bottle.userData.xelleRestY = bottle.position.y;
+    bottle.userData.xelleSlotTop = top;
   });
   state.meshes.forEach(mesh => {
     if (!mesh.userData.xelleIntroSet) return;
@@ -169,13 +176,67 @@ function xelleUpdateIntro(main) {
   const time = main._scrollCamera?._action?.time || 0;
   const progress = Math.max(0, Math.min(1, (time - 0.12) / 1.15));
   const eased = progress * progress * (3 - 2 * progress);
-  state.group.visible = !main._open && !main._loopMade && (sceneIn === 0 || sceneOut === 0) && time < 1.30;
-  state.group.position.y = -13 * eased;
+  // The pedestals belong to the entrance room: they darken with it
+  // (objectsVisibility.sc00_room.dark, 1 = lit) and leave once it is black;
+  // the flacons are gone once sunk.
+  const lit = Number(Yr.config.objectsVisibility?.sc00_room?.dark ?? 1);
+  state.group.visible = !main._open && !main._loopMade && (sceneIn === 0 || sceneOut === 0) && lit > 0.01;
+  state.meshes.forEach(mesh => {
+    const uniforms = mesh.userData.xelleIntroSet && mesh.material.uniforms;
+    if (uniforms && uniforms.uBright) uniforms.uBright.value = lit;
+  });
+  const flacons = state.group.visible && time < 1.30;
+  // Leaving the intro, the flacons sink into their pedestals, which stay put.
+  const orbit = state.orbit || (state.orbit = {weight: 0, center: state.group.position.clone(), eye: state.group.position.clone()});
+  orbit.center.set(0, 0, 0);
+  let shown = 0;
+  state.bottles.forEach(bottle => {
+    bottle.position.y = bottle.userData.xelleRestY - XELLE_INTRO_SINK * bottle.scale.y * eased;
+    // Pedestal top in the flacon's own units, where its sharp label print ends.
+    bottle.userData.xelleLabelCut = (bottle.userData.xelleSlotTop - bottle.position.y) / bottle.scale.y;
+    bottle.visible = bottle.userData.xelleShown && flacons;
+    if (!bottle.userData.xelleShown) return;
+    orbit.center.x += bottle.position.x;
+    orbit.center.y += bottle.userData.xelleRestY;
+    orbit.center.z += bottle.position.z;
+    shown++;
+  });
+  state.group.localToWorld(orbit.center.divideScalar(shown || 1));
+  orbit.weight = flacons ? 1 - eased : 0;
+  if (main._scrollCamera) main._scrollCamera._xelleIntroOrbit = orbit;
   state.meshes.forEach(mesh => {
     if (!mesh.userData.xelleIntroSet) return;
     if (mesh.userData.xelleIntroLayoutHidden) { mesh.visible = false; mesh.prevVisible = null; }
     else mesh.visible = true;
   });
+}
+
+// The hero is seen a little from above: right after the camera animation is
+// applied (build_xelle.cjs), the camera orbits up around the row of flacons,
+// and eases back onto its own path as the intro leaves. The animation mixer
+// writes the camera only when its animated value changes, so the previous
+// frame's orbit is undone first unless the mixer has replaced it.
+function xelleIntroCamera(camera) {
+  const orbit = camera._xelleIntroOrbit, view = camera._instance;
+  if (!orbit) return;
+  const shot = orbit.shot;
+  if (shot && view.position.equals(shot.position) && view.quaternion.equals(shot.quaternion)) {
+    view.position.copy(shot.basePosition);
+    view.quaternion.copy(shot.baseQuaternion);
+  }
+  if (orbit.weight <= 0.001) { orbit.shot = null; return; }
+  const next = shot || (orbit.shot = {position: view.position.clone(), quaternion: view.quaternion.clone(),
+    basePosition: view.position.clone(), baseQuaternion: view.quaternion.clone()});
+  next.basePosition.copy(view.position);
+  next.baseQuaternion.copy(view.quaternion);
+  view.updateWorldMatrix(true, false);
+  const angle = XELLE_INTRO_ELEVATION * orbit.weight;
+  const distance = view.getWorldPosition(orbit.eye).distanceTo(orbit.center);
+  view.translateY(distance * Math.sin(angle));
+  view.translateZ(-distance * (1 - Math.cos(angle)));
+  view.rotateX(-angle);
+  next.position.copy(view.position);
+  next.quaternion.copy(view.quaternion);
 }
 
 function xelleIntroLightScale(main, intensity) {

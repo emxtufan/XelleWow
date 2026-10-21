@@ -19,3 +19,6 @@ Desktop.ini
 .env.*
 !.env.example
 !.env.sample
+
+# Blender keeps the previous save as .blend1
+*.blend1
