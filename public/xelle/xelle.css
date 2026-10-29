@@ -759,6 +759,7 @@ body.xelle-experience .xelle-cart__discount { margin: 4px 0 0; font-size: 12px; 
 /* "Descoperă toate produsele" beside "Descoperă parfumul" (scripts/build_xelle.cjs). */
 /* Square buttons like the shop's: perfume filled, all products outlined. */
 .homePage__bottomWrapper:has(.xelle-allProductsButton) { bottom: 34px; flex-direction: row; flex-wrap: wrap; gap: 12px; }
+@media (max-width: 687px) { .homePage__bottomWrapper:has(.xelle-allProductsButton) { bottom: 24px; } }
 .homePage__bottomWrapper .homePage__exploreButton {
   display: inline-flex;
   align-items: center;
