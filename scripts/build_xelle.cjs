@@ -201,6 +201,9 @@ once(source.slice(sceneNavStart,sceneNavEnd),'qxt='+read('scripts/xelle-scene-na
 once('function R(Q){var me;const ue=(me=Q.url)==null?void 0:me.trim();if(ue)return TJ(ue,{external:a(ue),open:{target:"_blank",windowFeatures:{noopener:!0,noreferrer:!0}}})}',
   'function R(Q){var me;const ue=(me=Q.url)==null?void 0:me.trim();if(ue)return a(ue)?TJ(ue,{external:!0,open:{target:"_blank",windowFeatures:{noopener:!0,noreferrer:!0}}}):TJ(ue)}','Local collection navigation');
 once('ariaLabel:{default:"Scroll to first section"}','ariaLabel:{default:"Descoperă primul parfum"}','Romanian scroll label');
+// The drag helper cancels every mousedown outside links and text fields, which keeps
+// native selects (shop filters, product variants) from opening.
+once('e||(e=s.match(/input/)!=null||s.match(/textarea/)!=null?i:!1)','e||(e=s.match(/input/)!=null||s.match(/textarea/)!=null||s=="select"?i:!1)','native selects open');
 once('_Tt={heroBlock:U1t,scrollMediasBlock:zPt,scrollWatchBlock:UPt,videoBlock:ATt,productsBlock:gPt,sliderProductsBlock:iTt,textBlock:cTt,sliderBlock:YPt,pushPageBlock:APt}',
   'xelleNotesBlock='+read('scripts/xelle-notes-block.js').trim()+',_Tt={heroBlock:U1t,scrollMediasBlock:zPt,scrollWatchBlock:UPt,videoBlock:ATt,productsBlock:gPt,sliderProductsBlock:iTt,textBlock:cTt,sliderBlock:YPt,pushPageBlock:APt,xelleNotesBlock}','Olfactory notes block');
 fs.writeFileSync(path.join(root,'public/assets/xelle-app.js'),source);

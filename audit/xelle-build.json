@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-10-29T21:21:35.996Z",
+  "builtAt": "2026-10-29T22:47:46.011Z",
   "source": "original/app.js",
   "contentTables": 7,
   "patches": [
@@ -122,6 +122,7 @@
     "Direct navigation to perfumes and media",
     "Local collection navigation",
     "Romanian scroll label",
+    "native selects open",
     "Olfactory notes block",
     "Sitemap, robots and llms.txt from the shop snapshot"
   ]
