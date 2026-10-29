@@ -17,8 +17,33 @@ function xelleShop() {
     cart: Pa(null), cartBusy: Pa(false), cartMessage: Pa(''), codeMessage: Pa(''), cartOpen: Pa(false),
     view: Pa(null), live: Pa(false), catalogRequest: null, catalogLoading: false, liveAt: 0,
     warmedUp: false, cartLoaded: false, wasPaused: false,
+    policies: Pa(null), policiesFailed: Pa(false), policiesRequest: null,
   };
   return xelleShopStore;
+}
+
+// Footer pages. Policies come from the store; the contact details are those of
+// the store's contact-information page.
+const XELLE_SHOP_PAGES = {
+  'politica-de-confidentialitate': {title: 'Politica de confidențialitate', policy: 'privacyPolicy'},
+  'politica-de-retur': {title: 'Politică de Retur', policy: 'refundPolicy'},
+  'politica-de-garantie': {title: 'Politică de Garanție', policy: 'shippingPolicy'},
+  'termeni-si-conditii': {title: 'Termeni si Conditii', policy: 'termsOfService'},
+  'contact': {title: 'Contact'},
+};
+
+function xelleLoadPolicies(retry = false) {
+  const shop = xelleShop();
+  if (shop.policiesRequest && !retry) return shop.policiesRequest;
+  shop.policiesFailed.value = false;
+  shop.policiesRequest = xelleShopRequest(XELLE_SHOP_QUERIES.policies)
+    .then(data => { shop.policies.value = data.shop; })
+    .catch(error => {
+      console.warn('[Xellé shop]', error);
+      shop.policiesRequest = null;
+      shop.policiesFailed.value = true;
+    });
+  return shop.policiesRequest;
 }
 
 async function xelleShopRequest(query, variables = {}) {
@@ -312,10 +337,11 @@ function xelleCheckout() {
 }
 
 // Shop pages have their own addresses next to the scroll stages:
-// ?sectiune=colectii, ?sectiune=produse, ?colectie=<handle>, ?produs=<handle>.
+// ?sectiune=colectii, ?sectiune=produse, ?colectie=<handle>, ?produs=<handle>, ?pagina=<slug>.
 function xelleShopUrl(view) {
   const url = new URL(window.location.href);
-  ['sectiune', 'colectie', 'produs'].forEach(key => url.searchParams.delete(key));
+  ['sectiune', 'colectie', 'produs', 'pagina'].forEach(key => url.searchParams.delete(key));
+  if (view.name === 'page') url.searchParams.set('pagina', view.handle);
   if (view.name === 'collections') url.searchParams.set('sectiune', 'colectii');
   if (view.name === 'products') url.searchParams.set('sectiune', 'produse');
   if (view.name === 'collection') url.searchParams.set('colectie', view.handle);
@@ -325,6 +351,7 @@ function xelleShopUrl(view) {
 
 function xelleShopViewFromUrl() {
   const params = new URLSearchParams(window.location.search);
+  if (params.get('pagina')) return {name: 'page', handle: params.get('pagina')};
   if (params.get('produs')) return {name: 'product', handle: params.get('produs')};
   if (params.get('colectie')) return {name: 'collection', handle: params.get('colectie')};
   if (params.get('sectiune') === 'colectii') return {name: 'collections'};

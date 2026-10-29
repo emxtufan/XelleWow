@@ -46,6 +46,16 @@ fragment XelleCart on Cart {
 }`;
 const XELLE_CART_RESULT = 'cart { ...XelleCart } userErrors { code message } warnings { code message }';
 const XELLE_SHOP_QUERIES = {
+  // The store's legal pages, shown in the shop's own pages (?pagina=).
+  policies: `
+query XellePolicies @inContext(country: RO, language: RO) {
+  shop {
+    privacyPolicy { body }
+    refundPolicy { body }
+    shippingPolicy { body }
+    termsOfService { body }
+  }
+}`,
   catalog: `${XELLE_PRODUCT_FRAGMENT}
 query XelleCatalog @inContext(country: RO, language: RO) {
   collections(first: 20) { nodes {

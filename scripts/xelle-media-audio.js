@@ -1,5 +1,9 @@
 /* Unlock the existing players only from a media control's user gesture. */
 let xelleHomePodcastAudio = null;
+// Sound is on once the visitor has started it and has not muted it since.
+function xelleSoundOn() {
+  return ch.isInit && !Cm().audio.isMuted;
+}
 function xelleEnableAudio() {
   ch.init();
   ch.mute(false);

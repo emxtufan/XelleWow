@@ -22,3 +22,6 @@ Desktop.ini
 
 # Blender keeps the previous save as .blend1
 *.blend1
+
+# Film (139 MB): too big for GitHub, uploaded to the server once by scp
+public/xelle/video_xelle.mp4

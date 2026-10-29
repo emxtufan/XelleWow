@@ -2,7 +2,7 @@
 // so it can be linked and reopened. Index i is scene i of the scroll camera;
 // scene 7 is only the loop back to the entrance.
 const XELLE_SECTIONS = [
-  {slug: 'intrare', label: 'Intrare'},
+  {slug: 'intrare', label: 'Acasă'},
   {slug: 'spiced-peach-negroni', label: 'Spiced Peach Negroni'},
   {slug: 'pornstar-martini', label: 'Pornstar Martini'},
   {slug: 'prosecco-di-cherry', label: 'Prosecco di Cherry'},
@@ -14,7 +14,7 @@ const xelleSectionState = {opened: false, shown: 0};
 
 function xelleSectionUrl(index) {
   const url = new URL(window.location.href);
-  ['colectie', 'produs'].forEach(key => url.searchParams.delete(key));
+  ['colectie', 'produs', 'pagina'].forEach(key => url.searchParams.delete(key));
   if (index > 0) url.searchParams.set('sectiune', XELLE_SECTIONS[index].slug);
   else url.searchParams.delete('sectiune');
   return url.pathname + url.search + url.hash;

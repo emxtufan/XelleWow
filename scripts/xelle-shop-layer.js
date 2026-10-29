@@ -27,6 +27,7 @@ ui({
       const product = view && view.name === "product" && catalog && catalog.byHandle[view.handle];
       if (product) xelleLoadRecommendations(product);
     });
+    Tr(() => shop.view.value, view => { if (view && view.name === "page") xelleLoadPolicies(); }, { immediate: true });
     Tr(() => shop.cartOpen.value, open => {
       if (open) vs().then(() => cartPanel.value?.querySelector(".xelle-cart__close")?.focus());
     });
@@ -184,7 +185,35 @@ ui({
       ];
     }
 
+    function footerPage(view) {
+      const info = XELLE_SHOP_PAGES[view.handle];
+      if (!info) return null;
+      if (!info.policy) return [
+        title(info.title),
+        Na("dl", { class: "xelle-shop-contact" }, [
+          ["Denumire comercială", "Xelle (Aimee Cosmetics & Perfumes SRL)"],
+          ["Cod fiscal", "Ro39912797"],
+          ["Telefon", Na("a", { href: "tel:+40742095931" }, "+40742095931")],
+          ["Email", Na("a", { href: "mailto:shop@xelle.ro" }, "shop@xelle.ro")],
+          ["Adresă", "Bulevardul Theodor Pallady 287, 032258 București B, Romania"],
+        ].flatMap(([term, value]) => [Na("dt", null, term), Na("dd", null, [value])])),
+      ];
+      const policies = shop.policies.value;
+      const policy = policies && policies[info.policy];
+      if (policy) return [title(info.title), Na("div", { class: "xelle-shop-rich xelle-shop-policy", innerHTML: policy.body })];
+      return [title(info.title), shop.policiesFailed.value
+        ? Na("div", { class: "xelle-shop-state", role: "alert" }, [
+            Na("p", null, "Nu am putut încărca pagina."),
+            Na("button", { type: "button", class: "xelle-shop-button", onClick: () => xelleLoadPolicies(true) }, "Încearcă din nou"),
+          ])
+        : Na("p", { class: "xelle-shop-state", "aria-busy": "true" }, "Se încarcă…")];
+    }
+
     function content(view, catalog) {
+      if (view.name === "page") {
+        const pageContent = footerPage(view);
+        if (pageContent) return pageContent;
+      }
       if (!catalog) return shop.catalogFailed.value
         ? [Na("div", { class: "xelle-shop-state", role: "alert" }, [
             Na("p", null, "Nu am putut încărca produsele."),
@@ -213,7 +242,7 @@ ui({
       const backLabel = back && (back.name === "collections" ? "Colecții"
         : back.name === "collection" ? (catalog?.collections.find(c => c.handle === back.handle)?.title || "Colecție")
         : "Toate produsele");
-      const section = view.name === "collections" || view.name === "collection" ? "collections" : "products";
+      const section = view.name === "collections" || view.name === "collection" ? "collections" : view.name === "page" ? null : "products";
       return Na("div", { ref: root, class: "xelle-shop-page", role: "dialog", "aria-modal": "true", "aria-label": "Magazinul Xellé", onWheel: keep, onTouchstart: keep, onTouchmove: keep }, [
         Na("div", { class: "xelle-shop-page__inner" }, [
           Na("nav", { class: "xelle-shop-nav", "aria-label": "Magazin" }, [
@@ -226,6 +255,7 @@ ui({
           ]),
           ...content(view, catalog),
         ]),
+        rr(xelleFooter),
       ]);
     }
 

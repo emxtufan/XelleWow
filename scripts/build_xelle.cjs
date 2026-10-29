@@ -117,7 +117,9 @@ once('this._isRendering?this._video.play():this._video.pause()', 'this._isRender
 once('Ce.matrixWorldAutoUpdate===!0&&Ce.updateMatrixWorld(),', 'Ce.matrixWorldAutoUpdate===!0&&xelleUpdateSceneMatrices(Ce),', 'World matrices once per frame for the main scene');
 once('this._renderer._forcedRenderScale=oo.device.desktop?1.5:1.25,', 'this._renderer._forcedRenderScale=xelleStartRenderScale(oo.device.desktop?1.5:1.25),', 'Render at the real screen pixel density, up to 2x');
 once('_tick(t,a){var i,s,o;this._isActive&&(', '_tick(t,a){var i,s,o;this._isActive&&!xelleShopCoversScene()&&(', 'Rest the 3D render loop while the shop pages cover it');
-once('xelleAudioPrompt=', 'xelleShopLayer='+read('scripts/xelle-shop-layer.js').trim()+',xelleAudioPrompt=', 'Shop pages and cart drawer component');
+once('xelleAudioPrompt=', 'xelleFooter='+read('scripts/xelle-footer.js').trim()+',xelleShopLayer='+read('scripts/xelle-shop-layer.js').trim()+',xelleAudioPrompt=', 'Store footer, shop pages and cart drawer components');
+once('xFe(YTe(Dt(BTt)(z))),null,16))],10,xTt)):Xr("",!0)],64))),128))]),_:1},512))',
+  'xFe(YTe(Dt(BTt)(z))),null,16))],10,xTt)):Xr("",!0)],64))),128)),rr(xelleFooter)]),_:1},512))','Store footer under each perfume page');
 once('rr(xelleAudioPrompt),', 'rr(xelleAudioPrompt),rr(xelleShopLayer),', 'Shop pages and cart drawer over the experience');
 once('GCt=ui({__name:"CartierIcon",props:{size:{default:"m"}},setup(r){return(e,t)=>(sa(),Qa("svg",{class:zr(["cartierIcon",`cartierIcon--${e.size}`]),viewBox:"0 0 110 31",fill:"none",xmlns:"http://www.w3.org/2000/svg","aria-hidden":"true",focusable:"false"},VCt,2))}})',
   'GCt=ui({__name:"XelleIcon",props:{size:{default:"m"}},setup(r){return(e,t)=>(sa(),Qa("img",{class:zr(["cartierIcon",`cartierIcon--${e.size}`,"xelleIcon"]),src:"/xelle/xelle-wordmark.png",alt:"Xellé",draggable:"false"},null,2))}})','Original Xellé wordmark');
@@ -141,7 +143,8 @@ once('i=new cRe,i.addEventListener("play",l)',
 once('i.stop(),i.destroy(),i=null,e.setAudioActualIsPlaying(!1)',
   'i.stop(),i.destroy(),xelleHomePodcastAudio===i&&(xelleHomePodcastAudio=null),i=null,e.setAudioActualIsPlaying(!1)','Release home gallery player');
 once('a&&this.current===a&&(a=!1),a?setTimeout',
-  'a&&this.current===a&&(a=!1),a&&xelleEnableAudio(),a?setTimeout','Unlock gallery audio on selected photograph');
+  'a&&this.current===a&&(a=!1),a&&xelleSoundOn()&&xelleEnableAudio(),a?setTimeout','Unlock gallery audio on selected photograph, only while sound is on');
+once('if(v()){const _=p();nh.trackPodcastStart','if(v()&&xelleSoundOn()){const _=p();nh.trackPodcastStart','Gallery presentation is text only while sound is off');
 once('_onClick(t){if(!this.material.isRendering||Number(Yr.config.currentScene.in)!==6)',
   '_onClick(t){if(t.defaultPrevented||t.target instanceof Element&&t.target.closest("a,button,input,select,textarea"))return;if(!this.material.isRendering||Number(Yr.config.currentScene.in)!==6)','Prevent media controls from selecting gallery photographs');
 once('function Et(){zl(),i.videoSetActiveMedia(t),',
@@ -161,6 +164,13 @@ once('key:"auto","is-playing":!0,label:Dt(h)',
 once('key:Dt(_),"is-playing":!0,"force-hide-play-icon":!0',
   'key:Dt(_),"aria-label":"Oprește înregistrarea audio","is-playing":!0,"force-hide-play-icon":!0','Label mobile audio stop');
 once('function Lt(){zl(),l.setPodcastMode(!l.podcastMode.active)}','function Lt(){}','Disable podcast shortcut');
+once('([Bt,Wt])=>{if(!Bt){P.value=!1;return}Wt&&(P.value=!1)}','([Bt,Wt])=>{if(!Bt){P.value=!1;return}Wt&&(P.value=!0)}','Gallery photo opens with its presentation text visible');
+once('function Fe(Bt){P.value=Bt}','function Fe(Bt){P.value=Bt;Bt||!l.podcastMode.active||(zl(),l.setPodcastMode(!1))}','Closing the presentation text also ends the presentation and its sound');
+once('ZTt="(max-width: 500px)",ext=ui({__name:"PodcastTextPopupBlock"','ZTt="(max-width: 500px)",xelleGalleryActions='+read('scripts/xelle-gallery-actions.js').trim()+',ext=ui({__name:"PodcastTextPopupBlock"','Gallery product actions component');
+once('Na("div",{ref_key:"$textScrollContent",ref:h,class:"podcastTextPopupBlock__text",innerHTML:i.value},null,8,$Tt)',
+  'Na("div",{ref_key:"$textScrollContent",ref:h,class:"podcastTextPopupBlock__text"},[Na("div",{innerHTML:i.value},null,8,$Tt),rr(xelleGalleryActions,{slug:$.podcastKey},null,8,["slug"])])','View product and add to cart under each gallery text');
+once('disabled:Dt(S),onClick:ho(xt,["prevent"])},null,8,["label","disabled"])])',
+  'disabled:Dt(S),onClick:ho(xt,["prevent"])},null,8,["label","disabled"]),rr(aRe,{class:"homePage__exploreButton xelle-allProductsButton",url:null,label:"Descoperă toate produsele",variant:"white","full-width":!1,disabled:Dt(S),onClick:ho(()=>xelleShopOpen({name:"products"}),["prevent"])},null,8,["disabled"])])','All products button beside the perfume explore button');
 const sceneNavStart=source.indexOf('qxt=ui({__name:"SideNavIndicationElt"');
 const sceneNavEnd=source.indexOf(',Kxt=ri(qxt,',sceneNavStart);
 if(sceneNavStart<0||sceneNavEnd<0) throw new Error('Scene navigation component missing');
