@@ -10,7 +10,7 @@ ui({
     function engine(scope) {
       const tick = typeof requestAnimationFrame === "function" ? requestAnimationFrame : run => setTimeout(() => run(performance.now()), 16);
       const pointer = { x: -1e4, y: -1e4, t: 0 }, puffs = [], levels = [[], [], [], [], []];
-      let canvas, context, logo, width = 0, height = 0, ratio = 1, touch = false, still = false;
+      let canvas, context, logo, width = 0, height = 0, ratio = 1, touch = false, still = false, fromLogo = false;
       let particles = [], last = 0, start = 0, running = true, target = 0, shown = 0;
       const ease = t => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 
@@ -32,11 +32,14 @@ ui({
           if (pixels[(Math.floor(y) * w + Math.floor(x)) * 4 + 3] < 128) continue;
           const tx = left + x + (Math.random() - 0.5) * step, ty = top + y + (Math.random() - 0.5) * step;
           const old = previous[particles.length];
+          // After the page's own wordmark the letters breathe out into mist from where
+          // they stand; otherwise the mist starts scattered.
+          const puff = fromLogo ? 120 + Math.random() * 300 : 0, angle = Math.random() * Math.PI * 2;
           particles.push({
             tx, ty,
-            x: old ? old.x : tx + (Math.random() - 0.5) * Math.min(width, 900) * 0.7,
-            y: old ? old.y : ty + (Math.random() - 0.5) * Math.min(height, 600) * 0.6,
-            vx: old ? old.vx : 0, vy: old ? old.vy : 0, s: old ? old.s : 0,
+            x: old ? old.x : fromLogo ? tx : tx + (Math.random() - 0.5) * Math.min(width, 900) * 0.7,
+            y: old ? old.y : fromLogo ? ty : ty + (Math.random() - 0.5) * Math.min(height, 600) * 0.6,
+            vx: old ? old.vx : Math.cos(angle) * puff, vy: old ? old.vy : Math.sin(angle) * puff, s: old ? old.s : 0,
             // Roughly left to right, so the word writes itself in.
             at: 0.55 * x / w + 0.45 * Math.random(),
             seed: Math.random() * 100,
@@ -116,7 +119,7 @@ ui({
 
       scope.onmessage = ({ data }) => {
         if (data.type === "init") {
-          ({ canvas, width, height, ratio, touch, still } = data);
+          ({ canvas, width, height, ratio, touch, still, fromLogo } = data);
           context = canvas.getContext("2d");
           layout();
           fetch(data.logo).then(response => response.blob()).then(blob => createImageBitmap(blob)).then(bitmap => {
@@ -167,7 +170,10 @@ ui({
     }
 
     Yi(() => {
-      const init = { type: "init", touch, still, logo: new URL("/xelle/xelle-wordmark.png", window.location.href).href, ...size() };
+      // index.html shows the wordmark before the app loads; the mist fades in over it.
+      const boot = document.getElementById("xelle-boot");
+      if (boot) { boot.classList.add("xelle-boot--out"); setTimeout(() => boot.remove(), 800); }
+      const init = { type: "init", touch, still, fromLogo: !!boot, logo: new URL("/xelle/xelle-wordmark.png", window.location.href).href, ...size() };
       if (canvas.value.transferControlToOffscreen && typeof Worker === "function") {
         source = URL.createObjectURL(new Blob([`(${engine})(self)`], { type: "text/javascript" }));
         try { worker = new Worker(source); } catch (error) { console.warn("[Xellé loader] drawing on the main thread", error); }

@@ -27,7 +27,10 @@ ui({
       const product = view && view.name === "product" && catalog && catalog.byHandle[view.handle];
       if (product) xelleLoadRecommendations(product);
     });
-    Tr(() => shop.view.value, view => { if (view && view.name === "page") xelleLoadPolicies(); }, { immediate: true });
+    Tr(() => shop.view.value, view => {
+      if (view && view.name === "page") xelleLoadPolicies();
+      if (view && view.name === "product") xelleTrack("product", { handle: view.handle });
+    }, { immediate: true });
     Tr(() => [shop.view.value, shop.catalog.value, shop.live.value], ([view, catalog]) => xelleShopHead(view, catalog), { immediate: true });
     Tr(() => shop.cartOpen.value, open => {
       if (open) vs().then(() => cartPanel.value?.querySelector(".xelle-cart__close")?.focus());
@@ -338,7 +341,7 @@ ui({
 
     return () => {
       const view = shop.view.value;
-      return Na("div", { class: "xelle-shop" }, [view ? page(view, shop.catalog.value) : null, drawer()]);
+      return Na("div", { class: "xelle-shop" }, [view ? page(view, shop.catalog.value) : null, drawer(), rr(xelleNewsletter, { popup: true })]);
     };
   },
 })

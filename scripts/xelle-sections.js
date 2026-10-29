@@ -39,6 +39,7 @@ function xelleSyncSectionLink(main) {
   const camera = main._scrollCamera;
   if (!camera || !no().mainLoader.progressComplete) return;
   if (!state.opened) {
+    document.getElementById('xelle-boot')?.remove(); // in case the loader never took it over
     // The scenes get the network first; the catalog and product images follow
     // in idle time. Opening the shop or a gallery text starts them at once.
     setTimeout(() => window.requestIdleCallback ? window.requestIdleCallback(() => xelleShopWarmup()) : xelleShopWarmup(), 8000);

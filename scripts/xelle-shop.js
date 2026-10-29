@@ -256,7 +256,7 @@ async function xelleAddToCart(variantId, quantity) {
   let cart = shop.cart.value ? (await xelleCartChange('add', 'cartLinesAdd', {id: shop.cart.value.id, lines}))?.cart : null;
   // No cart yet, or the stored one expired: start a new one.
   if (!cart) cart = (await xelleCartChange('create', 'cartCreate', {lines}))?.cart;
-  if (cart && !shop.cartMessage.value) shop.cartOpen.value = true;
+  if (cart && !shop.cartMessage.value) { shop.cartOpen.value = true; xelleTrackVariant('cart', variantId); }
   await xelleApplyLinkedCode();
 }
 
@@ -314,7 +314,11 @@ async function xelleBuyNow(variantId, quantity) {
     const discountCodes = (shop.cart.value?.discountCodes || []).map(entry => entry.code).concat(xelleStored(XELLE_DISCOUNT_KEY) || []);
     const result = (await xelleShopRequest(XELLE_SHOP_QUERIES.create, {lines: [{merchandiseId: variantId, quantity}], discountCodes})).cartCreate;
     shop.cartMessage.value = xelleCartProblem(result);
-    if (result.cart && !shop.cartMessage.value) window.location.href = result.cart.checkoutUrl;
+    if (result.cart && !shop.cartMessage.value) {
+      xelleTrackVariant('cart', variantId);
+      xelleTrack('checkout');
+      window.location.href = result.cart.checkoutUrl;
+    }
   } catch (error) {
     console.warn('[Xellé shop]', error);
     shop.cartMessage.value = 'Nu am putut deschide finalizarea comenzii. Încearcă din nou.';
@@ -333,7 +337,10 @@ function xelleSetCartQuantity(line, quantity) {
 
 function xelleCheckout() {
   const cart = xelleShop().cart.value;
-  if (cart && cart.totalQuantity > 0) window.location.href = cart.checkoutUrl;
+  if (cart && cart.totalQuantity > 0) {
+    xelleTrack('checkout');
+    window.location.href = cart.checkoutUrl;
+  }
 }
 
 // Shop pages have their own addresses next to the scroll stages:

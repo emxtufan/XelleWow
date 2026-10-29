@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Xellé · Admin</title>
+<link rel="icon" href="/favicon.ico">
+<style>
+  @font-face { font-family: FancyCutProWW2026; font-weight: 300; font-display: swap; src: url(/assets/fancyCutPro-Light.woff2) format("woff2"); }
+  :root { --ink: #121212; --muted: rgba(18, 18, 18, .62); --line: rgba(18, 18, 18, .14); --soft: #f3f2f0; }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; background: #fff; color: var(--ink); font: 14px/1.5 Arial, sans-serif; }
+  button, input, select { font: inherit; color: inherit; }
+  .wrap { width: min(100%, 1200px); margin: 0 auto; padding: 40px 32px 80px; }
+  h1, h2 { font-family: FancyCutProWW2026, Georgia, serif; font-weight: 400; margin: 0; }
+  h1 { font-size: clamp(34px, 4vw, 52px); line-height: 1.1; }
+  h2 { font-size: 26px; line-height: 1.15; margin-bottom: 16px; }
+  .label { color: var(--muted); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+  .button { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; padding: 10px 20px; border: 1px solid var(--ink); background: #fff; color: var(--ink); font-size: 12px; line-height: 1; letter-spacing: .14em; text-transform: uppercase; text-decoration: none; cursor: pointer; }
+  .button:hover { background: var(--soft); }
+  .button--primary { background: var(--ink); color: #fff; }
+  .button--primary:hover { background: #3a3735; }
+  :focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+  header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px 24px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+  .tools { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+  .range { display: flex; border: 1px solid var(--ink); }
+  .range button { padding: 9px 14px; border: 0; background: #fff; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; }
+  .range button + button { border-left: 1px solid var(--ink); }
+  .range button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+  .link { padding: 0; border: 0; background: none; color: var(--muted); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; }
+  .link:hover { color: var(--ink); }
+
+  .live { display: flex; align-items: center; gap: 10px; margin: 28px 0 0; font-size: 15px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ink); animation: pulse 2s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: .25; } }
+  .updated { margin-left: auto; color: var(--muted); font-size: 12px; }
+
+  .kpis { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); margin: 24px 0 12px; border: 1px solid var(--line); }
+  .kpi { padding: 18px 18px 20px; }
+  .kpi + .kpi { border-left: 1px solid var(--line); }
+  .kpi strong { display: block; margin-top: 8px; font: 400 36px/1 FancyCutProWW2026, Georgia, serif; }
+  .kpi small { display: block; margin-top: 6px; color: var(--muted); font-size: 12px; }
+  .note { margin: 0 0 48px; color: var(--muted); font-size: 13px; }
+
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px 40px; }
+  .grid .wide { grid-column: 1 / -1; }
+  section { min-width: 0; }
+  section > div:not(.head) { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 10px 8px 10px 0; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+  th { color: var(--muted); font-size: 11px; font-weight: 400; letter-spacing: .12em; text-transform: uppercase; }
+  td.n, th.n { text-align: right; padding-right: 0; padding-left: 8px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .share { color: var(--muted); }
+  .empty { color: var(--muted); padding: 14px 0; border-bottom: 1px solid var(--line); margin: 0; }
+  .scroll { max-height: 420px; overflow: auto; }
+  .head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px; }
+  .search { width: 260px; max-width: 100%; padding: 9px 0; border: 0; border-bottom: 1px solid var(--ink); border-radius: 0; background: none; outline: none; }
+
+  .login { display: grid; gap: 16px; width: min(100%, 380px); margin: 18vh auto 0; padding: 0 16px; }
+  .login input { padding: 12px 0; border: 0; border-bottom: 1px solid var(--ink); border-radius: 0; background: none; outline: none; font-size: 15px; }
+  .error { min-height: 1.5em; margin: 0; color: #8a2c1e; font-size: 13px; }
+
+  @media (max-width: 1024px) { .kpis { grid-template-columns: repeat(3, minmax(0, 1fr)); } .kpi:nth-child(4) { border-left: 0; } .kpi:nth-child(n+4) { border-top: 1px solid var(--line); } }
+  @media (max-width: 768px) {
+    .wrap { padding: 24px 16px 64px; }
+    .grid { grid-template-columns: 1fr; gap: 40px; }
+    .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .kpi:nth-child(n) { border-left: 0; border-top: 0; }
+    .kpi:nth-child(even) { border-left: 1px solid var(--line); }
+    .kpi:nth-child(n+3) { border-top: 1px solid var(--line); }
+    .kpi strong { font-size: 30px; }
+    .updated { display: none; }
+  }
+</style>
+</head>
+<body>
+<form class="login" id="login" hidden>
+  <h1>Xellé</h1>
+  <p class="label">Panou de administrare</p>
+  <input type="password" id="password" autocomplete="current-password" placeholder="Parola" aria-label="Parola" required>
+  <button class="button button--primary" type="submit">Intră</button>
+  <p class="error" id="login-error" role="alert"></p>
+</form>
+
+<div class="wrap" id="app" hidden>
+  <header>
+    <div>
+      <p class="label">Panou de administrare</p>
+      <h1>Xellé</h1>
+    </div>
+    <div class="tools">
+      <div class="range" role="group" aria-label="Perioada">
+        <button type="button" data-days="1">Azi</button>
+        <button type="button" data-days="7">7 zile</button>
+        <button type="button" data-days="30">30 zile</button>
+        <button type="button" data-days="90">90 zile</button>
+      </div>
+      <button type="button" class="link" id="logout">Ieșire</button>
+    </div>
+  </header>
+
+  <p class="live" aria-live="polite"><span class="dot" aria-hidden="true"></span><span id="live-count">–</span><span class="updated" id="updated"></span></p>
+
+  <div class="kpis" id="kpis"></div>
+  <p class="note">Compară cu Shopify → Analize → Rapoarte: „Sesiuni ajunse la finalizarea comenzii” trebuie să fie aproape de „Au ajuns la checkout”, iar comenzile din Shopify arată câte dintre ele au plătit. Sesiunile din Shopify nu includ vizitele de pe xelle.ro, pentru că site-ul 3D nu rulează pe Shopify.</p>
+
+  <div class="grid">
+    <section class="wide"><h2>Acum pe site</h2><div id="live"></div></section>
+    <section><h2>De unde vin</h2><div id="sources"></div></section>
+    <section><h2>Locații</h2><div class="scroll" id="places"></div></section>
+    <section><h2>Pe zile</h2><div class="scroll" id="daily"></div></section>
+    <section><h2>Dispozitive</h2><div id="devices"></div></section>
+    <section class="wide"><h2>Produse</h2><div id="products"></div></section>
+    <section class="wide">
+      <div class="head">
+        <h2>Newsletter</h2>
+        <a class="button" href="/api/admin/abonati.csv">Export CSV</a>
+      </div>
+      <input class="search" id="search" type="search" placeholder="Caută email" aria-label="Caută email">
+      <div class="scroll" id="subscribers"></div>
+    </section>
+  </div>
+</div>
+
+<script>
+  const $ = id => document.getElementById(id);
+  const regions = new Intl.DisplayNames(['ro'], { type: 'region' });
+  const number = new Intl.NumberFormat('ro-RO');
+  let days = Number(localStore('xelle-admin-days')) || 7, data = null, timer = 0;
+
+  function localStore(key, value) {
+    try { return value === undefined ? localStorage.getItem(key) : localStorage.setItem(key, value); }
+    catch (error) { console.warn('storage unavailable', error); return null; }
+  }
+  function el(tag, props, children) {
+    const node = document.createElement(tag);
+    Object.assign(node, props);
+    for (const child of [].concat(children ?? [])) if (child != null) node.append(child);
+    return node;
+  }
+  const country = code => {
+    if (!code || code === 'XX' || code === 'T1') return 'Necunoscut';
+    try { return regions.of(code); } catch (error) { return code; }
+  };
+  const place = (code, city) => city ? `${city}, ${country(code)}` : country(code);
+  const page = path => {
+    const params = new URLSearchParams(path.startsWith('?') ? path : '');
+    for (const [key, label] of [['produs', 'Produs'], ['colectie', 'Colecție'], ['sectiune', 'Secțiune'], ['pagina', 'Pagină']])
+      if (params.get(key)) return `${label}: ${params.get(key)}`;
+    return 'Acasă';
+  };
+  const since = t => { const minutes = Math.round((Date.now() - t) / 60000); return minutes < 1 ? 'acum' : `${minutes} min`; };
+  const dateTime = t => new Date(t).toLocaleString('ro-RO', { timeZone: 'Europe/Bucharest', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+  const shortDay = day => day.slice(8, 10) + '.' + day.slice(5, 7);
+  const percent = (value, total) => total ? Math.round(value * 100 / total) + '%' : '';
+
+  // A table: columns are [title, numeric?]; rows are arrays of cells.
+  function table(columns, rows, emptyText) {
+    if (!rows.length) return el('p', { className: 'empty', textContent: emptyText || 'Nimic încă în această perioadă.' });
+    return el('table', null, [
+      el('thead', null, el('tr', null, columns.map(([title, numeric]) => el('th', { className: numeric ? 'n' : '', textContent: title })))),
+      el('tbody', null, rows.map(row => el('tr', null, row.map((cell, i) =>
+        el('td', { className: columns[i][1] ? 'n' : '' }, cell instanceof Node ? cell : String(cell)))))),
+    ]);
+  }
+  const withShare = (value, total) => el('span', null, [number.format(value) + ' ', el('span', { className: 'share', textContent: percent(value, total) })]);
+  const fill = (id, node) => $(id).replaceChildren(node);
+
+  function render() {
+    const { totals, live } = data;
+    $('live-count').textContent = live.length === 1 ? '1 vizitator acum pe site' : `${number.format(live.length)} vizitatori acum pe site`;
+    $('updated').textContent = 'Actualizat ' + new Date(data.now).toLocaleTimeString('ro-RO', { timeZone: 'Europe/Bucharest' });
+    const kpis = [
+      ['Vizite', totals.visits, 'sesiuni pe xelle.ro'],
+      ['Vizitatori', totals.visitors, 'unici pe zi, adunați'],
+      ['Au văzut un produs', totals.product, percent(totals.product, totals.visits) + ' din vizite'],
+      ['Au adăugat în coș', totals.cart, percent(totals.cart, totals.visits) + ' din vizite'],
+      ['Au ajuns la checkout', totals.checkout, percent(totals.checkout, totals.visits) + ' din vizite'],
+      ['Abonați noi', totals.subscribers, `${number.format(data.subscribers.length)} în total`],
+    ];
+    $('kpis').replaceChildren(...kpis.map(([label, value, hint]) => el('div', { className: 'kpi' }, [
+      el('span', { className: 'label', textContent: label }), el('strong', { textContent: number.format(value) }), el('small', { textContent: hint }),
+    ])));
+
+    fill('live', table([['Locație'], ['Sursă'], ['Dispozitiv'], ['Unde e acum'], ['Pe site de', true]],
+      live.map(v => [place(v.country, v.city), v.src, v.device, page(v.path), since(v.start)]), 'Nimeni pe site în acest moment.'));
+    fill('sources', table([['Sursă'], ['Vizite', true]], data.sources.map(([name, count]) => [name, withShare(count, totals.visits)])));
+    fill('places', table([['Locație'], ['Vizite', true]], data.places.map(([key, count]) => {
+      const [code, city] = key.split('|');
+      return [place(code, city), withShare(count, totals.visits)];
+    })));
+    fill('daily', table([['Zi'], ['Vizite', true], ['Vizitatori', true], ['Coș', true], ['Checkout', true]],
+      data.daily.slice().reverse().map(d => [shortDay(d.day), number.format(d.visits), number.format(d.visitors), number.format(d.cart), number.format(d.checkout)])));
+    fill('devices', table([['Dispozitiv'], ['Vizite', true]], data.devices.map(([name, count]) => [name, withShare(count, totals.visits)])));
+    fill('products', table([['Produs'], ['Vizualizări', true], ['Adăugări în coș', true]],
+      data.products.map(p => [p.handle, number.format(p.views), number.format(p.carts)])));
+    renderSubscribers();
+  }
+
+  function renderSubscribers() {
+    const query = $('search').value.trim().toLowerCase();
+    const list = data.subscribers.filter(s => !query || s.email.includes(query));
+    fill('subscribers', table([['Email'], ['Data'], ['Formular'], ['Locație']],
+      list.map(s => [s.email, dateTime(s.t), s.source === 'popup' ? 'Popup' : 'Footer', place(s.country, s.city)]),
+      query ? 'Niciun email nu se potrivește.' : 'Niciun abonat încă.'));
+  }
+
+  async function load() {
+    clearTimeout(timer);
+    try {
+      const response = await fetch('/api/admin/stats?days=' + days, { cache: 'no-store' });
+      if (response.status === 401) { show(false); return; }
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      data = await response.json();
+      show(true);
+      render();
+    } catch (error) {
+      console.warn('stats', error);
+      $('updated').textContent = 'Nu am putut actualiza. Reîncerc…';
+    }
+    if (!$('app').hidden) timer = setTimeout(load, 15000);
+  }
+
+  function show(signedIn) {
+    $('app').hidden = !signedIn;
+    $('login').hidden = signedIn;
+    if (!signedIn) $('password').focus();
+    for (const button of document.querySelectorAll('[data-days]')) button.setAttribute('aria-pressed', String(Number(button.dataset.days) === days));
+  }
+
+  $('login').addEventListener('submit', async event => {
+    event.preventDefault();
+    $('login-error').textContent = '';
+    const response = await fetch('/api/admin/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password: $('password').value }) });
+    if (response.ok) { $('password').value = ''; load(); return; }
+    $('login-error').textContent = (await response.json().catch(() => ({}))).error || 'Nu am putut intra.';
+  });
+  $('logout').addEventListener('click', async () => { await fetch('/api/admin/logout', { method: 'POST' }); clearTimeout(timer); show(false); });
+  for (const button of document.querySelectorAll('[data-days]')) button.addEventListener('click', () => {
+    days = Number(button.dataset.days);
+    localStore('xelle-admin-days', String(days));
+    load();
+  });
+  $('search').addEventListener('input', () => data && renderSubscribers());
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && !$('app').hidden) load(); });
+  load();
+</script>
+</body>
+</html>

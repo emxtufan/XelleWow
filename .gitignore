@@ -28,3 +28,6 @@ public/xelle/video_xelle.mp4
 
 # Original film before compression (local only)
 backup/
+
+# Visit statistics and newsletter sign-ups (admin.mjs), server only
+data/

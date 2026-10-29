@@ -58,7 +58,7 @@ once('/webgl/models/mainSceneMobile.glb','/xelle/backdrops/mainSceneMobile.glb',
 once('/webgl/models/mainScene_characters.glb','/xelle/backdrops/mainScene_characters.glb','Film-only people and props desktop');
 once('/webgl/models/mainSceneMobile_characters.glb','/xelle/backdrops/mainSceneMobile_characters.glb','Film-only people and props mobile');
 once('const uW=class uW extends ILt', read('scripts/xelle-wall-material.js')+'\nconst uW=class uW extends ILt','Photo wall material');
-once('const uW=class uW extends ILt', read('scripts/xelle-label-print.js')+'\n'+read('scripts/xelle-scroll.js')+'\n'+read('scripts/xelle-intro-set.js')+'\n'+read('scripts/xelle-intro-scene.js')+'\n'+read('scripts/xelle-sections.js')+'\n'+read('scripts/xelle-shop-queries.js')+'\n'+read('scripts/xelle-shop.js')+'\nconst uW=class uW extends ILt','Xellé olfactory bar intro');
+once('const uW=class uW extends ILt', read('scripts/xelle-label-print.js')+'\n'+read('scripts/xelle-scroll.js')+'\n'+read('scripts/xelle-intro-set.js')+'\n'+read('scripts/xelle-intro-scene.js')+'\n'+read('scripts/xelle-sections.js')+'\n'+read('scripts/xelle-shop-queries.js')+'\n'+read('scripts/xelle-shop.js')+'\n'+read('scripts/xelle-track.js')+'\nconst uW=class uW extends ILt','Xellé olfactory bar intro');
 once('super({materialsConfig:[{match:"floor",Class:SPe}',
   'super({materialsConfig:[{match:(m,objects)=>objects.some(o=>!!o.userData.xellePhoto),Class:XelleWallPhotoMaterial},{match:"floor",Class:SPe}','Select photo wall material');
 once('objectsHandlers:[{match:/MT_cloud/i,callback:',
@@ -125,7 +125,7 @@ once('this._isRendering?this._video.play():this._video.pause()', 'this._isRender
 once('Ce.matrixWorldAutoUpdate===!0&&Ce.updateMatrixWorld(),', 'Ce.matrixWorldAutoUpdate===!0&&xelleUpdateSceneMatrices(Ce),', 'World matrices once per frame for the main scene');
 once('this._renderer._forcedRenderScale=oo.device.desktop?1.5:1.25,', 'this._renderer._forcedRenderScale=xelleStartRenderScale(oo.device.desktop?1.5:1.25),', 'Render at the real screen pixel density, up to 2x');
 once('_tick(t,a){var i,s,o;this._isActive&&(', '_tick(t,a){var i,s,o;this._isActive&&!xelleShopCoversScene()&&(', 'Rest the 3D render loop while the shop pages cover it');
-once('xelleAudioPrompt=', 'xelleFooter='+read('scripts/xelle-footer.js').trim()+',xelleShopLayer='+read('scripts/xelle-shop-layer.js').trim()+',xelleAudioPrompt=', 'Store footer, shop pages and cart drawer components');
+once('xelleAudioPrompt=', 'xelleNewsletter='+read('scripts/xelle-newsletter.js').trim()+',xelleFooter='+read('scripts/xelle-footer.js').trim()+',xelleShopLayer='+read('scripts/xelle-shop-layer.js').trim()+',xelleAudioPrompt=', 'Store footer, shop pages and cart drawer components');
 once('xFe(YTe(Dt(BTt)(z))),null,16))],10,xTt)):Xr("",!0)],64))),128))]),_:1},512))',
   'xFe(YTe(Dt(BTt)(z))),null,16))],10,xTt)):Xr("",!0)],64))),128)),rr(xelleFooter)]),_:1},512))','Store footer under each perfume page');
 once('const P=oo.device.desktop?1:.5;ai.start({wheelMultiplier:.5,wheelLerp:.1,touchMultiplier:P,touchLerp:1,useViewsHistory:!0},dEe)',

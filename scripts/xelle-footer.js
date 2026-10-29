@@ -23,6 +23,7 @@ ui({
                 Na("img", { src: "/xelle/footer/logo.png", alt: "", width: 120, height: 120, loading: "lazy", decoding: "async" }),
               ]),
             ]),
+            rr(xelleNewsletter),
           ]),
           Na("nav", { class: "xelle-footer__blocks", "aria-label": "Footer" }, [
             column("Customer services", services()),

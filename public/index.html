@@ -59,8 +59,15 @@
     ]
   }
   </script>
+  <!-- The wordmark shows at once, where the loader's mist then takes it over (xelle-loader-mist.js). -->
+  <style>
+    #xelle-boot { position: fixed; top: 0; left: 0; z-index: 100; display: flex; align-items: center; justify-content: center; width: 100%; height: 100dvh; background: #151311; pointer-events: none; transition: opacity .7s ease; }
+    #xelle-boot img { display: block; width: min(560px, 78vw); height: auto; opacity: .92; }
+    #xelle-boot.xelle-boot--out { opacity: 0; }
+  </style>
+  <noscript><style>#xelle-boot { display: none; }</style></noscript>
   <link rel="stylesheet" href="/assets/app.css">
-  <link rel="stylesheet" href="/xelle/xelle.css?v=868891b934">
+  <link rel="stylesheet" href="/xelle/xelle.css?v=63ed6fdd20">
   <script>
     var CDN_URL = location.origin;
     var LANG = 'en_fr';
@@ -68,12 +75,13 @@
   </script>
 </head>
 <body class="xelle-experience">
+  <div id="xelle-boot" aria-hidden="true"><img src="/xelle/xelle-wordmark.png" alt="" width="621" height="152" fetchpriority="high"></div>
   <div id="__nuxt"></div>
   <noscript>
     <h1>Xellé — Extrait de parfum</h1>
     <p>Patru parfumuri unisex inspirate de cocktailuri: Spiced Peach Negroni, Pornstar Martini, Prosecco di Cherry și Maracuja Mojito. Experiența Xellé are nevoie de JavaScript.</p>
     <p><a href="/?sectiune=produse">Toate produsele</a> · <a href="/?sectiune=colectii">Colecții</a> · <a href="/?pagina=contact">Contact</a></p>
   </noscript>
-  <script type="module" src="/assets/xelle-app.js?v=7e66d8d923"></script>
+  <script type="module" src="/assets/xelle-app.js?v=abbb4e029d"></script>
 </body>
 </html>
