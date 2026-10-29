@@ -184,9 +184,6 @@ ui({
       frame = requestAnimationFrame(feed);
     });
     Ts(stop);
-    return () => [
-      Na("canvas", { ref: canvas, class: "xelle-loader-mist", "aria-hidden": "true" }),
-      Na("p", { class: "xelle-loader-mist__hint" }, touch ? "Atinge ecranul ca să pulverizezi parfumul" : "Click oriunde ca să pulverizezi parfumul"),
-    ];
+    return () => Na("canvas", { ref: canvas, class: "xelle-loader-mist", "aria-hidden": "true" });
   },
 })

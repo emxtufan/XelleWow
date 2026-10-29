@@ -9,13 +9,12 @@ video.videoPopupBlock__video[src$="/xelle/video_xelle.mp4"] { object-fit: contai
 }
 .headerBlock__icon--black { filter: invert(1); }
 .mainLoader[data-v-e393307d] { background: #151311; align-items: flex-start; }
-.mainLoader__wrapper[data-v-e393307d] { margin-top: clamp(96px, 22vh, 220px); }
-.mainLoader__baseline[data-v-e393307d] { font-size: clamp(16px, 1.25vw, 19px); max-width: 30em; }
+/* The loading screen shows only the wordmark mist and its progress line. */
+.mainLoader__wrapper[data-v-e393307d] { display: none; }
 .mainLoader__icons[data-v-e393307d] { width: 180px; height: 56px; }
 .mainLoader__icons[data-v-e393307d] > .xelle { animation: none !important; width: 100%; height: auto; opacity: 1; }
 .mainLoader__progress[data-v-e393307d] { top: auto; bottom: calc(100% + 14px); left: 50%; transform: translateX(-50%); font-size: 12px; }
 .xelle-loader-mist { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; touch-action: none; }
-.xelle-loader-mist__hint { position: absolute; left: 0; right: 0; bottom: 48px; margin: 0; padding: 0 24px; text-align: center; font-family: Arial, sans-serif; font-size: 12px; letter-spacing: .07em; color: rgba(247, 240, 230, .6); pointer-events: none; opacity: 0; animation: xelle-loader-hint .8s ease 1.2s forwards; }
 .mainLoader { touch-action: none; user-select: none; -webkit-user-select: none; }
 /* Cartier narration is available in the dedicated preview gallery only. */
 .homePage__podcastWrapper, .homePage__podcastClosePlay,
@@ -112,7 +111,6 @@ video.videoPopupBlock__video[src$="/xelle/video_xelle.mp4"] { object-fit: contai
   .heroBlock__subtitle { font-size: 36px; max-width: calc(100vw - 32px); }
 }
 }
-@keyframes xelle-loader-hint { to { opacity: 1; } }
 
 /* Text-free entrance: the original room and light effects frame the flacons. */
 body.xelle-experience .sceneTitle__layer.intro { display: none; }
