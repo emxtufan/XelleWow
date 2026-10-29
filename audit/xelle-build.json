@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-10-29T19:40:11.998Z",
+  "builtAt": "2026-10-29T21:16:58.166Z",
   "source": "original/app.js",
   "contentTables": 7,
   "patches": [
@@ -83,7 +83,6 @@
     "Store footer, shop pages and cart drawer components",
     "Store footer under each perfume page",
     "Perfume pages scroll the full wheel and finger distance",
-    "Mobile: first perfume scene titled as the collection",
     "Xellé head defaults",
     "Absolute canonical and Xellé in every title",
     "Default description",
@@ -91,6 +90,8 @@
     "Shop pages and cart drawer over the experience",
     "Original Xellé wordmark",
     "Xellé loader",
+    "Loader mist component",
+    "Wordmark mist instead of the loading counter",
     "Use available local gallery audio",
     "Preload Xellé gallery photographs",
     "Xellé film and separate gallery narration",

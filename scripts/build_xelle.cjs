@@ -130,8 +130,6 @@ once('xFe(YTe(Dt(BTt)(z))),null,16))],10,xTt)):Xr("",!0)],64))),128))]),_:1},512
   'xFe(YTe(Dt(BTt)(z))),null,16))],10,xTt)):Xr("",!0)],64))),128)),rr(xelleFooter)]),_:1},512))','Store footer under each perfume page');
 once('const P=oo.device.desktop?1:.5;ai.start({wheelMultiplier:.5,wheelLerp:.1,touchMultiplier:P,touchLerp:1,useViewsHistory:!0},dEe)',
   'ai.start({wheelMultiplier:1,wheelLerp:.1,touchMultiplier:1,touchLerp:1,useViewsHistory:!0},dEe)','Perfume pages scroll the full wheel and finger distance');
-once('rr(Vxt,{text:(_t=Dt(Ee))==null?void 0:_t.title,"podcast-title"',
-  'rr(Vxt,{text:Dt(Le)===1&&oo.device.mobile?"Colecția Xellé":(_t=Dt(Ee))==null?void 0:_t.title,"podcast-title"','Mobile: first perfume scene titled as the collection');
 // Route heads: the routes are hash routes (#/...), one address for search
 // engines, so the canonical stays the site root; never an empty description.
 once(',f7e=(r,e,t,a=!1)=>{', ',XELLE_SEO={url:"https://xelle.ro/",description:'+JSON.stringify(seoDescription)+',image:"https://xelle.ro/xelle/og-image.jpg"},f7e=(r,e,t,a=!1)=>{','Xellé head defaults');
@@ -144,6 +142,12 @@ once('GCt=ui({__name:"CartierIcon",props:{size:{default:"m"}},setup(r){return(e,
   'GCt=ui({__name:"XelleIcon",props:{size:{default:"m"}},setup(r){return(e,t)=>(sa(),Qa("img",{class:zr(["cartierIcon",`cartierIcon--${e.size}`,"xelleIcon"]),src:"/xelle/xelle-wordmark.png",alt:"Xellé",draggable:"false"},null,2))}})','Original Xellé wordmark');
 once('v=[{name:"tank",src:a+"/images/shapes/shape-tank.png"},{name:"santos",src:a+"/images/shapes/shape-santos.png"},{name:"roadster",src:a+"/images/shapes/shape-roadster.png"},{name:"myst",src:a+"/images/shapes/shape-myst.png"},{name:"crash",src:a+"/images/shapes/shape-crash.png"},{name:"baignoire",src:a+"/images/shapes/shape-baignoire.png"}]',
   'v=[{name:"xelle",src:a+"/xelle/xelle-wordmark.png"}]','Xellé loader');
+// The wordmark travels inside the bundle: the mist must not queue behind the scene downloads.
+const wordmarkData = JSON.stringify('data:image/png;base64,'+fs.readFileSync(path.join(root,'public/xelle/xelle-wordmark.png')).toString('base64'));
+once('LEt=ui({__name:"Loader"', 'xelleLoaderMist='+read('scripts/xelle-loader-mist.js').trim().replace('new URL("/xelle/xelle-wordmark.png", window.location.href).href', wordmarkData)+',LEt=ui({__name:"Loader"', 'Loader mist component');
+if (!source.includes('logo: '+wordmarkData)) throw new Error('Loader wordmark was not inlined');
+once('Na("div",SEt,[Na("div",{class:zr(["mainLoader__icons",{animate:Dt(p)}])},[(sa(),Qa(Xs,null,uh(v,$=>Na("img",{ref_for:!0,ref:"$icons",key:$.name,src:$.src,class:zr($.name)},null,10,EEt)),64))],2),Na("div",MEt,$s(Dt(P)),1)])',
+  'rr(xelleLoaderMist,{progress:()=>h.value})', 'Wordmark mist instead of the loading counter');
 once('Wt.replace("audio/podcasts/","audio/podcasts_xp/")','Wt','Use available local gallery audio');
 const galleryTexture=name=>`{type:"texture",name:"podcast_${name}",path:"/images/podcasts/thumbnails/LD/${name}.webp"}`;
 once(['baignoire-1','baignoire-2','cartier-prive','myst-de-cartier','roadster-1','roadster-2','santos-de-cartier-1','santos-de-cartier-2','santos-dumont-1','santos-dumont-2','tank-americaine-1','tank-americaine-2','tortue'].map(galleryTexture).join(','),

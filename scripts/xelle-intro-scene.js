@@ -143,6 +143,7 @@ function xelleResizeIntro(main) {
   state.bottles.forEach((bottle, index) => {
     const [x, top, z] = XELLE_INTRO_SLOTS[index];
     bottle.userData.xelleShown = !narrow || index === 0;
+    bottle.userData.xelleLabel = narrow ? 'collection' : XELLE_INTRO_MODELS[index];
     bottle.visible = bottle.userData.xelleShown;
     bottle.scale.setScalar(scale);
     // Each label faces the camera, about 6.2 units in front of the desktop row.

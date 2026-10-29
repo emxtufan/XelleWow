@@ -14,6 +14,8 @@ Writes, per product key:
   public/xelle/labels/<key>_mobile.png  full label (mobile size)
   public/xelle/labels/<key>_print.png   ink only on transparent paper, for the
                                         sharp on-screen print (xelle-label-print.js)
+plus public/xelle/labels/collection_print.png, the same print titled with the
+collection's name for the single intro flacon of portrait screens,
 and public/xelle/labels/emblem.png (the cleaned emblem, RGBA) and
 public/xelle/labels/paper.png: the site's 3D label is blank paper, all its ink
 comes from the sharp print, so the two never show doubled text.
@@ -30,6 +32,7 @@ CONFIG = json.loads((ROOT / "scripts" / "xelle-products.json").read_text(encodin
 ASSETS = ROOT / "public" / "xelle"
 LABELS = ASSETS / "labels"
 FONTS = Path("C:/Windows/Fonts")
+COLLECTION_TITLE = "Colecția Xellé"
 
 # Packshot geometry, measured on the 4096 px image: bottle axis x, outer radius
 # in pixels, and the camera's elevation (sine) that bends horizontal lines.
@@ -200,6 +203,8 @@ def main():
             compose(title, w, h, (black, gold), wordmark, False).convert("RGB").save(LABELS / f"{key}{name}.png", optimize=True)
         compose(title, *sizes["desktop"], (black, gold), wordmark, True).save(LABELS / f"{key}_print.png", optimize=True)
         print(f"{key}: {title}")
+    compose(COLLECTION_TITLE, *sizes["desktop"], (black, gold), wordmark, True).save(LABELS / "collection_print.png", optimize=True)
+    print("collection: collection_print.png")
 
 
 if __name__ == "__main__":

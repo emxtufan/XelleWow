@@ -24,13 +24,20 @@ function xelleRegisterLabels(root, model, isIntro) {
       label.drawnAt = performance.now();
     };
     xelleLabelPrint.labels.push(label);
-    if (!xelleLabelPrint.images[model]) {
-      const image = new Image();
-      image.decoding = 'async';
-      image.src = `/xelle/labels/${model}_print.png`;
-      xelleLabelPrint.images[model] = image;
-    }
+    xelleLabelImage(model);
   });
+}
+
+// A flacon may carry another print than its model's (root.userData.xelleLabel:
+// the single intro flacon of portrait screens reads "Colecția Xellé").
+function xelleLabelImage(key) {
+  const images = xelleLabelPrint.images;
+  if (!images[key]) {
+    images[key] = new Image();
+    images[key].decoding = 'async';
+    images[key].src = `/xelle/labels/${key}_print.png`;
+  }
+  return images[key];
 }
 
 function xelleWorldVisible(object) {
@@ -78,7 +85,7 @@ function xelleDrawLabelPrint() {
   // Only labels rendered in this frame; the renderer toggles the label mesh
   // itself between passes, so the flacon above it carries the real visibility.
   const shown = state.labels.filter(label => {
-    const image = state.images[label.model];
+    const image = xelleLabelImage(label.root.userData.xelleLabel || label.model);
     return image.complete && image.naturalWidth && label.drawnAt >= state.frameAt && xelleWorldVisible(label.mesh.parent)
       && !(label.isIntro && Number(current) !== 0);
   });
@@ -96,7 +103,7 @@ function xelleDrawLabelPrint() {
   const width = state.canvas.width, height = state.canvas.height;
   const {radius, angle, top, bottom, strips} = XELLE_LABEL;
   for (const label of shown) {
-    const image = state.images[label.model];
+    const image = xelleLabelImage(label.root.userData.xelleLabel || label.model);
     const Vector = label.mesh.position.constructor;
     const point = new Vector(), normal = new Vector();
     const normalMatrix = new (label.mesh.normalMatrix.constructor)().getNormalMatrix(label.modelView);
