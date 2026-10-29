@@ -120,6 +120,8 @@ once('_tick(t,a){var i,s,o;this._isActive&&(', '_tick(t,a){var i,s,o;this._isAct
 once('xelleAudioPrompt=', 'xelleFooter='+read('scripts/xelle-footer.js').trim()+',xelleShopLayer='+read('scripts/xelle-shop-layer.js').trim()+',xelleAudioPrompt=', 'Store footer, shop pages and cart drawer components');
 once('xFe(YTe(Dt(BTt)(z))),null,16))],10,xTt)):Xr("",!0)],64))),128))]),_:1},512))',
   'xFe(YTe(Dt(BTt)(z))),null,16))],10,xTt)):Xr("",!0)],64))),128)),rr(xelleFooter)]),_:1},512))','Store footer under each perfume page');
+once('const P=oo.device.desktop?1:.5;ai.start({wheelMultiplier:.5,wheelLerp:.1,touchMultiplier:P,touchLerp:1,useViewsHistory:!0},dEe)',
+  'ai.start({wheelMultiplier:1,wheelLerp:.1,touchMultiplier:1,touchLerp:1,useViewsHistory:!0},dEe)','Perfume pages scroll the full wheel and finger distance');
 once('rr(xelleAudioPrompt),', 'rr(xelleAudioPrompt),rr(xelleShopLayer),', 'Shop pages and cart drawer over the experience');
 once('GCt=ui({__name:"CartierIcon",props:{size:{default:"m"}},setup(r){return(e,t)=>(sa(),Qa("svg",{class:zr(["cartierIcon",`cartierIcon--${e.size}`]),viewBox:"0 0 110 31",fill:"none",xmlns:"http://www.w3.org/2000/svg","aria-hidden":"true",focusable:"false"},VCt,2))}})',
   'GCt=ui({__name:"XelleIcon",props:{size:{default:"m"}},setup(r){return(e,t)=>(sa(),Qa("img",{class:zr(["cartierIcon",`cartierIcon--${e.size}`,"xelleIcon"]),src:"/xelle/xelle-wordmark.png",alt:"Xellé",draggable:"false"},null,2))}})','Original Xellé wordmark');

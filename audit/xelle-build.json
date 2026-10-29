@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-10-29T18:39:08.328Z",
+  "builtAt": "2026-10-29T18:46:15.048Z",
   "source": "original/app.js",
   "contentTables": 7,
   "patches": [
@@ -71,6 +71,7 @@
     "Rest the 3D render loop while the shop pages cover it",
     "Store footer, shop pages and cart drawer components",
     "Store footer under each perfume page",
+    "Perfume pages scroll the full wheel and finger distance",
     "Shop pages and cart drawer over the experience",
     "Original Xellé wordmark",
     "Xellé loader",
