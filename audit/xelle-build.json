@@ -1,9 +1,20 @@
 {
-  "builtAt": "2026-10-29T18:46:15.048Z",
+  "builtAt": "2026-10-29T19:40:11.998Z",
   "source": "original/app.js",
   "contentTables": 7,
   "patches": [
     "Local GPU database",
+    "SC00_oct.exr mobile reflection map",
+    "SC01_columns_oct.exr mobile reflection map",
+    "SC01_oct.exr mobile reflection map",
+    "SC01_portal_oct.exr mobile reflection map",
+    "SC02_CliffsFront_oct.exr mobile reflection map",
+    "SC02_oct.exr mobile reflection map",
+    "SC02_portal_oct.exr mobile reflection map",
+    "SC03_oct.exr mobile reflection map",
+    "SC04_oct.exr mobile reflection map",
+    "SC05_oct.exr mobile reflection map",
+    "SC06_oct.exr mobile reflection map",
     "roadster desktop bottle",
     "roadster mobile bottle",
     "roadster bottle silhouette",
@@ -72,6 +83,11 @@
     "Store footer, shop pages and cart drawer components",
     "Store footer under each perfume page",
     "Perfume pages scroll the full wheel and finger distance",
+    "Mobile: first perfume scene titled as the collection",
+    "Xellé head defaults",
+    "Absolute canonical and Xellé in every title",
+    "Default description",
+    "Default share image",
     "Shop pages and cart drawer over the experience",
     "Original Xellé wordmark",
     "Xellé loader",
@@ -105,6 +121,7 @@
     "Direct navigation to perfumes and media",
     "Local collection navigation",
     "Romanian scroll label",
-    "Olfactory notes block"
+    "Olfactory notes block",
+    "Sitemap, robots and llms.txt from the shop snapshot"
   ]
 }

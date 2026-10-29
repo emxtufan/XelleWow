@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /__deploy
+Disallow: /__local/
+
+Sitemap: https://xelle.ro/sitemap.xml

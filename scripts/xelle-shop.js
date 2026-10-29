@@ -349,6 +349,54 @@ function xelleShopUrl(view) {
   return url.pathname + url.search + url.hash;
 }
 
+// Each shop address is its own page for search engines: title, description,
+// canonical address and, for a product, its structured data. Closing the shop
+// gives the experience its head back.
+let xelleSavedHead = null;
+function xelleShopHead(view, catalog) {
+  const description = document.querySelector('meta[name="description"]');
+  const canonical = document.querySelector('link[rel="canonical"]');
+  document.getElementById('xelle-product-ld')?.remove();
+  if (!view) {
+    if (!xelleSavedHead) return;
+    document.title = xelleSavedHead.title;
+    description?.setAttribute('content', xelleSavedHead.description);
+    canonical?.setAttribute('href', xelleSavedHead.canonical);
+    xelleSavedHead = null;
+    return;
+  }
+  if (!xelleSavedHead) xelleSavedHead = {title: document.title, description: description?.content || '', canonical: canonical?.href || ''};
+  const text = html => (html || '').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+  const product = view.name === 'product' && catalog && catalog.byHandle[view.handle];
+  const collection = view.name === 'collection' && catalog && catalog.collections.find(c => c.handle === view.handle);
+  const title = product ? product.title : collection ? collection.title
+    : view.name === 'page' ? XELLE_SHOP_PAGES[view.handle]?.title
+    : view.name === 'collections' ? 'Colecții' : view.name === 'products' ? 'Toate produsele' : null;
+  document.title = `${title || 'Magazin'} — Xellé`;
+  const summary = text(product ? product.descriptionHtml : collection ? collection.description : '').slice(0, 160);
+  description?.setAttribute('content', summary || xelleSavedHead.description);
+  canonical?.setAttribute('href', 'https://xelle.ro' + xelleShopUrl(view).replace(/#.*$/, ''));
+  if (!product) return;
+  const variant = product.variant;
+  const data = {
+    '@context': 'https://schema.org', '@type': 'Product',
+    name: product.title, description: text(product.descriptionHtml),
+    image: product.images.map(image => image.url),
+    brand: {'@type': 'Brand', name: product.vendor || 'Xellé'},
+    url: 'https://xelle.ro/?produs=' + product.handle,
+    offers: variant && {
+      '@type': 'Offer', price: variant.price.amount, priceCurrency: variant.price.currencyCode,
+      availability: variant.availableForSale ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
+      url: 'https://xelle.ro/?produs=' + product.handle,
+    },
+  };
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.id = 'xelle-product-ld';
+  script.textContent = JSON.stringify(data);
+  document.head.appendChild(script);
+}
+
 function xelleShopViewFromUrl() {
   const params = new URLSearchParams(window.location.search);
   if (params.get('pagina')) return {name: 'page', handle: params.get('pagina')};

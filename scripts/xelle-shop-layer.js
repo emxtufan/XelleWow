@@ -28,6 +28,7 @@ ui({
       if (product) xelleLoadRecommendations(product);
     });
     Tr(() => shop.view.value, view => { if (view && view.name === "page") xelleLoadPolicies(); }, { immediate: true });
+    Tr(() => [shop.view.value, shop.catalog.value, shop.live.value], ([view, catalog]) => xelleShopHead(view, catalog), { immediate: true });
     Tr(() => shop.cartOpen.value, open => {
       if (open) vs().then(() => cartPanel.value?.querySelector(".xelle-cart__close")?.focus());
     });

@@ -59,7 +59,7 @@ def build() -> dict:
     global_content = {
         "market": "România",
         "title": "Xellé — Extrait de parfum",
-        "loader": "Descoperă patru parfumuri unisex inspirate de universul cocktailurilor.",
+        "loader": "Descoperă colecția Xellé.",
         "baseline": "Patru cocktailuri. Patru parfumuri.",
         "buttons": {"allPicturesButton": {"label": "Fotografie"}},
         "ctas": {

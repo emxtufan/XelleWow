@@ -25,3 +25,6 @@ Desktop.ini
 
 # Film (139 MB): too big for GitHub, uploaded to the server once by scp
 public/xelle/video_xelle.mp4
+
+# Original film before compression (local only)
+backup/

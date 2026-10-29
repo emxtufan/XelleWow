@@ -1,7 +1,7 @@
 [
   {
     "file": "public\\xelle\\backdrops\\mainScene.glb",
-    "bytes": 14920072,
+    "bytes": 12416904,
     "source": "public\\xelle\\models\\mainScene.glb",
     "photoSurfaces": [
       {
@@ -222,7 +222,7 @@
   },
   {
     "file": "public\\xelle\\backdrops\\mainSceneMobile.glb",
-    "bytes": 8544836,
+    "bytes": 6615332,
     "source": "public\\xelle\\models\\mainSceneMobile.glb",
     "photoSurfaces": [
       {

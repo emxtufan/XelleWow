@@ -1,9 +1,8 @@
 """Add campaign photographs to copies of the preserved Xelle scene GLBs.
 
-The desktop scene embeds the original JPEG bytes without raster editing. The
-mobile scene embeds photographs longer than MOBILE_PHOTO_EDGE pixels resized
-to that edge (JPEG quality 90, full chroma): a phone shows a wall at well under
-that size, and the mobile download shrinks by several megabytes. Existing scene
+Photographs are embedded as WebP (EXT_texture_webp, already required by the
+scenes), longer edges resized to DESKTOP_PHOTO_EDGE or MOBILE_PHOTO_EDGE: a wall
+is shown at well under that size, and each scene download shrinks by megabytes. Existing scene
 nodes, geometry, camera tracks and animations remain intact. SC01/SC02 stencil
 screens become photo walls; the old portal landscapes are marked xelleHidden.
 SC03 gains a copy of SC01's curved screen behind its wooden structure. SC04's
@@ -27,7 +26,8 @@ import struct
 
 from PIL import Image
 
-MOBILE_PHOTO_EDGE = 1600
+DESKTOP_PHOTO_EDGE, DESKTOP_PHOTO_QUALITY = 2400, 85
+MOBILE_PHOTO_EDGE, MOBILE_PHOTO_QUALITY = 1600, 82
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -128,24 +128,23 @@ def build(filename):
             return materials[photograph]
         data = (ASSETS / photograph).read_bytes()
         assert data[:2] == b"\xff\xd8", photograph
-        if "Mobile" in filename:
-            picture = Image.open(io.BytesIO(data))
-            if max(picture.size) > MOBILE_PHOTO_EDGE:
-                picture.thumbnail((MOBILE_PHOTO_EDGE, MOBILE_PHOTO_EDGE), Image.Resampling.LANCZOS)
-                resized = io.BytesIO()
-                picture.convert("RGB").save(resized, "JPEG", quality=90, subsampling=0, optimize=True)
-                data = resized.getvalue()
+        edge, quality = (MOBILE_PHOTO_EDGE, MOBILE_PHOTO_QUALITY) if "Mobile" in filename else (DESKTOP_PHOTO_EDGE, DESKTOP_PHOTO_QUALITY)
+        picture = Image.open(io.BytesIO(data))
+        picture.thumbnail((edge, edge), Image.Resampling.LANCZOS)
+        encoded = io.BytesIO()
+        picture.convert("RGB").save(encoded, "WEBP", quality=quality, method=6)
+        data = encoded.getvalue()
         while len(binary) % 4:
             binary.append(0)
         view = len(doc["bufferViews"])
         doc["bufferViews"].append({"buffer": 0, "byteOffset": len(binary), "byteLength": len(data)})
         binary.extend(data)
         image = len(doc["images"])
-        doc["images"].append({"name": photograph, "mimeType": "image/jpeg", "bufferView": view})
+        doc["images"].append({"name": photograph, "mimeType": "image/webp", "bufferView": view})
         sampler = len(doc.setdefault("samplers", []))
         doc["samplers"].append({"magFilter": 9729, "minFilter": 9987, "wrapS": 33071, "wrapT": 33071})
         texture = len(doc["textures"])
-        doc["textures"].append({"source": image, "sampler": sampler})
+        doc["textures"].append({"extensions": {"EXT_texture_webp": {"source": image}}, "sampler": sampler})
         material = len(doc["materials"])
         doc["materials"].append({
             "name": label,

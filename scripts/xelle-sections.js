@@ -39,7 +39,9 @@ function xelleSyncSectionLink(main) {
   const camera = main._scrollCamera;
   if (!camera || !no().mainLoader.progressComplete) return;
   if (!state.opened) {
-    xelleShopWarmup();
+    // The scenes get the network first; the catalog and product images follow
+    // in idle time. Opening the shop or a gallery text starts them at once.
+    setTimeout(() => window.requestIdleCallback ? window.requestIdleCallback(() => xelleShopWarmup()) : xelleShopWarmup(), 8000);
     const slug = new URLSearchParams(window.location.search).get('sectiune');
     const index = XELLE_SECTIONS.findIndex(section => section.slug === slug);
     if (index > 0) {

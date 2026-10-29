@@ -5,6 +5,8 @@ const acorn = require('internal/deps/acorn/acorn/dist/acorn');
 const root = path.resolve(__dirname, '..');
 const read = p => fs.readFileSync(path.join(root,p),'utf8');
 let source = read('original/app.js');
+// One description for the static head (public/index.html) and the route heads.
+const seoDescription = /<meta name="description" content="([^"]*)"/.exec(read('public/index.html'))[1];
 const ast = acorn.parse(source,{ecmaVersion:'latest',sourceType:'module'});
 const locales = JSON.parse(read('audit/xelle-locales.json'));
 const replacements = [];
@@ -23,6 +25,12 @@ function once(before,after,label) {
   source=source.replace(before,after); patches.push(label);
 }
 once('https://unpkg.com/detect-gpu@5.0.70/dist/benchmarks','/benchmarks','Local GPU database');
+// Phones load the half-size scene reflection maps (scripts/build_xelle_mobile_cubemaps.sh).
+for (const file of fs.readdirSync(path.join(root,'public/webgl/textures/cubemaps/mobile'))) {
+  const entry = new RegExp(String.raw`\{type:"exr",name:"(\w+)",path:"/webgl/textures/cubemaps/${file.replace('.', '\\.')}"\}`).exec(source);
+  if (!entry) throw new Error('Reflection map not in the asset list: '+file);
+  once(entry[0], entry[0].slice(0,-1)+`,fallback:{mobile:{type:"exr",name:"${entry[1]}",path:"/webgl/textures/cubemaps/mobile/${file}"}}}`, `${file} mobile reflection map`);
+}
 for (const model of ['roadster','baignoire','crash','santos']) {
   for (const device of ['desktop','mobile']) once(`/webgl/models/watches/${model}_${device}.glb`,`/xelle/models/${model}_${device}.glb`,`${model} ${device} bottle`);
   once(`/webgl/textures/masks/shape-${model}_msdf.png`,`/xelle/masks/shape-${model}_msdf.png`,`${model} bottle silhouette`);
@@ -122,6 +130,15 @@ once('xFe(YTe(Dt(BTt)(z))),null,16))],10,xTt)):Xr("",!0)],64))),128))]),_:1},512
   'xFe(YTe(Dt(BTt)(z))),null,16))],10,xTt)):Xr("",!0)],64))),128)),rr(xelleFooter)]),_:1},512))','Store footer under each perfume page');
 once('const P=oo.device.desktop?1:.5;ai.start({wheelMultiplier:.5,wheelLerp:.1,touchMultiplier:P,touchLerp:1,useViewsHistory:!0},dEe)',
   'ai.start({wheelMultiplier:1,wheelLerp:.1,touchMultiplier:1,touchLerp:1,useViewsHistory:!0},dEe)','Perfume pages scroll the full wheel and finger distance');
+once('rr(Vxt,{text:(_t=Dt(Ee))==null?void 0:_t.title,"podcast-title"',
+  'rr(Vxt,{text:Dt(Le)===1&&oo.device.mobile?"Colecția Xellé":(_t=Dt(Ee))==null?void 0:_t.title,"podcast-title"','Mobile: first perfume scene titled as the collection');
+// Route heads: the routes are hash routes (#/...), one address for search
+// engines, so the canonical stays the site root; never an empty description.
+once(',f7e=(r,e,t,a=!1)=>{', ',XELLE_SEO={url:"https://xelle.ro/",description:'+JSON.stringify(seoDescription)+',image:"https://xelle.ro/xelle/og-image.jpg"},f7e=(r,e,t,a=!1)=>{','Xellé head defaults');
+once('I=(t==null?void 0:t.baseUrl)||"";return i=e?I+e:I,s=(v==null?void 0:v.title)||S||"",',
+  'I=(t==null?void 0:t.baseUrl)||"";return i=XELLE_SEO.url,s=(v==null?void 0:v.title)||S||"",s&&!/Xellé/.test(s)&&(s+=" — Xellé"),','Absolute canonical and Xellé in every title');
+once('||((q=t==null?void 0:t.seo)==null?void 0:q.description)||"",', '||((q=t==null?void 0:t.seo)==null?void 0:q.description)||XELLE_SEO.description,','Default description');
+once('||((ae=t==null?void 0:t.social)==null?void 0:ae.image),', '||((ae=t==null?void 0:t.social)==null?void 0:ae.image)||XELLE_SEO.image,','Default share image');
 once('rr(xelleAudioPrompt),', 'rr(xelleAudioPrompt),rr(xelleShopLayer),', 'Shop pages and cart drawer over the experience');
 once('GCt=ui({__name:"CartierIcon",props:{size:{default:"m"}},setup(r){return(e,t)=>(sa(),Qa("svg",{class:zr(["cartierIcon",`cartierIcon--${e.size}`]),viewBox:"0 0 110 31",fill:"none",xmlns:"http://www.w3.org/2000/svg","aria-hidden":"true",focusable:"false"},VCt,2))}})',
   'GCt=ui({__name:"XelleIcon",props:{size:{default:"m"}},setup(r){return(e,t)=>(sa(),Qa("img",{class:zr(["cartierIcon",`cartierIcon--${e.size}`,"xelleIcon"]),src:"/xelle/xelle-wordmark.png",alt:"Xellé",draggable:"false"},null,2))}})','Original Xellé wordmark');
@@ -183,6 +200,32 @@ once('ariaLabel:{default:"Scroll to first section"}','ariaLabel:{default:"Descop
 once('_Tt={heroBlock:U1t,scrollMediasBlock:zPt,scrollWatchBlock:UPt,videoBlock:ATt,productsBlock:gPt,sliderProductsBlock:iTt,textBlock:cTt,sliderBlock:YPt,pushPageBlock:APt}',
   'xelleNotesBlock='+read('scripts/xelle-notes-block.js').trim()+',_Tt={heroBlock:U1t,scrollMediasBlock:zPt,scrollWatchBlock:UPt,videoBlock:ATt,productsBlock:gPt,sliderProductsBlock:iTt,textBlock:cTt,sliderBlock:YPt,pushPageBlock:APt,xelleNotesBlock}','Olfactory notes block');
 fs.writeFileSync(path.join(root,'public/assets/xelle-app.js'),source);
+// Search engines and AI assistants: robots.txt, sitemap.xml and llms.txt from the
+// shop snapshot, so every product, collection and footer page has its address.
+{
+  const site='https://xelle.ro';
+  const catalog=JSON.parse(read('public/xelle/shop/catalog.json')).data;
+  const shopPages=[...read('scripts/xelle-shop.js').match(/const XELLE_SHOP_PAGES = \{[\s\S]*?\n\};/)[0].matchAll(/'([a-z-]+)': \{title: '([^']+)'/g)];
+  const text=html=>html.replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
+  const short=html=>{const t=text(html||'');return t.length>220?t.slice(0,t.lastIndexOf(' ',220))+'…':t;};
+  const urls=[
+    {loc:'/'},{loc:'/?sectiune=colectii'},{loc:'/?sectiune=produse'},
+    ...catalog.collections.nodes.map(c=>({loc:`/?colectie=${c.handle}`,lastmod:c.updatedAt})),
+    ...catalog.products.nodes.map(p=>({loc:`/?produs=${p.handle}`,lastmod:p.updatedAt})),
+    ...shopPages.map(([,slug])=>({loc:`/?pagina=${slug}`})),
+  ];
+  fs.writeFileSync(path.join(root,'public/sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    +urls.map(u=>`  <url><loc>${site}${u.loc}</loc>${u.lastmod?`<lastmod>${u.lastmod.slice(0,10)}</lastmod>`:''}</url>`).join('\n')+'\n</urlset>\n');
+  fs.writeFileSync(path.join(root,'public/robots.txt'),`User-agent: *\nAllow: /\nDisallow: /__deploy\nDisallow: /__local/\n\nSitemap: ${site}/sitemap.xml\n`);
+  fs.writeFileSync(path.join(root,'public/llms.txt'),[
+    '# Xellé','',`> ${seoDescription}`,'',
+    'Site-ul xelle.ro este o experiență 3D cu magazin integrat: coșul și plata se fac prin Shopify. Prețurile și stocul actuale sunt pe paginile de produs.','',
+    '## Produse',...catalog.products.nodes.map(p=>`- [${p.title}](${site}/?produs=${p.handle})${short(p.descriptionHtml)?': '+short(p.descriptionHtml):''}`),'',
+    '## Colecții',...catalog.collections.nodes.map(c=>`- [${c.title}](${site}/?colectie=${c.handle})${c.description?': '+short(c.description):''}`),'',
+    '## Informații',...shopPages.map(([,slug,title])=>`- [${title}](${site}/?pagina=${slug})`),'',
+  ].join('\n'));
+  patches.push('Sitemap, robots and llms.txt from the shop snapshot');
+}
 // The local server sends no validators, so browsers kept serving old copies:
 // the page asks for each rebuilt file under a new address.
 const stamp=file=>require('node:crypto').createHash('sha1').update(fs.readFileSync(path.join(root,'public',file))).digest('hex').slice(0,10);
