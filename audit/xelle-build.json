@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-10-29T23:30:47.296Z",
+  "builtAt": "2026-10-29T23:55:07.187Z",
   "source": "original/app.js",
   "contentTables": 7,
   "patches": [
@@ -123,6 +123,9 @@
     "Local collection navigation",
     "Romanian scroll label",
     "native selects open",
+    "parallel shader compile",
+    "no frames while shaders compile",
+    "loader waits for shaders",
     "Olfactory notes block",
     "Sitemap, robots and llms.txt from the shop snapshot"
   ]

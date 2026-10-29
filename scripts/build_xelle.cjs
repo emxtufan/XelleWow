@@ -204,6 +204,13 @@ once('ariaLabel:{default:"Scroll to first section"}','ariaLabel:{default:"Descop
 // The drag helper cancels every mousedown outside links and text fields, which keeps
 // native selects (shop filters, product variants) from opening.
 once('e||(e=s.match(/input/)!=null||s.match(/textarea/)!=null?i:!1)','e||(e=s.match(/input/)!=null||s.match(/textarea/)!=null||s=="select"?i:!1)','native selects open');
+// The scenes' shaders used to link on their first frame, freezing the page for seconds.
+// While the loader shows, each scene's first frame instead starts a parallel GPU compile
+// for the target it draws into (shaders differ per target), and frames wait for it;
+// the loader only lifts once they are ready. After the loader nothing changes.
+once('compile(t){t&&this._instance.compile(t.scene,t.camera)}','compile(t){t&&this._instance.compile(t.scene,t.camera)}_prewarm(a,i,t){if(no().mainLoader.progressComplete)return!1;const k=t?"_warmTarget":"_warmScreen",w=this[k]||(this[k]=new WeakSet),c=this._compiling||(this._compiling=new Set);if(!w.has(a)){w.add(a);const r=this._instance.getRenderTarget();this._instance.setRenderTarget(t);const p=this._instance.compileAsync(a,i);this._instance.setRenderTarget(r),c.add(p),p.then(()=>c.delete(p))}return c.size>0}','parallel shader compile');
+once('render(t=null){this._renderToTargetCount=0,t&&this._instance.render(t.scene,t.camera)}renderToTarget(t,a,i,s=null){','render(t=null){this._renderToTargetCount=0,t&&!this._prewarm(t.scene,t.camera,null)&&this._instance.render(t.scene,t.camera)}renderToTarget(t,a,i,s=null){if(this._prewarm(a,i,t))return;','no frames while shaders compile');
+once('function I(){p.value=!1,e.updateMainLoader({progressComplete:!0})}','function I(){p.value=!1,Promise.all(Ir.renderer._compiling||[]).then(()=>e.updateMainLoader({progressComplete:!0}))}','loader waits for shaders');
 once('_Tt={heroBlock:U1t,scrollMediasBlock:zPt,scrollWatchBlock:UPt,videoBlock:ATt,productsBlock:gPt,sliderProductsBlock:iTt,textBlock:cTt,sliderBlock:YPt,pushPageBlock:APt}',
   'xelleNotesBlock='+read('scripts/xelle-notes-block.js').trim()+',_Tt={heroBlock:U1t,scrollMediasBlock:zPt,scrollWatchBlock:UPt,videoBlock:ATt,productsBlock:gPt,sliderProductsBlock:iTt,textBlock:cTt,sliderBlock:YPt,pushPageBlock:APt,xelleNotesBlock}','Olfactory notes block');
 fs.writeFileSync(path.join(root,'public/assets/xelle-app.js'),source);
