@@ -45,6 +45,12 @@ const server = http.createServer(async (req, res) => {
     if (req.method === 'HEAD' || !info.size) res.end();
     else createReadStream(file, {start,end}).on('error', () => res.destroy()).pipe(res);
   } catch {
+    // Unknown pages (old links still in search results) go to the home page; missing files stay 404.
+    const page = req.url.split('?')[0];
+    if (!page.startsWith('/api/') && (!/\.[a-z0-9]+$/i.test(page) || /\.(html?|php)$/i.test(page))) {
+      res.writeHead(301, { Location: '/', 'Cache-Control': 'max-age=3600' }).end();
+      return;
+    }
     console.log('MISSING', req.url);
     res.writeHead(404, {'Content-Type':'text/plain; charset=utf-8'}).end('Resursa nu a fost gasita in copia locala.');
   }
