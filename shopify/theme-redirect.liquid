@@ -19,10 +19,16 @@
     var path = location.pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?(?=\/)/i, '');
     if (/^\/(account|policies|pages|cart|checkout|checkouts|orders|apps|tools|services|challenge|password)(\/|$)/.test(path)) return;
     var match, target = site + '/';
+    // location.pathname is already percent-encoded: decoded first, so a handle
+    // with diacritics (parfumuri-pentru-barbați) is not encoded twice.
+    var handle = function (part) {
+      try { part = decodeURIComponent(part); } catch (e) { /* malformed escape: sent as it is */ }
+      return encodeURIComponent(part);
+    };
     if ((match = path.match(/^\/(?:collections\/[^\/]+\/)?products\/([^\/?#]+)/))) {
-      target = site + '/?produs=' + encodeURIComponent(match[1]);
+      target = site + '/?produs=' + handle(match[1]);
     } else if ((match = path.match(/^\/collections\/([^\/?#]+)\/?$/)) && match[1] !== 'all') {
-      target = site + '/?colectie=' + encodeURIComponent(match[1]);
+      target = site + '/?colectie=' + handle(match[1]);
     }
     location.replace(target);
   })();

@@ -217,27 +217,10 @@ fs.writeFileSync(path.join(root,'public/assets/xelle-app.js'),source);
 // Search engines and AI assistants: robots.txt, sitemap.xml and llms.txt from the
 // shop snapshot, so every product, collection and footer page has its address.
 {
-  const site='https://xelle.ro';
-  const catalog=JSON.parse(read('public/xelle/shop/catalog.json')).data;
-  const shopPages=[...read('scripts/xelle-shop.js').match(/const XELLE_SHOP_PAGES = \{[\s\S]*?\n\};/)[0].matchAll(/'([a-z-]+)': \{title: '([^']+)'/g)];
-  const text=html=>html.replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
-  const short=html=>{const t=text(html||'');return t.length>220?t.slice(0,t.lastIndexOf(' ',220))+'…':t;};
-  const urls=[
-    {loc:'/'},{loc:'/?sectiune=colectii'},{loc:'/?sectiune=produse'},
-    ...catalog.collections.nodes.map(c=>({loc:`/?colectie=${c.handle}`,lastmod:c.updatedAt})),
-    ...catalog.products.nodes.map(p=>({loc:`/?produs=${p.handle}`,lastmod:p.updatedAt})),
-    ...shopPages.map(([,slug])=>({loc:`/?pagina=${slug}`})),
-  ];
-  fs.writeFileSync(path.join(root,'public/sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    +urls.map(u=>`  <url><loc>${site}${u.loc}</loc>${u.lastmod?`<lastmod>${u.lastmod.slice(0,10)}</lastmod>`:''}</url>`).join('\n')+'\n</urlset>\n');
-  fs.writeFileSync(path.join(root,'public/robots.txt'),`User-agent: *\nAllow: /\nDisallow: /__deploy\nDisallow: /__local/\n\nSitemap: ${site}/sitemap.xml\n`);
-  fs.writeFileSync(path.join(root,'public/llms.txt'),[
-    '# Xellé','',`> ${seoDescription}`,'',
-    'Site-ul xelle.ro este o experiență 3D cu magazin integrat: coșul și plata se fac prin Shopify. Prețurile și stocul actuale sunt pe paginile de produs.','',
-    '## Produse',...catalog.products.nodes.map(p=>`- [${p.title}](${site}/?produs=${p.handle})${short(p.descriptionHtml)?': '+short(p.descriptionHtml):''}`),'',
-    '## Colecții',...catalog.collections.nodes.map(c=>`- [${c.title}](${site}/?colectie=${c.handle})${c.description?': '+short(c.description):''}`),'',
-    '## Informații',...shopPages.map(([,slug,title])=>`- [${title}](${site}/?pagina=${slug})`),'',
-  ].join('\n'));
+  // sitemap.xml and llms.txt: the same code the server refreshes them with (xelle-shop-sync.cjs).
+  const files=require('./xelle-shop-sync.cjs').seoFiles(JSON.parse(read('public/xelle/shop/catalog.json')).data);
+  for(const [file,text] of Object.entries(files)) fs.writeFileSync(path.join(root,'public',file),text);
+  fs.writeFileSync(path.join(root,'public/robots.txt'),`User-agent: *\nAllow: /\nDisallow: /__deploy\nDisallow: /__local/\n\nSitemap: https://xelle.ro/sitemap.xml\n`);
   patches.push('Sitemap, robots and llms.txt from the shop snapshot');
 }
 // The local server sends no validators, so browsers kept serving old copies:

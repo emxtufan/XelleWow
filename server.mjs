@@ -1,11 +1,23 @@
 import http from 'node:http';
-import { createReadStream } from 'node:fs';
+import { createReadStream, existsSync } from 'node:fs';
 import { stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { handleAdmin } from './admin.mjs';
+import shopSync from './scripts/xelle-shop-sync.cjs';
 
 const root = fileURLToPath(new URL('./public/', import.meta.url));
+// The catalog snapshot, sitemap.xml and llms.txt follow the Shopify store by
+// themselves: every 10 minutes they are rebuilt into data/public/ (never in
+// git, so deploys still fast-forward) and served from there instead of public/.
+const freshRoot = fileURLToPath(new URL('./data/public/', import.meta.url));
+const refreshShop = () => shopSync.syncShop(freshRoot)
+  .then(async changed => {
+    if (changed.length) console.log('Shop files updated:', changed.join(', '), changed.includes(shopSync.SNAPSHOT) ? '· ' + await shopSync.purgeSnapshot() : '');
+  })
+  .catch(error => console.error('Shop files not updated:', error.message));
+refreshShop();
+setInterval(refreshShop, 10 * 60 * 1000);
 const port = Number(process.env.PORT || 4173);
 const types = { '.html':'text/html; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.css':'text/css; charset=utf-8', '.json':'application/json', '.png':'image/png', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.webp':'image/webp', '.svg':'image/svg+xml', '.woff':'font/woff', '.woff2':'font/woff2', '.wasm':'application/wasm', '.glb':'model/gltf-binary', '.mp4':'video/mp4', '.webm':'video/webm', '.mp3':'audio/mpeg', '.ogg':'audio/ogg', '.wav':'audio/wav', '.ico':'image/x-icon', '.txt':'text/plain; charset=utf-8', '.xml':'application/xml; charset=utf-8', '.webmanifest':'application/manifest+json' };
 
@@ -19,8 +31,9 @@ const server = http.createServer(async (req, res) => {
     }
     let pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname).replace(/\/+/g, '/');
     if (pathname === '/' || pathname === '/en-fr/watchesandwonders' || pathname === '/en-fr/watchesandwonders/') pathname = '/index.html';
-    const file = path.resolve(root, '.' + pathname);
+    let file = path.resolve(root, '.' + pathname);
     if (!file.startsWith(root)) { res.writeHead(403).end(); return; }
+    if (shopSync.names.includes(pathname.slice(1)) && existsSync(path.join(freshRoot, pathname))) file = path.join(freshRoot, pathname);
     const info = await stat(file);
     if (!info.isFile()) throw new Error('Not a file');
     // no-cache with validators: browsers keep their copy and only ask whether it changed.
